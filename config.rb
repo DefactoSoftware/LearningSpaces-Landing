@@ -47,11 +47,13 @@
 #   end
 # end
 
+# Assets paths
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
+
+# Localization (i18n)
+activate :i18n, :mount_at_root => :en
 
 # Build-specific configuration
 configure :build do

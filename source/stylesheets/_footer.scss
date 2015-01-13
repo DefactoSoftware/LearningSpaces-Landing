@@ -1,0 +1,28 @@
+#footer {
+  padding: 30px $side-padding;
+  font-size: .8em;
+  text-align: center;
+  background: $light-gray;
+
+  .copyright {
+    @include span-columns(6);
+    text-align: left;
+
+    @include media ($medium-screen-down) {
+      display: none;
+      width: 100%;
+      margin-right: 0;
+      text-align: inherit;
+    }
+  }
+
+  .credit {
+    @include span-columns(6);
+    text-align: right;
+
+    @include media ($medium-screen-down) {
+      width: 100%;
+      text-align: inherit;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+#pricing {
+  @extend .accent;
+  box-shadow: 0 -10px 30px -10px rgba(#000, .5);
+
+  .pricing-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+
+  .plans {
+    margin: 3em auto;
+
+    > li {
+      background: rgba(#fff, .15);
+      border-radius: 8px;
+      margin-bottom: 30px;
+      padding: 15px 0;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      ul {
+        padding: 1em 0;
+      }
+
+      li {
+        font-size: .9em;
+        padding: 4px 0;
+
+        b, strong {
+          font-weight: 400;
+        }
+      }
+    }
+
+    @include media($medium-screen-up) {
+      @include outer-container;
+
+      > li {
+        @include span-columns(4);
+        margin-bottom: 0;
+      }
+    }
+
+    .plan-title {
+      font-size: 1.4em;
+      padding-bottom: 1em;
+    }
+
+    .plan-price {
+      $width: 140px;
+      $height: $width * 0.57736720554273;
+      $border-radius: $width / 15;
+
+      @include transition(opacity .3s ease);
+      background: #fff;
+      color: $color-primary;
+      position: relative;
+      width: $width;
+      height: $height;
+      margin: $height / 2 auto;
+      border-radius: #{$border-radius / 2} / #{$border-radius};
+      text-align: center;
+      text-decoration: none;
+      z-index: 1;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background: inherit;
+      }
+
+      &:before {
+        @include transform(rotate(60deg));
+      }
+      &:after {
+        @include transform(rotate(-60deg));
+      }
+
+      > div {
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        font-size: $height * .22;
+        line-height: 1;
+        letter-spacing: -1px;
+      }
+
+      span {
+        color: lighten($base-font-color, 30);
+        display: block;
+        font-size: 1.5em;
+        margin: .7em 0 .2em;
+      }
+    }
+  }
+}

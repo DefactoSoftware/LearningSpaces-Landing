@@ -1,0 +1,58 @@
+<section id="pricing">
+  <div class="container">
+
+    <div class="section-head">
+      <h2><%= t("menu.pricing") %></h2>
+      <hr>
+    </div>
+
+    <p class="pricing-text">
+      <%= t("pricing.info_before_html") %>
+    </p>
+
+    <ul class="plans">
+      <li>
+        <h3 class="plan-title"><%= t("pricing.plan1.name") %></h3>
+        <div class="plan-price">
+          <div><span>&euro; 20</span><%= t("pricing.plan1.per") %></div>
+        </div>
+        <ul class="plan-features">
+          <% t("pricing.plan1.features").each do |feature| %>
+            <li><%= feature %></li>
+          <% end %>
+        </ul>
+      </li>
+      <li>
+        <h3 class="plan-title"><%= t("pricing.plan2.name") %></h3>
+        <div class="plan-price">
+          <div><span>&euro; 6.000</span><%= t("pricing.plan2.per") %></div>
+        </div>
+        <ul class="plan-features">
+          <% t("pricing.plan2.features").each do |feature| %>
+            <li><%= feature %></li>
+          <% end %>
+        </ul>
+      </li>
+      <li>
+        <h3 class="plan-title"><%= t("pricing.plan3.name") %></h3>
+        <div class="plan-price">
+          <div><span>&euro; 10.000</span><%= t("pricing.plan3.per") %></div>
+        </div>
+        <ul class="plan-features">
+          <% t("pricing.plan3.features").each do |feature| %>
+            <li><%= feature %></li>
+          <% end %>
+        </ul>
+      </li>
+    </ul>
+
+    <p class="pricing-text">
+      <%= t("pricing.info_after_html") %>
+    </p>
+
+    <br>
+    <%#= link_to t("request_trial"), request_trial_path, class: "button button-white" %>
+    <%= link_to t("request_trial"), "#", class: "button button-white" %>
+
+  </div>
+</section>

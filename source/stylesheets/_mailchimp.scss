@@ -1,0 +1,40 @@
+.mc_embed_signup {
+  .email {
+    border-color: #fff;
+    text-align: center;
+    margin: 0 10px;
+
+    &:hover,
+    &:focus {
+      border-color: $form-border-color-hover;
+    }
+
+    @include media ($medium-screen-down) {
+      margin: 0 auto;
+      width: 90%;
+    }
+  }
+
+  .button {
+    padding: 12px 16px !important;
+    margin: 0 7px;
+
+    @include media ($medium-screen-down) {
+      margin: 20px auto 0;
+      width: 90%;
+    }
+  }
+}
+
+.mail-pricing  {
+  margin-top: 30px;
+  .mc_embed_signup {
+    .email {
+      font-size: 1em;
+    }
+
+    .button {
+      font-size: 1em;
+    }
+  }
+}

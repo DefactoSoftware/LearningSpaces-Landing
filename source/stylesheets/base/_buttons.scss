@@ -1,0 +1,71 @@
+// Bitters default
+// button,
+// input[type="submit"] {
+//   @extend %button;
+//   @include appearance(none);
+//   border: none;
+//   cursor: pointer;
+//   user-select: none;
+//   vertical-align: middle;
+//   white-space: nowrap;
+// }
+
+.button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  @include appearance(none);
+  @include transition (all 0.2s ease);
+  -webkit-font-smoothing: antialiased;
+  background: $base-button-color;
+  border: 2px solid $color-mono-3;
+  border-radius: $base-border-radius;
+  box-shadow: none;
+  color: $base-font-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: $base-font-size;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1;
+  outline: 0;
+  padding: .6em 1em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:active {
+    color: $base-font-color !important;
+    background: inherit;
+    border-color: $base-font-color;
+  }
+
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+    opacity: .5;
+  }
+}
+
+.button-white {
+  border-color: $light-gray;
+  color: $light-gray !important;
+
+  &:hover,
+  &:active {
+    color: $color-primary !important;
+    background: $light-gray;
+    border-color: $light-gray;
+  }
+}
+
+.button-big {
+  font-size: 1.2em;
+  padding: 12px 1.8em;
+  border-width: 3px;
+}

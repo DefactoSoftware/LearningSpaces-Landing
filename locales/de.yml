@@ -1,0 +1,73 @@
+---
+de:
+  # Used in Middleman
+  application_name: "LearningSpaces"
+  head_title: "LearningSpaces"
+  head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
+  request_trial: Jetzt kostenlos testen
+  sign_up: "Registrieren"
+  menu:
+    about: "Über"
+    pricing: "Preis"
+    contact: "Kontakt"
+    blog: "Blog"
+  announcement:
+    heading_html: "Join us for our Launch Event on December 11th!"
+    text_html: |
+      Erfahre alles über die Zukunft des Unterrichts, informelles Lernen und wie LearningSpaces entstanden ist.
+      Genieße das biologische Buffet von <a href="http://instagram.com/groengoudcatering" target="blank">Groen Goud</a> und Musik von lokalen DJs.
+      <a href="http://attending.io/events/learningspaceslaunch" target="_blank">Melde dich hier an</a> oder schicke uns <a href="mailto:isabela@learningspaces.io">eine Email</a>.
+  features:
+    heading: "Wissen gestalten und teilen"
+    heading2_html: "<strong>LearningSpaces</strong> ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
+    features:
+      - title: "3-2-1 Los"
+        text_html:  "Ob du deine Organisationsuniverität starten, dein eigenen MOOC erstellen oder ganz einfach dein Wissen mit Kollegen teilen möchtest - mit LearningSpaces kannst du in ein paar Minuten loslegen."
+      - title: "Engage"
+        text_html:  "Stimulier informelles Lernen und Wissen teilen. Mit LearningSpaces kann jeder lernen und eigene Kurse erstellen die andere folgen können."
+      - title: "Multimedia Inhalt"
+        text_html:  "Schreibe deine eigenen Kurse und nutze deine Materialien. Lade Bilder und Dateien hoch, erstelle Quizze und Aufgaben und arbeite zusammen mit anderen Teilnehmern."
+      - title: "In die Cloud und darüber hinaus"
+        text_html:  "Wir glauben, dass Lernen nicht in einem bestimmten Kontext eingegrenzt werden sollte. LearningSpaces ist entwickelt für Smartphones, Tablets, und Laptops, und steht dir somit überall zur Verfügung."
+      - title: "Social"
+        text_html:  "Diskutiere mit deinen Kollegen, stelle und beantworte Frage, und lade andere Leute in deinen LearningSpace ein. Alle Aktionen stehen #realtime im Aktivty-Feed."
+      - title: "Gamified"
+        text_html:  "Belohne motivierte Schüler mit Badges und erstelle Meilensteine die ihren Erfolg messen."
+  pricing:
+    info_before_html: "LearningSpaces ist für jederman, von privaten Gruppen zu kleinen Firmen bis hin zu großen Unternehmen. Es wird pro Jahr abgerechnet und kann jederzeit gekündigt werden. Deine eigene Plattform für weniger als € 2 pro Nutzer/Monat!"
+    info_after_html: "Deine Organisation hat mehr als 1000 Nutzer? Wenden Sie sich <a href=\"#\" data-scrollto=\"#contact\">hier an uns</a>."
+    plan1:
+      name: Standard
+      per: Pro Nutzer / Jahr
+      features:
+        - Deine eigene Lernakademie
+        - Unbegrenzt Spaces und Paths
+        - Unbegrenzter Speicherplatz
+        - Jederzeit kündbar
+    plan2:
+      name: Value
+      per: Pro Jahr
+      features:
+        - Alles von Standard
+        - Direkter in-app Support
+        - Unbegrenzter Speicherplatz
+        - Bis zu 500 Nutzer
+    plan3:
+      name: Premium
+      per: Pro Jahr
+      features:
+        - Alles von Value
+        - Einmaliger Nutzer-Import
+        - Onboarding Beratung
+        - Bis zu 1000 Nutzer
+  contact:
+    info_html: "Für mehr Informationen melden Sie sich bei uns."
+  copyright: "Copyright Defacto 2014, All rights reserved"
+  credit: "Wird dir stolz präsentiert von"
+
+  # Used in JavaScript
+  javascript:
+    typewriter:
+      - "Wir präsentieren... \nLearningSpaces"
+      - "Lernen und lehren"
+      - "Don't forget to be awesome"

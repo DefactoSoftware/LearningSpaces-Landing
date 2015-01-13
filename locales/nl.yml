@@ -1,0 +1,73 @@
+---
+nl:
+  # Used in Middleman
+  application_name: "LearningSpaces"
+  head_title: "LearningSpaces"
+  head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
+  request_trial: Vraag een trial aan
+  sign_up: "Registreer"
+  menu:
+    about: "Over"
+    pricing: "Pricing"
+    contact: "Contact"
+    blog: "Blog"
+  announcement:
+    heading_html: "Launchparty op 11 december!"
+    text_html: |
+      Kom onder het genot van een drankje van gedachten wisselen over de toekomst, van informeel leren tot MOOCs en gamification. En natuurlijk laten we zien hoe LearningSpaces tot stand is gekomen.
+      <a href="http://instagram.com/groengoudcatering" target="_blank">Groen Goud</a> zorgt ervoor dat er genoeg lekker eten is, en onze favoriete DJ's staan achter de draaitafels.
+      Laat <a href="http://attending.io/events/learningspaceslaunch" target="_blank">hier</a> weten of je komt of <a href="mailto:isabela@learningspaces.io">stuur een mailtje</a>.
+  features:
+    heading: "Maak en deel kennis"
+    heading2_html: "<strong>LearningSpaces</strong> is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
+    features:
+      - title: "3-2-1 Liftoff!"
+        text_html:  "Geef je corporate university een boost, begin je eigen MOOC of deel kennis met je collega’s - met LearningSpaces ben je in no time op gang."
+      - title: "Verbind en stimuleer"
+        text_html:  "Stimuleer informeel leren en kennisdeling. Met LearningSpaces is iedereen leerling én leraar. Vind en bewaar de verborgen kennis in je organisatie!"
+      - title: "Rijke content"
+        text_html:  "Maak je eigen content of embed bestaand materiaal. Upload afbeeldingen en bestanden, creëer toetsen en opdrachten en chat met je collega’s."
+      - title: "In de wolken met LearningSpaces"
+        text_html:  "Leren moet overal en altijd gestimuleerd worden. Daarom is LearningSpaces ontworpen voor telefoons, tablets en laptops en beschikbaar in de cloud, zodat je het overal kan gebruiken."
+      - title: "Sociaal"
+        text_html:  "Deel kennis met collega’s door vragen te stellen en te beantwoorden, nodig anderen uit voor jouw Spaces, en zie #realtime wat er gebeurt op de activity feed."
+      - title: "Gamification"
+        text_html:  "LearningSpaces beloont gemotiveerde gebruikers met badges en helpt jou de prestaties van je collega’s te volgen met behulp van achievements en challenges."
+  pricing:
+    info_before_html: "LearningSpaces is beschikbaar voor iedereen, van groepen tot kleine bedrijven tot grote ondernemingen. Betalingen zijn op jaarbasis en er kan worden opgezegd op elk gewenst moment. U heeft al een leerplatform voor minder dan € 2 per gebruiker/maand!"
+    info_after_html: "Heeft uw organisatie meer dan 1000 gebruikers?<br>Neem dan <a href=\"#\" data-scrollto=\"#contact\">contact</a> met ons op."
+    plan1:
+      name: Standard
+      per: per gebruiker / jaar
+      features:
+        - Uw eigen leergemeenschap
+        - Onbeperkt aantal Spaces and Paths
+        - Onbeperkte opslagruimte
+        - Opzegbaar op elk gewenst moment
+    plan2:
+      name: Value
+      per: per jaar
+      features:
+        - Alles van Standard
+        - Direct in-app support
+        - Onbeperkte opslagruimte
+        - Tot 500 gebruikers
+    plan3:
+      name: Premium
+      per: per jaar
+      features:
+        - Alles van Value
+        - Initiële gebruikers importeren
+        - Onboarding consultancy
+        - Tot 1000 gebruikers
+  contact:
+    info_html: "Neem contact met ons op voor meer informatie."
+  copyright: "Copyright Defacto 2014, All rights reserved"
+  credit: "Proudly brought to you by"
+
+  # Used in JavaScript
+  javascript:
+    typewriter:
+      - "Maak kennis met... \nLearningSpaces"
+      - "Leren en Laten Leren"
+      - "Don't forget to be awesome"

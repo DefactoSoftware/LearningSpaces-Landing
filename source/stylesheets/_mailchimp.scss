@@ -1,8 +1,11 @@
 .mc_embed_signup {
   .email {
     border-color: #fff;
-    text-align: center;
+    box-shadow: none;
+    display: inline-block;
     margin: 0 10px;
+    text-align: center;
+    width: auto;
 
     &:hover,
     &:focus {

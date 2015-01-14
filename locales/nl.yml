@@ -4,19 +4,20 @@ nl:
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
-  request_trial: Vraag een trial aan
-  sign_up: "Registreer"
+
   menu:
     about: "Over"
     pricing: "Pricing"
     contact: "Contact"
     blog: "Blog"
+
   announcement:
     heading_html: "Launchparty op 11 december!"
     text_html: |
       Kom onder het genot van een drankje van gedachten wisselen over de toekomst, van informeel leren tot MOOCs en gamification. En natuurlijk laten we zien hoe LearningSpaces tot stand is gekomen.
       <a href="http://instagram.com/groengoudcatering" target="_blank">Groen Goud</a> zorgt ervoor dat er genoeg lekker eten is, en onze favoriete DJ's staan achter de draaitafels.
       Laat <a href="http://attending.io/events/learningspaceslaunch" target="_blank">hier</a> weten of je komt of <a href="mailto:isabela@learningspaces.io">stuur een mailtje</a>.
+
   features:
     heading: "Maak en deel kennis"
     heading2_html: "<strong>LearningSpaces</strong> is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
@@ -33,6 +34,7 @@ nl:
         text_html:  "Deel kennis met collega’s door vragen te stellen en te beantwoorden, nodig anderen uit voor jouw Spaces, en zie #realtime wat er gebeurt op de activity feed."
       - title: "Gamification"
         text_html:  "LearningSpaces beloont gemotiveerde gebruikers met badges en helpt jou de prestaties van je collega’s te volgen met behulp van achievements en challenges."
+
   pricing:
     info_before_html: "LearningSpaces is beschikbaar voor iedereen, van groepen tot kleine bedrijven tot grote ondernemingen. Betalingen zijn op jaarbasis en er kan worden opgezegd op elk gewenst moment. U heeft al een leerplatform voor minder dan € 2 per gebruiker/maand!"
     info_after_html: "Heeft uw organisatie meer dan 1000 gebruikers?<br>Neem dan <a href=\"#\" data-scrollto=\"#contact\">contact</a> met ons op."
@@ -60,14 +62,29 @@ nl:
         - Initiële gebruikers importeren
         - Onboarding consultancy
         - Tot 1000 gebruikers
+
   contact:
     info_html: "Neem contact met ons op voor meer informatie."
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Proudly brought to you by"
 
+  trial:
+    request: Vraag een trial aan
+    signup:
+      name: Naam
+      organization: Organisatie
+      email: Email
+      submit: Vraag een trial aan
+      tagline: "Probeer LearningSpaces 30 dagen gratis, vul hier onder je contact info in!"
+      footer: Wat is LearningSpaces?
+    thanks:
+      headline: Bedankt voor het aanvragen van een trial!
+      tagline: We nemen snel contact met je op.
+      back: Terug naar de homepage
+
   # Used in JavaScript
   javascript:
     typewriter:
       - "Maak kennis met... \nLearningSpaces"
-      - "Leren en Laten Leren"
-      - "Don't forget to be awesome"
+      - Leren en Laten Leren
+      - Don't forget to be awesome

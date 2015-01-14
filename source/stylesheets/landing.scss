@@ -2,18 +2,20 @@
 
 @import url('//fonts.googleapis.com/css?family=Montserrat:400,700|Inconsolata:400,700|Varela+Round&subset=latin,latin-ext');
 
+@import "normalize";
 @import "bourbon";
 @import "base/grid-settings";
 @import "base/base";
 @import "neat";
 
 @import "mixins/background-pattern";
+@import "panel";
 @import "layout";
 @import "screenshots";
 @import "header";
 @import "intro";
-// @import "announcement";
 // @import "mailchimp";
+// @import "announcement";
 @import "features";
 @import "pricing";
 @import "contact";

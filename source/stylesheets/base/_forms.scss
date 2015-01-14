@@ -30,16 +30,22 @@ textarea,
 #{$all-text-inputs},
 select[multiple=multiple] {
   @include box-sizing(border-box);
-  @include transition(border-color);
+  @include transition(border-color .2s ease);
   background-color: white;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;
+  color: $base-font-color;
   font-family: $form-font-family;
   font-size: $form-font-size;
   margin-bottom: $base-spacing / 2;
-  padding: ($base-spacing / 3) ($base-spacing / 3);
+  padding: $base-spacing / 3;
+  vertical-align: middle;
   width: 100%;
+
+  @include placeholder {
+    color: $form-placeholder-color;
+  }
 
   &:hover {
     border-color: $form-border-color-hover;
@@ -77,29 +83,6 @@ select {
   width: auto;
 }
 
-//
-// textarea,
-// #{$all-text-inputs},
-// select[multiple=multiple] {
-//   border: 2px solid $input-border-color;
-//   border-radius: 0;
-//   color: #000;
-//   display: inline-block;
-//   font-family: inherit;
-//   font-size: 1em;
-//   padding: .5em 1em;
-//   width: auto;
-//   box-shadow: none;
-//   vertical-align: center;
-//   min-height: 0;
-//   vertical-align: middle;
-
-//   &.input-big {
-//     @extend button.button-big;
-//     padding: 10px 14px;
-//   }
-// }
-
 // Remove inner shadow on mobile browsers
 textarea,
 input[type="text"],
@@ -108,4 +91,10 @@ input[type="search"],
 input[type="password"] {
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.input-big {
+  font-size: 1.2em !important;
+  padding: 10px 14px !important;
+  border-width: 3px !important;
 }

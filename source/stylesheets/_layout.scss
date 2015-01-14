@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $base-background-color;
+}
+
 .accent {
   @include background-pattern($color-primary);
   color: #fff;

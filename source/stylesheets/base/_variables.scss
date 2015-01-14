@@ -1,3 +1,6 @@
+// Misc
+$side-padding: 6%;
+
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
@@ -34,12 +37,12 @@ $light-green: #E6EFC2;
 $pastel-green: #80b971;
 $pastel-yellow: #f8ec7a;
 
-$color-mono-1: #333333;       //mine shaft (dark-gray)
-$color-mono-2: #555555;       //emperor (gray)
-$color-mono-3: #999999;       //dusty gray
-$color-mono-4: #dddddd;       //alto (light gray)
-$color-mono-5: #efefef;       //gallery (even lighter gray)
-$color-mono-6: #f8f8f8;       //alabaster (like anyone sees this anyway ;)
+$color-mono-1: #333333;       // mine shaft (dark-gray)
+$color-mono-2: #555555;       // emperor (gray)
+$color-mono-3: #999999;       // dusty gray
+$color-mono-4: #dddddd;       // alto (light gray)
+$color-mono-5: #efefef;       // gallery (even lighter gray)
+$color-mono-6: #f8f8f8;       // alabaster (like anyone sees this anyway ;)
 
 $color-primary: $pastel-green;
 $color-secondary: $pastel-yellow;
@@ -64,7 +67,7 @@ $notice-color: lighten($base-accent-color, 40);
 $success-color: $light-green;
 
 // Border color
-$base-border-color: $light-gray;
+$base-border-color: $color-mono-4;
 $base-border: 1px solid $base-border-color;
 
 // Forms
@@ -76,6 +79,4 @@ $form-box-shadow: inset 0 1px 3px rgba(black,0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
 $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;
-
-// Misc
-$side-padding: 6%;
+$form-placeholder-color: lighten($color-mono-3, 10%);

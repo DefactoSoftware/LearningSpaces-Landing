@@ -14,8 +14,8 @@ gem "middleman", "~>3.3.7"
 # Windows does not come with time zone data
 #gem "tzinfo-data", platforms: [:mswin, :mingw]
 
-gem "jquery-middleman"
-gem "rails-assets-jquery.scrollTo"
-
 gem "bourbon"
 gem "neat"
+
+gem "jquery-middleman"
+gem "rails-assets-jquery.scrollTo"

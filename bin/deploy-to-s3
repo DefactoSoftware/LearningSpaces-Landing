@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# build the site
+bundle exec middleman build
+
+# sync with s3
+# http://learningspacelandingpage.s3-website.eu-central-1.amazonaws.com
+aws s3 sync build/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync build/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"

@@ -1,12 +1,16 @@
-#LearningSpaces Landingpage
+# LearningSpaces Landingpage
 
-Source for http://learningspaces.io
+[LearningSpaces](https://learningspaces.io) is a fun and simple-to-use platform to enable learning and knowledge sharing among peers.
+  
+## Getting Started
 
-###Dependencies
+Run the server `bundle exec middleman`.  
+Build using `bundle exec middleman build`.  
+Build and deploy to S3 using `./bin/deploy-to-s3`.
 
-- Ruby 2.2.0 (install with [rbenv](https://github.com/sstephenson/rbenv))
+## Dependencies
+
+- Ruby 2.2.0
 - Bundler
 
 To install other dependencies run `bundle install` from the root of the project
-
-Run the server with `bundle exec middleman`. Build using `middleman build`.

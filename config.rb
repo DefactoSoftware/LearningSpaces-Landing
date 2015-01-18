@@ -52,22 +52,21 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-# Localization (i18n)
-activate :i18n, :mount_at_root => :en
+# activate :directory_indexes
 
-# Build-specific configuration
+# Development specific configuration
+configure :development do
+  activate :i18n, :mount_at_root => :en
+end
+
+# Build specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
+  # activate :minify_html
   activate :minify_css
-
-  # Minify Javascript on build
   activate :minify_javascript
-
-  # Enable cache buster
   activate :asset_hash
-
-  # Use relative URLs
-  activate :relative_assets
+  # activate :relative_assets
+  activate :i18n, :mount_at_root => false
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

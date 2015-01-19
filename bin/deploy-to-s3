@@ -18,7 +18,15 @@ echo en nl de | xargs -n 1 cp -r images javascripts stylesheets
 rm -r images javascripts stylesheets
 
 # sync with s3
-# http://learningspacelandingpage.s3-website.eu-central-1.amazonaws.com
+# www.learningspaces.io.s3-website.eu-central-1.amazonaws.com
 echo "Deploying to s3 ..."
-aws s3 sync en/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
-aws s3 sync en/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
+aws s3 sync en/ s3://www.learningspaces.io/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync en/ s3://www.learningspaces.io/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
+
+# # de: www.learningspaces.de.s3-website.eu-central-1.amazonaws.com
+aws s3 sync de/ s3://www.learningspaces.de/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync de/ s3://www.learningspaces.de/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
+
+# # nl: www.learningspaces.nl.s3-website.eu-central-1.amazonaws.com
+aws s3 sync nl/ s3://www.learningspaces.nl/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync nl/ s3://www.learningspaces.nl/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"

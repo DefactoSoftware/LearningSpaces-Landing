@@ -1,0 +1,27 @@
+---
+layout: panel
+title: LearningSpaces Trial Signup
+---
+
+<div class="panel-inner">
+  <div class="container">
+    <div class="logo">
+      <%= image_tag 'logo-cube.svg', :class => 'logo-cube' %>
+      <%= image_tag 'logo-text.svg', :class => 'logo-text', :alt => t("application_name") %>
+    </div>
+
+    <p><%= t("trial.signup.tagline") %></p>
+
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/91c31db0f1c8" method="POST">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="text" name="name" placeholder="<%= t("trial.signup.name") %>" required>
+      <input type="text" name="organization" placeholder="<%= t("trial.signup.organization") %>">
+      <input type="email" name="email" placeholder="<%= t("trial.signup.email") %>" required>
+      <button type="submit" class="button-green"><%= t("trial.signup.submit") %></button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <%= link_to t("trial.signup.footer"), "/" %>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+# make sure we're in the base directory
+cd "$(dirname "$0")/.."
+
+# build the site
+echo "Building site ..."
+bundle exec middleman build
+
+# copy build to deploy
+echo "Preparing for deploy ..."
+rm -rf deploy
+cp -r build deploy
+cd deploy
+
+# move shared files to languages
+echo en nl de | xargs -n 1 cp -r images javascripts stylesheets
+rm -r images javascripts stylesheets
+
+# sync with s3
+# http://learningspacelandingpage.s3-website.eu-central-1.amazonaws.com
+echo "Deploying to s3 ..."
+aws s3 sync en/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync en/ s3://learningspacelandingpage/ --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"

@@ -1,0 +1,87 @@
+#features {
+  $features-background-from-color: $light-gray;
+  $features-background-to-color: white;
+
+  @include linear-gradient($features-background-from-color, $features-background-to-color);
+
+  ul.feature-list {
+    @include display(flex);
+    @include flex-flow(row wrap);
+    counter-reset: li;
+
+    &.slide-in li.feature {
+      @include transition(all .5s ease);
+      position: relative;
+      opacity: 0;
+      top: 20px;
+
+      &.in {
+        opacity: 1;
+        top: 0;
+      }
+    }
+  }
+
+  li.feature {
+    @include span-columns(6);
+    @include omega(2n);
+    padding: 3em 0;
+
+    @include media ($medium-screen-down) {
+      @include span-columns(12);
+      margin-right: 0;
+      padding: 2em 0;
+    }
+
+    h4 {
+      margin-top: 1em;
+      margin-bottom: .8em;
+    }
+
+    .hexagon {
+      $width: 60px;
+      $height: $width * 0.57736720554273;
+      $border-radius: $width / 15;
+      $background: #57b581;
+      $background: $color-primary;
+      color: $color-secondary;
+
+      display: inline-block;
+      position: relative;
+      width: $width;
+      height: $height;
+      margin: $height / 2 auto;
+      border-radius: #{$border-radius / 2} / #{$border-radius};
+      background: $background;
+      text-align: center;
+      text-decoration: none;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background: inherit;
+      }
+      &:before {
+        @include transform(rotate(60deg));
+      }
+      &:after {
+        @include transform(rotate(-60deg));
+      }
+
+      span:after {
+        content: counter(li);
+        counter-increment: li;
+        position: relative;
+        z-index: 1;
+        font-size: $height * .7;
+        line-height: $height;
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin background-pattern($color) {
+  @include background-image(
+    url(../images/pattern.svg),
+    linear-gradient(-10deg, $color, darken($color, 10)));
+  background-color: $color;
+  background-attachment: fixed, scroll;
+  background-position: center;
+  background-size: cover;
+}

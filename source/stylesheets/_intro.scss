@@ -1,0 +1,53 @@
+#intro {
+  @extend .accent;
+  color: $color-secondary;
+  height: 650px;
+
+  @include media ($large-screen-down) {
+    height: 540px;
+  }
+  @include media ($medium-screen-down) {
+    height: 460px;
+  }
+
+  h1 {
+    margin-top: 1em;
+    font-family: 'Montserrat', $base-font-family;
+    font-size: 6em;
+    font-weight: 700;
+    max-width: 1200px;
+    text-align: left;
+
+    @include media ($large-screen-down) {
+      font-size: 4em;
+    }
+    @include media ($medium-screen-down) {
+      font-size: 3em;
+      text-align: center;
+    }
+    @include media ($small-screen-down) {
+      font-size: 2em;
+    }
+  }
+
+  @include keyframes(blink) {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  .typed {
+    white-space: pre-wrap;
+  }
+  .typed-cursor {
+    display: none;
+    @include animation(blink 0.7s infinite);
+    opacity: 1;
+  }
+
+  .bottom {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+  }
+}

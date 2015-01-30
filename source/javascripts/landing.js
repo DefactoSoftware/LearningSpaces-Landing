@@ -1,4 +1,3 @@
-//= require jquery
 //= require jquery.scrollTo
 //= require typed
 //= require locales

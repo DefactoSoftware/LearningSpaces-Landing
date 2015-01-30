@@ -10,6 +10,7 @@ en:
     pricing: "Pricing"
     contact: "Contact"
     blog: "Blog"
+    sign_in: "Log In"
 
   announcement:
     heading_html: "Join us for our Launch Event on December 11th!"
@@ -68,8 +69,13 @@ en:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Proudly brought to you by"
 
+  sign_in:
+    domain: Enter your team's LearningSpaces domain
+    continue: Continue
+    create_tenant: Trying to set up LearningSpaces for your team? Click here.
+
   trial:
-    request: Request Trial
+    request: Try LearningSpaces Now - it's Free!
     signup:
       name: Name
       organization: Organization

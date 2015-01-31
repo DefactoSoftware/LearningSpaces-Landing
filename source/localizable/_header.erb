@@ -1,18 +1,21 @@
 <header id="header">
   <div class="header-wrapper">
     <div class="logo">
-      <%= image_tag 'logo-cube-white.svg', :class => 'logo-cube' %>
-      <%= image_tag 'logo-text-white.svg', :class => 'logo-text', :alt => t("application_name") %>
+        <a href="/">
+          <%= image_tag 'logo-cube-white.svg', :class => 'logo-cube' %>
+          <%= image_tag 'logo-text-white.svg', :class => 'logo-text', :alt => t("application_name") %>
+        </a>
     </div>
     <button type="button" class="button button-white header-menu-button" id="mobile-menu-toggle">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
     <nav class="nav" role="navigation">
       <ul id="header-menu">
-        <li><a href="javascript:void(0)" data-scrollto="#features" class="link"><%= t("menu.about") %></a></li>
-        <li><a href="javascript:void(0)" data-scrollto="#pricing" class="link"><%= t("menu.pricing") %></a></li>
-        <li><a href="javascript:void(0)" data-scrollto="#contact" class="link"><%= t("menu.contact") %></a></li>
+        <li><a href="/#features" data-scrollto="#features" class="link"><%= t("menu.about") %></a></li>
+        <li><a href="/#pricing" data-scrollto="#pricing" class="link"><%= t("menu.pricing") %></a></li>
+        <li><a href="/#contact" data-scrollto="#contact" class="link"><%= t("menu.contact") %></a></li>
         <li><a href="http://blog.learningspaces.io" class="link"><%= t("menu.blog") %></a></li>
+        <li><%= link_to t("menu.sign_in"), "sign-in", class: "link" %></li>
       </ul>
     </nav>
   </div>

@@ -10,6 +10,7 @@ nl:
     pricing: "Pricing"
     contact: "Contact"
     blog: "Blog"
+    sign_in: "Inloggen"
 
   announcement:
     heading_html: "Launchparty op 11 december!"
@@ -68,8 +69,13 @@ nl:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Proudly brought to you by"
 
+  sign_in:
+    domain: Vul het LearningSpaces domein van je team in
+    continue: Verder
+    create_tenant: Probeer LearningSpaces met je team. Klik hier!
+
   trial:
-    request: Vraag een trial aan
+    request: Probeer LearningSpaces nu - Gratis!
     signup:
       name: Naam
       organization: Organisatie

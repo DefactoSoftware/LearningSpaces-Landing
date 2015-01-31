@@ -5,6 +5,10 @@ body.panel {
   min-height: 100%;
   text-align: center;
 
+  #header {
+    @include background-pattern($color-primary);
+  }
+
   .panel-inner {
     @include display(flex);
     @include flex-direction(column);

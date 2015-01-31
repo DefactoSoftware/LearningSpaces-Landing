@@ -55,6 +55,7 @@ input[type="reset"] {
 .button-white {
   border-color: $light-gray;
   color: $light-gray !important;
+  white-space: normal;
 
   &:hover,
   &:active {

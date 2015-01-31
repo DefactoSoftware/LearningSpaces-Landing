@@ -10,6 +10,7 @@ de:
     pricing: "Preis"
     contact: "Kontakt"
     blog: "Blog"
+    sign_in: "Einloggen"
 
   announcement:
     heading_html: "Join us for our Launch Event on December 11th!"
@@ -68,8 +69,13 @@ de:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Wird dir stolz präsentiert von"
 
+  sign_in:
+    domain: Gebe die LearningSpaces Domain von deinem Team ein
+    continue: Weiter
+    create_tenant: Du willst LearningSpaces für dein Team haben? Klicke hier.
+
   trial:
-    request: Jetzt kostenlos testen
+    request: Jetzt kostenlos LearningSpaces testen
     signup:
       name: Name
       organization: Organisation
@@ -78,9 +84,9 @@ de:
       tagline: Teste LearningSpaces für 30 Tage! Fülle einfach deine Daten unten ein.
       footer: Was ist LearningSpaces?
     thanks:
-      headline: "Awesome, thanks for signing up!"
-      tagline: We'll contact you shortly.
-      back: Back to the homepage
+      headline: "Awesome, danke für's registrieren!"
+      tagline: Wir melden uns bald bei dir.
+      back: Zurück zur homepage
 
   # Used in JavaScript
   javascript:

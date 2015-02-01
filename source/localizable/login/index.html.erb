@@ -23,16 +23,4 @@ i18n_page_name: login
   </div>
 </div>
 
-<script>
-  var tld = window.location.hostname.split('.').pop();
-
-  $(function () {
-    $('#tld').text(".learningspaces." + tld);
-    var onClickHandler = function () {
-      var subdomain = $('#subdomain').val();
-      var url = 'https://' + subdomain + '.learningspaces.' + tld;
-      window.location = url;
-    }
-    $('#continue').on('click', onClickHandler);
-  });
-</script>
+<%= javascript_include_tag "sign-in" %>

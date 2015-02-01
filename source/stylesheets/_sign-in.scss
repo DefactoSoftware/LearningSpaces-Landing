@@ -1,0 +1,38 @@
+body.sign-in,
+body.en_sign-in,
+body.nl_sign-in,
+body.de_sign-in {
+  #header {
+    @include background-pattern($color-primary);
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .input-group {
+    display: table;
+    margin-bottom: 1em;
+    width: 100%;
+
+    input {
+      display: table-cell;
+      margin-bottom: 0;
+      text-align: right;
+    }
+
+    .input-addon {
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-left: none;
+      color: #555;
+      display: table-cell;
+      font-size: .8em;
+      text-align: center;
+    }
+  }
+
+  .button-green {
+    width: 100%;
+  }
+}

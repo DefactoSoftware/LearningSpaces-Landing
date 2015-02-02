@@ -71,6 +71,8 @@ nl:
   contact:
     info_html: "Neem contact met ons op voor meer informatie."
   copyright: "Copyright Defacto 2014, All rights reserved"
+  terms: "Leveringsvoorwaarden"
+  terms_file: "files/Leveringsovereenkomst_LearningSpaces v1.0.pdf"
   credit: "Proudly brought to you by"
 
   login:

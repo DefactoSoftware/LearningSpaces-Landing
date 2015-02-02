@@ -71,6 +71,8 @@ de:
   contact:
     info_html: "Für mehr Informationen melden Sie sich bei uns."
   copyright: "Copyright Defacto 2014, All rights reserved"
+  terms: "AGB"
+  terms_file: "#"
   credit: "Wird dir stolz präsentiert von"
 
   login:

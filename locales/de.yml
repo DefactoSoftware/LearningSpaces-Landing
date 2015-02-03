@@ -69,23 +69,24 @@ de:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Wird dir stolz präsentiert von"
 
-  sign_in:
+  login:
     domain: Gebe die LearningSpaces Domain von deinem Team ein
     continue: Weiter
-    create_tenant: Du willst LearningSpaces für dein Team haben? Klicke hier.
+    create_tenant: LearningSpaces jetzt kostenlos testen.
 
   trial:
-    request: Jetzt kostenlos LearningSpaces testen
+    request: Kostenlos LearningSpaces testen
     signup:
+      title: Kostenlos testen
+      headline: Teste LearningSpaces für 30 Tage. Fülle einfach deine Daten unten ein.
       name: Name
       organization: Organisation
       email: Email
       submit: Jetzt kostenlos testen
-      tagline: Teste LearningSpaces für 30 Tage! Fülle einfach deine Daten unten ein.
       footer: Was ist LearningSpaces?
     thanks:
-      headline: "Awesome, danke für's registrieren!"
-      tagline: Wir melden uns bald bei dir.
+      title: Kostenlos testen
+      headline: "Danke für's registrieren! Wir melden uns bald bei dir."
       back: Zurück zur homepage
 
   # Used in JavaScript

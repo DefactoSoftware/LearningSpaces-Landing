@@ -5,28 +5,27 @@ title: LearningSpaces Log In
 
 <%= partial "header" %>
 
-
 <div class="panel-inner">
   <div class="container">
     <h1>Log In</h1>
-    <p><%= t("sign_in.domain") %>:</p>
+    <p><%= t("login.domain") %>:</p>
 
     <div class="input-group">
       <input type="text" name="subdomain" id="subdomain" value="" placeholder="domain">
       <span id="tld" class="input-addon">.learningspaces.io</span>
     </div>
+    <button class="button button-green" id="continue"><%= t("login.continue") %></button>
+  </div>
 
-    <button class="button button-green" id="continue"><%= t("sign_in.continue") %></button>
   <div class="footer">
-    <%= link_to t("sign_in.create_tenant"), "/trial" %>
+    <%= link_to t("login.create_tenant"), "/trial" %>
   </div>
 </div>
-
 
 <script>
   var tld = window.location.hostname.split('.').pop();
 
-  $(function(){
+  $(function () {
     $('#tld').text(".learningspaces." + tld);
     var onClickHandler = function () {
       var subdomain = $('#subdomain').val();
@@ -35,6 +34,4 @@ title: LearningSpaces Log In
     }
     $('#continue').on('click', onClickHandler);
   });
-
-
 </script>

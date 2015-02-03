@@ -10,11 +10,13 @@
   $mobile-mode: $medium-screen-down;
 
   @include clearfix;
-  position: absolute;
-  z-index: 999;
-  width: 100%;
   height: $navigation-height;
   padding: 0 $side-padding;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 
   .header-wrapper {
     @include clearfix;
@@ -99,7 +101,7 @@
     width: 100%;
     z-index: 9999;
     background: #fff;
-    border-radius: 4px;
+    // border-radius: 4px;
 
     @include media ($desktop-mode) {
       display: inline;

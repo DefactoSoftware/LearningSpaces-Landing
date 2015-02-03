@@ -1,0 +1,27 @@
+body.login,
+body.en_login,
+body.nl_login,
+body.de_login {
+
+  .input-group {
+    display: table;
+    margin-bottom: $base-spacing / 2;
+    width: 100%;
+
+    input {
+      display: table-cell;
+      margin-bottom: 0;
+      text-align: right;
+    }
+
+    .input-addon {
+      background-color: $color-mono-5;
+      border: 1px solid $color-mono-4;
+      border-left: none;
+      color: $color-mono-2;
+      display: table-cell;
+      font-size: .8em;
+      text-align: center;
+    }
+  }
+}

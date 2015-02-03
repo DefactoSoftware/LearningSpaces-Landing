@@ -1,6 +1,5 @@
 ---
 nl:
-  # Used in Middleman
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
@@ -10,7 +9,12 @@ nl:
     pricing: "Pricing"
     contact: "Contact"
     blog: "Blog"
-    sign_in: "Inloggen"
+    login: "Inloggen"
+
+  typewriter:
+    - "Maak kennis met... \nLearningSpaces"
+    - Leren en Laten Leren
+    - Don't forget to be awesome
 
   announcement:
     heading_html: "Launchparty op 11 december!"
@@ -88,10 +92,3 @@ nl:
       title: Gratis proberen
       headline: Bedankt voor het aanvragen van een trial! We nemen snel contact met je op.
       back: Terug naar de homepage
-
-  # Used in JavaScript
-  javascript:
-    typewriter:
-      - "Maak kennis met... \nLearningSpaces"
-      - Leren en Laten Leren
-      - Don't forget to be awesome

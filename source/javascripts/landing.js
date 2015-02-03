@@ -1,6 +1,5 @@
 //= require jquery.scrollTo
 //= require typed
-//= require locales
 //= require_self
 
 // Screenshot parallax
@@ -87,11 +86,11 @@ $(function () {
 
   // Landing index specific
   if ($('body').hasClass('landing')) {
+
     // Typewriter effect
     var $typed = $('#intro .typed');
     $typed.empty().typed({
-      // strings: I18n.t('landing.typewriter'),
-      strings: I18n.typewriter,
+      strings: lines,
       startDelay: 0,
       typeSpeed: 50,
       backDelay: 3000,

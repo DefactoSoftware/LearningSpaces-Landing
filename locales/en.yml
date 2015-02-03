@@ -1,6 +1,5 @@
 ---
 en:
-  # Used in Middleman
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces is a fun and simple-to-use platform to enable learning and knowledge sharing among peers."
@@ -10,7 +9,12 @@ en:
     pricing: "Pricing"
     contact: "Contact"
     blog: "Blog"
-    sign_in: "Log In"
+    login: "Log In"
+
+  typewriter:
+    - "Introducing... \nLearningSpaces"
+    - Learn and Let Learn
+    - Don't forget to be awesome
 
   announcement:
     heading_html: "Join us for our Launch Event on December 11th!"
@@ -88,10 +92,3 @@ en:
       title: Free Trial
       headline: "Thanks for signing up! We will contact you shortly."
       back: Back to the homepage
-
-  # Used in JavaScript
-  javascript:
-    typewriter:
-      - "Introducing... \nLearningSpaces"
-      - Learn and Let Learn
-      - Don't forget to be awesome

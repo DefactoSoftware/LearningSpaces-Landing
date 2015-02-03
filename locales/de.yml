@@ -1,6 +1,5 @@
 ---
 de:
-  # Used in Middleman
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
@@ -10,7 +9,12 @@ de:
     pricing: "Preis"
     contact: "Kontakt"
     blog: "Blog"
-    sign_in: "Einloggen"
+    login: "Einloggen"
+
+  typewriter:
+    - "Wir präsentieren... \nLearningSpaces"
+    - Lernen und lehren
+    - Don't forget to be awesome
 
   announcement:
     heading_html: "Join us for our Launch Event on December 11th!"
@@ -88,10 +92,3 @@ de:
       title: Kostenlos testen
       headline: "Danke für's registrieren! Wir melden uns bald bei dir."
       back: Zurück zur homepage
-
-  # Used in JavaScript
-  javascript:
-    typewriter:
-      - "Wir präsentieren... \nLearningSpaces"
-      - Lernen und lehren
-      - Don't forget to be awesome

@@ -14,8 +14,8 @@ cp -r build deploy
 cd deploy
 
 # move shared files to languages
-echo en nl de | xargs -n 1 cp -r images javascripts stylesheets
-rm -r images javascripts stylesheets
+echo en nl de | xargs -n 1 cp -r images javascripts stylesheets fonts
+rm -r images javascripts stylesheets fonts
 
 # sync with s3
 # www.learningspaces.io.s3-website.eu-central-1.amazonaws.com

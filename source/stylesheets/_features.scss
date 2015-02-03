@@ -23,14 +23,24 @@
   }
 
   li.feature {
-    @include span-columns(6);
-    @include omega(2n);
+    @include span-columns(4);
+    @include omega(3n);
     padding: 3em 0;
+
+    @include media ($large-screen-down) {
+      @include span-columns(6);
+      @include omega(2n);
+      padding: 2em 0;
+
+      // reset previous omega
+      &:nth-child(2n+1) {
+        margin-right: 3.57869%;
+      }
+    }
 
     @include media ($medium-screen-down) {
       @include span-columns(12);
-      margin-right: 0;
-      padding: 2em 0;
+      margin-right: 0 !important;
     }
 
     h4 {

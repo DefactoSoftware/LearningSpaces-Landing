@@ -72,7 +72,7 @@ $(function () {
 
   // Features slide in
   (function () {
-    var slideInOffset = -40;
+    var slideInOffset = -100;
     var $elements = $('#features .slide-in .feature');
     var $window = $(window);
 
@@ -87,12 +87,13 @@ $(function () {
         if (windowBottom > selfBottom) {
           window.setTimeout(function () {
             $self.addClass('in');
-          }, i * 300);
+          }, i * 200);
 
           $elements = $elements.not($self);
         }
       });
 
+      // remove handlers when done
       if ($elements.length === 0) {
         $window.off('scroll', doFade)
                .off('resize', doFade);

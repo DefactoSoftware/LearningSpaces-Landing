@@ -69,23 +69,24 @@ nl:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Proudly brought to you by"
 
-  sign_in:
+  login:
     domain: Vul het LearningSpaces domein van je team in
     continue: Verder
-    create_tenant: Probeer LearningSpaces met je team. Klik hier!
+    create_tenant: LearningSpaces nu gratis proberen.
 
   trial:
-    request: Probeer LearningSpaces nu - Gratis!
+    request: Probeer LearningSpaces gratis
     signup:
+      title: Gratis proberen
+      headline: "Probeer LearningSpaces 30 dagen gratis, vul hieronder je gegevens in."
       name: Naam
       organization: Organisatie
       email: Email
-      submit: Vraag een trial aan
-      tagline: "Probeer LearningSpaces 30 dagen gratis, vul hier onder je contact info in!"
+      submit: Vraag trial aan
       footer: Wat is LearningSpaces?
     thanks:
-      headline: Bedankt voor het aanvragen van een trial!
-      tagline: We nemen snel contact met je op.
+      title: Gratis proberen
+      headline: Bedankt voor het aanvragen van een trial! We nemen snel contact met je op.
       back: Terug naar de homepage
 
   # Used in JavaScript

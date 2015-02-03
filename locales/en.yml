@@ -69,23 +69,24 @@ en:
   copyright: "Copyright Defacto 2014, All rights reserved"
   credit: "Proudly brought to you by"
 
-  sign_in:
+  login:
     domain: Enter your team's LearningSpaces domain
     continue: Continue
-    create_tenant: Trying to set up LearningSpaces for your team? Click here.
+    create_tenant: Trying to set up LearningSpaces for your team?
 
   trial:
-    request: Try LearningSpaces Now - it's Free!
+    request: Try LearningSpaces for Free
     signup:
+      title: Free Trial
+      headline: "Try out LearningSpaces for 30 days. Just fill out your details below."
       name: Name
       organization: Organization
       email: Email
       submit: Request a Trial
-      tagline: "Try out LearningSpaces for 30 days, just fill out your details below!"
       footer: What is LearningSpaces?
     thanks:
-      headline: "Awesome, thanks for signing up!"
-      tagline: We will contact you shortly.
+      title: Free Trial
+      headline: "Thanks for signing up! We will contact you shortly."
       back: Back to the homepage
 
   # Used in JavaScript

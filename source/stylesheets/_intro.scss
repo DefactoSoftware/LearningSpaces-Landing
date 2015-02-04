@@ -31,8 +31,8 @@
   }
 
   @include keyframes(blink) {
-    0% { opacity:0; }
-    50% { opacity:1; }
+    0%   { opacity:0; }
+    50%  { opacity:1; }
     100% { opacity:0; }
   }
 
@@ -48,8 +48,16 @@
 
   .bottom {
     position: absolute;
-    left: 0;
+    left: 10%;
     bottom: 10%;
-    width: 100%;
+    right: 10%;
+
+    .button {
+      padding: 1em;
+
+      @include media ($small-screen-down) {
+        padding: .5em;
+      }
+    }
   }
 }

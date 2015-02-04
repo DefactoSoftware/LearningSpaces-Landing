@@ -4,8 +4,6 @@
   $navigation-color: transparentize(#fff, 0.2);
   $navigation-color-hover: #fff;
   $navigation-active-link-color: transparentize(white, 0.5);
-  // $desktop-mode: new-breakpoint(min-width $md-size);
-  // $mobile-mode: new-breakpoint(max-width $md-size - 1);
   $desktop-mode: $medium-screen-up;
   $mobile-mode: $medium-screen-down;
 
@@ -91,8 +89,7 @@
     }
   }
 
-  ul#header-menu {
-    -webkit-transform-style: preserve-3d;
+  #header-menu {
     clear: both;
     display: none;
     margin: 0 auto;
@@ -113,29 +110,44 @@
     li {
       display: block;
       overflow: hidden;
-      padding-left: 1em;
       text-align: right;
       width: 100%;
       z-index: 9999;
 
       @include media ($desktop-mode) {
         display: inline;
+        line-height: $navigation-height;
+        margin-left: .5em;
+        text-align: center;
         text-decoration: none;
         width: auto;
-        line-height: $navigation-height;
-        text-align: center;
 
         &:first-child {
-          padding-right: 0;
+          margin-left: 0;
+        }
+      }
+
+      @include media ($large-screen-up) {
+        margin-left: 1em;
+      }
+
+      a.link,
+      a.button {
+        @include transition (all .3s ease);
+
+        @include media ($mobile-mode) {
+          &:hover {
+            background: $light-gray;
+          }
         }
       }
 
       a.link {
+        color: $color-primary;
+        font-weight: 700;
         display: block;
         padding: .8em 1em;
-        font-weight: 700;
         text-decoration: none;
-        color: $color-primary;
 
         &:hover {
           color: $color-primary;
@@ -156,12 +168,18 @@
         @include media ($desktop-mode) {
           margin-left: .5em;
         }
+
         @include media ($mobile-mode) {
+          background: transparent;
+          border: none;
+          color: $color-primary !important;
           display: block;
           padding: .8em 1em;
           text-transform: none;
-          color: $color-primary;
-          background: transparent;
+        }
+
+        &:hover {
+          // color: $navigation-color-hover;
         }
       }
     }

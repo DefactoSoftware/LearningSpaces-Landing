@@ -2,6 +2,60 @@
 //= require typed
 //= require_self
 
+// Language selection
+var initLangSelect = function () {
+  var $lang = $('ul.lang-select');
+  var locale = $lang.data('locale');
+  var isOpen;
+  var hoverTimeout;
+
+  function isOpen () {
+    return $lang.hasClass('open');
+  }
+
+  function open () {
+    $lang.addClass('open');
+    $lang.children('li').not($active).fadeIn(300);
+  }
+
+  function close () {
+    $lang.removeClass('open');
+    $lang.children('li').not($active).fadeOut(300);
+  }
+
+  // move current lang to top of the list
+  var $active = $lang.find('li[data-lang="' + locale + '"]');
+  $active.addClass('current').prependTo($lang);
+
+  // click
+  $(document).on('click', function (event) {
+    // select is open
+    if (isOpen()) {
+      if ($active.has(event.target).length) {
+        event.preventDefault();
+      }
+      close();
+
+    // select is closed and click is on target
+    } else if ($lang.has(event.target).length) {
+      event.preventDefault();
+      open();
+    }
+  });
+
+  // mouseenter
+  $lang.on('mouseenter', function () {
+    window.clearTimeout(hoverTimeout);
+  });
+
+  // mouseleave
+  $lang.on('mouseleave', function () {
+    if (isOpen()) {
+      hoverTimeout = window.setTimeout(close, 2000);
+    }
+  });
+};
+
 // Screenshot parallax
 var initScreenshotParallax = function () {
   'use strict';
@@ -83,6 +137,9 @@ $(function () {
       }
     });
   });
+
+  // Language selection
+  initLangSelect();
 
   // Landing index specific
   if ($('body').hasClass('landing')) {

@@ -10,12 +10,22 @@
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
     <nav class="nav" role="navigation">
+
       <ul id="header-menu">
         <li><a href="/#features" data-scrollto="#features" class="link"><%= t("menu.about") %></a></li>
         <li><a href="/#pricing" data-scrollto="#pricing" class="link"><%= t("menu.pricing") %></a></li>
         <li><a href="/#contact" data-scrollto="#contact" class="link"><%= t("menu.contact") %></a></li>
         <li><a href="http://blog.learningspaces.io" class="link"><%= t("menu.blog") %></a></li>
         <li><%= link_to t("menu.login"), "/login", class: "button button-white" %></li>
+        <li>
+
+          <ul class="lang-select" data-locale="<%= I18n.locale.to_s %>">
+            <li data-lang="en"><a href="http://learningspaces.io" title="English">EN</a></li>
+            <li data-lang="nl"><a href="http://learningspaces.nl" title="Nederlands">NL</a></li>
+            <li data-lang="de"><a href="http://learningspaces.de" title="Deutsch">DE</a></li>
+          </ul>
+
+        </li>
       </ul>
     </nav>
   </div>

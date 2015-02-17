@@ -1,8 +1,6 @@
 ---
 en:
   application_name: "LearningSpaces"
-  head_title: "LearningSpaces"
-  head_description: "LearningSpaces is a fun and simple-to-use platform to enable learning and knowledge sharing among peers."
 
   menu:
     about: "About"
@@ -10,6 +8,12 @@ en:
     contact: "Contact"
     blog: "Blog"
     login: "Log In"
+
+  index:
+    head_title: "LearningSpaces - learning and knowledge sharing among peers"
+    head_description: "LearningSpaces is a fun and simple to use learning platform to enable informal learning and knowledge sharing among peers. Get a free trial!"
+    head_keywords: "online training, learning platform, e-learning, informal learning, MOOC, online course, quiz online, gamification, learning software, corporate university, project management, engage, rich content"
+
 
   typewriter:
     - "Introducing... \nLearningSpaces"
@@ -25,7 +29,7 @@ en:
 
   features:
     heading: "Create and share knowledge"
-    heading2_html: "<strong>LearningSpaces</strong> is a fun and simple-to-use platform to enable learning and knowledge sharing among peers."
+    heading2_html: "<strong>LearningSpaces</strong> is a fun and simple to use learning platform to enable learning and knowledge sharing among peers."
     features:
       - title: "3-2-1 Liftoff!"
         text_html:  "Whether you want to kickstart your corporate university, create your own MOOC or just share knowledge with your colleagues - LearningSpaces will get you up to speed in minutes."
@@ -74,11 +78,15 @@ en:
   credit: "Proudly brought to you by"
 
   login:
+    head_title: "Login - LearningSpaces"
+    head_description: "Log in to LearningSpaces, the fun and simple to use learning platform to enable informal learning and knowledge sharing among peers."
     domain: Enter your team's LearningSpaces domain
     continue: Continue
     create_tenant: Trying to set up LearningSpaces for your team?
 
   trial:
+    head_title: "Trial Signup - LearningSpaces"
+    head_description: "Get a free trial for LearningSpaces, the fun and simple to use learning platform to enable informal learning and knowledge sharing among peers."
     request: Try LearningSpaces for Free
     signup:
       title: Free Trial

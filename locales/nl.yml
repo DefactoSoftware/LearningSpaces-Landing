@@ -1,8 +1,6 @@
 ---
 nl:
   application_name: "LearningSpaces"
-  head_title: "LearningSpaces"
-  head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
 
   menu:
     about: "Over"
@@ -10,6 +8,11 @@ nl:
     contact: "Contact"
     blog: "Blog"
     login: "Inloggen"
+
+  index:
+    head_title: "LearningSpaces - sociaal leren en kennisdelen"
+    head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
+    head_keywords: ""
 
   typewriter:
     - "Maak kennis met... \nLearningSpaces"
@@ -74,11 +77,15 @@ nl:
   credit: "Proudly brought to you by"
 
   login:
+    head_title: "Login - LearningSpaces"
+    head_description: "Log in op LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."
     domain: Vul het LearningSpaces domein van je team in
     continue: Verder
     create_tenant: LearningSpaces nu gratis proberen.
 
   trial:
+    head_title: "Gratis Trial - LearningSpaces"
+    head_description: "Vraag hier je gratis trial aan voor LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."
     request: Probeer LearningSpaces gratis
     signup:
       title: Gratis proberen

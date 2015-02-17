@@ -1,8 +1,6 @@
 ---
 de:
   application_name: "LearningSpaces"
-  head_title: "LearningSpaces"
-  head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
 
   menu:
     about: "Über"
@@ -10,6 +8,11 @@ de:
     contact: "Kontakt"
     blog: "Blog"
     login: "Einloggen"
+
+  index:
+    head_title: "LearningSpaces"
+    head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
+    head_keywords: ""
 
   typewriter:
     - "Wir präsentieren... \nLearningSpaces"
@@ -74,11 +77,15 @@ de:
   credit: "Wird dir stolz präsentiert von"
 
   login:
+    head_title: "Einloggen - LearningSpaces"
+    head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
     domain: Gebe die LearningSpaces Domain von deinem Team ein
     continue: Weiter
     create_tenant: LearningSpaces jetzt kostenlos testen.
 
   trial:
+    head_title: "Kostenlos Testen - LearningSpaces"
+    head_description: "Kostenlos LearningSpaces testen, eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
     request: Kostenlos LearningSpaces testen
     signup:
       title: Kostenlos testen

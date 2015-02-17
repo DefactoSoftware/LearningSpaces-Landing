@@ -5,24 +5,24 @@
   background: $light-gray;
 
   .copyright {
-    @include span-columns(6);
-    text-align: left;
+    display: none;
+  }
+}
 
-    @include media ($medium-screen-down) {
-      display: none;
-      width: 100%;
-      margin-right: 0;
-      text-align: inherit;
-    }
+@include media ($medium-screen-up) {
+  #footer .container > div {
+    @include span-columns(4);
   }
 
+  .copyright {
+    text-align: left;
+    display: block;
+    margin-right: 0;
+  }
+  .terms {
+    text-align: center;
+  }
   .credit {
-    @include span-columns(6);
     text-align: right;
-
-    @include media ($medium-screen-down) {
-      width: 100%;
-      text-align: inherit;
-    }
   }
 }

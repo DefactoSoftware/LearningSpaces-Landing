@@ -75,6 +75,8 @@ en:
   contact:
     info_html: "Please contact us for more information."
   copyright: "Copyright Defacto 2014, All rights reserved"
+  terms: "Terms and conditions"
+  terms_file: "#"
   credit: "Proudly brought to you by"
 
   login:

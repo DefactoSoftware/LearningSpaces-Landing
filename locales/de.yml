@@ -3,6 +3,7 @@ de:
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces ist eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
+  head_keywords: ""
 
   menu:
     about: "Über"

@@ -85,7 +85,7 @@ en:
     domain: Enter your team's LearningSpaces domain
     continue: Continue
     create_tenant: Trying to set up LearningSpaces for your team?
-    tenant_not_found: Could not find that team domain.
+    tenant_not_found: Could not find that domain.
 
   trial:
     head_title: "Trial Signup - LearningSpaces"

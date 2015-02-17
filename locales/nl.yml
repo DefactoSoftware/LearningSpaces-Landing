@@ -86,6 +86,7 @@ nl:
     create_tenant: LearningSpaces nu gratis proberen.
     tenant_not_found: Domein kon niet gevonden worden.
 
+
   trial:
     head_title: "Gratis Trial - LearningSpaces"
     head_description: "Vraag hier je gratis trial aan voor LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."

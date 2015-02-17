@@ -3,6 +3,7 @@ nl:
   application_name: "LearningSpaces"
   head_title: "LearningSpaces"
   head_description: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
+  head_keywords: ""
 
   menu:
     about: "Over"

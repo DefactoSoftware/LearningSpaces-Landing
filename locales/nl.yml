@@ -84,6 +84,7 @@ nl:
     domain: Vul het LearningSpaces domein van je team in
     continue: Verder
     create_tenant: LearningSpaces nu gratis proberen.
+    tenant_not_found: Domein kon niet gevonden worden.
 
   trial:
     head_title: "Gratis Trial - LearningSpaces"

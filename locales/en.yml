@@ -76,7 +76,7 @@ en:
     info_html: "Please contact us for more information."
   copyright: "Copyright Defacto 2014, All rights reserved"
   terms: "Terms and conditions"
-  terms_file: "#"
+  terms_file: "files/Leveringsovereenkomst_LearningSpaces v1.0.pdf"
   credit: "Proudly brought to you by"
 
   login:
@@ -85,6 +85,7 @@ en:
     domain: Enter your team's LearningSpaces domain
     continue: Continue
     create_tenant: Trying to set up LearningSpaces for your team?
+    tenant_not_found: Could not find that team domain.
 
   trial:
     head_title: "Trial Signup - LearningSpaces"

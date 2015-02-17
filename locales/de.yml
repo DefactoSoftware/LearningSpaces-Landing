@@ -75,7 +75,7 @@ de:
     info_html: "Für mehr Informationen melden Sie sich bei uns."
   copyright: "Copyright Defacto 2014, All rights reserved"
   terms: "AGB"
-  terms_file: "#"
+  terms_file: "files/Leveringsovereenkomst_LearningSpaces v1.0.pdf"
   credit: "Wird dir stolz präsentiert von"
 
   login:
@@ -84,6 +84,7 @@ de:
     domain: Gebe die LearningSpaces Domain von deinem Team ein
     continue: Weiter
     create_tenant: LearningSpaces jetzt kostenlos testen.
+    tenant_not_found: Team domain wird nicht gefunden.
 
   trial:
     head_title: "Kostenlos Testen - LearningSpaces"

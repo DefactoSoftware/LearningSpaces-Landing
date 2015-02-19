@@ -94,6 +94,8 @@ var initFeatureSlide = function () {
   var $elements = $('#features .slide-in .feature');
   var $window = $(window);
 
+  $elements.addClass("out");
+
   function doFade () {
     var windowTop = $window.scrollTop();
     var windowBottom = windowTop + $window.height();
@@ -104,6 +106,7 @@ var initFeatureSlide = function () {
 
       if (windowBottom > selfBottom) {
         window.setTimeout(function () {
+          $self.removeClass('out');
           $self.addClass('in');
         }, i * 200);
 
@@ -143,6 +146,8 @@ $(function () {
 
   // Landing index specific
   if ($('body').hasClass('landing')) {
+
+    $('#intro ul').remove();
 
     // Typewriter effect
     var $typed = $('#intro .typed');

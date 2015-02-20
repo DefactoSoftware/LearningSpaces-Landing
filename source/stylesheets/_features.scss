@@ -10,12 +10,15 @@
     counter-reset: li;
 
     &.slide-in li.feature {
-      @include transition(all .5s ease);
       position: relative;
-      opacity: 0;
       top: 20px;
 
+      &.out {
+        opacity: 0;
+      }
+
       &.in {
+        @include transition(all .5s ease);
         opacity: 1;
         top: 0;
       }

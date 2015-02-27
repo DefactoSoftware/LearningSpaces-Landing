@@ -78,6 +78,20 @@ input[type="reset"] {
   }
 }
 
+.button-orange {
+  background: $color-secondary;
+  border-color: $color-secondary;
+  color: $color-mono-1 !important;
+  white-space: normal;
+
+  &:hover,
+  &:active {
+    color: $color-mono-3 !important;
+    background: $color-secondary;
+    border-color: $color-secondary;
+  }
+}
+
 .button-big {
   font-size: 1.2em;
   padding: 12px 1.8em;

@@ -1,0 +1,37 @@
+body.healthcare,
+body.nl_healthcare,
+body.de_healthcare {
+
+  hr {
+    border: 2px solid $color-healthcare;
+  }
+
+  header {
+    background: rgba(82, 65, 65, 0.2);
+  }
+
+  #intro {
+    background-color: $color-healthcare;
+    background-image: url(../images/healthcare.png), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
+  }
+
+  #pricing {
+    background-color: $color-healthcare;
+    background-image: url(../images/pattern.svg), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
+  }
+
+  #screenshots {
+    margin-top: -1px;
+  }
+
+  .hexagon {
+    background: $color-healthcare !important;
+    color: #fff !important;
+  }
+
+  .document {
+    .scroll {
+      padding-top: 54% !important;
+    }
+  }
+}

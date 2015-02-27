@@ -57,6 +57,8 @@ set :images_dir, 'images'
 # Development specific configuration
 configure :development do
   activate :i18n, :mount_at_root => :en
+  activate :directory_indexes
+  activate :livereload, :host => "127.0.0.1"
 end
 
 # Build specific configuration
@@ -67,7 +69,7 @@ configure :build do
   activate :asset_hash
   # activate :relative_assets
   activate :i18n, :mount_at_root => false
-
+  activate :directory_indexes
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end

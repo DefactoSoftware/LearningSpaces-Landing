@@ -78,8 +78,38 @@ input[type="reset"] {
   }
 }
 
+.button-orange {
+  background: $color-secondary;
+  border-color: $color-secondary;
+  color: $color-mono-1 !important;
+  white-space: normal;
+
+  &:hover,
+  &:active {
+    color: $color-mono-3 !important;
+    background: $color-secondary;
+    border-color: $color-secondary;
+  }
+}
+
+.button-healthcare {
+  background: $color-healthcare;
+  border-color: $color-healthcare;
+  color: darken($color-healthcare, 50) !important;
+  white-space: normal;
+
+  &:hover,
+  &:active {
+    color: $color-mono-2 !important;
+    background: darken($color-healthcare, 10);
+    border-color: darken($color-healthcare, 10);
+  }
+}
+
 .button-big {
   font-size: 1.2em;
   padding: 12px 1.8em;
   border-width: 3px;
 }
+
+

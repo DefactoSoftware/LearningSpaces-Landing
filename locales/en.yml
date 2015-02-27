@@ -103,3 +103,23 @@ en:
       title: Free Trial
       headline: "Thanks for signing up! We will contact you shortly."
       back: Back to the homepage
+
+  #Healthcare
+  healthcare:
+    head_title: LearningSpaces for medical specialists
+    features:
+      heading: "Create and share knowledge"
+      heading2_html: "<strong>LearningSpaces</strong> is a fun and simple to use learning platform to enable learning and knowledge sharing among peers."
+      features:
+        - title: "3-2-1 Liftoff!"
+          text_html:  "Whether you want to kickstart your corporate university, create your own MOOC or just share knowledge with your colleagues - LearningSpaces will get you up to speed in minutes."
+        - title: "Engage"
+          text_html:  "Stimulate informal learning and knowledge sharing. With LearningSpaces anyone can learn - and create their own courses for others to follow."
+        - title: "Rich Content"
+          text_html:  "You can write your own courses or embed existing material. Upload images and files, create Quizzes and assignments and interact with participants."
+        - title: "In the Cloud and Beyond"
+          text_html:  "We believe that learning should not be limited to a certain context. LearningSpaces is designed for phones, tablets, and laptops so you can use it anywhere."
+        - title: "Social"
+          text_html:  "Discuss topics with your peers, ask and answer questions, and invite others to your Learning Spaces. See what's happening #realtime on the activity feed. "
+        - title: "Gamified"
+          text_html:  "Reward motivated students with badges and set up achievements to track performance and compliance."

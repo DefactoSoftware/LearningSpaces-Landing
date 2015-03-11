@@ -86,7 +86,6 @@ nl:
     create_tenant: LearningSpaces nu gratis proberen.
     tenant_not_found: Domein kon niet gevonden worden.
 
-
   trial:
     head_title: "Gratis Trial - LearningSpaces"
     head_description: "Vraag hier je gratis trial aan voor LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."
@@ -103,3 +102,34 @@ nl:
       title: Gratis proberen
       headline: Bedankt voor het aanvragen van een trial! We nemen snel contact met je op.
       back: Terug naar de homepage
+
+#Healthcare
+  healthcare:
+    head_title: LearningSpaces voor medische professionals
+    features:
+      heading: "Je eigen learning community"
+      heading2_html: |
+        Nodig collega’s uit voor <strong>LearningSpaces</strong>,
+        bediscussieer casuistiek, bespreek best practices en volg de ontwikkeling van je team.
+      features:
+        - title: "3-2-1 Liftoff!"
+          text_html:  |
+            Publiceer je klinische les of houd je collega’s op de hoogte van belangrijke veranderingen -
+            met LearningSpaces ben je in no time aan de slag. Ontworpen voor telefoons, tablets en laptops.
+        - title: "Verbind en stimuleer"
+          text_html:  |
+            Stimuleer leren en kennisdeling. Met LearningSpaces is elke professional opleider en opleideling.
+            Bewaar de kennis van jouw afdeling!
+        - title: "Rijke content"
+          text_html:  |
+            Maak je klinische les eenvoudig online beschikbaar.
+            Gebruik, afbeeldingen en bestanden, creëer toetsen en opdrachten en chat met je collega’s.
+    quote_heading_html: "Bij ons op de afdeling"
+    quote_html: |
+      Wij gebruiken LearningSpaces om kennis en ervaringen over nieuwe methoden en apparaten te delen.
+      En alle nieuwe medewerkers, co-assistenten en stagaires volgen een speciaal leerpad
+      en hebben meteen toegang tot alle belangrijke informatie. <a href="story">Lees meer...</a>
+    story_head: "Van spaces naar paden"
+    story_html: |
+      Combineer <strong>spaces</strong> om specifieke <strong>leerpaden</strong> te maken
+      voor verschillende functies en disciplines.

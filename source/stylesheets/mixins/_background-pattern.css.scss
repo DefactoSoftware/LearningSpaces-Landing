@@ -2,8 +2,13 @@
   @include background-image(
     url(../images/pattern.svg),
     linear-gradient(-10deg, $color, darken($color, 10)));
-  background-color: $color;
+
   background-attachment: fixed, scroll;
+  background-color: $color;
   background-position: center;
   background-size: cover;
+
+  @include media ($small-screen-down) {
+    background-attachment: scroll;
+  }
 }

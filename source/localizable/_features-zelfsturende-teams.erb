@@ -1,0 +1,21 @@
+<section id="features">
+  <div class="container">
+
+    <div class="section-head">
+      <h2><%= t("zelfsturende_teams.features.heading") %></h2>
+      <h3><%= t("zelfsturende_teams.features.heading2_html") %></h3>
+      <hr>
+    </div>
+
+    <ul class="feature-list slide-in">
+    <% t("zelfsturende_teams.features.features").each do |feature| %>
+      <li class="feature">
+        <div class="hexagon"><span></span></div>
+        <h4><%= feature[:title] %></h4>
+        <p><%= feature[:text_html] %></p>
+      </li>
+    <% end %>
+    </ul>
+
+  </div>
+</section>

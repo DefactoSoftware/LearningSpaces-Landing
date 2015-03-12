@@ -86,7 +86,6 @@ nl:
     create_tenant: LearningSpaces nu gratis proberen.
     tenant_not_found: Domein kon niet gevonden worden.
 
-
   trial:
     head_title: "Gratis Trial - LearningSpaces"
     head_description: "Vraag hier je gratis trial aan voor LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."
@@ -103,3 +102,35 @@ nl:
       title: Gratis proberen
       headline: Bedankt voor het aanvragen van een trial! We nemen snel contact met je op.
       back: Terug naar de homepage
+
+#Zelfsturende teams
+  zelfsturende_teams:
+    head_title: "LearningSpaces voor zelfsturende teams"
+    features:
+      heading: "Je eigen learning community"
+      heading2_html: |
+        Met jouw team leren op een manier waar je in de praktijk wat mee kunt.
+        Deel kennis en ervaring onderling en ontwikkel jezelf als professional.
+      features:
+        - title: "3-2-1 Start!"
+          text_html:  |
+             Geen dure standaardpakketten die slecht aansluiten bij de praktijk
+             - met LearningSpaces ga je direct aan de slag met kennis die al in je organisatie zit.
+        - title: "Verbind en stimuleer"
+          text_html:  |
+            Bevorder het kennisniveau precies waar dat nodig is.
+            Met LearningSpaces is iedereen opleider en lerende.
+            Borg de unieke kennis en ervaring van jouw team.
+        - title: "Zelfsturend, Zelflerend"
+          text_html:  |
+            Leer wat jij nodig hebt om als professional in een zelfsturend team aan de slag te gaan.
+            Bepaal je eigen leerpad en pas kennis rechtstreeks op de praktijk toe.
+    quote_heading_html: "Bij ons op de afdeling"
+    quote_html: |
+       Wij gebruiken LearningSpaces zowel voor verplichte onderdelen, zoals hygiëne en
+       medicatieprotocollen, als voor het delen van kennis om van elkaars ervaring te leren.
+    story_head: "Meer weten?"
+    story_html: |
+       Op donderdag 23 april geven we van 13.30 uur - 16.30 uur een interactieve inspiratiesessie bij
+       <a href="http://www.zorgpleinnoord.nl/">ZorgpleinNoord</a> aan het Rummerinkhof in Haren. <br> Of vraag een trial aan. Gratis.
+

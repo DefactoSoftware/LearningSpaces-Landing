@@ -1,0 +1,73 @@
+---
+i18n_page_name: index
+---
+
+<!-- Header -->
+
+<header id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+        <a href="/">
+          <%= image_tag 'logo-cube-white.svg', :class => 'logo-cube' %>
+          <%= image_tag 'logo-text-white.svg', :class => 'logo-text', :alt => t("application_name") %>
+        </a>
+    </div>
+  </div>
+</header>
+
+<div id="main" role="main">
+<section id="intro">
+  <h1>
+    <%= t("okc.head_title") %>
+  </h1>
+
+  <div class="bottom">
+    <%= link_to t("trial.request"), "/trial", class: "button button-healthcare button-big" %>
+  </div>
+</section>
+
+<!-- Features -->
+
+  <%= partial "features-okc" %>
+
+<section id="announcement">
+  <div class="container">
+
+    <div class="quote">
+      <div class="avatar" style="background-image: url(http://photos-b.ak.instagram.com/hphotos-ak-xpf1/10483442_1426344384313553_589866955_n.jpg)"></div>
+
+      <div class="bubble">
+        <p><%= t("okc.quote_heading_html") %></p>
+        <small><%= t("okc.quote_html") %></small>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <%= partial "screenshots" %>
+
+
+<section id="pricing">
+  <div class="container">
+
+    <div class="section-head">
+      <h2><%= t("okc.story_head") %></h2>
+      <hr>
+    </div>
+
+    <p class="pricing-text">
+      <%= t("okc.story_html") %>
+    </p>
+
+    <br>
+    <%= link_to t("trial.request"), "/trial", class: "button button-healthcare" %>
+
+  </div>
+</section>
+
+
+  <%= partial "contact" %>
+</div>
+
+<%= partial "footer" %>

@@ -134,3 +134,39 @@ nl:
        Op donderdag 23 april geven we van 13.30 uur - 16.30 uur een interactieve inspiratiesessie bij
        <a href="http://www.zorgpleinnoord.nl/">ZorgpleinNoord</a> aan het Rummerinkhof in Haren. <br> Of vraag een trial aan. Gratis.
 
+#OKC
+  okc:
+    head_title: "Leren op jouw operatiekamer "
+    features:
+      heading: "Op de OK in jouw eigen Lerende Community met LearningSpaces precies leren wat jij nodig hebt om te presteren. "
+      heading2_html: |
+        Met jouw team leren op een manier waar je in de praktijk wat mee kunt.
+        Deel kennis en ervaring onderling en ontwikkel jezelf als professional.
+      features:
+        - title: "3-2-1 Start!"
+          text_html:  |
+             Verminder contacturen en verplichte scholingen
+             - met LearningSpaces ga je direct aan de slag met kennis die al in jouw OK zit.
+        - title: "Verbind en stimuleer"
+          text_html:  |
+            Bevorder het kennisniveau precies waar dat nodig is.
+            Met LearningSpaces is elke professional opleider en lerende.
+            Borg de kennis van jouw team en verbreed parate kennis.
+        - title: "Zelfsturend, Zelflerend"
+          text_html:  |
+            Leer wat jij nodig hebt om als professional in een zelfsturend team aan de slag te gaan.
+            Bepaal je leerroute en pas kennis rechtstreeks op de praktijk toe.
+        - title: "Leren van elkaar"
+          text_html: |
+            Daag elkaar uit om elke dag te verbeteren. Deel kennis van jouw team met anderen en leer van de praktijk van jouw organisatie.
+    quote_heading_html: "Bij ons op de afdeling"
+    quote_html: |
+       Wij gebruiken LearningSpaces om zowel verplichte onderdelen te scholen zoals hygiëne regels en medicatieprotocollen.
+       En om eigen kennis en ontwikkelingen te bespreken en van elkaars ervaringen te leren.
+    story_head: "Alvast proberen?"
+    story_html: |
+      Op het OKC symposium op 10 maart in Eindhoven zijn we met OK Professionals aan de slag gegaan met kennis delen en
+      lesmateriaal ontwikkelen.
+      Bekijk wat we hebben gedaan en ervaar LearningSpaces zelf! <br />
+      Of vraag een trial aan.
+

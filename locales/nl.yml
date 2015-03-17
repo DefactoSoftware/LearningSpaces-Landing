@@ -167,6 +167,6 @@ nl:
     story_html: |
       Op het OKC symposium op 10 maart in Eindhoven zijn we met OK Professionals aan de slag gegaan met kennis delen en
       lesmateriaal ontwikkelen.
-      Bekijk wat we hebben gedaan en ervaar LearningSpaces zelf! <br />
+      <a href="https://llokc.learningspaces.nl">Bekijk wat we hebben gedaan</a> en ervaar LearningSpaces zelf! <br />
       Of vraag een trial aan.
-
+    link: "Ga nu naar de OKC LearningSpace"

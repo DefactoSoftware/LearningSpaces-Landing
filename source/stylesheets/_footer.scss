@@ -3,26 +3,13 @@
   font-size: .8em;
   text-align: center;
   background: $light-gray;
-
-  .copyright {
-    display: none;
-  }
 }
 
 @include media ($medium-screen-up) {
-  #footer .container > div {
-    @include span-columns(4);
-  }
-
-  .copyright {
-    text-align: left;
-    display: block;
-    margin-right: 0;
-  }
-  .terms {
-    text-align: center;
-  }
-  .credit {
-    text-align: right;
+  #footer {
+    li {
+      display: inline-block;
+      margin: 0 2em;
+    }
   }
 }

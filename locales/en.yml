@@ -74,10 +74,9 @@ en:
 
   contact:
     info_html: "Please contact us for more information."
-  copyright: "Copyright Defacto 2014, All rights reserved"
   terms: "Terms and conditions"
   terms_file: "files/Leveringsovereenkomst_LearningSpaces v1.0.pdf"
-  credit: "Proudly brought to you by"
+  jobs: "Jobs"
 
   login:
     head_title: "Login - LearningSpaces"

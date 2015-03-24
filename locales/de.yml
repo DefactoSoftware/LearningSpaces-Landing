@@ -90,6 +90,7 @@ de:
   trial:
     head_title: "Kostenlos Testen - LearningSpaces"
     head_description: "Kostenlos LearningSpaces testen, eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
+    page: https://public.learningspaces.de/accounts/new
     request: Kostenlos LearningSpaces testen
     signup:
       title: Kostenlos testen

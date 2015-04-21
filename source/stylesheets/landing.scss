@@ -12,8 +12,6 @@
 @import "screenshots";
 @import "header";
 @import "intro";
-@import "zelfsturende-teams";
-@import "okc";
 @import "announcement";
 @import "features";
 @import "pricing";
@@ -21,3 +19,6 @@
 @import "footer";
 @import "login";
 @import "social";
+
+@import "sub/zelfsturende-teams";
+@import "sub/okc";

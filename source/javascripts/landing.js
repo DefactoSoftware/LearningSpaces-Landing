@@ -59,6 +59,7 @@ var initLangSelect = function () {
 // Screenshot parallax
 var initScreenshotParallax = function () {
   'use strict';
+
   var scrollMultiplier = .5;
   var $window = $(window);
   var $browser = $('.browser');
@@ -90,6 +91,7 @@ var initScreenshotParallax = function () {
 // Features slide in
 var initFeatureSlide = function () {
   'use strict';
+
   var slideInOffset = -100;
   var $elements = $('#features .slide-in .feature');
   var $window = $(window);
@@ -147,19 +149,22 @@ $(function () {
   // Landing index specific
   if ($('body').hasClass('landing')) {
 
+    // Remove SEO / NO-JS strings
     $('#intro ul').remove();
 
     // Typewriter effect
     var $typed = $('#intro .typed');
-    $typed.empty().typed({
-      strings: lines,
-      startDelay: 0,
-      typeSpeed: 50,
-      backDelay: 3000,
-      backSpeed: 0,
-      loop: true,
-      loopCount: false
-    });
+    if (typeof lines !== 'undefined') {
+      $typed.empty().typed({
+        strings: lines,
+        startDelay: 0,
+        typeSpeed: 50,
+        backDelay: 3000,
+        backSpeed: 0,
+        loop: true,
+        loopCount: false
+      });
+    }
 
     // Scroll to
     $('[data-scrollto]').on('click', function (event) {

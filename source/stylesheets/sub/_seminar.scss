@@ -10,6 +10,11 @@ body.nl_seminar {
     color: darken($color-primary, 10);
   }
 
+  .section-head h3 {
+    color: $medium-gray;
+    font-size: 1.2em;
+  }
+
   .row {
     @include clearfix;
 
@@ -214,8 +219,25 @@ body.nl_seminar {
     @include linear-gradient($light-gray, #fff);
 
     .title {
-      color: $medium-gray;
-      margin: -1.2em 0 1.4em;
+      margin-bottom: 1em;
+      min-height: 68px;
+      padding: 8px 0 0 80px;
+      position: relative;
+
+      .avatar {
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+
+      h4 {
+        margin: 0 0 4px;
+      }
+
+      span {
+        color: $medium-gray;
+        margin: -1.2em 0 1.4em;
+      }
     }
   }
 

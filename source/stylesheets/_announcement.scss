@@ -14,16 +14,8 @@
     margin: 0px auto;
 
     .avatar {
-      background-color: #fff;
-      background-size: cover;
-      background-position: center;
-      border: 4px solid #fff;
-      border-radius: 50%;
-      display: inline-block;
       position: absolute;
       left: 0;
-      width: 100px;
-      height: 100px;
 
       @include media ($small-screen-down) {
         left: auto;

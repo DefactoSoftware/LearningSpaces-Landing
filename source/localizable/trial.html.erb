@@ -5,18 +5,14 @@ i18n_page_name: trial
 
 <%= partial "header" %>
 
+<script>
+  window.location = '<%= t("trial.page") %>';
+</script>
+
 <div class="panel-inner">
   <div class="container">
     <h1><%= t("trial.signup.title") %></h1>
-    <p><%= t("trial.signup.headline") %></p>
-
-    <form accept-charset="UTF-8" action="https://formkeep.com/f/91c31db0f1c8" method="POST">
-      <input type="hidden" name="utf8" value="✓">
-      <input type="text" name="name" placeholder="<%= t("trial.signup.name") %>" required>
-      <input type="text" name="organization" placeholder="<%= t("trial.signup.organization") %>">
-      <input type="email" name="email" placeholder="<%= t("trial.signup.email") %>" required>
-      <button type="submit" class="button-green"><%= t("trial.signup.submit") %></button>
-    </form>
+    <%= link_to t("trial.signup.moved"), t("trial.page") %>
   </div>
 
   <div class="footer">

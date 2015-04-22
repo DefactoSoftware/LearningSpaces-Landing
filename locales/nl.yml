@@ -93,11 +93,7 @@ nl:
     request: Probeer LearningSpaces gratis
     signup:
       title: Gratis proberen
-      headline: "Probeer LearningSpaces 30 dagen gratis, vul hieronder je gegevens in."
-      name: Naam
-      organization: Organisatie
-      email: Email
-      submit: Vraag trial aan
+      moved: Vraag hier uw trial aan.
       footer: Wat is LearningSpaces?
     thanks:
       title: Gratis proberen

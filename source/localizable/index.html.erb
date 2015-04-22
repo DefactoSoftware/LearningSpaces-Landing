@@ -7,6 +7,7 @@ i18n_page_name: index
 <div id="main" role="main">
   <%= partial "intro" %>
   <%#= partial "announcement" %>
+  <%= partial "seminar/announcement" if I18n.locale == :nl %>
   <%= partial "features" %>
   <%= partial "screenshots" %>
   <%= partial "pricing" %>

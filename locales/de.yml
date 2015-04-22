@@ -93,11 +93,7 @@ de:
     request: Kostenlos LearningSpaces testen
     signup:
       title: Kostenlos testen
-      headline: Teste LearningSpaces für 30 Tage. Fülle einfach deine Daten unten ein.
-      name: Name
-      organization: Organisation
-      email: Email
-      submit: Jetzt kostenlos testen
+      moved: Please request your trial here.
       footer: Was ist LearningSpaces?
     thanks:
       title: Kostenlos testen

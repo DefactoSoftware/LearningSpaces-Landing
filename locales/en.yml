@@ -93,11 +93,7 @@ en:
     request: Try LearningSpaces for Free
     signup:
       title: Free Trial
-      headline: "Try out LearningSpaces for 30 days. Just fill out your details below."
-      name: Name
-      organization: Organization
-      email: Email
-      submit: Request a Trial
+      moved: Please request your trial here.
       footer: What is LearningSpaces?
     thanks:
       title: Free Trial

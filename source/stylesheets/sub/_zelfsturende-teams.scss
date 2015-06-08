@@ -34,7 +34,7 @@ body.nl_zelfsturende-teams {
 
   #intro {
     background-color: $color-primary;
-    background-image: url(../images/healthcare.png), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
+    background-image: url(image-path('images/healthcare.png')), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
   }
 
   #announcement {
@@ -43,7 +43,7 @@ body.nl_zelfsturende-teams {
 
   #pricing {
     background-color: $color-primary;
-    background-image: url(../images/pattern.svg), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
+    background-image: url(image-path('images/pattern.svg')), linear-gradient(-10deg, #71b9b6 ,#bce5ee );
 
     a {
       color: darken($color-primary, 50);

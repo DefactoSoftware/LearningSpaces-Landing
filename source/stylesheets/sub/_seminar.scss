@@ -27,6 +27,14 @@ body.nl_seminar {
     }
   }
 
+  .col {
+    text-align: left;
+
+    @include media ($medium-screen) {
+      @include span-columns(6);
+    }
+  }
+
   .social {
     a {
       &:hover,
@@ -114,14 +122,6 @@ body.nl_seminar {
       @include media ($medium-screen-down) {
         text-align: center;
       }
-    }
-  }
-
-  .col {
-    text-align: left;
-
-    @include media ($medium-screen) {
-      @include span-columns(6);
     }
   }
 
@@ -224,12 +224,6 @@ body.nl_seminar {
       padding: 8px 0 0 80px;
       position: relative;
 
-      .avatar {
-        left: 0;
-        position: absolute;
-        top: 0;
-      }
-
       h4 {
         margin: 0 0 4px;
       }
@@ -238,6 +232,19 @@ body.nl_seminar {
         color: $medium-gray;
         margin: -1.2em 0 1.4em;
       }
+    }
+
+    .avatar {
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+
+    .michael .avatar {
+      background-image: url(image-path('seminar/michael_hebben.jpg'));
+    }
+    .ronald .avatar {
+      background-image: url(image-path('seminar/ronald_van_rheenen.jpg'));
     }
   }
 

@@ -14,35 +14,41 @@
       <li>
         <h3 class="plan-title"><%= t("pricing.plan1.name") %></h3>
         <div class="plan-price">
-          <div><span>&euro; 20</span><%= t("pricing.plan1.per") %></div>
+          <div><span><%= t("pricing.plan1.price") %></span><%= t("pricing.plan1.per") %></div>
         </div>
         <ul class="plan-features">
           <% t("pricing.plan1.features").each do |feature| %>
             <li><%= feature %></li>
           <% end %>
         </ul>
+        <%= link_to t("pricing.plan1.call_to_action"), t("trial.page"), class: "button button-white" %><br>
+        <p class="no-card"><%= t("pricing.plan1.cta_sub") %></p>
       </li>
-      <li>
+      <li class="most-chosen">
         <h3 class="plan-title"><%= t("pricing.plan2.name") %></h3>
         <div class="plan-price">
-          <div><span>&euro; 6.000</span><%= t("pricing.plan2.per") %></div>
+          <div><span><%= t("pricing.plan2.price") %></span><%= t("pricing.plan2.per") %></div>
         </div>
         <ul class="plan-features">
           <% t("pricing.plan2.features").each do |feature| %>
             <li><%= feature %></li>
           <% end %>
         </ul>
+        <%= link_to t("pricing.plan2.call_to_action"), t("trial.page"), class: "button button-white" %>
+        <p class="no-card"><%= t("pricing.plan2.cta_sub") %></p>
       </li>
       <li>
         <h3 class="plan-title"><%= t("pricing.plan3.name") %></h3>
         <div class="plan-price">
-          <div><span>&euro; 10.000</span><%= t("pricing.plan3.per") %></div>
+          <div><span><%= t("pricing.plan3.price") %></span><%= t("pricing.plan3.per") %></div>
         </div>
         <ul class="plan-features">
           <% t("pricing.plan3.features").each do |feature| %>
             <li><%= feature %></li>
           <% end %>
         </ul>
+        <%= link_to t("pricing.plan3.call_to_action"), t("trial.page"), class: "button button-white" %>
+        <p class="no-card"><%= t("pricing.plan3.cta_sub") %></p>
       </li>
     </ul>
 
@@ -51,7 +57,6 @@
     </p>
 
     <br>
-    <%= link_to t("trial.request"), t("trial.page"), class: "button button-white" %>
 
   </div>
 </section>

@@ -45,9 +45,9 @@ en:
         text_html:  "Reward motivated students with badges and set up achievements to track performance and compliance."
 
   pricing:
-    info_before_html: "LearningSpaces is available for everybody, from groups to small companies to large enterprises. It is paid on a yearly basis and can be canceled at any time. You can have your own platform for € 2 per user/month!"
+    info_before_html: "LearningSpaces is available for everybody, from small teams to large enterprises. It is paid on a yearly basis and can be canceled at any time. You can have your own platform for € 2 per user/month!"
     info_after_html: |
-      All plans include <strong>unlimited</strong> Spaces and Path and
+      All plans include <strong>unlimited</strong> Spaces and Paths and
       <strong>unlimited</strong> storage.
     plan1:
       name: Free
@@ -56,7 +56,7 @@ en:
       features:
         - Your own learning community
         - Forever free for up to 10 users
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: Start now
       cta_sub: It's free.
     plan2:
@@ -66,7 +66,7 @@ en:
       features:
         - Direct in-app support
         - Cancel any time
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: 60 day free trial
       cta_sub: No credit card required.
     plan3:
@@ -77,7 +77,7 @@ en:
         - Direct in-app support
         - Initial user import
         - Onboarding consultancy
-      call_to_action: 60 day free trial 
+      call_to_action: 60 day free trial
       cta_sub: No credit card required.
   contact:
     info_html: "Please contact us for more information."

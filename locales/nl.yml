@@ -44,7 +44,7 @@ nl:
         text_html:  "LearningSpaces beloont gemotiveerde gebruikers met badges en helpt jou de prestaties van je collega’s te volgen met behulp van achievements en challenges."
 
   pricing:
-    info_before_html: "LearningSpaces is beschikbaar voor iedereen, van groepen tot kleine bedrijven tot grote ondernemingen. Betalingen zijn op jaarbasis en er kan worden opgezegd op elk gewenst moment. U heeft al een leerplatform voor € 2 per gebruiker/maand!"
+    info_before_html: "LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties. Betalingen zijn op jaarbasis en er kan op elk moment worden opgezegd. U heeft al een leerplatform voor € 2 per gebruiker/maand!"
     info_after_html: |
       Alle abonnementen hebben een <strong>onbeperkt<strong> aantal Spaces en
       Paths en <strong>onbeperkte</strong> opslagruimte.
@@ -55,7 +55,7 @@ nl:
       features:
         - Uw eigen leergemeenschap
         - Voor altijd gratis tot 10 gebruikers
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: Nu beginnen
       cta_sub: Het is gratis.
     plan2:
@@ -65,9 +65,9 @@ nl:
       features:
         - Direct in-app support
         - Elke moment opzegbaar
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: 60 dagen gratis trial
-      cta_sub: Geen credit card nodig.
+      cta_sub: Geen creditcard nodig.
     plan3:
       name: Enterprise
       price: Bel ons
@@ -77,7 +77,7 @@ nl:
         - Initiële gebruikers importeren
         - Onboarding consultancy
       call_to_action: 60 dagen gratis trial
-      cta_sub: Geen credit card nodig.
+      cta_sub: Geen creditcard nodig.
   contact:
     info_html: "Neem contact met ons op voor meer informatie."
   copyright: "Copyright Defacto 2014, All rights reserved"

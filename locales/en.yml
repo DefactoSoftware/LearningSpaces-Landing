@@ -45,33 +45,40 @@ en:
         text_html:  "Reward motivated students with badges and set up achievements to track performance and compliance."
 
   pricing:
-    info_before_html: "LearningSpaces is available for everybody, from groups to small companies to large enterprises. It is paid on a yearly basis and can be canceled at any time. You can have your own platform for less than € 2 per user/month!"
-    info_after_html: "If your organisation has more than 1000 users, please <a href=\"#\" data-scrollto=\"#contact\">contact us</a>."
+    info_before_html: "LearningSpaces is available for everybody, from small teams to large enterprises. It is paid on a yearly basis and can be canceled at any time. You can have your own platform for € 2 per user/month!"
+    info_after_html: |
+      All plans include <strong>unlimited</strong> Spaces and Paths and
+      <strong>unlimited</strong> storage.
     plan1:
-      name: Standard
-      per: per user / year
+      name: Free
+      price: € 0
+      per: up to 10 users
       features:
         - Your own learning community
-        - Unlimited Spaces and Paths
-        - Unlimited storage
-        - Cancel at any time
+        - Forever free for up to 10 users
+        - "&nbsp;"
+      call_to_action: Start now
+      cta_sub: It's free.
     plan2:
       name: Value
-      per: per year
+      price: € 2
+      per: per user / month
       features:
-        - Everything from Standard
         - Direct in-app support
-        - Unlimited storage
-        - Up to 500 users
+        - Cancel any time
+        - "&nbsp;"
+      call_to_action: 60 day free trial
+      cta_sub: No credit card required.
     plan3:
-      name: Premium
-      per: per year
+      name: Enterprise
+      price: Call us
+      per: custom pricing
       features:
-        - Everything from Value
+        - Direct in-app support
         - Initial user import
         - Onboarding consultancy
-        - Up to 1000 users
-
+      call_to_action: 60 day free trial
+      cta_sub: No credit card required.
   contact:
     info_html: "Please contact us for more information."
   terms: "Terms and conditions"

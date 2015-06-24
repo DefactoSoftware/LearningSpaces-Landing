@@ -44,33 +44,40 @@ nl:
         text_html:  "LearningSpaces beloont gemotiveerde gebruikers met badges en helpt jou de prestaties van je collega’s te volgen met behulp van achievements en challenges."
 
   pricing:
-    info_before_html: "LearningSpaces is beschikbaar voor iedereen, van groepen tot kleine bedrijven tot grote ondernemingen. Betalingen zijn op jaarbasis en er kan worden opgezegd op elk gewenst moment. U heeft al een leerplatform voor minder dan € 2 per gebruiker/maand!"
-    info_after_html: "Heeft uw organisatie meer dan 1000 gebruikers?<br>Neem dan <a href=\"#\" data-scrollto=\"#contact\">contact</a> met ons op."
+    info_before_html: "LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties. Betalingen zijn op jaarbasis en er kan op elk moment worden opgezegd. U heeft al een leerplatform voor € 2 per gebruiker/maand!"
+    info_after_html: |
+      Alle abonnementen hebben een <strong>onbeperkt<strong> aantal Spaces en
+      Paths en <strong>onbeperkte</strong> opslagruimte.
     plan1:
-      name: Standard
-      per: per gebruiker / jaar
+      name: Gratis
+      price: € 0
+      per: tot 10 gebruikers
       features:
         - Uw eigen leergemeenschap
-        - Onbeperkt aantal Spaces and Paths
-        - Onbeperkte opslagruimte
-        - Opzegbaar op elk gewenst moment
+        - Voor altijd gratis tot 10 gebruikers
+        - "&nbsp;"
+      call_to_action: Nu beginnen
+      cta_sub: Het is gratis.
     plan2:
       name: Value
-      per: per jaar
+      price: € 2
+      per: per gebruiker/ maand
       features:
-        - Alles van Standard
         - Direct in-app support
-        - Onbeperkte opslagruimte
-        - Tot 500 gebruikers
+        - Elke moment opzegbaar
+        - "&nbsp;"
+      call_to_action: 60 dagen gratis trial
+      cta_sub: Geen creditcard nodig.
     plan3:
-      name: Premium
-      per: per jaar
+      name: Enterprise
+      price: Bel ons
+      per: prijs op maat
       features:
-        - Alles van Value
+        - Direct in-app support
         - Initiële gebruikers importeren
         - Onboarding consultancy
-        - Tot 1000 gebruikers
-
+      call_to_action: 60 dagen gratis trial
+      cta_sub: Geen creditcard nodig.
   contact:
     info_html: "Neem contact met ons op voor meer informatie."
   copyright: "Copyright Defacto 2014, All rights reserved"

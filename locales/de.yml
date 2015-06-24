@@ -44,32 +44,40 @@ de:
         text_html:  "Belohne motivierte Schüler mit Badges und erstelle Meilensteine die ihren Erfolg messen."
 
   pricing:
-    info_before_html: "LearningSpaces ist für jederman, von privaten Gruppen zu kleinen Firmen bis hin zu großen Unternehmen. Es wird pro Jahr abgerechnet und kann jederzeit gekündigt werden. Deine eigene Plattform für weniger als € 2 pro Nutzer/Monat!"
-    info_after_html: "Deine Organisation hat mehr als 1000 Nutzer? Wenden Sie sich <a href=\"#\" data-scrollto=\"#contact\">hier an uns</a>."
+    info_before_html: "LearningSpaces ist für jederman, von privaten Gruppen zu kleinen Firmen bis hin zu großen Unternehmen. Es wird pro Jahr abgerechnet und kann jederzeit gekündigt werden. Deine eigene Plattform für € 2 pro Nutzer/Monat!"
+    info_after_html: |
+      Immer dabei sind <strong>unbegrenzte</strong> Spaces und Paths und
+      <strong>unbegrenzter</strong> Speicherplatz.
     plan1:
-      name: Standard
-      per: Pro Nutzer / Jahr
+      name: Gratis
+      price: € 0
+      per: Bis zu 10 Nutzer
       features:
         - Deine eigene Lernakademie
-        - Unbegrenzt Spaces und Paths
-        - Unbegrenzter Speicherplatz
-        - Jederzeit kündbar
+        - Immer gratis für bis zu 10 Nutzer
+        - "&nbsp;" 
+      call_to_action: Jetzt starten
+      cta_sub: Es ist gratis.
     plan2:
       name: Value
-      per: Pro Jahr
+      price: € 2
+      per: Pro Nutzer / Monat
       features:
-        - Alles von Standard
         - Direkter in-app Support
-        - Unbegrenzter Speicherplatz
-        - Bis zu 500 Nutzer
+        - Jederzeit kündbar
+        - "&nbsp;" 
+      call_to_action: 60 Tage gratis testen
+      cta_sub: Keine Kreditkarte nötig
     plan3:
-      name: Premium
-      per: Pro Jahr
+      name: Enterprise
+      price: Ruf uns an
+      per: individuelles Angebot
       features:
-        - Alles von Value
+        - Direkter in-app Support
         - Einmaliger Nutzer-Import
         - Onboarding Beratung
-        - Bis zu 1000 Nutzer
+      call_to_action: 60 Tage gratis testen
+      cta_sub: Keine Kreditkarte nötig
 
   contact:
     info_html: "Für mehr Informationen melden Sie sich bei uns."

@@ -55,7 +55,7 @@ de:
       features:
         - Deine eigene Lernakademie
         - Immer gratis für bis zu 10 Nutzer
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: Jetzt starten
       cta_sub: Es ist gratis.
     plan2:
@@ -65,7 +65,7 @@ de:
       features:
         - Direkter in-app Support
         - Jederzeit kündbar
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: 60 Tage gratis testen
       cta_sub: Keine Kreditkarte nötig
     plan3:
@@ -98,7 +98,7 @@ de:
     head_title: "Kostenlos Testen - LearningSpaces"
     head_description: "Kostenlos LearningSpaces testen, eine spielerische und einfach zu bedienende Plattform die informelles Lernen und den Wissensaustausch stimuliert."
     page: https://public.learningspaces.de/accounts/new
-    request: Kostenlos LearningSpaces testen
+    request: Kostenlos LearningSpaces 60 tage testen
     signup:
       title: Kostenlos testen
       moved: Please request your trial here.

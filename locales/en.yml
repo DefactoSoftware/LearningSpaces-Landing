@@ -21,11 +21,10 @@ en:
     - Don't forget to be awesome
 
   announcement:
-    heading_html: "Join us for our Launch Event on December 11th!"
+    heading_html: "Join us at Uprise Startup Festival in Amsterdam on the 25-26 September!"
     text_html: |
-      We'll talk about the future of education, informal learning and how we came up with LearningSpaces.
-      There will be plenty of organic food prepared by <a href="http://instagram.com/groengoudcatering" target="_blank">Groen Goud</a> and we have local DJ's playing records all night.
-      You can RSVP <a href="http://attending.io/events/learningspaceslaunch" target="_blank">here</a> or <a href="mailto:isabela@learningspaces.io">send us an email</a>.
+      We'll be at the <a href="http://uprisefestival.co/">Uprise Startup Festival</a> in Amsterdam on 25-26 September.
+      Come say hi and try out LearningSpaces or just have a chat. We will be showing how easy it can be to share knowledge with your team.
 
   features:
     heading: "Create and share knowledge"

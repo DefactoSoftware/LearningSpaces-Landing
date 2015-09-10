@@ -20,11 +20,10 @@ de:
     - Don't forget to be awesome
 
   announcement:
-    heading_html: "Join us for our Launch Event on December 11th!"
+    heading_html: "Wir stehen beim Uprise Standup Festival in Amsterdam am 25. und 26. September!"
     text_html: |
-      Erfahre alles über die Zukunft des Unterrichts, informelles Lernen und wie LearningSpaces entstanden ist.
-      Genieße das biologische Buffet von <a href="http://instagram.com/groengoudcatering" target="blank">Groen Goud</a> und Musik von lokalen DJs.
-      <a href="http://attending.io/events/learningspaceslaunch" target="_blank">Melde dich hier an</a> oder schicke uns <a href="mailto:isabela@learningspaces.io">eine Email</a>.
+      Hi, am 25. und 26. September sind wir beim <a href="http://uprisefestival.co/">Uprise Standup Festival</a> und helfen Startups beim Austausch von Wissen.
+      Komm vorbei und erstelle einen Space über dein Startup.
 
   features:
     heading: "Wissen gestalten und teilen"
@@ -55,7 +54,7 @@ de:
       features:
         - Deine eigene Lernakademie
         - Immer gratis für bis zu 10 Nutzer
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: Jetzt starten
       cta_sub: Es ist gratis.
     plan2:
@@ -65,7 +64,7 @@ de:
       features:
         - Direkter in-app Support
         - Jederzeit kündbar
-        - "&nbsp;" 
+        - "&nbsp;"
       call_to_action: 60 Tage gratis testen
       cta_sub: Keine Kreditkarte nötig
     plan3:

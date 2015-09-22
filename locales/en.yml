@@ -16,32 +16,26 @@ en:
 
 
   typewriter:
-    - "Introducing... \nLearningSpaces"
-    - Learn and Let Learn
-    - Don't forget to be awesome
+    - "Focus your team’s learning efforts"
 
   announcement:
-    heading_html: "Join us at Uprise Startup Festival in Amsterdam on the 25-26 September!"
+    heading_html: "For our team, LearningSpaces was by far the quickest way to set up a learning community."
     text_html: |
-      We'll be at the <a href="http://uprisefestival.co/">Uprise Startup Festival</a> in Amsterdam on 25-26 September.
-      Come say hi and try out LearningSpaces or just have a chat. We will be showing how easy it can be to share knowledge with your team.
+      - Isabela Wojtowicz, Random Enterprises
 
   features:
-    heading: "Create and share knowledge"
-    heading2_html: "<strong>LearningSpaces</strong> is a fun and simple to use learning platform to enable learning and knowledge sharing among peers."
+    heading: "Access your team’s combined knowledge from anywhere"
+    heading2_html: "With <strong>LearningSpaces</strong>, creating and sharing knowledge is a matter of seconds"
     features:
-      - title: "3-2-1 Liftoff!"
-        text_html:  "Whether you want to kickstart your corporate university, create your own MOOC or just share knowledge with your colleagues - LearningSpaces will get you up to speed in minutes."
-      - title: "Engage"
-        text_html:  "Stimulate informal learning and knowledge sharing. With LearningSpaces anyone can learn - and create their own courses for others to follow."
-      - title: "Rich Content"
-        text_html:  "You can write your own courses or embed existing material. Upload images and files, create Quizzes and assignments and interact with participants."
-      - title: "In the Cloud and Beyond"
-        text_html:  "We believe that learning should not be limited to a certain context. LearningSpaces is designed for phones, tablets, and laptops so you can use it anywhere."
-      - title: "Social"
-        text_html:  "Discuss topics with your peers, ask and answer questions, and invite others to your Learning Spaces. See what's happening #realtime on the activity feed. "
-      - title: "Gamified"
-        text_html:  "Reward motivated students with badges and set up achievements to track performance and compliance."
+      - title: "Create Your First Space"
+        text_html:  "We've made it extremely easy for you to share your expertise. Drop in a Youtube video? "
+        image: "steps/step1.gif"
+      - title: "Invite Your Team"
+        text_html:  "Invite your team."
+        image: "steps/step2.gif"
+      - title: "Watch your learning community grow"
+        text_html:  "...."
+        image: "steps/step3.gif"
 
   pricing:
     info_before_html: "LearningSpaces is available for everybody, from small teams to large enterprises. It is paid on a yearly basis and can be canceled at any time. You can have your own platform for € 2 per user/month!"
@@ -96,7 +90,7 @@ en:
     head_title: "Trial Signup - LearningSpaces"
     head_description: "Get a free trial for LearningSpaces, the fun and simple to use learning platform to enable informal learning and knowledge sharing among peers."
     page: https://public.learningspaces.io/accounts/new
-    request: Try LearningSpaces for Free
+    request: Try LearningSpaces Now - It's free
     signup:
       title: Free Trial
       moved: Please request your trial here.

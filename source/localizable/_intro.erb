@@ -4,7 +4,7 @@ var lines = <%= t("typewriter").to_json %>;
 
 <section id="intro">
   <h1>
-    <span class="typed"><%= t("typewriter").first %></span>
+    <span class=""><%= t("typewriter").first %></span>
   </h1>
   <ul>
   <% t("typewriter")[1..-1].each do |line| %>
@@ -12,7 +12,20 @@ var lines = <%= t("typewriter").to_json %>;
   <% end %>
   </ul>
   <div class="bottom">
-    <%#= partial "mailchimp" %>
-    <%= link_to t("trial.request"), t("trial.page"), class: "button button-white button-big" %>
+
+  </div>
+  <div id="announcement">
+    <div class="container">
+
+      <div class="quote">
+        <div class="avatar" style="background-image: url(http://photos-b.ak.instagram.com/hphotos-ak-xpf1/10483442_1426344384313553_589866955_n.jpg)"></div>
+
+        <div class="bubble">
+          <h3><%= t("announcement.heading_html", link: "http://www.zukunft-personal.de") %></h3>
+          <p><%= t("announcement.text_html") %></p>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>

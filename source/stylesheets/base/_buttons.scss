@@ -79,23 +79,23 @@ input[type="reset"] {
 }
 
 .button-orange {
-  background: $color-secondary;
-  border-color: $color-secondary;
-  color: $color-mono-1 !important;
+  background: $orange;
+  border-color: $orange;
+  color: #fff;
   white-space: normal;
 
   &:hover,
   &:active {
-    color: $color-mono-3 !important;
-    background: $color-secondary;
-    border-color: $color-secondary;
+    background: #fff;
+    border-color: $orange;
+    color: $color-mono-1 !important;
   }
 }
 
 .button-big {
+  border-width: 3px;
   font-size: 1.2em;
   padding: 12px 1.8em;
-  border-width: 3px;
 }
 
 

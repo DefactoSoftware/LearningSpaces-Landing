@@ -20,10 +20,10 @@ nl:
     - Don't forget to be awesome
 
   announcement:
-    heading_html: "We staan op het Uprise Startup Festival in Amsterdam op 25 en 26 September!"
+    heading_html: "We zijn op 10 december in Berlijn bij de HUB Conference"
     text_html: |
-      Hoi, we zijn 25 en 26 september op <a href="http://uprisefestival.co/">Uprise Startup Festival</a> om startups te helpen met het delen van kennis.
-      Kom langs en maak een space over je eigen startup.
+      We zijn 10 december op de <a href="http://hub.berlin">HUB Conference</a> in Berlijn.
+      Zin in een kop koffie? <a href="mailto:jesse@learningspaces.io">Kom langs</a>.
 
   features:
     heading: "Maak en deel kennis"

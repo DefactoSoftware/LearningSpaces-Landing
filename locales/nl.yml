@@ -98,7 +98,7 @@ nl:
     head_title: "Gratis Trial - LearningSpaces"
     head_description: "Vraag hier je gratis trial aan voor LearningSpaces, het laagdrempelige social-learning platform dat leren en kennisdeling stimuleert."
     page: https://public.learningspaces.nl/accounts/new
-    request: Probeer LearningSpaces gratis
+    request: Probeer LearningSpaces 60 dagen gratis
     signup:
       title: Gratis proberen
       moved: Vraag hier uw trial aan.

@@ -81,9 +81,9 @@ nl:
     info_html: "Neem contact met ons op voor meer informatie."
   copyright: "Copyright Defacto 2014, All rights reserved"
   terms_of_service: "Leveringsvoorwaarden"
-  terms_of_service_file: "files/Leveringsovereenkomst_LearningSpaces v1.0.pdf"
+  terms_of_service_file: "files/LearningSpaces_Leveringsovereenkomst_v1.0.pdf"
   terms_of_use: "Gebruiksvoorwaarden"
-  terms_of_use_file: "files/Gebruiksvoorwaarden_LearningSpaces v1.0.pdf"
+  terms_of_use_file: "files/LearningSpaces_Gebruiksovereenkomst_v1.0.pdf"
   jobs: "Vacatures"
 
   login:

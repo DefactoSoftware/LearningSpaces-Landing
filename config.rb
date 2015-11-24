@@ -22,7 +22,7 @@ page '/*.txt', layout: false
 
 activate :i18n, :mount_at_root => :en
 activate :directory_indexes
-# activate :autoprefixer
+activate :autoprefixer
 
 # Reload the browser automatically whenever files change
 # configure :development do
@@ -42,7 +42,6 @@ end
 # Helpers
 ###
 
-# Methods defined in the helpers block are available in templates
-# helpers do
+# some_helper do
 #
 # end

@@ -1,0 +1,12 @@
+.header {
+  @include clearfix;
+  padding: 1em;
+
+  nav {
+    float: right;
+
+    a {
+
+    }
+  }
+}

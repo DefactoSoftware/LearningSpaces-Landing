@@ -2,8 +2,9 @@
 #{$all-buttons} {
   appearance: none;
   background-color: $action-color;
-  border: 0;
+  border: 2px solid $action-color;
   border-radius: $base-border-radius;
+  box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -12,9 +13,11 @@
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
+  // line-height: $base-line-height;
   padding: $small-spacing $base-spacing;
+  text-align: center;
   text-decoration: none;
-  transition: background-color $base-duration $base-timing;
+  transition: all $base-duration $base-timing;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
@@ -22,6 +25,7 @@
   &:hover,
   &:focus {
     background-color: shade($action-color, 20%);
+    border-color: shade($action-color, 20%);
     color: #fff;
   }
 
@@ -31,6 +35,69 @@
 
     &:hover {
       background-color: $action-color;
+      border-color: $action-color;
+    }
+  }
+
+  &.button-rounded {
+    border-radius: 100px;
+  }
+
+  &.button-outline {
+    background-color: transparent;
+    border-color: $action-color;
+    color: $action-color;
+
+    &:hover,
+    &:focus {
+      background-color: $action-color;
+      border-color: $action-color;
+      color: #fff;
+    }
+  }
+
+  &.button-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: $action-color;
+
+    &.button-outline {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff;
+
+      &:hover,
+      &:focus {
+        background-color: #fff;
+        border-color: #fff;
+        color: $action-color;
+      }
+    }
+  }
+
+  &.button-navy {
+    background-color: $navy;
+    border-color: $navy;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: lighten($navy, 10%);
+      border-color: lighten($navy, 10%);
+      color: #fff;
+    }
+
+    &.button-outline {
+      background-color: transparent;
+      border-color: $navy;
+      color: $navy;
+
+      &:hover,
+      &:focus {
+        background-color: $navy;
+        border-color: $navy;
+        color: #fff;
+      }
     }
   }
 }

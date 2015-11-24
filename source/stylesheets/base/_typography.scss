@@ -12,14 +12,33 @@ h3,
 h4,
 h5,
 h6 {
+  color: $base-header-color;
   font-family: $heading-font-family;
-  font-size: $base-font-size;
+  // font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
 
+h1 {
+  font-size: 3.25rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
 p {
   margin: 0 0 $small-spacing;
+
+  &:last-child {
+    margin: 0;
+  }
 }
 
 a {

@@ -17,19 +17,16 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 ###
-# Helpers
+# Configuration
 ###
+
+activate :i18n, :mount_at_root => :en
+activate :directory_indexes
+# activate :autoprefixer
 
 # Reload the browser automatically whenever files change
 # configure :development do
 #   activate :livereload
-# end
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
 # end
 
 # Build-specific configuration
@@ -40,3 +37,12 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+###
+# Helpers
+###
+
+# Methods defined in the helpers block are available in templates
+# helpers do
+#
+# end

@@ -1,20 +1,29 @@
 <!doctype html>
-<html>
+<html lang="<%= I18n.locale %>">
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= current_page.data.title || "LearningSpaces" %></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js", :all %>
   </head>
-
   <body class="<%= page_classes %>">
+    <div class="header">
+      <a href="/" class="logo">LearningSpaces</a>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Pricing</a>
+        <a href="#">Support</a>
+        <a href="#">Blog</a>
+        <a href="#">Login</a>
+        <a href="#" class="button">Sign up</a>
+      </nav>
+    </div>
+
     <%= yield %>
+
+    <footer></footer>
   </body>
 </html>

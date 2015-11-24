@@ -12,3 +12,7 @@ source 'https://rubygems.org'
 gem 'middleman-sprockets', '>= 4.0.0.rc.1'
 gem 'middleman', '>= 4.0.0.rc.1'
 # gem 'middleman-livereload'
+gem 'middleman-autoprefixer'
+
+gem "bourbon"
+gem "neat"

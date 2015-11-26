@@ -1,24 +1,39 @@
+// Focus animation
+@keyframes focus {
+  0% {
+    color: #fff;
+    text-shadow: none;
+  }
+  50% {
+    color: transparent;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff;
+  }
+  100% {
+    color: #fff;
+    text-shadow: none;
+  }
+}
+
 .hero {
-  background-color: $green;
+  background: $green url(image-path("pattern.jpg")) no-repeat center;
+  background-size: cover;
   color: #fff;
-  font-size: 2rem;
-  padding: 4em 0 3em;
+  font-size: 1.8rem;
+  padding: 4em $side-padding 3em;
   text-align: center;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #fff;
-  }
-
   h1 {
+    color: #fff;
     font-size: 4rem;
     font-weight: 900;
     margin: 0 auto 0.5em;
     max-width: 700px;
+
+    span {
+      animation: focus 2s ease-in-out 2s;
+    }
   }
 
   p {
@@ -27,10 +42,10 @@
 
   .button {
     box-shadow: 6px 7px 0 rgba(62, 65, 73, 0.2);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 900;
     letter-spacing: 2px;
-    padding: ($small-spacing*1.5) ($base-spacing*1.5);
+    padding: ($small-spacing*1.3) ($base-spacing*1.3);
     text-transform: uppercase;
 
     &:active {

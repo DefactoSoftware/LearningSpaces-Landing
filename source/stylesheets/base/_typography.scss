@@ -1,4 +1,6 @@
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: $base-font-color;
   font-family: $base-font-family;
   font-feature-settings: "kern", "liga", "pnum";
@@ -43,7 +45,7 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
+  // text-decoration: none;
   transition: color $base-duration $base-timing;
 
   &:active,

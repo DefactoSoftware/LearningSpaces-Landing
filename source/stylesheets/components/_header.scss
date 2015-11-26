@@ -1,12 +1,60 @@
 .header {
   @include clearfix;
-  padding: 1em;
+  color: #fff;
+  display: block;
+  height: $header-height;
+  left: 0;
+  line-height: $header-height;
+  padding: 0 $side-padding;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 
-  nav {
+  .logo {
+    color: inherit;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    background: transparent;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 9px;
+    padding: 8px 10px 9px;
+    position: relative;
+    text-decoration: none;
+    transition: all $base-duration $base-timing;
+
+    &:hover {
+      background: rgba(0,0,0,0.1);
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+      opacity: 1;
+    }
+  }
+
+  .button {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 1em;
+    padding: 8px 10px 9px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     float: right;
 
-    a {
-
+    li {
+      display: inline-block;
     }
   }
 }

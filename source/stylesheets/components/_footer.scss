@@ -1,0 +1,17 @@
+.footer {
+  $color: #9e9ea6;
+
+  border-top: $base-border;
+  color: $color;
+  padding: 2em $side-padding;
+
+  a {
+    color: $color;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+      color: darken($color, 15%);
+    }
+  }
+}

@@ -8,9 +8,169 @@
 @import "bourbon";
 @import "base/grid-settings";
 @import "neat";
+
 @import "base/base";
 @import "components/base";
+
+// Layout
+
+section {
+  // border-bottom: $base-border;
+  // border-bottom: 1px solid #E5E5E5;
+  padding: 6em $side-padding;
+}
 
 .row {
   @include outer-container;
 }
+
+// Misc styling
+
+.clients {
+  background: #f6f7fa;
+  border: none;
+  padding: 3em $side-padding 2em;
+  text-align: center;
+
+  p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.4;
+    text-transform: uppercase;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 900px;
+  }
+}
+
+.for-who {
+  text-align: center;
+
+  p {
+    margin: 0 auto;
+    max-width: 820px;
+  }
+}
+
+.screens {
+  background: $blue;
+  color: #fff;
+  padding: 5em $side-padding 0;
+
+  .row {
+    max-width: 1200px;
+  }
+
+  .images {
+    padding-right: 2em;
+
+    img {
+      display: block;
+    }
+
+    @include media($medium-screen) {
+      @include span-columns(7.5);
+    }
+  }
+
+  .links {
+    @include media($medium-screen) {
+      @include span-columns(4.5);
+    }
+
+    li {
+      border-radius: $base-border-radius * 1.5;
+      cursor: pointer;
+      line-height: 1.4;
+      margin-bottom: 1em;
+      opacity: 0.8;
+      padding: 1em;
+      position: relative;
+      transition: all $base-duration $base-timing;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.active {
+        $border-color: #b9d8ea;
+
+        opacity: 1;
+        border: 2px solid $border-color;
+
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: -12px;
+          border: 12px solid transparent;
+          border-left: none;
+          border-right-color: $border-color;
+          margin-top: -12px;
+        }
+
+        &::after {
+          left: -9px;
+          border-width: 9px;
+          border-right-color: $blue;
+          margin-top: -9px;
+        }
+      }
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 900;
+      margin-bottom: 0.4em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.quotes {
+  background: #f6f7fa;
+
+  .row {
+    max-width: 1200px;
+  }
+
+  .quote {
+    @include media($medium-screen) {
+      @include span-columns(4);
+    }
+  }
+}
+
+.signup {
+  background: #eceef3;
+  padding: 4em $side-padding;
+  text-align: center;
+
+  h3,
+  .button {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+  }
+}
+
+.team {
+  text-align: center;
+}
+

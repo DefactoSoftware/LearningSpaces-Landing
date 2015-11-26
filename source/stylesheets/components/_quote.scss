@@ -1,0 +1,59 @@
+.quote {
+  $border-color: #dde1e6;
+
+  // font-size: 0.95rem;
+
+  .text {
+    background: #fff;
+    border: 2px solid $border-color;
+    border-radius: $base-border-radius * 1.5;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.3;
+    padding: 1.5em;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -12px;
+      border: 12px solid transparent;
+      border-bottom: none;
+      border-top-color: $border-color;
+      margin-left: -12px;
+    }
+
+    &::after {
+      bottom: -9px;
+      border-width: 9px;
+      border-top-color: #fff;
+      margin-left: -9px;
+    }
+  }
+
+  .author {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .avatar {
+    background: #dde1e6;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .name {
+    color: #494e4f;
+    display: block;
+    font-weight: 700;
+  }
+
+  .company {
+    display: block;
+  }
+}

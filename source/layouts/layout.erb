@@ -10,20 +10,12 @@
     <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js", :all %>
   </head>
   <body class="<%= page_classes %>">
-    <div class="header">
-      <a href="/" class="logo">LearningSpaces</a>
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Pricing</a>
-        <a href="#">Support</a>
-        <a href="#">Blog</a>
-        <a href="#">Login</a>
-        <a href="#" class="button">Sign up</a>
-      </nav>
-    </div>
+
+    <%= partial "header" %>
 
     <%= yield %>
 
-    <footer></footer>
+    <%= partial "footer" %>
+
   </body>
 </html>

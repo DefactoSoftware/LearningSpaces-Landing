@@ -11,11 +11,30 @@
   width: 100%;
   z-index: 99;
 
+  @include media($xlarge-up) {
+    padding: 1em ($side-padding * 2);
+  }
+
   .logo {
     color: inherit;
     font-size: 1.3em;
     font-weight: 700;
     text-decoration: none;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .logo-cube {
+      height: 48px;
+      margin-right: 0.5em;
+      width: 42px;
+    }
+    .logo-text {
+      height: 25px;
+      width: 180px;
+    }
   }
 
   .nav-link {

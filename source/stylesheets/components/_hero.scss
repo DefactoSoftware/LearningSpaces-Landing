@@ -18,11 +18,16 @@
 
 .hero {
   background: $green url(image-path("pattern.jpg")) no-repeat center;
+  // background-attachment: fixed;
   background-size: cover;
   color: #fff;
   font-size: 1.8rem;
   padding: 4em $side-padding 3em;
   text-align: center;
+
+  @include media($xlarge-up) {
+    padding-top: 5em;
+  }
 
   h1 {
     color: #fff;

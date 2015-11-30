@@ -71,13 +71,13 @@ section {
       display: block;
     }
 
-    @include media($medium-screen) {
+    @include media($medium-up) {
       @include span-columns(7.5);
     }
   }
 
   .links {
-    @include media($medium-screen) {
+    @include media($medium-up) {
       @include span-columns(4.5);
     }
 
@@ -151,7 +151,7 @@ section {
   }
 
   .quote {
-    @include media($medium-screen) {
+    @include media($medium-up) {
       @include span-columns(4);
     }
   }

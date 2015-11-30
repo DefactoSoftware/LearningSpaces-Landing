@@ -1,4 +1,1 @@
 //= require_tree .
-
-// $(function () {
-// });

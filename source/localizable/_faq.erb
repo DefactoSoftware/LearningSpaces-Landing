@@ -1,0 +1,23 @@
+<% t("faq.categories").each do |category| %>
+  <div class="faq-category">
+    <h3><%= category[:title] %></h3>
+    <ul class="faq-list">
+
+      <% category[:questions].each do |question| %>
+        <li>
+          <h4>
+            <a href="#" class="faq-question">
+              <%= question[:q] %>
+              <span class="faq-icon"></span>
+            </a>
+          </h4>
+          <div class="faq-answer">
+            <%#= question[:a] %>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit rutrum neque. Cras egestas mollis enim a posuere. Nullam in vehicula magna. Sed lobortis dolor vel nisl dignissim, vitae maximus arcu interdum. Morbi id consectetur magna. Quisque ante magna, pellentesque ac neque sit amet, bibendum dapibus tellus. Mauris porta mattis nunc eu dapibus. Ut quis nibh non nibh condimentum aliquam. Proin pretium nisl at nisi maximus, at sodales dui condimentum.</p>
+          </div>
+        </li>
+      <% end %>
+
+    </ul>
+  </div>
+<% end %>

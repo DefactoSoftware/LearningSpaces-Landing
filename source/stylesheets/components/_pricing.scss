@@ -1,0 +1,85 @@
+.princing-plans {
+  text-align: center;
+
+  .plans {
+    margin-bottom: 2rem;
+  }
+}
+
+.plans {
+  @include clearfix
+}
+
+.plan {
+  background: $blue;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 1em;
+  min-height: 21.5rem;
+  padding: 1em 0;
+  text-align: center;
+  text-shadow: 0 3px 1px rgba(0,0,0,0.1);
+
+  @include media($medium-up) {
+    @include span-columns(4);
+    padding: 2em 0;
+  }
+
+  > * {
+    padding: 0 1em;
+  }
+
+  h3 {
+    color: #fff;
+  }
+
+  p {
+    line-height: 1.2em;
+  }
+
+  .plan-price {
+    background: rgba(0,0,0,0.06);
+    position: relative;
+    display: block;
+    height: 6rem;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    font-weight: 900;
+    // margin-bottom: 0.5rem;
+    letter-spacing: -2px;
+    // margin-left: -2.5rem;
+    margin-bottom: 1rem;
+
+    &.text {
+      font-size: 3rem;
+    }
+
+    .currency {
+      position: relative;
+      top: -1.75rem;
+      font-weight: 400;
+      font-size: 3rem;
+      letter-spacing: 0;
+    }
+
+    .cents {
+      position: absolute;
+      top: -0.25rem;
+      font-size: 1.5rem;
+      letter-spacing: -1px;
+      font-weight: 700;
+    }
+  }
+
+  &#plan-free {
+    background: #13b39a;
+  }
+
+  &#plan-value {
+    background: #5f6bb2;
+  }
+
+  &#plan-enterprise {
+    background: $blue;
+  }
+}

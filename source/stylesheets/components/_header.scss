@@ -37,14 +37,22 @@
     }
   }
 
+  .nav-link,
+  .button {
+    font-size: 15px;
+    font-weight: 700;
+
+    @include media($xlarge-up) {
+      font-size: 17px;
+    }
+  }
+
   .nav-link {
     background: transparent;
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
     line-height: 1em;
     margin-left: 9px;
     padding: 8px 10px 9px;
@@ -60,8 +68,6 @@
   }
 
   .button {
-    font-size: 15px;
-    font-weight: 700;
     margin-left: 1em;
     padding: 8px 10px 9px;
   }

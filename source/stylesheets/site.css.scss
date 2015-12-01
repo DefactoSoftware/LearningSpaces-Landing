@@ -170,4 +170,26 @@ section {
 .team {
   text-align: center;
 }
+.team-members {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .avatar {
+    @include avatar-size(100px);
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: #4a4a4a;
+    display: block;
+    font-weight: 700;
+  }
+}
 

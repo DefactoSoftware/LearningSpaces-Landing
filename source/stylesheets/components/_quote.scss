@@ -2,6 +2,7 @@
   $border-color: #dde1e6;
 
   // font-size: 0.95rem;
+  margin: 0;
 
   .text {
     background: #fff;
@@ -55,5 +56,52 @@
 
   .company {
     display: block;
+  }
+}
+
+.quote2 {
+  text-align: center;
+
+  .text {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1.5em;
+
+    span {
+      display: none;
+    }
+
+    &::before,
+    &::after {
+      color: lighten(#b8bdcc, 5%);
+      content: '“';
+      font-family: "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+      font-size: 60px;
+      font-size: 4rem;
+      line-height: 0;
+      margin: 15px 0;
+      position: relative;
+      top: 16px;
+      margin: 0 -4px 0 0;
+    }
+
+    &::after {
+      content: '”';
+      margin: 0 0 0 -4px;
+    }
+  }
+
+  .author {
+    color: #b8bdcc;
+    font-size: 1.1rem;
+
+    .name {
+      display: block;
+      font-weight: 700;
+    }
+
+    .company {
+
+    }
   }
 }

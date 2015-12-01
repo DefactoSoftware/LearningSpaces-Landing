@@ -1,24 +1,28 @@
 .header {
   @include clearfix;
-  color: #fff;
+  background: #fff;
   display: block;
   height: $header-height;
   left: 0;
   line-height: $header-height;
   padding: 0 $side-padding;
-  position: absolute;
-  top: 0;
+  position: relative;
   width: 100%;
-  z-index: 99;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
 
   @include media($xlarge-up) {
-    padding: 1em ($side-padding * 2);
+    $header-height: 60px + 20px;
+
+    height: $header-height;
+    line-height: $header-height;
+    // padding: 1em ($side-padding * 2);
   }
 
   .logo {
     color: inherit;
     font-size: 1.3em;
     font-weight: 700;
+    opacity: 0.75;
     text-decoration: none;
 
     img {
@@ -50,7 +54,7 @@
   .nav-link {
     background: transparent;
     border-radius: 50px;
-    color: #fff;
+    // color: #fff;
     cursor: pointer;
     display: inline-block;
     line-height: 1em;
@@ -80,6 +84,24 @@
 
     li {
       display: inline-block;
+    }
+  }
+
+  // Header overlay for hero units
+  &.header-hero {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+
+    .logo {
+      opacity: 1;
+    }
+
+    .nav-link {
+      color: #fff;
     }
   }
 }

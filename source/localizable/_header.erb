@@ -1,7 +1,11 @@
-<nav class="header" aria-hidden="true">
+<%
+header_hero = current_page.data.header_class == "header-hero"
+%>
+
+<nav class="header <%= current_page.data.header_class %>" aria-hidden="true">
   <a href="/" class="logo">
-    <%= image_tag "logo-cube-white.svg", class: "logo-cube" %>
-    <%= image_tag "logo-text-white.svg", class: "logo-text", alt: "LearningSpaces" %>
+    <%= image_tag "logo-cube#{ "-white" if header_hero }.svg", class: "logo-cube" %>
+    <%= image_tag "logo-text#{ "-white" if header_hero }.svg", class: "logo-text", alt: "LearningSpaces" %>
   </a>
   <ul>
     <!-- <li><%= link_to "About", "about.html", class: "nav-link" %></li> -->
@@ -9,6 +13,6 @@
     <li><%= link_to "Support", "support.html", class: "nav-link" %></li>
     <li><a href="http://blog.learningspaces.io/?_ga=1.106465411.1803087326.1411476862" class="nav-link">Blog</a></li>
     <li><a href="http://www.learningspaces.io/login/" class="nav-link">Login</a></li>
-    <li><a href="https://public.learningspaces-staging.io/accounts/new" class="button button-outline button-rounded button-white">Sign up</a></li>
+    <li><a href="https://public.learningspaces-staging.io/accounts/new" class="button button-outline button-rounded <%= "button-white" if header_hero %>">Sign up</a></li>
   </ul>
 </nav>

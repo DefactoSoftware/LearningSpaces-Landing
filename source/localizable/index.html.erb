@@ -21,11 +21,17 @@ header_class: header-hero
 
 <%= partial :for_who %>
 
-<section class="screens">
+<section class="slideshow">
   <div class="row">
 
-    <div class="images">
-      <%= image_tag "screenshot-spaces.png" %>
+    <div class="screens">
+      <div class="browser">
+        <div class="browser-ooo"></div>
+        <div class="browser-inner"></div>
+        <%= image_tag "screenshots/spaces.jpg", class: "active" %>
+        <%= image_tag "screenshots/paths.jpg" %>
+        <%= image_tag "screenshots/spaces.jpg" %>
+      </div>
     </div>
 
     <div class="links">

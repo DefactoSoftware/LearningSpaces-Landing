@@ -1,0 +1,15 @@
+.slideshow {
+  .screens {
+    img {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+  }
+
+  .links {
+    //
+  }
+}

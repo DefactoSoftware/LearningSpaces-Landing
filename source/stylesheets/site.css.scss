@@ -53,7 +53,7 @@ section {
   }
 }
 
-.screens {
+.slideshow {
   background: $blue;
   color: #fff;
   padding: 5em $side-padding 0;
@@ -62,12 +62,9 @@ section {
     max-width: 1200px;
   }
 
-  .images {
+  .screens {
     padding-right: 2em;
-
-    img {
-      display: block;
-    }
+    position: relative;
 
     @include media($medium-up) {
       @include span-columns(7.5);
@@ -80,6 +77,7 @@ section {
     }
 
     li {
+      border: 2px solid transparent;
       border-radius: $base-border-radius * 1.5;
       cursor: pointer;
       line-height: 1.4;
@@ -101,7 +99,7 @@ section {
         $border-color: #b9d8ea;
 
         opacity: 1;
-        border: 2px solid $border-color;
+        border-color: $border-color;
 
         &::before,
         &::after {
@@ -113,6 +111,7 @@ section {
           border-left: none;
           border-right-color: $border-color;
           margin-top: -12px;
+          transition: all $base-duration $base-timing;
         }
 
         &::after {

@@ -1,0 +1,45 @@
+.browser {
+  background: #e9edf0;
+  padding-top: 24px;
+  border: 1px solid #d9dee1;
+  border-radius: 5px 5px 0 0;
+  // display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+
+  .browser-ooo {
+    &, &:before, &:after {
+      background: #d4dbdf;
+      border-radius: 50%;
+      content: "";
+      float: left;
+      height: 8px;
+      position: absolute;
+      width: 8px;
+    }
+
+    // background: #ea666a;
+    left: 8px;
+    top: 8px;
+
+    &:before {
+      // background: #f7d34c;
+      left: 13px;
+    }
+
+    &:after {
+      // background: #75b96e;
+      left: 26px;
+    }
+  }
+
+  browser-inner {
+    position: relative;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    box-shadow: 0 0 0 1px #d9dee1;
+  }
+}

@@ -24,7 +24,7 @@ header_class: header-hero
   </div>
 </div>
 
-<section class="quotes2">
+<!-- <section class="quotes2">
   <div class="row">
 
     <blockquote class="quote2">
@@ -38,22 +38,23 @@ header_class: header-hero
     </blockquote>
 
   </div>
-</section>
+</section> -->
 
-<section class="slideshow">
+<section class="slideshow inverted">
   <div class="row">
 
-    <div class="screens">
-      <div class="browser">
+    <div class="slideshow-screens">
+      <div class="browser intrinsic-ratio">
         <div class="browser-ooo"></div>
-        <div class="browser-inner"></div>
-        <%= image_tag "screenshots/spaces.jpg", alt: "Spaces", class: "active" %>
-        <%= image_tag "screenshots/paths.jpg", alt: "Paths" %>
-        <%= image_tag "screenshots/spaces.jpg", alt: "Comments" %>
+        <div class="browser-viewport">
+          <%= image_tag "screenshots/spaces.jpg", alt: "Spaces", class: "active" %>
+          <%= image_tag "screenshots/paths.jpg", alt: "Paths" %>
+          <%= image_tag "screenshots/spaces.jpg", alt: "Comments" %>
+        </div>
       </div>
     </div>
 
-    <div class="links">
+    <div class="slideshow-nav">
       <ul>
         <li class="active">
           <h4>Create Meaningful Content</h4>
@@ -83,6 +84,49 @@ header_class: header-hero
 </section>
 
 <%= partial :for_who %>
+
+<section class="slideshow">
+  <div class="row">
+
+    <div class="slideshow-screens">
+      <div class="browser">
+        <div class="browser-ooo"></div>
+        <div class="browser-viewport">
+          <%= image_tag "screenshots/spaces.jpg", alt: "Spaces", class: "active" %>
+          <%= image_tag "screenshots/paths.jpg", alt: "Paths" %>
+          <%= image_tag "screenshots/spaces.jpg", alt: "Comments" %>
+        </div>
+      </div>
+    </div>
+
+    <div class="slideshow-nav">
+      <ul>
+        <li class="active">
+          <h4>Create Meaningful Content</h4>
+          <p>
+            LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team ...
+            <a href="#">Learn more</a>
+          </p>
+        </li>
+        <li>
+          <h4>Collaborate with your Team</h4>
+          <p>
+            You can set up quizzes and assignments, so learners can self-assess and assess each other. Organize your community ...
+            <a href="#">Learn more</a>
+          </p>
+        </li>
+        <li>
+          <h4>Share your Knowledge</h4>
+          <p>
+            Depending on your needs, LearningSpaces can be anything from an interactive knowledge base to your internal training ...
+            <a href="#">Learn more</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
 
 <%= partial :conversion_signup %>
 

@@ -6,7 +6,6 @@
   padding-top: 24px;
   border: 1px solid #d9dee1;
   border-radius: 5px 5px 0 0;
-  // display: inline-block;
   box-sizing: border-box;
   position: relative;
 
@@ -36,7 +35,7 @@
     }
   }
 
-  browser-inner {
+  .browser-viewport {
     position: relative;
   }
 
@@ -44,5 +43,24 @@
     display: block;
     max-width: 100%;
     box-shadow: 0 0 0 1px #d9dee1;
+  }
+
+  // Using intrinsic ratio for the content
+  &.intrinsic-ratio {
+    .browser-viewport {
+      &::before {
+        content: "";
+        display: block;
+        // padding-bottom: 56.25%;
+        padding-bottom: 71%;
+      }
+    }
+
+    img {
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
   }
 }

@@ -7,19 +7,38 @@ header_class: header-hero
   <div class="row">
     <h1><span class="focus">Focus</span> your team’s learning efforts</h1>
     <!-- <h1>You have the knowledge, we have the platform</h1> -->
-    <p>Create and share knowledge in a matter of seconds.</p>
+    <!-- <p>Create and share knowledge in a matter of seconds.</p> -->
+
+    <br>
     <a href="https://public.learningspaces-staging.io/accounts/new" class="button button-rounded button-hover button-navy">Get started</a>
+
+    <blockquote class="quote2">
+      <div class="text">
+        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team.
+      </div>
+      <div class="author">
+        <span class="name">Marcel Horlings,</span>
+        <span class="company">Training Consultant at Pushup</span>
+      </div>
+    </blockquote>
   </div>
 </div>
 
-<section class="clients">
+<section class="quotes2">
   <div class="row">
-    <p>We help teams facilitate collaborative knowledge sharing</p>
-    <%= image_tag "clients-logos.png" %>
+
+    <blockquote class="quote2">
+      <div class="text">
+        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team.
+      </div>
+      <div class="author">
+        <span class="name">Marcel Horlings,</span>
+        <span class="company">Training Consultant, Pushup</span>
+      </div>
+    </blockquote>
+
   </div>
 </section>
-
-<%= partial :for_who %>
 
 <section class="slideshow">
   <div class="row">
@@ -63,6 +82,10 @@ header_class: header-hero
   </div>
 </section>
 
+<%= partial :for_who %>
+
+<%= partial :conversion_signup %>
+
 <section class="quotes">
   <div class="row">
 
@@ -102,23 +125,12 @@ header_class: header-hero
   </div>
 </section>
 
-<section class="quotes2">
+<section class="clients">
   <div class="row">
-
-    <blockquote class="quote2">
-      <div class="text">
-        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team.
-      </div>
-      <div class="author">
-        <span class="name">Marcel Horlings</span>
-        <span class="company">Training Consultant, Pushup</span>
-      </div>
-    </blockquote>
-
+    <p>We help teams facilitate collaborative knowledge sharing</p>
+    <%= image_tag "clients-logos.png" %>
   </div>
 </section>
-
-<%= partial :conversion_signup %>
 
 <section class="team">
   <div class="row">
@@ -126,6 +138,7 @@ header_class: header-hero
     <p>
       <em>Average responsetime of 1 min.</em><br>
       <em>Learning never waits. Your questions won’t either.</em><br>
+      <em>Have a question? We’re always here to help.</em><br>
     </p>
 
     <br>

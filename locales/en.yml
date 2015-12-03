@@ -32,3 +32,8 @@ en:
           - q: What plan is right for me and my team?
           - q: What are the payment methods?
           - q: Do I only pay for active users?
+
+      - title: Help &amp; Support
+        questions:
+          - q: I have a question, where can I ask it?
+            a: Check the Knowledgebase, else Intercom bla bla

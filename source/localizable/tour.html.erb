@@ -5,11 +5,35 @@ title: Tour
 <div class="hero small">
   <div class="row">
     <h1>Tour</h1>
+    <p>Focus your team’s learning efforts</p>
   </div>
 </div>
 
-<section>
-  <div class="row">
-    <p>...</p>
-  </div>
+<section class="features">
+
+  <% t("tour.features").each_with_index do |feature, index| %>
+    <div class="feature">
+      <div class="row">
+
+        <div class="feature-image">
+          <%= image_tag feature[:image], alt: feature[:title] %>
+        </div>
+
+        <div class="feature-text">
+          <h3><%= feature[:title] %></h3>
+          <p><%= markdown feature[:text_md] %></p>
+        </div>
+
+        <!-- <% if index.odd? %>
+          <div class="feature-image">
+            <%= image_tag feature[:image], alt: feature[:title] %>
+          </div>
+        <% end %> -->
+
+      </div>
+    </div>
+  <% end %>
+
 </section>
+
+

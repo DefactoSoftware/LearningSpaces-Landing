@@ -5,8 +5,6 @@ $(function () {
     var $this = $(this);
     var $slides = $this.find('.slideshow-screens img');
     var $nav = $this.find('.slideshow-nav li');
-    // var fadeInOut = $this.find('.browser').hasClass('intrinsic-ratio');
-    // var fadeInOut = $slides.first().css('position') == 'absolute';
 
     $nav.on('click', function (event) {
       event.preventDefault();

@@ -1,16 +1,50 @@
 ---
 en:
 
+  tour:
+    features:
+      - title: Your own Learning Community
+        text_md: |
+          **Spaces** are the key to your team’s knowledge library. Write your own courses or embed existing material, collaborate with others and emphasize content by tagging it "featured".
+        image: tour/spaces.jpg
+
+      - title: Organize your content
+        text_md: |
+          Create **Chapters** to organize and break down your content, and **Quizes** or **Assignments** to test someone’s skill.
+        image: tour/chapters.jpg
+
+      - title: Write Better and Faster
+        text_md: |
+          Our split-screen editor lets you focus on writing content. With [Markdown](#) syntax on the left and a live preview on the right, you can type and format your writing on-the-fly.
+
+          Work in draft mode as you write and publish when you’re finished. Easily embed and share images, videos and documents. Simply drag and drop them in your content or by pasting a link.
+        image: tour/editor.jpg
+
+      - title: Collaborate with your Team
+        text_md: "**Contributors** can add chapters to your Space."
+        image: tour/collaborate.jpg
+
+      - title: Better Focus with Paths
+        text_md: "**Paths** are guided trajectories, comprised of Spaces, that train you and your team in large topic areas. Whether someone is interested in learning a new skill or training for a specific role, Paths are there to keep them focused and ensure they meet their learning goals."
+        image: tour/path.jpg
+
+      - title: Excelent and Instant Support
+        text_md: ""
+        image: tour/support.jpg
+
   faq:
     categories:
       - title: Product
         questions:
-          - q: Does it work on phones and tablets?
-            a: This is an answer.
           - q: Can you collaborate on content?
-            a: This is another answer.
-          - q: Can I share externally?
+            a: This is an answer.
           - q: Backups / exports?
+          - q: What is Markdown and how do I use it?
+          - q: What does draft and publish mean exactly?
+          - q: What is a Chapter, Quiz and Assignment?
+          - q: What is a Path?
+          - q: Does it work on phones and tablets?
+          - q: Can I share externally?
 
       - title: Getting Started
         questions:

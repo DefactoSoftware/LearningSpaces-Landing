@@ -1,0 +1,28 @@
+section.features {
+  padding: 0;
+}
+
+.feature {
+  border-bottom: $base-border;
+  padding: 5em $side-padding;
+}
+
+.feature-image {
+  position: relative;
+  text-align: center;
+
+  @include media($large-up) {
+    @include span-columns(7);
+    padding-right: 2em;
+  }
+}
+
+.feature-text {
+  @include media($large-up) {
+    @include span-columns(5);
+  }
+}
+
+.feature-text + .feature-image {
+  padding: 0 0 0 2em;
+}

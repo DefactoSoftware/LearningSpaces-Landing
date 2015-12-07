@@ -42,6 +42,9 @@ end
 # Helpers
 ###
 
-# some_helper do
-#
-# end
+helpers do
+  # Parse Markdown
+  def markdown(string)
+    Tilt['markdown'].new { string }.render(scope=self)
+  end
+end

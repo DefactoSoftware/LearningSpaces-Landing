@@ -29,7 +29,11 @@ en:
         image: tour/path.jpg
 
       - title: Excelent and Instant Support
-        text_md: ""
+        text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
+        image: tour/support.jpg
+
+      - title: User profile
+        text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
         image: tour/support.jpg
 
   faq:

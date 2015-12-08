@@ -28,13 +28,13 @@ en:
         text_md: "**Paths** are guided trajectories, comprised of Spaces, that train you and your team in large topic areas. Whether someone is interested in learning a new skill or training for a specific role, Paths are there to keep them focused and ensure they meet their learning goals."
         image: tour/path.jpg
 
-      - title: Excelent and Instant Support
+      - title: Excellent and Instant Support
         text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
         image: tour/support.jpg
 
-      - title: User profile
-        text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
-        image: tour/support.jpg
+      - title: See what your Team is doing
+        text_md: "The user profile for every team member tells you what they’ve done and what they are doing."
+        image: tour/profile.jpg
 
   faq:
     categories:

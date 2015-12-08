@@ -12,7 +12,7 @@ title: Tour
 <section class="features">
 
   <% t("tour.features").each_with_index do |feature, index| %>
-    <div class="feature">
+    <div class="feature" id="<%= feature[:title].downcase.parameterize %>">
       <div class="row">
 
         <div class="feature-image">
@@ -23,12 +23,6 @@ title: Tour
           <h3><%= feature[:title] %></h3>
           <p><%= markdown feature[:text_md] %></p>
         </div>
-
-        <!-- <% if index.odd? %>
-          <div class="feature-image">
-            <%= image_tag feature[:image], alt: feature[:title] %>
-          </div>
-        <% end %> -->
 
       </div>
     </div>

@@ -12,8 +12,7 @@
             </a>
           </h4>
           <div class="faq-answer">
-            <%#= question[:a] %>
-            <%= lorem.sentences 5 %>.
+            <%= markdown question[:a] || "Coming soon." %>
           </div>
         </li>
       <% end %>

@@ -1,23 +1,47 @@
 ---
 en:
+  # Slideshow with screenshots
+  slideshow:
+    features:
+      - screenshot: screenshots/spaces.jpg
+        screenshot_alt: Spaces
+        title: Create Meaningful Content
+        text_md: Create meaningful content to share with your team. Write in markdown in our beautiful and intuitive editor to get your story right. You'll love it. Or just drop in a Youtube link and we'll take care of the rest.
 
+      - screenshot: screenshots/paths.jpg
+        screenshot_alt: Paths
+        title: Organize Your Knowledge
+        text_md: Organize your knowledge base into flowing, engaging and rewarding learning experiences. Highlight and track the important stuff. Because some things are vital, others just good to know.
+
+      - screenshot: screenshots/spaces.jpg
+        screenshot_alt: Comments
+        title: Share Your Knowledge
+        text_md: A learning community for your team. Set up quizzes, assignments or discussions around specific topics. Want to share something with the outside world? We got you covered. Because the best learning is social learning.
+
+  # Tour page
   tour:
     features:
       - title: Your own Learning Community
         text_md: |
-          **Spaces** are the key to your team’s knowledge library. Write your own courses or embed existing material, collaborate with others and emphasize content by tagging it "featured".
+          **Spaces** are the key to your team’s knowledge library.
+          Create your own courses and guides or embed existing material.
+          Share, collaborate and discuss with your team, whether you’re at work, at home or on the road.
         image: tour/spaces.jpg
 
-      - title: Organize your content
+      - title: Organize your Knowledge
+      # - title: Create Meaningful Content
         text_md: |
-          Create **Chapters** to organize and break down your content, and **Quizes** or **Assignments** to test someone’s skill.
+          Organize your knowledge into engaging and rewarding learning experiences.
+          Divide your content into **Chapters**, and create **Quizes** or **Assignments** to test your team’s skill.
         image: tour/chapters.jpg
 
       - title: Write Better and Faster
         text_md: |
-          Our split-screen editor lets you focus on writing content. With [Markdown](#) syntax on the left and a live preview on the right, you can type and format your writing on-the-fly.
+          Our split-screen editor lets you focus on writing content.
+          With [Markdown](#) syntax on the left and a live preview on the right, you can type and format your writing on-the-fly.
 
-          Work in draft mode as you write and publish when you’re finished. Easily embed and share images, videos and documents. Simply drag and drop them in your content or by pasting a link.
+          Embed and share images, videos and documents with ease. Drag and drop them into your content or simply paste a link.
+          Work in draft mode as you write and publish when you’re finished.
         image: tour/editor.jpg
 
       - title: Collaborate with your Team
@@ -36,6 +60,7 @@ en:
         text_md: "The user profile for every team member tells you what they’ve done and what they are doing."
         image: tour/profile.jpg
 
+  #FAQ page
   faq:
     categories:
       - title: Product

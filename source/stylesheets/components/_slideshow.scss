@@ -18,7 +18,7 @@
   }
 
   .row {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 
   .slideshow-screens {
@@ -63,6 +63,7 @@
 
     @include media($large-up) {
       @include span-columns(4.5);
+      padding-bottom: 2em;
       padding-top: 0;
     }
 
@@ -71,7 +72,7 @@
       border-radius: $slideshow-nav-border-radius;
       cursor: pointer;
       line-height: 1.4;
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
       opacity: 0.8;
       padding: 1em;
       position: relative;

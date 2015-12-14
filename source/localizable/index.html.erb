@@ -6,15 +6,15 @@ header_class: header-hero
 <div class="hero">
   <div class="row">
     <h1><span class="focus">Focus</span> your team’s learning efforts</h1>
-    <!-- <h1>You have the knowledge, we have the platform</h1> -->
-    <!-- <p>Create and share knowledge in a matter of seconds.</p> -->
 
     <br>
     <a href="https://public.learningspaces-staging.io/accounts/new" class="button button-rounded button-hover button-navy">Get started</a>
+    &nbsp;&nbsp; or &nbsp;&nbsp;
+    <%= link_to "Take Tour", "tour.html", class: "button button-rounded button-outline button-white" %>
 
     <blockquote class="quote2">
       <div class="text">
-        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team.
+        LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
       </div>
       <div class="author">
         <span class="name">Marcel Horlings,</span>
@@ -41,50 +41,9 @@ header_class: header-hero
 </section> -->
 
 <section class="slideshow inverted">
+  <%#= partial :slideshow %>
+
   <div class="row">
-
-    <div class="slideshow-screens">
-      <div class="browser intrinsic-ratio">
-        <div class="browser-ooo"></div>
-        <div class="browser-viewport">
-          <%= image_tag "screenshots/spaces.jpg", alt: "Spaces", class: "active" %>
-          <%= image_tag "screenshots/paths.jpg", alt: "Paths" %>
-          <%= image_tag "screenshots/spaces.jpg", alt: "Comments" %>
-        </div>
-      </div>
-    </div>
-
-    <div class="slideshow-nav">
-      <ul>
-        <li class="active">
-          <h4>Create Meaningful Content</h4>
-          <p>
-            Create meaningful content to share with your team. Write in markdown in our beautiful and intuitive editor to get your story right. You'll love it. Or just drop in a Youtube link and we'll take care of the rest.
-          </p>
-        </li>
-        <li>
-          <h4>Organize Your Team's Knowledge</h4>
-          <p>
-            Organize your knowledge base into flowing, engaging and rewarding learning experiences. Highlight and track the important stuff. Because some things are vital, others just good to know.
-          </p>
-        </li>
-        <li>
-          <h4>Share your Knowledge</h4>
-          <p>
-            A learning community for your team. Set up quizzes, assignments or discussions around specific topics. Want to share something with the outside world? We got you covered. Because the best learning is social learning.
-          </p>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<%= partial :for_who %>
-
-<section class="slideshow">
-  <div class="row">
-
     <div class="slideshow-screens">
       <div class="browser">
         <div class="browser-ooo"></div>
@@ -95,30 +54,40 @@ header_class: header-hero
         </div>
       </div>
     </div>
-
     <div class="slideshow-nav">
       <ul>
         <li class="active">
-          <h4>Create Meaningful Content</h4>
+          <h4>Your own Learning Community</h4>
           <p>
-            Create meaningful content to share with your team. Write in markdown in our beautiful and intuitive editor to get your story right. You'll love it. Or just drop in a Youtube link and we'll take care of the rest.
+            Spaces are the key to your team’s knowledge library. Create your own courses and guides or embed existing material.
+            Share and collaborate with your team, whether you’re at work, at home or on the road.
           </p>
         </li>
         <li>
-          <h4>Organize Your Team's Knowledge</h4>
+          <h4>Organize Your Knowledge</h4>
           <p>
-            Organize your knowledge base into flowing, engaging and rewarding learning experiences. Highlight and track the important stuff. Because some things are vital, others just good to know.
-          </p>
+            <!-- Organize your knowledge into engaging and rewarding learning experiences.
+            Divide your content into Chapters, and create Quizes or Assignments to test your team’s skill. -->
+
+            Paths keep your team focused and ensure everyone meets their learning goals.
+            <!-- Organize your knowledge into engaging and rewarding learning experiences. -->
+            Whether someone is learning a new skill or training for a specific role,
+            Paths ensure they everyone meet their learning goals.
         </li>
         <li>
-          <h4>Share your Knowledge</h4>
+          <h4>Write Better and Faster</h4>
           <p>A learning community for your team. Set up quizzes, assignments or discussions around specific topics. Want to share something with the outside world? We got you covered. Because the best learning is social learning.
           </p>
         </li>
       </ul>
     </div>
-
   </div>
+</section>
+
+<%= partial :for_who %>
+
+<section class="slideshow">
+  <%= partial :slideshow %>
 </section>
 
 <%= partial :conversion_signup %>

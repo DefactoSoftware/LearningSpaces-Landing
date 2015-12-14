@@ -3,10 +3,10 @@ header_hero = current_page.data.header_class == "header-hero"
 %>
 
 <nav class="header <%= current_page.data.header_class %>" aria-hidden="true">
-  <a href="/" class="logo">
+  <% link_to "index.html", class: "logo" do %>
     <%= image_tag "logo-cube#{ "-white" if header_hero }.svg", class: "logo-cube" %>
     <%= image_tag "logo-text#{ "-white" if header_hero }.svg", class: "logo-text", alt: "LearningSpaces" %>
-  </a>
+  <% end %>
   <ul>
     <li><%= link_to "Tour", "tour.html", class: "nav-link" %></li>
     <li><%= link_to "Pricing", "pricing.html", class: "nav-link" %></li>

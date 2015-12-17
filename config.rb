@@ -35,7 +35,7 @@ activate :autoprefixer
 # Build-specific configuration
 configure :build do
   # Path prefix (ie. for Github pages)
-  set :http_prefix, "/LearningSpaces-Landing"
+  # set :http_prefix, "/LearningSpaces-Landing"
 
   # Minify CSS on build
   activate :minify_css

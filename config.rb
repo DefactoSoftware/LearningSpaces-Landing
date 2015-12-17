@@ -23,7 +23,7 @@ page '/*.txt', layout: false
 # set :relative_links, true
 # activate :relative_assets
 
-activate :i18n, :mount_at_root => :en
+activate :i18n, mount_at_root: :en
 activate :directory_indexes
 activate :autoprefixer
 

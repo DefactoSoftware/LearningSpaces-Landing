@@ -39,9 +39,22 @@ section {
     text-transform: uppercase;
   }
 
+  .logos {
+    margin: 2rem 0;
+    opacity: 0.6;
+  }
+
   img {
     display: inline-block;
-    max-width: 900px;
+    margin: 1rem 2rem;
+    max-height: 40px;
+    max-width: 100px;
+    vertical-align: middle;
+
+    @include media($medium-up) {
+      max-height: 120px * 0.4;
+      max-width: 120px;
+    }
   }
 }
 

@@ -61,9 +61,13 @@ section {
 .for-who {
   text-align: center;
 
-  p {
-    margin: 0 auto;
-    max-width: 820px;
+  // p {
+  //   margin: 0 auto;
+  //   max-width: 820px;
+  // }
+
+  .button {
+    margin: 1.5em 0.5em 0;
   }
 }
 

@@ -7,14 +7,19 @@
 $max-width: 1080px;
 
 // Neat Breakpoints
-$md-screen: em(600);
-$lg-screen: em(900);
-$xl-screen: em(1200);
+$md-screen: 600px;
+$lg-screen: 900px;
+$xl-screen: 1200px;
 
 // Mobile first media queries
 $medium-up: new-breakpoint(min-width $md-screen);
 $large-up:  new-breakpoint(min-width $lg-screen);
 $xlarge-up: new-breakpoint(min-width $lg-screen);
+
+// Desktop first media queries
+$medium-down: new-breakpoint(max-width $md-screen - 1);
+$large-down:  new-breakpoint(max-width $lg-screen - 1);
+$xlarge-down: new-breakpoint(max-width $lg-screen - 1);
 
 // Isolated media queries
 $small:     new-breakpoint(max-width $md-screen);

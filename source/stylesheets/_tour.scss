@@ -5,14 +5,16 @@ section.features {
 .feature {
   border-bottom: $base-border;
   padding: 5em $side-padding;
+  text-align: center;
 }
 
 .feature-image {
   position: relative;
-  text-align: center;
+  margin-bottom: 2em;
 
   @include media($large-up) {
     @include span-columns(7);
+    margin-bottom: 0;
     padding-right: 2em;
   }
 }
@@ -20,6 +22,7 @@ section.features {
 .feature-text {
   @include media($large-up) {
     @include span-columns(5);
+    text-align: left;
   }
 }
 

@@ -1,0 +1,11 @@
+.mobile-only {
+  @include media($medium-up) {
+    display: none;
+  }
+}
+
+.screen-only {
+  @include media($medium-down) {
+    display: none;
+  }
+}

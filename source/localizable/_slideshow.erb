@@ -1,27 +1,51 @@
-<div class="row">
-  <div class="slideshow-screens">
-    <div class="browser intrinsic-ratio">
-      <div class="browser-ooo"></div>
-      <div class="browser-viewport">
+<!-- <section class="slideshow"> -->
+<section class="slideshow inverted">
+  <div class="row">
 
-      <% t("slideshow.features").each_with_index do |feature, index| -%>
-        <%= image_tag feature[:screenshot], alt: feature[:screenshot_alt], class: (index == 0 ? "active" : nil) %>
-      <% end %>
+    <div class="screen-only">
+      <div class="slideshow-screens">
+        <div class="browser intrinsic-ratio">
+          <div class="browser-ooo"></div>
+          <div class="browser-viewport">
 
+            <% t("slideshow.features").each_with_index do |feature, index| -%>
+              <%= image_tag feature[:screenshot], alt: feature[:screenshot_alt], class: (index == 0 ? "active" : nil) %>
+            <% end %>
+
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-nav">
+        <ul>
+
+          <% t("slideshow.features").each_with_index do |feature, index| -%>
+            <li class="slideshow-text <%= "active" if index == 0 %>">
+              <h4><%= feature[:title] %></h4>
+              <p><%= markdown feature[:text_md] %></p>
+            </li>
+          <% end %>
+
+        </ul>
       </div>
     </div>
+
+    <div class="mobile-only">
+      <% t("slideshow.features").each do |feature| -%>
+
+        <div class="browser intrinsic-ratio">
+          <div class="browser-ooo"></div>
+          <div class="browser-viewport">
+            <%= image_tag feature[:screenshot], alt: feature[:screenshot_alt] %>
+          </div>
+        </div>
+
+        <div class="slideshow-text">
+          <h4><%= feature[:title] %></h4>
+          <p><%= markdown feature[:text_md] %></p>
+        </div>
+
+      <% end %>
+    </div>
+
   </div>
-
-  <div class="slideshow-nav">
-    <ul>
-
-    <% t("slideshow.features").each_with_index do |feature, index| -%>
-      <li class="<%= "active" if index == 0 %>">
-        <h4><%= feature[:title] %></h4>
-        <p><%= markdown feature[:text_md] %></p>
-      </li>
-    <% end %>
-
-    </ul>
-  </div>
-</div>
+</section>

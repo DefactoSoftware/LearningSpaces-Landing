@@ -8,7 +8,7 @@ header_class: header-hero
     <h1><span class="focus">Focus</span> your team’s learning efforts</h1>
 
     <br>
-    <a href="https://public.learningspaces-staging.io/accounts/new" class="button button-rounded button-hover button-navy">Get started</a>
+    <a href="https://public.learningspaces-staging.io/accounts/new" class="button button-rounded button-hover button-navy">Try now, it's free!</a>
     &nbsp;&nbsp; or &nbsp;&nbsp;
     <%= link_to "Take Tour", "tour.html", class: "button button-rounded button-outline button-white" %>
 
@@ -17,8 +17,8 @@ header_class: header-hero
         LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
       </div>
       <div class="author">
-        <span class="name">Marcel Horlings,</span>
-        <span class="company">Training Consultant at Pushup</span>
+        <span class="name">Joep Lenglet,</span>
+        <span class="company">Learning Consultant at Defacto</span>
       </div>
     </blockquote>
   </div>
@@ -40,54 +40,9 @@ header_class: header-hero
   </div>
 </section> -->
 
-<section class="slideshow inverted">
-  <%#= partial :slideshow %>
-
-  <div class="row">
-    <div class="slideshow-screens">
-      <div class="browser">
-        <div class="browser-ooo"></div>
-        <div class="browser-viewport">
-          <%= image_tag "screenshots/spaces.jpg", alt: "Spaces", class: "active" %>
-          <%= image_tag "screenshots/paths.jpg", alt: "Paths" %>
-          <%= image_tag "screenshots/editor.jpg", alt: "Editor" %>
-        </div>
-      </div>
-    </div>
-    <div class="slideshow-nav">
-      <ul>
-        <li class="active">
-          <h4>Your own Learning Community</h4>
-          <p>
-            Spaces are the key to your team’s knowledge library. Create your own courses and guides or embed existing material.
-            Share and collaborate with your team, whether you’re at work, at home or on the road.
-          </p>
-        </li>
-        <li>
-          <h4>Organize Your Knowledge</h4>
-          <p>
-            Paths keep your team focused and ensure everyone meets their learning goals.
-            Whether someone is learning a new skill or training for a specific role,
-            Paths ensure they everyone meet their learning goals.
-          </p>
-        </li>
-        <li>
-          <h4>Write Better and Faster</h4>
-          <p>
-            Our split-screen editor lets you focus on writing content. With Markdown on the left and a live preview on the right, you can type and format content on-the-fly.
-            Embed and share images, videos and documents with ease.
-          </p>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
+<%= partial :slideshow %>
 
 <%= partial :for_who %>
-
-<section class="slideshow">
-  <%= partial :slideshow %>
-</section>
 
 <%= partial :conversion_signup %>
 
@@ -96,12 +51,12 @@ header_class: header-hero
 
     <blockquote class="quote">
       <div class="text">
-        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team, or even with the outside world. Depending on your needs, LearningSpaces can be anything from an interactive knowledge ...
+        With LearningSpaces I can take my personal development into my own hands, while contributing to the learning process of others.
       </div>
       <div class="author">
-        <img src="http://www.gravatar.com/avatar/139b3db8d38f186715ca69e21586d65b.png" alt="Marcel Horlings" class="avatar">
-        <span class="name">Marcel Horlings</span>
-        <span class="company">Training Consultant, Pushup</span>
+        <%= image_tag "avatars/michael_hebben.jpg", alt: "Michael Hebben", class: "avatar" %>
+        <span class="name">Michael Hebben</span>
+        <span class="company">Corporate Learning Consultant</span>
       </div>
     </blockquote>
 
@@ -110,7 +65,7 @@ header_class: header-hero
         LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team, or even with the outside world. Depending on your needs, LearningSpaces can be anything from an interactive knowledge ...
       </div>
       <div class="author">
-        <img src="http://www.defacto.nl/images/team/steef-0694e5a4.jpg" alt="Steef Sinkeler" class="avatar">
+        <%= image_tag "http://www.defacto.nl/images/team/steef-0694e5a4.jpg", alt: "Steef Sinkeler", class: "avatar" %>
         <span class="name">Steef Sinkeler</span>
         <span class="company">Learning Strategist, Defacto</span>
       </div>
@@ -121,7 +76,7 @@ header_class: header-hero
         LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team, or even with the outside world. Depending on your needs, LearningSpaces can be anything from an interactive knowledge ...
       </div>
       <div class="author">
-        <img src="http://www.gravatar.com/avatar/146d251aff43bf8bec160db29f33a244.png" alt="Isabela Wojtowicz" class="avatar">
+        <%= image_tag "http://www.gravatar.com/avatar/146d251aff43bf8bec160db29f33a244.png", alt: "Isabela Wojtowicz", class: "avatar" %>
         <span class="name">Isabela Wojtowicz</span>
         <span class="company">Training Consultant, Pushup</span>
       </div>

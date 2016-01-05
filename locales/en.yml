@@ -5,18 +5,18 @@ en:
     features:
       - screenshot: screenshots/spaces.jpg
         screenshot_alt: Spaces
-        title: Create Meaningful Content
-        text_md: Create meaningful content to share with your team. Write in markdown in our beautiful and intuitive editor to get your story right. You'll love it. Or just drop in a Youtube link and we'll take care of the rest.
+        title: Your own Learning Community
+        text_md: Spaces are the key to your team’s knowledge library. Create your own courses and guides or embed existing material. Share and collaborate with your team, whether you’re at work, at home or on the road.
 
       - screenshot: screenshots/paths.jpg
         screenshot_alt: Paths
         title: Organize Your Knowledge
-        text_md: Organize your knowledge base into flowing, engaging and rewarding learning experiences. Highlight and track the important stuff. Because some things are vital, others just good to know.
+        text_md: Paths keep your team focused and ensure everyone meets their learning goals. Whether someone is learning a new skill or training for a specific role, Paths help you highlight and track the important stuff.
 
       - screenshot: screenshots/editor.jpg
-        screenshot_alt: Comments
-        title: Share Your Knowledge
-        text_md: A learning community for your team. Set up quizzes, assignments or discussions around specific topics. Want to share something with the outside world? We got you covered. Because the best learning is social learning.
+        screenshot_alt: Editor
+        title: Write Better and Faster
+        text_md: Our split-screen editor lets you focus on writing. With Markdown on the left and a live preview on the right, you can type and format content on-the-fly. Embed and share images, videos and documents with ease.
 
   # Tour page
   tour:

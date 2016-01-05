@@ -7,7 +7,7 @@
 
   background: $slideshow-background-color;
   color: $slideshow-color;
-  padding: 2em $side-padding;
+  padding: 4em $side-padding 2em;
 
   @include media($medium-up) {
     padding: 3em $side-padding;
@@ -32,30 +32,60 @@
       @include span-columns(7.5);
       padding: 0 2em 0 0;
     }
+  }
 
-    .browser {
-      border-bottom: none;
+  .browser {
+    border-bottom: none;
 
-      img {
-        display: none;
-        width: 100%;
+    img {
+      display: none;
+      width: 100%;
 
-        &.active {
-          display: block;
-        }
-      }
-
-      &.intrinsic-ratio img {
+      &.active {
         display: block;
-        opacity: 0;
-        transition: opacity 1ms $base-timing 0.4s;
-
-        &.active {
-          opacity: 1;
-          transition: opacity 0.4s $base-timing;
-          z-index: 1;
-        }
       }
+
+      @include media($medium-down) {
+        display: block !important;
+        opacity: 1 !important;
+      }
+    }
+
+    &.intrinsic-ratio img {
+      display: block;
+      opacity: 0;
+      transition: opacity 1ms $base-timing 0.4s;
+
+      &.active {
+        opacity: 1;
+        transition: opacity 0.4s $base-timing;
+        z-index: 1;
+      }
+    }
+  }
+
+  .slideshow-text {
+    margin: 2em 0 3em;
+    text-align: center;
+
+    @include media($medium-up) {
+      margin: 0;
+      text-align: left;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 900;
+      margin-bottom: 0.4em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: #fff;
     }
   }
 
@@ -83,8 +113,6 @@
         @include span-columns(4);
         margin-bottom: 0;
       }
-
-      // @include media($large-up) {}
 
       &:last-of-type {
         margin-bottom: 0;
@@ -140,21 +168,6 @@
         }
       }
     }
-
-    h4 {
-      color: #fff;
-      font-size: 1.2rem;
-      font-weight: 900;
-      margin-bottom: 0.4em;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    a {
-      color: #fff;
-    }
   }
 
   // Alternative styling
@@ -173,6 +186,21 @@
     .slideshow-screens {
       .browser {
         box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .slideshow-text {
+      h4 {
+        color: $base-header-color;
+      }
+
+      a {
+        color: $slideshow-color;
+
+        &:active,
+        &:hover {
+          color: $green;
+        }
       }
     }
 
@@ -204,19 +232,6 @@
               border-right-color: $slideshow-background-color;
             }
           }
-        }
-      }
-
-      h4 {
-        color: $base-header-color;
-      }
-
-      a {
-        color: $slideshow-color;
-
-        &:active,
-        &:hover {
-          color: $green;
         }
       }
     }

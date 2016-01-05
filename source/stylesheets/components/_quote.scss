@@ -1,3 +1,5 @@
+// Quote (text balloon)
+
 .quote {
   $border-color: #dde1e6;
 
@@ -53,13 +55,15 @@
   }
 }
 
+// Quote (text between quotation marks)
+
 .quote2 {
   text-align: center;
 
   .text {
     font-size: 2rem;
     line-height: 1.4;
-    margin-bottom: 1.5em;
+    margin: 1.5em;
 
     span {
       display: none;
@@ -67,7 +71,7 @@
 
     &::before,
     &::after {
-      color: lighten($secondary-font-color, 5%);
+      color: lighten($secondary-font-color, 10%);
       content: '“';
       font-family: "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
       font-size: 60px;
@@ -116,6 +120,7 @@
         color: inherit;
       }
     }
+
     .author {
       color: #fff;
       font-size: 1rem;

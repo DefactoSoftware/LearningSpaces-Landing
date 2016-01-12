@@ -23,6 +23,10 @@ $faq-icon-color: $green;
 }
 
 .faq-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
   > li {
     border-bottom: 2px solid #e9edf5;
     position: relative;

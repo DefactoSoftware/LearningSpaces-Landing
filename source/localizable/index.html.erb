@@ -9,10 +9,10 @@ header_class: header-hero
 
     <br>
     <a href="https://public.learningspaces-staging.io/accounts/new" class="button button-rounded button-hover button-navy">Try now, it's free!</a>
-    &nbsp;&nbsp; or &nbsp;&nbsp;
+    <span class="or">or</span>
     <%= link_to "Take Tour", "tour.html", class: "button button-rounded button-outline button-white" %>
 
-    <blockquote class="quote2">
+    <blockquote class="quote">
       <div class="text">
         LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
       </div>
@@ -24,32 +24,16 @@ header_class: header-hero
   </div>
 </div>
 
-<!-- <section class="quotes2">
-  <div class="row">
-
-    <blockquote class="quote2">
-      <div class="text">
-        LearningSpaces lets you quickly set up a learning community where you can create and share knowledge with your team.
-      </div>
-      <div class="author">
-        <span class="name">Marcel Horlings,</span>
-        <span class="company">Training Consultant, Pushup</span>
-      </div>
-    </blockquote>
-
-  </div>
-</section> -->
-
 <%= partial :slideshow %>
 
 <%= partial :for_who %>
 
-<%= partial :conversion_signup %>
+<%= partial :cta_signup %>
 
 <section class="quotes">
   <div class="row">
 
-    <blockquote class="quote">
+    <blockquote class="quote-balloon">
       <div class="text">
         With LearningSpaces I can take my personal development into my own hands, while contributing to the learning process of others.
       </div>
@@ -60,7 +44,7 @@ header_class: header-hero
       </div>
     </blockquote>
 
-    <blockquote class="quote">
+    <blockquote class="quote-balloon">
       <div class="text">
         LearningSpaces helps my department by enabling informal learning and knowledge sharing.
       </div>
@@ -71,7 +55,7 @@ header_class: header-hero
       </div>
     </blockquote>
 
-    <blockquote class="quote">
+    <blockquote class="quote-balloon">
       <div class="text">
         We use LearningSpaces in our trainee program for trainings, workshops and coaching. Managing assignments, evaluations, discussions and practical information is easy - and it helps us stay in touch with our trainees.
       </div>

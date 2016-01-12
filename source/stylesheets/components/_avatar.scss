@@ -5,7 +5,7 @@
 }
 
 .avatar {
-  @include avatar-size(60px);
+  @include avatar-size(50px);
   @include user-select(none);
   background-color: #fbfbfb;
   border-radius: 50%;

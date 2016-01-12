@@ -80,26 +80,22 @@ section {
     max-width: 1200px;
   }
 
-  .quote {
+  .quote-balloon {
     @include media($medium-up) {
       @include span-columns(4);
     }
   }
 }
 
-.quotes2 {
-  padding: 4em $side-padding;
-}
-
-.signup {
+.cta-signup {
   background: #eceef3;
-  padding: 4em $side-padding;
+  padding: 3em $side-padding;
   text-align: center;
 
   h3,
   .button {
     display: inline-block;
-    margin: 0 1em;
+    margin: 15px 1em;
     vertical-align: middle;
   }
 }
@@ -119,14 +115,14 @@ section {
   }
 
   .avatar {
-    @include avatar-size(100px);
+    @include avatar-size(80px);
     margin-bottom: 10px;
   }
 
   span {
     color: #4a4a4a;
     display: block;
+    font-size: 0.9em;
     font-weight: 700;
   }
 }
-

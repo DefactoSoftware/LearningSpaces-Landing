@@ -68,3 +68,10 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+
+blockquote {
+  border-left: 5px solid #eee;
+  font-size: 1.4rem;
+  margin: 0 0 $small-spacing;
+  padding: 10px 20px;
+}

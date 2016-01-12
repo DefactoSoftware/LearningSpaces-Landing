@@ -1,9 +1,12 @@
 .footer {
   $color: #9e9ea6;
 
+  @include clearfix;
+  background: lighten($light-gray, 8%);
   border-top: $base-border;
   color: $color;
   padding: 2em $side-padding;
+  text-align: center;
 
   a {
     color: $color;
@@ -12,6 +15,50 @@
     &:hover,
     &:active {
       color: darken($color, 15%);
+    }
+  }
+
+  nav {
+    display: block;
+    margin-left: 20px;
+
+    @include media($large-up) {
+      display: inline-block;
+    }
+
+    a {
+      display: inline-block;
+      font-weight: 700;
+      padding: 0px 8px;
+      border-right: 1px solid $light-gray;
+
+      &:last-of-type {
+        border: 0;
+      }
+    }
+  }
+
+  .social {
+    display: block;
+    margin: 20px 0;
+
+    @include media($large-up) {
+      float: right;
+      margin: -5px 60px 0 0;
+    }
+
+    @include media(min-width 1130px) {
+      margin-right: 0;
+    }
+  }
+
+  .copyright {
+    display: block;
+    font-size: 0.9em;
+
+    @include media($large-up) {
+      float: left;
+      font-size: 1em;
     }
   }
 }

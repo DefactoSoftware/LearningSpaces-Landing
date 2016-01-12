@@ -1,0 +1,41 @@
+// ------------------------------------------------------------
+// Google Fonts
+// ------------------------------------------------------------
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,700italic,400italic,900italic);
+
+// ------------------------------------------------------------
+// Icons from IcoMoon: http://icomoon.io/app
+// To update the iconset you can import app/assets/fonts/icons/selection.json
+//
+// When icons are updated a .woff2 should be created as well:
+// https://everythingfonts.com/woff-to-woff2
+// ------------------------------------------------------------
+
+@include font-face(icons, "fonts/icons/icons", $asset-pipeline: true);
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e600";
+}
+.icon-google-plus:before {
+  content: "\e601";
+}
+.icon-linkedin:before {
+  content: "\e602";
+}
+.icon-facebook:before {
+  content: "\e603";
+}

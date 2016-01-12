@@ -1,0 +1,25 @@
+.social {
+  $icon-size: 44px;
+
+  text-align: center;
+
+  a {
+    @include transition(all $base-duration ease);
+    border-radius: 50%;
+    background: $light-gray;
+    color: $action-color;
+    display: inline-block;
+    font-size: $icon-size * 0.55;
+    height: $icon-size;
+    line-height: $icon-size;
+    margin: 0 4px;
+    text-align: center;
+    width: $icon-size;
+
+    &:hover,
+    &:active {
+      background: $action-color;
+      color: #fff;
+    }
+  }
+}

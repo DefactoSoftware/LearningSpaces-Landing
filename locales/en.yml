@@ -94,7 +94,7 @@ en:
       - title: Getting Started
         questions:
           - q: Do I need to install something to get started?
-            a: No, LearningSpaces runs in any browser as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service){:target="_blank"}, on any device and without dependencies.
+            a: No, LearningSpaces runs in any (modern) browser as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service){:target="_blank"}, on any device and without dependencies.
           - q: How do create a new Team?
           - q: How do I join a Team?
           - q: Where can I log in?
@@ -120,4 +120,4 @@ en:
       - title: Help &amp; Support
         questions:
           - q: I have a question, where can I ask it?
-            a: Check the Knowledgebase, else Intercom bla bla
+            a: If you can't find an answer to your question in this FAQ, we are here to answer your question personally. By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team. We'll respond as soon as possible (average response time of about one minute).

@@ -1,12 +1,15 @@
 #!/bin/bash
 
-cd "$(dirname "$0")"
+cd $(dirname $0)
 
-# Build the site
 echo "Building site ..."
 bundle exec middleman build
 
-# Sync with s3
+if [ $? -ne 0 ]; then
+  echo "Build failed, skipping deployment."
+  exit 1
+fi
+
 # www.learningspaces.io.s3-website.eu-central-1.amazonaws.com
 echo "Deploying to s3 ..."
 aws s3 sync build/ s3://www.learningspaces.io/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"

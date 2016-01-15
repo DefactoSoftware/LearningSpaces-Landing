@@ -1,0 +1,118 @@
+body.login {
+  background: $green url(image-path("pattern.jpg")) no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+
+  @include media($medium-up) {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .panel-wrapper {
+    box-orient: vertical;
+    display: flex;
+    flex-direction: column;
+    padding: 92px 0;
+    width: 100%;
+
+    @include media($medium-up) {
+      margin: 0 auto;
+      max-width: 540px;
+    }
+  }
+
+  .panel {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+    margin: $small-spacing $side-padding;
+    padding: 30px;
+    position: relative;
+    text-align: left;
+
+    h1 {
+      font-size: 1.4em;
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .button {
+      outline: none;
+      width: 100%;
+
+      @include media($medium-up) {
+        width: auto;
+      }
+    }
+  }
+
+  .input-group {
+    border-collapse: separate;
+    display: table;
+    margin-bottom: $base-spacing;
+    position: relative;
+    width: 100%;
+
+    @include media($medium-up) {
+      display: inline-table;
+      vertical-align: middle;
+    }
+
+    input {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      display: table-cell;
+      height: 42px;
+      margin-bottom: 0;
+      text-align: right;
+    }
+
+    .input-addon {
+      background-color: rgba($light-gray, 0.7);
+      border-left: none;
+      border-radius: $base-border-radius;
+      border: 1px solid $form-box-shadow;
+      color: rgba($dark-gray, 0.8);
+      display: table-cell;
+      font-size: 0.9em;
+      height: 42px;
+      padding: 0 ($base-spacing / 3);
+      text-align: left;
+      vertical-align: middle;
+
+      &:last-child {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+
+  #error {
+    color: $red;
+    display: none;
+    font-size: 0.9em;
+    margin-top: -$small-spacing * 2;
+    margin-bottom: $small-spacing;
+  }
+
+  .panel-links {
+    line-height: 1.4;
+    margin-bottom: 92px;
+    padding: 0 $side-padding;
+    text-align: center;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  .footer {
+    display: none;
+  }
+}

@@ -3,26 +3,24 @@ title: Login
 header_class: header-hero
 ---
 
-<div class="hero small">
-  <div class="row">
-  <h1>Log In</h1>
-  </div>
-</div>
-
-<section class="container">
-  <div class="row">
-    <p>Enter your team's LearningSpaces domain:</p>
+<div class="panel-wrapper">
+  <div class="panel">
+    <h1>Login</h1>
+    <p>Please enter your team's LearningSpaces domain:</p>
 
     <div class="input-group">
-      <input type="text" name="subdomain" id="subdomain" value="" placeholder="domain">
+      <input type="text" name="subdomain" id="subdomain" placeholder="domain">
       <span id="tld" class="input-addon">.learningspaces.io</span>
     </div>
-    <button class="button button-green" id="continue">Continue</button>
+
     <div id="error">Could not find that domain.</div>
-    <div class-"row">
-      <a href="https://public.learningspaces-staging.io/accounts/new">Trying to set up LearningSpaces for your team?</a>
-    </div>
+
+    <button class="button button-green" id="continue">Continue</button>
   </div>
-</section>
+
+  <div class="panel-links">
+    <a href="https://public.learningspaces-staging.io/accounts/new">Trying to set up LearningSpaces for your team?</a>
+  </div>
+</div>
 
 <%= javascript_include_tag "login" %>

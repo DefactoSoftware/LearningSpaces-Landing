@@ -75,3 +75,13 @@ blockquote {
   margin: 0 0 $small-spacing;
   padding: 10px 20px;
 }
+
+tt,
+code {
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+  color: darken($base-font-color, 10%);
+  font-size: 85%;
+  margin: 0;
+  padding: 0.2em;
+}

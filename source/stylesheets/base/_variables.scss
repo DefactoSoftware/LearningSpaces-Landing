@@ -28,7 +28,7 @@ $medium-gray: #757575;
 $light-gray: #e5e5e5;
 
 // Font Colors
-$base-font-color: $medium-gray;
+$base-font-color: darken($medium-gray, 5%);
 $secondary-font-color: #b8bdcc;
 $base-header-color: $dark-gray;
 $action-color: $green;

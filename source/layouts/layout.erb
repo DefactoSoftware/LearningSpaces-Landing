@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><%= current_page.data.title || "LearningSpaces" %></title>
+    <title><%= current_page.data.title || "LearningSpaces" %><%= " | LearningSpaces" unless current_page.path == "index.html" %></title>
     <%= tag(:meta, name: "description", content: current_page.data.description) if current_page.data.description -%>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= favicon_tag "favicon.ico" %>

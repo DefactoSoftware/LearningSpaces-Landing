@@ -1,18 +1,17 @@
+$hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
+
 // Focus animation
 @keyframes focus {
   0% {
-    color: #fff;
-    text-shadow: none;
+    text-shadow: $hero-text-shadow;
   }
   50% {
-    color: transparent;
     text-shadow: 0 0 10px #fff,
                  0 0 20px #fff,
                  0 0 30px #fff;
   }
   100% {
-    color: #fff;
-    text-shadow: none;
+    text-shadow: $hero-text-shadow;
   }
 }
 
@@ -24,6 +23,7 @@
   font-size: 1.8rem;
   padding: 4em $side-padding 3em;
   text-align: center;
+  text-shadow: $hero-text-shadow;
 
   @include media($xlarge-up) {
     padding-top: 5em;
@@ -34,7 +34,6 @@
     font-weight: 900;
     margin: 0 auto 0.5em;
     max-width: 700px;
-    text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
 
     @include media($medium-up) {
       font-size: 4rem;

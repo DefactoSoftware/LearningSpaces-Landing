@@ -6,16 +6,16 @@ header_class: header-hero
 <div class="panel-wrapper">
   <div class="panel">
     <h1>Login</h1>
-    <p>Please enter your team's LearningSpaces domain:</p>
 
-    <div class="input-group">
-      <input type="text" name="subdomain" id="subdomain" placeholder="domain">
-      <span id="tld" class="input-addon">.learningspaces.io</span>
-    </div>
-
-    <div id="error">Could not find that domain.</div>
-
-    <button class="button button-green" id="continue">Continue</button>
+    <form id="login-form">
+      <p>Please enter your team's LearningSpaces domain:</p>
+      <div class="input-group">
+        <input type="text" name="subdomain" id="subdomain" placeholder="domain" autocomplete="subdomain" autofocus>
+        <span id="tld" class="input-addon">.learningspaces.io</span>
+      </div>
+      <div id="error">Could not find that domain.</div>
+      <button type="submit" class="button button-green">Continue</button>
+    </form>
   </div>
 
   <div class="panel-links">

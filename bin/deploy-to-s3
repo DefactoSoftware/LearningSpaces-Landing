@@ -6,6 +6,10 @@ cd "$(dirname "$0")/.."
 # build the site
 echo "Building site ..."
 bundle exec middleman build
+if [ $? -ne 0 ]; then
+  echo "Build failed, skipping deployment."
+  exit 1
+fi
 
 # copy build to deploy
 echo "Preparing for deploy ..."

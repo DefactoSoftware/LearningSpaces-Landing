@@ -67,52 +67,58 @@ en:
         questions:
           - q: What is LearningSpaces exactly?
             a: LearningSpaces is a platform aimed at sharing knowledge in the easiest way possible. You can share gems like the family recipe for your grandma’s delicious apple pie or the latest insights on sales strategies with the sales team. We believe knowledge is our most valuable commodity, so we should make sharing what we know fast, easy and accessible.
-          - q: How do I know if LearningSpaces is right for me and my team?
-            a: LearningSpaces is right for everyone. We love small teams and start-ups and that’s why we offer LearningSpaces for free for teams up to 10 people. LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going, so you have some time to get to know LearningSpaces.
-          - q: What is so easy about LearningSpaces?
-            a: No matter what kind of content you want to share, LearningSpaces can handle it. Audio, pictures, Youtube videos, you name it, LearningSpaces helps you share it. Because knowledge is not just about text, it’s about interaction. And if you convert a presentation to a PDF, LearningSpaces will be able to show you the slides.
-          - q: How fast is LearningSpaces?
-            a: With LearningSpaces, sharing a gem of knowledge will take you no more than few minutes, including the addition of videos, pictures, links and the styling of the text. And by collaborating with your teammates, adding and updating knowledge are both just as easy.
-          - q: And how accessible is LearningSpaces?
-            a: LearningSpaces is designed to work flawlessly on every device, whether it’s a desktop, laptop, tablet or a phone. You can access LearningSpaces at any place, no matter where and when you are online.
-          - q: Can I use video and pictures in LearningSpaces?
-            a: Yes, you can. Adding video, pictures or audio is easy, because we take care of uploading your files. But don’t worry, your content is yours, so no-one else can access it, unless you want to!
-          - q: How does text formatting work in LearninSpaces?
-            a: LearningSpaces supports [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}, the easiest way to format text on the web. With our [split-screen](/tour/#write-better-and-faster) editor you type Markdown on the left and see the preview on the right.
-          - q: Can I share my content with people not connected to LearningSpaces?
-            a: LearningSpaces allows you to share certain content with the outside world. Whether it is by link or e-mail with specific people, or by social media (LinkedIn, Facebook and Twitter) with the rest of the world.
+          - q: What makes LearningSpaces so easy to use?
+            a: With LearningSpaces, sharing your knowledge is easy. Write using [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}, the fastest way to format content on the web. With our [split-screen](/tour/#write-better-and-faster) editor you type Markdown on the left and see the preview on the right. Upload or embed images, videos (Youtube, Vimeo, etc.), and share documents (Dropbox, Google Drive, etc.) by pasting the link or dragging them into your content. Work in draft mode as you write and publish when you’re finished.
+          - q: How accessible is LearningSpaces?
+            a: LearningSpaces is designed to work flawlessly on every device, whether it’s a desktop, laptop, tablet or a phone. You and your team can access LearningSpaces everywhere, no matter where and when you are online. Don’t worry, your content is save with us. No-one else can access it, unless you want them to!
+          - q: How do I embed video and images in LearningSpaces?
+            a: Embedding and sharing video, images or audio is easy, because we take care of uploading your files. Besides uploading to LeasningSpaces you can also share videos from Youtube and Vimeo by typing or pasting its link.
+          - q: How do I embed content from Dropbox or Google Drive?
+            a: You can type or paste share links from Dropbox or Google Drive, and LearningSpaces will automatically embed it’s content.
           - q: Can I collaborate on content with my team?
-            a: Absolutely! Since LearningSpaces is designed to help you and your team share knowledge, collaborating with your teammates is key. Whether it is commenting on knowledge shared by your teammates, working together on new content for onboarding your new hires or quizzing your teammates, interaction and collaboration are at the centre of LearningSpaces. And LearningSpaces rewards you for efforts, by giving you Reputation. Not only does this make you awesome, it helps your teammates identify you as the one with the experience and the knowledge. The ultimate goal is to share knowledge from everyone with everyone.
+            a: Absolutely! Since LearningSpaces is designed to help you and your team share knowledge, collaborating with your teammates is the key. Whether you are working together on new content or auditing what was shared with you. Discuss and comment on what others have to say or test your team by creating quizes or assignments. You will be rewarded for your efforts by receiving Reputation. Not only does this make you awesome, it helps your teammates identify you as the one with the experience and knowledge. Interaction and collaboration are at the centre of LearningSpaces, and the ultimate goal is to share knowledge from everyone with everyone.
+          - q: Can I share my content with people not connected to LearningSpaces?
+            a: LearningSpaces allows you to share certain content with the outside world. Whether it is by link or email with specific people, or by social media (Facebook, Twitter, LinkedIn, etc.) with the rest of the world.
           - q: Can I integrate LearningSpaces with other software?
-            a: To help you get results out of LearningSpaces, we have integrated the [xAPI](http://adlnet.gov/adl-research/performance-tracking-analysis/experience-api){:target="_blank"} or [Tin Can API](https://tincanapi.com){:target="_blank"} into LearningSpaces. This way it’s possible to use results from LearningSpaces in your HRD software, or even your business intelligence software. If you want LearningSpaces integrated into your current Learning Management Software, HRD software or BI software, feel free to contact us. We can always help you get connected.
-
-          - q: What does draft and publish mean exactly?
-          - q: What is a Chapter, Quiz and Assignment?
-          - q: What is a Path?
-          - q: Does it work on phones and tablets?
+            a: To help you get data from LearningSpaces, we have integrated the [xAPI](http://adlnet.gov/adl-research/performance-tracking-analysis/experience-api){:target="_blank"} or [Tin Can API](https://tincanapi.com){:target="_blank"}. This way it’s possible to use results from LearningSpaces in your HRD software, or even your business intelligence software. If you want LearningSpaces integrated into your current Learning Management Software, HRD software or BI software, feel free to contact us. We can always help you get connected.
+          #- q: Can I use dropbox / google drive?
+          #- q: What is a Chapter, Quiz and Assignment?
+          #- q: What is a Path?
+          #- q: What does draft and publish mean exactly?
 
       - title: Getting Started
         questions:
+          - q: Is LearningSpaces right for me and my team?
+            a: LearningSpaces is right for everyone. We love small teams and start-ups, that’s why we offer LearningSpaces (with all its features) for Free for teams up to 10 users. LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going, so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing).
           - q: Do I need to install something to get started?
-            a: No, LearningSpaces runs in any (modern) browser as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service){:target="_blank"}, on any device and without dependencies.
-          - q: How do create a new Team?
+            a: No, LearningSpaces runs in any (modern) browser as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service){:target="_blank"} (Software as a Service), on any device and without any dependencies.
+          - q: How do I create a new Team?
+            a: You can create a new team by [signing up](https://public.learningspaces.io/accounts/new){:target="_blank"} to LearningSpaces. You will be guided through a few steps to setup your team and invite other team members. Don’t worry, you can always change these settings later.
           - q: How do I join a Team?
+            a: To join a team you’ll have to get invited. Or if you know your team’s domain you can sign up at `teamdomain.learningspaces.io/register`.
           - q: Where can I log in?
-          - q: Where do I change team settings?
+            a: You can log in [here](/login). You will need your team’s domain which looks something like `teamdomain.learningspaces.io`.
+               Your login details can also be found in the registration email we’ve sent you.
+               Please note that you need to confirm your account before you can log in (sent to you by email).
+          - q: Where do I change my team’s settings?
+            a: As a team owner you can change you team’s settings and preferences by clicking the *Settings* in the sidebar, and then click *Team* in the menu.
 
       - title: Security &amp; Privacy
         questions:
-          - q: What about Privacy & security?
-            a: Your data are safe with us. We will never share your data with anyone. LearningSpaces uses the latest security protocols. Sometimes we even let hackers try to break into LearningSpaces to see whether we are vulnerable to data leaks.  And with LearningSpaces, you have full control over who has access to your LearningSpace, by the invitation-only option or by whitelisting only certain e-mail adresses. We also monitor for conspicuous activity on LearningSpaces, to intercept attempts at stealing data.
+          - q: What about privacy & security?
+            a: Your data are safe with us. We will never share your data with anyone. LearningSpaces uses the latest security protocols. Sometimes we even let hackers try to break into LearningSpaces to see whether we are vulnerable to data leaks. You have full control over who can access your community by using the invite-only option or by whitelisting only certain email addresses. We also monitor for conspicuous activity to intercept attempts at stealing data.
           - q: Who owns the data?
             a: You and your team always remain the owner of all data entered in your LearningSpace. And if you decide to stop using LearningSpaces (although why would you?), your data will be deleted after one year.
-          - q: So what if I don’t want others to join?
-          - q: Can I use dropbox / google drive?
-          - q: Integrations? xAPI
+          - q: How do I include or exclude users from my team?
+            a: As a team owner you can define which users can join your team by allowing email domains. For example when you whitelist `mycompany.com` everyone with an email address ending with that domain can sign up or log in. LearningSpaces also has an invite option, so it’s up to you who choose to invite. And of course you are able to deactivate users, or remove them all together.
 
-      - title: Billing &amp; Payments
+      - title: Pricing &amp; Billing
         questions:
           - q: What plan is right for me and my team?
+            a: LearningSpaces fits any team. First of all, we offer you a **60-day Free Trial** to get you and your team going.
+               Then LearningSpaces (with all its features) will be **Free for small teams** up to 10 users.
+               For larger teams we have the Value plan. And for really large teams (academies, large companies, large learning communities) we have the Enterprise plan.
+               **For all available plans check our [Plans page](/pricing)**.
           - q: What are the payment methods?
           - q: Do I only pay for active users?
             a: You pay for everyone registered to your LearningSpace, but we can monitor how many active users you have in your LearningSpace. If for whatever reason your team shrinks, we can help you adopt a new, more suitable payment plan.
@@ -120,4 +126,4 @@ en:
       - title: Help &amp; Support
         questions:
           - q: I have a question, where can I ask it?
-            a: If you can't find an answer to your question in this FAQ, we are here to answer your question personally. By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team. We'll respond as soon as possible (average response time of about one minute).
+            a: If you can’t find an answer to your question in this FAQ, we are here to answer your question personally. By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team. We'll respond as soon as possible (average response time of about one minute).

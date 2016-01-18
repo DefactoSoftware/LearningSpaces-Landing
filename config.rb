@@ -53,4 +53,22 @@ helpers do
   def markdown(string)
     Tilt['markdown'].new { string }.render(scope=self)
   end
+
+  def full_locale(lang=I18n.locale.to_s)
+    case lang
+      when "en"
+        "en_US"
+      else
+        "#{lang.downcase}_#{lang.upcase}"
+    end
+  end
+
+  # Get full url
+  def full_url(url)
+    URI.join("http://www.learningspaces.io", url)
+  end
+
+
 end
+
+

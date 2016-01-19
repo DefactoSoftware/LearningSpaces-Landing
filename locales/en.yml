@@ -79,6 +79,9 @@ en:
 
   # Tour page
   tour:
+    hero:
+      title: Tour
+      text: Focus your team’s learning efforts
     features:
       - title: Your own Learning Community
         text_md: |
@@ -119,8 +122,48 @@ en:
         text_md: "The user profile for every team member tells you what they’ve done and what they are doing."
         image: tour/profile.jpg
 
-  # FAQ page
+  # Pricing
+  pricing:
+    hero:
+      title: Pricing
+      text: LearningSpaces is available for everybody, from small teams to large enterprises.
+    features:
+      - All plans include unlimited Spaces, Paths and storage.
+      - Paid plans are billed annually and can be canceled at any time.
+    plans:
+      free:
+        title: Free
+        features:
+          - Free for up to 10 users
+          - For small teams or startups
+      value:
+        title: Value
+        features:
+          - Per user per month<br>billed annually
+          - Direct in-app support
+          - Cancel any time
+      enterprise:
+        title: Enterprise
+        call_us: Call us
+        features:
+          - Direct in-app support
+          - Initial user import
+          - Onboarding consultancy
+
+  # Login
+  login:
+    title: Login
+    text: "Please enter your team’s LearningSpaces domain:"
+    placeholder: domain
+    error: Could not find that domain.
+    submit: Continue
+    signup_link: Trying to set up LearningSpaces for your team?
+    signup_url: https://public.learningspaces.io/accounts/new
+
+  # FAQ
   faq:
+    hero:
+      title: Frequently asked questions
     categories:
       - title: Product
         questions:

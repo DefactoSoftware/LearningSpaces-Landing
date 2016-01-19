@@ -5,8 +5,8 @@ header_class: header-hero
 
 <div class="hero small">
   <div class="row">
-    <h1>Pricing</h1>
-    <p>LearningSpaces is available for everybody, from small teams to large enterprises.</p>
+    <h1><%= t("pricing.hero.title") %></h1>
+    <p><%= t("pricing.hero.text") %></p>
   </div>
 </div>
 
@@ -14,40 +14,41 @@ header_class: header-hero
   <div class="row plans">
 
     <div id="plan-free" class="plan">
-      <h3>Free</h3>
+      <h3><%= t("pricing.plans.free.title") %></h3>
       <div class="plan-price">
         <span class="currency">&euro;</span>0
       </div>
-      <p>Free for up to 10 users</p>
-      <p>For small teams or startups</p>
+      <% t("pricing.plans.free.features").each do |features| %>
+        <p><%= features %></p>
+      <% end %>
     </div>
 
     <div id="plan-value" class="plan">
-      <h3>Value</h3>
+      <h3><%= t("pricing.plans.value.title") %></h3>
       <div class="plan-price">
         <span class="currency">&euro;</span>2
         <!-- <span class="cents">99</span> -->
       </div>
-      <p>Per user per month<br>
-      billed annually</p>
-      <p>Direct in-app support</p>
-      <p>Cancel any time</p>
+      <% t("pricing.plans.value.features").each do |features| %>
+        <p><%= features %></p>
+      <% end %>
     </div>
 
     <div id="plan-enterprise" class="plan">
-      <h3>Enterprise</h3>
+      <h3><%= t("pricing.plans.enterprise.title") %></h3>
       <div class="plan-price text">
-        Call us
+        <%= t("pricing.plans.enterprise.call_us") %>
       </div>
-      <p>Direct in-app support</p>
-      <p>Initial user import</p>
-      <p>Onboarding consultancy</p>
+      <% t("pricing.plans.enterprise.features").each do |features| %>
+        <p><%= features %></p>
+      <% end %>
     </div>
 
   </div>
 
   <div class="row">
-    <p>All plans include unlimited Spaces, Paths and storage.</p>
-    <p>Paid plans are billed annually and can be canceled at any time.</p>
+    <% t("pricing.features").each do |features| %>
+      <p><%= features %></p>
+    <% end %>
   </div>
 </section>

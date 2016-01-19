@@ -11,12 +11,12 @@
   </button>
 
   <ul class="header-menu">
-    <li><%= link_to "Tour", "tour.html", class: "nav-link" %></li>
-    <li><%= link_to "Pricing", "pricing.html", class: "nav-link" %></li>
-    <li><%= link_to "FAQ", "faq.html", class: "nav-link" %></li>
-    <li><a href="http://blog.learningspaces.io" class="nav-link">Blog</a></li>
-    <li><%= link_to "Login", "login.html", class: "nav-link" %></li>
-    <li><%= link_to "Sign up", "https://public.learningspaces.io/accounts/new",
+    <li><%= link_to t("menu.tour"), "tour.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.pricing"), "pricing.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.faq"), "faq.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.blog"), "http://blog.learningspaces.io", class: "nav-link" %></li>
+    <li><%= link_to t("menu.login"), "login.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.signup"), "https://public.learningspaces.io/accounts/new",
         class: "button button-outline button-rounded nav-button" %></li>
   </ul>
 </nav>

@@ -5,21 +5,21 @@ header_class: header-hero
 
 <div class="panel-wrapper">
   <div class="panel">
-    <h1>Login</h1>
+    <h1><%= t("login.title") %></h1>
 
     <form id="login-form">
-      <p>Please enter your team's LearningSpaces domain:</p>
+      <p><%= t("login.text") %></p>
       <div class="input-group">
-        <input type="text" name="subdomain" id="subdomain" placeholder="domain" autocomplete="subdomain" autofocus>
+        <input type="text" name="subdomain" id="subdomain" placeholder="<%= t("login.placeholder") %>" autocomplete="subdomain" autofocus>
         <span id="tld" class="input-addon">.learningspaces.io</span>
       </div>
-      <div id="error">Could not find that domain.</div>
-      <button type="submit" class="button button-green">Continue</button>
+      <div id="error"><%= t("login.error") %></div>
+      <button type="submit" class="button button-green"><%= t("login.submit") %></button>
     </form>
   </div>
 
   <div class="panel-links">
-    <a href="https://public.learningspaces.io/accounts/new">Trying to set up LearningSpaces for your team?</a>
+    <a href="<%= t("login.signup_url") %>"><%= t("login.signup_link") %></a>
   </div>
 </div>
 

@@ -1,5 +1,37 @@
 ---
 en:
+  # Home
+  home:
+    hero:
+      title: <span class="focus">Focus</span> your team’s learning efforts
+      or: or
+      try_now: Try now, it’s free!
+      take_tour: Take Tour
+      quote:
+        text: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
+        author: Joep Lenglet,
+        company: Learning Consultant at Defacto
+
+  # Clients
+  clients:
+    text: We help teams facilitate collaborative knowledge sharing
+
+  # Contact
+  contact:
+    support:
+      title: Real human support
+      text: |
+        Have a question? We’re here to help!<br>
+        Just click the chat icon in the bottom-right corner.<br>
+        We’ll respond as soon as possible (average response time of about one minute).
+    contact:
+      title: Prefer the conventional way of contact?
+      text: |
+        Send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    team:
+      title: Meet the Team
+
   # Slideshow with screenshots
   slideshow:
     features:
@@ -17,6 +49,24 @@ en:
         screenshot_alt: Editor
         title: Write Better and Faster
         text_md: Our split-screen editor lets you focus on writing. With Markdown on the left and a live preview on the right, you can type and format content on-the-fly. Embed and share images, videos and documents with ease.
+
+  # Quotes
+  quotes:
+    - name: Michael Hebben
+      company: Corporate Learning Consultant
+      avatar: avatars/michael_hebben.jpg
+      text: With LearningSpaces I can take my personal development into my own hands, while contributing to the learning process of others.
+      #featured: true
+
+    - name: Ronald van Rheenen
+      company: Nuclear Medicine Physician, University Medical Center Groningen
+      avatar: avatars/ronald_van_rheenen.jpg
+      text: LearningSpaces helps my department by enabling informal learning and knowledge sharing.
+
+    - name: Esther Douma
+      company: Training Coordinator, DPA Benkis
+      avatar: avatars/esther_douma.jpg
+      text: We use LearningSpaces in our trainee program for trainings, workshops and coaching. Managing assignments, evaluations, discussions and practical information is easy - and it helps us stay in touch with our trainees.
 
   # Tour page
   tour:
@@ -60,7 +110,7 @@ en:
         text_md: "The user profile for every team member tells you what they’ve done and what they are doing."
         image: tour/profile.jpg
 
-  #FAQ page
+  # FAQ page
   faq:
     categories:
       - title: Product

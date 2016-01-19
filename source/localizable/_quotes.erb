@@ -1,0 +1,37 @@
+<%
+#
+# Usage:
+#
+#   partial :quotes, locals: {
+#     count: 3,         # amount of quotes (optional)
+#     featured: true    # sort by featured (optional)
+#   }
+#
+
+quotes = t("quotes")
+
+if defined?(featured) && featured
+  quotes = quotes.sort_by { |quote| quote[:featured] ? 0 : 1 }
+end
+
+if defined?(count)
+  quotes = quotes.take(count)
+end
+%>
+
+<section class="quotes">
+  <div class="row">
+
+  <% quotes.each do |quote| %>
+    <blockquote class="quote-balloon">
+      <div class="text"><%= quote[:text] %></div>
+      <div class="author">
+        <%= image_tag quote[:avatar], alt: quote[:name], class: "avatar" %>
+        <span class="name"><%= quote[:name] %></span>
+        <span class="company"><%= quote[:company] %></span>
+      </div>
+    </blockquote>
+  <% end %>
+
+  </div>
+</section>

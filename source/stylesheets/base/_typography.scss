@@ -44,14 +44,26 @@ p {
 }
 
 a {
+  $hover-color: shade($action-color, 25%);
+
   color: $action-color;
-  // text-decoration: none;
-  transition: color $base-duration $base-timing;
+  transition: border $base-duration $base-timing,
+              color $base-duration $base-timing;
 
   &:active,
-  // &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: $hover-color;
+  }
+
+  &.border {
+    border-bottom: 1px solid $action-color;
+    display: inline-block;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+      border-bottom-color: $hover-color;
+    }
   }
 }
 

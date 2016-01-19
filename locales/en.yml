@@ -1,5 +1,14 @@
 ---
 en:
+  # Menu
+  menu:
+    tour: Tour
+    pricing: Pricing
+    faq: FAQ
+    blog: Blog
+    login: Login
+    signup: Sign up
+
   # Home
   home:
     hero:

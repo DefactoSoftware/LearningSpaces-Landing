@@ -57,11 +57,10 @@ helpers do
   end
 
   def full_locale(lang=I18n.locale.to_s)
-    case lang
-      when "en"
-        "en_US"
-      else
-        "#{lang.downcase}_#{lang.upcase}"
+    if lang == "en"
+      "en_US"
+    else
+      "#{lang.downcase}_#{lang.upcase}"
     end
   end
 

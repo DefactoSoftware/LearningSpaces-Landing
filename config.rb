@@ -51,6 +51,13 @@ end
 ###
 
 helpers do
+  # Temp fix for middleman asset_url method
+  # https://github.com/middleman/middleman/issues/1772
+  def asset_url(path, prefix="", options={})
+    options_with_resource = options.merge(current_resource: current_resource)
+    ::Middleman::Util.asset_url(app, path, prefix, options_with_resource)
+  end
+
   # Parse Markdown
   def markdown(string)
     Tilt['markdown'].new { string }.render(scope=self)
@@ -66,10 +73,6 @@ helpers do
 
   # Get full url
   def full_url(url)
-    URI.join("http://www.learningspaces.io", url)
+    URI.join("http://www.learningspaces.#{t("tld")}", url)
   end
-
-
 end
-
-

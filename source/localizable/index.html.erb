@@ -1,7 +1,7 @@
 ---
 title: Welcome to LearningSpaces
-header_class: header-hero
 description: Focus your team's learning efforts
+header_class: header-hero
 ---
 
 <div class="hero">
@@ -9,7 +9,9 @@ description: Focus your team's learning efforts
     <h1><%= t("home.hero.title") %></h1>
 
     <br>
-    <a href="https://public.learningspaces.io/accounts/new" class="button button-rounded button-hover button-navy"><%= t("home.hero.try_now") %></a>
+    <a href="https://public.learningspaces.io/accounts/new" class="button button-rounded button-hover button-navy">
+      <%= t("home.hero.try_now") %>
+    </a>
     <span class="or"><%= t("home.hero.or") %></span>
     <%= link_to t("home.hero.take_tour"), "tour.html", class: "button button-rounded button-outline button-white" %>
 

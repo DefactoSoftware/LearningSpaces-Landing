@@ -25,7 +25,7 @@ page '/*.txt', layout: false
 # set :relative_links, true
 # activate :relative_assets
 
-activate :i18n, mount_at_root: :en
+activate :i18n, mount_at_root: :en, langs: [:en, :nl]
 activate :directory_indexes
 activate :autoprefixer
 
@@ -51,17 +51,24 @@ end
 ###
 
 helpers do
+  # Temp fix for middleman asset_url method
+  # https://github.com/middleman/middleman/issues/1772
+  def asset_url(path, prefix='', options={})
+    options_with_resource = options.merge(current_resource: current_resource)
+    ::Middleman::Util.asset_url(app, path, prefix, options_with_resource)
+  end
+
   # Parse Markdown
   def markdown(string)
     Tilt['markdown'].new { string }.render(scope=self)
   end
 
+  # Get full locale
   def full_locale(lang=I18n.locale.to_s)
-    case lang
-      when "en"
-        "en_US"
-      else
-        "#{lang.downcase}_#{lang.upcase}"
+    if lang == "en"
+      "en_US"
+    else
+      "#{lang.downcase}_#{lang.upcase}"
     end
   end
 
@@ -69,8 +76,4 @@ helpers do
   def full_url(url)
     URI.join("http://www.learningspaces.io", url)
   end
-
-
 end
-
-

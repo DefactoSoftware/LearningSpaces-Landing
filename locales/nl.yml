@@ -1,6 +1,47 @@
 nl:
   tld: nl
 
+  # Menu
+  menu:
+    tour: Tour
+    pricing: Prijzen
+    faq: FAQ
+    blog: Blog
+    login: Inloggen
+    signup: Registreer
+
+  # Home
+  home:
+    hero:
+      title: <span class="focus">Focus</span> your team’s learning efforts
+      or: of
+      try_now: Probeer gratis
+      take_tour: Neem de tour
+      quote:
+        text: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
+        author: Joep Lenglet,
+        company: Learning Consultant bij Defacto
+
+  # Clients
+  clients:
+    text: Wij helpen teams met het delen van kennis
+
+  # Contact
+  contact:
+    support:
+      title: Echte support
+      text: |
+        Heb je een vraag? Wij staan klaar om je te helpen.<br>
+        Klik op het chat icoontje rechtsonder.<br>
+        We reageren zo snel mogelijk (en dat is meestal binnen een minuut.
+    contact:
+      title: Liever mailen of bellen?
+      text: |
+        Stuur een mailtje naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        of bel <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    team:
+      title: Ons team
+
   # Slideshow with screenshots
   slideshow:
     features:
@@ -25,6 +66,44 @@ nl:
           Voeg eenvoudig plaatjes, videos en bestanden toe.
           Rechts zie je direct het eindresultaat.
           Zo kun je volledig focussen op het schrijven.
+
+  # For who?
+  for_who:
+    title: Wat kan LearningSpaces voor jou betekenen?
+    text: |
+      Met LearningSpaces kun je in no time een leercommunity
+      LearningSpaces lets you quickly set up a learning community.
+      Create and share knowledge with your team and beyond.
+      Depending on your needs, LearningSpaces can be anything from an interactive knowledge base to your internal training platform.
+    small_teams: Small Teams &amp; Startups
+    trainers: Trainers &amp; Educators
+    large_teams: Large Teams &amp; Organizations
+
+  # CTA
+  cta:
+    tagline: Klaar om LearningSpaces te proberen? Maak gratis een account aan.
+    sign_up: LearningSpaces proberen
+
+  # Quotes
+  quotes:
+    - name: Michael Hebben
+      company: Corporate Learning Consultant
+      avatar: avatars/michael_hebben.jpg
+      text: Met LearningSpaces kan ik regie voeren over mijn eigen leerproces terwijl ik een bijdrage lever aan het leerproces van een ander.
+      #featured: true
+
+    - name: Ronald van Rheenen
+      company: Nucleair geneeskundige, University Medical Center Groningen
+      avatar: avatars/ronald_van_rheenen.jpg
+      text: Learningspaces biedt mij de mogelijkheid om kennis te delen en kennis te nemen van anderen.
+
+    - name: Esther Douma
+      company: Training Coordinator, DPA Benkis
+      avatar: avatars/esther_douma.jpg
+      text: |
+        Learning Spaces helpt ons de communicatie met en tussen onze trainees duidelijk en soepel te laten verlopen.
+        We gebruiken de spaces voor het traineeprogramma bancair met verschillende trainingen, workshops en coaching.
+        Voorbereidigsopdrachten, evaluaties, onderlinge discussie en praktische informatie is zo heel gemakkelijk te beheren!
 
   # Tour page
   tour:
@@ -73,6 +152,43 @@ nl:
         text_md: "Heb je een vraag? Wij staan voor je klaar. Meestal binnen 1 minuut."
         image: tour/support.jpg
 
+# Pricing
+  pricing:
+    hero:
+      title: Prijzen
+      text: LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties.
+    features:
+      - Alle abonnementen omvatten onbeperkte Spaces, Paden en data.
+      - Abonnementen worden jaarlijks gefactureerd en kunnen op elk moment worden geannuleerd.
+    plans:
+      free:
+        title: Free
+        features:
+          - Gratis tot 10 gebruikers
+          - Voor kleine teams en startups
+      value:
+        title: Value
+        features:
+          - Per gebruiker per maand<br>jaarlijks gefactureerd.
+          - Directe in-app support
+          - Annuleren wanneer je wilt
+      enterprise:
+        title: Enterprise
+        call_us: Bel ons
+        features:
+          - Directe in-app support
+          - Initiële gebruikers import
+          - Onboarding en implementatie consultancy
+
+  # Login
+  login:
+    title: Inloggen
+    text: "Vul het LearningSpaces domein van je team in:"
+    placeholder: domein
+    error: Domein niet gevonden.
+    submit: Ga verder
+    signup_link: Probeer je een nieuwe omgeving voor je team te maken?
+    signup_url: https://public.learningspaces.nl/accounts/new
 
   #FAQ page
   faq:

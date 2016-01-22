@@ -1,5 +1,7 @@
 ---
 en:
+  tld: io
+
   # Menu
   menu:
     tour: Tour

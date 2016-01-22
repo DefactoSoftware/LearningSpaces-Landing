@@ -1,2 +1,246 @@
 nl:
   tld: nl
+
+  # Slideshow with screenshots
+  slideshow:
+    features:
+      - screenshot: screenshots/spaces.jpg
+        screenshot_alt: Spaces
+        title: Je eigen Learning Community
+        text_md: |
+          Spaces zijn de bouwstenen van je team's kenniscentrum.
+          Maak je eigen lessen en handleidingen of sluit bestaand materiaal in.
+          Deel kennis en werk samen met je team. Op je werk, thuis of onderweg.
+      - screenshot: screenshots/paths.jpg
+        screenshot_alt: Paden
+        title: Van Spaces naar Leerpaden
+        text_md: |
+          Paden brengen focus en helpen je team met het behalen van leerdoelen.
+          Bundel Spaces per onderwerp of per functie, en houd bij wat je nog moet doen.
+      - screenshot: screenshots/editor.jpg
+        screenshot_alt: Editor
+        title: Schrijf sneller en beter
+        text_md: |
+          Met onze intuïtieve editor schrijf je in Markdown.
+          Voeg eenvoudig plaatjes, videos en bestanden toe.
+          Rechts zie je direct het eindresultaat.
+          Zo kun je volledig focussen op het schrijven.
+
+  # Tour page
+  tour:
+    features:
+      - title: Je eigen Learning Community
+        text_md: |
+          **Spaces** zijn de bouwstenen van je team's kenniscentrum.
+          Maak je eigen lessen en handleidingen of sluit bestaand materiaal in.
+          Deel, werk samen en communiceer met je team. Op je werk, thuis of onderweg.
+        image: tour/spaces.jpg
+
+      - title: Bundel je kennis
+      # - title: Create Meaningful Content
+        text_md: |
+          Organiseer je kennis in boeiende en lonende leerervaringen.
+          Deel je content op in **Hoofdstukken**, **Quizzes** en **Opdrachten** om te testen wat je team geleerd heeft.
+        image: tour/chapters.jpg
+
+      - title: Schrijf sneller en beter
+        text_md: |
+          Richt je volledig op de inhoud met onze intuïtieve editor.
+          Met links [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} en rechts een live preview zie je direct hoe je leermateriaal eruit komt te zien.
+
+          Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
+          Begin met een concept en publiceer je content wanneer het af is.
+
+        image: tour/editor.jpg
+
+      - title: Werk samen met je team
+        text_md: "Voeg **auteurs** toe aan je Spaces. Auteurs kunnen eigen hoofdstukken aan jouw Space toevoegen. Zonder jouw materiaal te wijzigen."
+        image: tour/collaborate.jpg
+
+      - title: Meer focus met Paden
+        text_md: |
+          **Paden** brengen focus en helpen je team met het behalen van leerdoelen.
+          Bundel Spaces per onderwerp of per functie, en houd bij wat je nog moet doen.
+          Als je een Pad hebt voltooid, verschijnt deze als **achievement** op je profiel.
+          Zo kan iedereen zien wat jouw expertisegebied is.
+        image: tour/path.jpg
+
+      - title: Leer je team beter kennen
+        text_md: "Op de profielpagina's van je collega's kun je zien wat ze hebben geleerd en waar ze goed in zijn."
+        image: tour/profile.jpg
+
+      - title: Eersteklas live-support
+        text_md: "Heb je een vraag? Wij staan voor je klaar. Meestal binnen 1 minuut."
+        image: tour/support.jpg
+
+
+  #FAQ page
+  faq:
+    categories:
+      - title: Product
+        questions:
+          - q: Wat is LearningSpaces precies?
+            a: |
+              LearningSpaces is een platform gericht op het zo eenvoudig mogelijk delen van kennis voor teams.
+              De juiste instellingen van de netwerkprinter? De nieuwste verkoopstrategieën?
+              Wij geloven dat kennis het belangrijkste element is binnen elk team. Daarom willen we het delen van kennis
+              en ervaring snel, makkelijk en toegankelijk maken.
+
+          - q: Wat is er dan zo makkelijk aan LearningSpaces?
+            a:  |
+              Met LearningSpaces is het delen van kennis supersimpel. We beloven je dat je binnen een paar minuten op gang bent.
+              Nodig gewoon je hele team uit, en begin met het maken van Spaces.
+              Je schrijft links in [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}.
+              Rechts zie je in een live preview direct hoe je leermateriaal eruit komt te zien.
+              Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
+              Begin met een concept en publiceer je content wanneer het af is.
+
+          - q: Hoe voeg ik video's en afbeeldingen toe aan mijn Spaces?
+            a: |
+              Het insluiten of toevoegen van video, afbeeldingen of audio is eenvoudig. Sleep bestanden in de editor, dan doen wij de rest.
+              Of je plakt gewoon een link naar een afbeelding of video in de editor.
+
+          - q: Hoe voeg ik bestanden van Dropbox of Google Drive toe?
+            a: |
+              Heel simpel. Door de link naar zo'n bestand in de editor te plakken.
+              **Let op:** als je het bestand op Dropbox of Drive niet met je team deelt,
+              is het ook binnen LearningSpaces niet zichtbaar voor je team.
+              Lees [hier](https://www.dropbox.com/help/274?path=sharing_files_and_folders) meer over het linken naar bestanden in je Dropbox.
+              En [hier](https://support.google.com/drive/answer/2494822?hl=nl) vind je meer over het linken naar bestanden op Google Drive.
+
+          - q: Hoe vind iedereen de juiste content?
+            a: |
+              Gebruik Paden om je Spaces per onderwerp te bundelen. Je kunt zelfs bepalen welke Paden op
+              de voorpagina uitgelicht worden. En je kunt natuurlijk gebruik maken van de zoekfunctie.
+              Ten slotte: als er Spaces niet meer relevant zijn, kun je deze archiveren of verwijderen. En de meldingen en e-mails houden je
+              op de hoogte van wat er gebeurd is.
+
+          - q: Werkt LearningSpaces ook op mijn iPad?
+            a: |
+              LearningSpaces is ontworpen om feilloos op elk device te werken. En daarmee bedoelen we desktop, laptop, tablet en telefoon.
+              Het enige wat je nodig hebt is een internetverbinding.
+
+          - q: Wie kan er bij mijn content?
+            a: |
+              Met je team heb je in LearningSpaces een besloten leeromgeving.
+              Alleen geregistreerde en ingelogde gebruikers hebben toegang tot die omgeving.
+              En **jij** bepaalt wie zich kan registreren.
+
+              Als je dat wilt, kan **iedereen** zich registreren voor jouw omgeving.
+
+              Maar je kunt je omgeving ook afschermen op basis van e-mailadressen.
+              Zo kunnen bijvoorbeeld alleen mensen met een email die eindigt met `@jouwbedrijf.nl` zich registreren.
+
+              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren als jij ze via de applicatie hebt uitgenodigd.
+
+              Met andere woorden, jij hebt altijd de volledige controle over wie de content kan zien.
+
+          - q: Maar wat als ik content wil delen met mensen buiten mijn leeromgeving?
+            a: |
+              De eigenaar van een Space kan er voor kiezen om een unieke link te genereren, waarmee die Space zonder in te loggen toegankelijk is.
+              Dit principe ken je waarschijnlijk van Dropbox of Google Drive. Mensen met toegang tot deze *gedeelde Spaces* kunnen alleen lezen, dus
+              geen commentaar geven of opdrachten inleveren.
+
+          - q: Kan ik samenwerken met mijn team?
+            a: |
+              Jazeker! Van elkaar en met elkaar leren is *het* basisprincipe van LearningSpaces.
+              Nodig anderen uit om als **auteur** hoofdstukken toe te voegen aan jouw Spaces.
+              Test daarna de kennis van je collega's over jouw Spaces door een Quiz of Opdracht toe te voegen.
+              Geef commentaar op Spaces van je collega's om ze beter te maken of volg ze, zodat je per mail op de hoogte wordt gesteld van nieuwe hoofdstukken.
+              En alles wat je doet, wordt beloond met **Reputatie**, zodat iedereen weet wie de meeste expertise en ervaring heeft.
+              Het doel is kennis delen door iedereen, voor iedereen. Want hoe meer je samendoet, hoe beter jij *en* je team worden.
+
+          - q: Met welke andere software kan LearningSpaces integreren?
+            a: |
+              Om data uit LearningSpaces in andere software te gebruiken, hebben we de [xAPI](http://adlnet.gov/adl-research/performance-tracking-analysis/experience-api){:target="_blank"} of
+              [Tin Can API](https://tincanapi.com){:target="_blank"} geïmplementeerd.
+              Hiermee is het mogelijk om **alle** resultaten uit LearningSpaces in je HRD software, LMS, of Business Intelligence oplossing weer te geven.
+              Wil je LearningSpaces integreren met je huidige Learning Management System, HRD Software of BI oplossing? Neem contact met ons op.
+              We kunnen altijd naar een oplossing voor je zoeken.
+
+          #- q: What is a Chapter, Quiz and Assignment?
+          #- q: What is a Path?
+          #- q: What does draft and publish mean exactly?
+
+      - title: Beginnen met LearningSpaces
+        questions:
+          - q: Is LearningSpaces geschikt voor mijn team?
+            a: |
+              LearningSpaces is geschikt voor iedereen ;) We werken zelf in een klein team en houden van start-ups, daarom is LearningSpaces **gratis**
+              beschikbaar voor teams van 10 gebruikers.
+              Maar we werken ook veel samen met grotere organisaties, zoals ziekenhuizen en hogescholen.
+              LearningSpaces kan je helpen, of je nou je nieuwe medewerkers sneller en beter wilt inwerken, of een volledige
+              *corporate academy* begint.
+              Maar probeer het vooral zelf! Je kunt LearningSpaces [60 dagen gratis proberen](https://public.learningspaces.io/accounts/new).
+              Klik [hier](/pricing) om meer te lezen over de kosten.
+          - q: Moet ik iets installeren?
+            a: Nee, LearningSpaces werkt in alle moderne browsers.
+          - q: Hoe maak ik een nieuw team aan?
+            a: |
+              Je kunt [hier](https://public.learningspaces.io/accounts/new){:target="_blank"} een nieuw team aanmaken.
+              We helpen je in een aantal stappen je team in te stellen en andere gebruikers uit te nodigen.
+              Geen zorgen, je kunt de instellingen van je team later altijd nog aanpassen.
+          - q: Hoe wordt ik lid van een bestaand team?
+            a: |
+              Om lid te worden van een  bestaand team moet je worden uitgenodigd.
+              Of je gaat naar `teamdomein.learningspaces.nl/register` om je te registreren.
+              Maar dan moet je dus wel het domein van het team weten.
+          - q: Waar kan ik inloggen?
+            a: |
+              Inloggen kan [hier](/login). Je moet hiervoor wel het domein van je team kennen, dat ziet er zo uit: `teamdomein.learningspaces.nl`.
+              Deze gegevens staan ook in de welkom e-mail die je hebt ontvangen.
+              In sommige gevallen is het nodig om je e-mail adres te bevestigen. Hiervoor ontvang je dan een speciale e-mail.
+          - q: Waar kan ik de instellingen van mijn team aanpassen?
+            a: |
+              Als eigenaar van een team kun je de voorkeuren en instellingen van je team wijzigen door in het linkermenu op *Settings* te klikken,
+              en vervolgens *Team* te selecteren.
+
+      - title: Security &amp; Privacy
+        questions:
+          - q: Hoe zit het met privacy &security?
+            a: |
+              Allereerst: wij delen je gegevens met **niemand**.
+              En jij hebt als eigenaar van een team de controle over wie toegang heeft tot je leeromgeving.
+              Als je wilt, kun je bijvoorbeeld alleen mensen met bepaalde e-mailadressen (die bijvoorbeeld eindigen op `@jouwteam.nl`) toelaten.
+              Of zelfs alleen mensen toelaten die expliciet door jou zijn uitgenodigd.
+
+              Security nemen we serieus, onze eerste leaddeveloper is zelfs voor een security start-up gaan werken ;)
+              We houden ons aan de laatste protocollen en updaten de software voortdurend waar nodig.
+              Daarnaast werken we regelmatig samen met experts op het gebied van security.
+          - q: Van wie is de data?
+            a: |
+              Alles wat je in LearningSpaces maakt blijft altijd jouw eigendom.
+              Mocht je toch besluiten te stoppen met LearningSpaces, kunnen we al je data op verzoek verwijderen.
+              Of exporteren en naar je opsturennatuurlijk.
+          - q: Kan ik mensen toevoegen of verwijderen?
+            a: |
+              Als eigenaar van een team bepaal jij wie toegang heeft tot je omgeving.
+              Als je wilt, kun je bijvoorbeeld alleen mensen met bepaalde e-mailadressen (die bijvoorbeeld eindigen op `@jouwteam.nl`) toelaten.
+              Of zelfs alleen mensen toelaten die expliciet door jou zijn uitgenodigd.
+              Natuurlijk kun je ook mensen die zich al hebben geregistreerd de toegang ontzeggen.
+
+      - title: Prijzen
+        questions:
+          - q: Wat voor abonnement moet ik kiezen?
+            a: |
+              Om te beginnen bieden we je een **gratis proefperiode van 60 dagen** aan.
+              Zonder beperkingen, zodat je de tijd hebt om met LearningSpaces te beginnen.
+              Voor teams tot 10 gebruikers is LearningSpaces altijd **gratis** te gebruiken.
+              Voor grotere teams is er het *Value* abonnement.
+              En voor nog grotere teams (bijvoorbeeld een grote organisatie, een corporate academy, of een grote community)
+              hebben we het *Enterprise* abonnement.
+
+              Kijk anders even naar [het overzicht van alle abonnementen](/pricing).
+          # - q: What are the payment methods?
+          - q: Hoe wordt het aantal actieve gebruikers bepaald?
+            a: |
+              Je betaalt voor alle gebruikers die geregistreerd zijn bij jouw LearningSpace.
+              Als eigenaar van een team kun je bepalen wie toegang heeft tot jouw LearningSpace.
+              Maakt iemand geen gebruik meer van LearnignSpaces? Dan maak je hem inactief, en hoef je ook niet meer voor die persoon te betalen.
+
+      - title: Help &amp; Support
+        questions:
+          - q: Ik heb een andere vraag...
+            a: |
+              Klik op het chat icoontje rechtsonder om je vraag direct aan het LearningSpaces team te stellen.
+              We reageren zo snel mogelijk (en vaak is dat binnen een minuut).

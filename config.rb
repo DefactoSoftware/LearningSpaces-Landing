@@ -3,13 +3,13 @@
 ###
 
 # Ignores
-ignore '/fonts/icons/selection.json'
+ignore "/fonts/icons/selection.json"
 
 # Per-page layout changes:
 # With no layout
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page "/*.xml", layout: false
+page "/*.json", layout: false
+page "/*.txt", layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -25,16 +25,34 @@ page '/*.txt', layout: false
 # set :relative_links, true
 # activate :relative_assets
 
-activate :i18n, mount_at_root: :en
 activate :directory_indexes
 activate :autoprefixer
 
 # Reload the browser automatically whenever files change
-# configure :development do
+# # configure :development do
+# configure :server do
 #   activate :livereload
 # end
 
-# Build-specific configuration
+# Just fyi
+puts "Running Middleman using '#{config[:environment]}' environment in '#{config[:mode]}' mode."
+
+# middleman (-e development)
+configure :development do
+  activate :i18n, mount_at_root: :en, langs: [:en, :nl]
+end
+
+# middleman -e en
+configure :en do
+  activate :i18n, langs: [:en]
+end
+
+# middleman -e nl
+configure :nl do
+  activate :i18n, langs: [:nl]
+end
+
+# Build configuration
 configure :build do
   # Path prefix (ie. for Github pages)
   # set :http_prefix, "/LearningSpaces-Landing"

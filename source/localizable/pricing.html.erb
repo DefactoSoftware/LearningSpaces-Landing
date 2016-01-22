@@ -18,9 +18,12 @@ header_class: header-hero
       <div class="plan-price">
         <span class="currency">&euro;</span>0
       </div>
-      <% t("pricing.plans.free.features").each do |features| %>
-        <p><%= features %></p>
-      <% end %>
+      <% features = t("pricing.plans.free.features")
+      if features.is_a?(Array)
+        features.each do |feature| %>
+          <p><%= feature %></p>
+        <% end
+      end %>
     </div>
 
     <div id="plan-value" class="plan">
@@ -29,9 +32,12 @@ header_class: header-hero
         <span class="currency">&euro;</span>2
         <!-- <span class="cents">99</span> -->
       </div>
-      <% t("pricing.plans.value.features").each do |features| %>
-        <p><%= features %></p>
-      <% end %>
+      <% features = t("pricing.plans.value.features")
+      if features.is_a?(Array)
+        features.each do |feature| %>
+          <p><%= feature %></p>
+        <% end
+      end %>
     </div>
 
     <div id="plan-enterprise" class="plan">
@@ -39,16 +45,22 @@ header_class: header-hero
       <div class="plan-price text">
         <%= t("pricing.plans.enterprise.call_us") %>
       </div>
-      <% t("pricing.plans.enterprise.features").each do |features| %>
-        <p><%= features %></p>
-      <% end %>
+      <% features = t("pricing.plans.enterprise.features")
+      if features.is_a?(Array)
+        features.each do |feature| %>
+          <p><%= feature %></p>
+        <% end
+      end %>
     </div>
 
   </div>
 
   <div class="row">
-    <% t("pricing.features").each do |features| %>
-      <p><%= features %></p>
-    <% end %>
+    <% features = t("pricing.plans.enterprise.features")
+    if features.is_a?(Array)
+      features.each do |feature| %>
+        <p><%= feature %></p>
+      <% end
+    end %>
   </div>
 </section>

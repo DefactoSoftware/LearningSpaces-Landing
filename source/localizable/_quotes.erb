@@ -10,28 +10,33 @@
 
 quotes = t("quotes")
 
-if defined?(featured) && featured
-  quotes = quotes.sort_by { |quote| quote[:featured] ? 0 : 1 }
-end
+if quotes.is_a?(Array)
 
-if defined?(count)
-  quotes = quotes.take(count)
-end
+  if defined?(featured) && featured
+    quotes = quotes.sort_by { |quote| quote[:featured] ? 0 : 1 }
+  end
+
+  if defined?(count)
+    quotes = quotes.take(count)
+  end
+
 %>
 
-<section class="quotes">
-  <div class="row">
+  <section class="quotes">
+    <div class="row">
 
-  <% quotes.each do |quote| %>
-    <blockquote class="quote-balloon">
-      <div class="text"><%= quote[:text] %></div>
-      <div class="author">
-        <%= image_tag quote[:avatar], alt: quote[:name], class: "avatar" %>
-        <span class="name"><%= quote[:name] %></span>
-        <span class="company"><%= quote[:company] %></span>
-      </div>
-    </blockquote>
-  <% end %>
+    <% quotes.each do |quote| %>
+      <blockquote class="quote-balloon">
+        <div class="text"><%= quote[:text] %></div>
+        <div class="author">
+          <%= image_tag quote[:avatar], alt: quote[:name], class: "avatar" %>
+          <span class="name"><%= quote[:name] %></span>
+          <span class="company"><%= quote[:company] %></span>
+        </div>
+      </blockquote>
+    <% end %>
 
-  </div>
-</section>
+    </div>
+  </section>
+
+<% end %>

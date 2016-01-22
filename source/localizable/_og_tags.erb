@@ -1,5 +1,5 @@
 <meta property="og:site_name" content="LearningSpaces">
-    <meta property="og:title" content="<%= current_page.data.title || "LearningSpaces" %><%= " | LearningSpaces" unless current_page.path == "index.html" %>">
+    <meta property="og:title" content="<%= page_title %>">
     <meta property="og:url" content="<%= full_url(current_page.url) %>">
     <meta property="og:type" content="website">
     <%= tag(:meta, { property: "og:description", content: current_page.data.description }, true) if current_page.data.description -%>

@@ -51,13 +51,6 @@ end
 ###
 
 helpers do
-  # Temp fix for middleman asset_url method
-  # https://github.com/middleman/middleman/issues/1772
-  def asset_url(path, prefix="", options={})
-    options_with_resource = options.merge(current_resource: current_resource)
-    ::Middleman::Util.asset_url(app, path, prefix, options_with_resource)
-  end
-
   # Use frontmatter for i18n titles
   def page_title(page=current_page)
     titleAppend =  defined?(page.data.title_affix) && !page.data.title_affix ? "" : " | LearningSpaces"

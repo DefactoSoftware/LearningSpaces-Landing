@@ -58,6 +58,14 @@ helpers do
     ::Middleman::Util.asset_url(app, path, prefix, options_with_resource)
   end
 
+  # Use frontmatter for i18n titles
+  def page_title(page=current_page)
+    titleAppend =  defined?(page.data.title_affix) && !page.data.title_affix ? "" : " | LearningSpaces"
+    return page.data.title.send(I18n.locale) + titleAppend if page.data.title.is_a?(Hash) && page.data.title[I18n.locale]
+    return page.data.title + titleAppend if page.data.title
+    return "Welcome to LearningSpaces"
+  end
+
   # Parse Markdown
   def markdown(string)
     Tilt['markdown'].new { string }.render(scope=self)

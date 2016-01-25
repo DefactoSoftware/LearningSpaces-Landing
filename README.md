@@ -1,12 +1,30 @@
 ## LearningSpaces Landingpage
 
-[LearningSpaces](https://learningspaces.io) is a fun and simple-to-use platform to enable learning and knowledge sharing among peers.
+[LearningSpaces](https://learningspaces.io) lets you quickly set up a learning community where you create and share knowledge with your team.
   
-#### Getting Started
+#### Serve and Build
+We serve and build our localized websites using different `-e` environment flags:
 
-Run the server `bundle exec middleman`.  
-Build using `bundle exec middleman build`.  
-Build and deploy to S3 using `./deploy`.
+```bash
+# Serve using a single locale
+bundle exec middleman -e en
+bundle exec middleman -e nl
+
+# Build using a single locale
+bundle exec middleman build -e en
+bundle exec middleman build -e nl
+```
+
+Builds can be found in the `build` directory and the server runs at http://localhost:4567.
+
+You can still serve and build without specifying an environment (for development purposes only). This will build all additional locales as subdirectories, e.g. `/nl` or `/de`.
+Note that serving or building single locales using environments doesn't have i18n fallback.
+
+#### Deploy
+Build and deploy to Amazon S3:
+```bash
+./deploy
+```
 
 #### Useful links for debugging
 

@@ -14,6 +14,7 @@ nl:
   home:
     hero:
       title: <span class="focus">Focus</span> your team’s learning efforts
+      # title: <span class="focus">Focus</span> op leren en het delen van kennis
       or: of
       try_now: Probeer gratis
       take_tour: Neem de tour
@@ -71,13 +72,13 @@ nl:
   for_who:
     title: Wat kan LearningSpaces voor jou betekenen?
     text: |
-      Met LearningSpaces kun je in no time een leercommunity
-      LearningSpaces lets you quickly set up a learning community.
-      Create and share knowledge with your team and beyond.
-      Depending on your needs, LearningSpaces can be anything from an interactive knowledge base to your internal training platform.
-    small_teams: Kleine teams &amp; startups
-    trainers: Opleiders &amp; docenten
-    large_teams: Grote teams &amp; organisaties
+      Met LearningSpaces creëer je in korte tijd een leercommunity.
+      Maak en deel kennis binnen je team of zelfs met een breder publiek.
+      Hoe LearningSpaces wordt ingericht en ingezet bepaal je helemaal zelf.
+      Denk bijvoorbeeld aan een kennis bibliotheek of een intern leerplatform.
+    small_teams: Kleine teams &amp; Startups
+    trainers: Opleiders &amp; Docenten
+    large_teams: Grote teams &amp; Organisaties
 
   # CTA
   cta:
@@ -95,7 +96,7 @@ nl:
     - name: Ronald van Rheenen
       company: Nucleair geneeskundige, University Medical Center Groningen
       avatar: avatars/ronald_van_rheenen.jpg
-      text: Learningspaces biedt mij de mogelijkheid om kennis te delen en kennis te nemen van anderen.
+      text: LearningSpaces biedt mij de mogelijkheid om kennis te delen en kennis te nemen van anderen.
 
     - name: Esther Douma
       company: Training Coordinator, DPA Benkis

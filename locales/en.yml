@@ -216,8 +216,8 @@ en:
             a: |
               You can type or paste share links from Dropbox or Google Drive, and LearningSpaces will automatically embed its content.
               **Tip:** if you don't share a file on Dropbox or Drive with your team, they also won't be able to access it on LearningSpaces.
-              [Read more](https://www.dropbox.com/help/274) about linking to files in your Dropbox.
-              And [here's](https://support.google.com/drive/answer/2494822?hl=nl) more info about linking to files on Google Drive.
+              [Read more](https://www.dropbox.com/help/274){:target="_blank"} about linking to files in your Dropbox.
+              And [here](https://support.google.com/drive/answer/2494822){:target="_blank"} you'll find more info about linking to files on Google Drive.
 
           - q: How do people find the content they need?
             a: |
@@ -248,7 +248,7 @@ en:
               Met andere woorden, jij hebt altijd de volledige controle over wie de content kan zien.
               Don’t worry, your content is safe with us. No-one else can access it, unless you want them to!
 
-          - q: But what if I **do** want to share content with the outside world?
+          - q: But what if I do want to share content with the outside world?
             a: |
               The owner of a Space can choose to generate a unique link that allows people to access that Space without logging in.
               Sortof like Dropbox and Google Drive handle things. People that access these *shared Spaces* have read-only access.

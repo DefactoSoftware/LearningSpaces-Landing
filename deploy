@@ -2,15 +2,32 @@
 
 cd $(dirname $0)
 
-echo "Building site ..."
-bundle exec middleman build
+#######################################################
+# Building locale: EN
+
+bundle exec middleman build -e en
 
 if [ $? -ne 0 ]; then
-  echo "Build failed, skipping deployment."
+  echo "Build failed for locale 'en' (skipping deployment)."
   exit 1
 fi
 
 # www.learningspaces.io.s3-website.eu-central-1.amazonaws.com
-echo "Deploying to s3 ..."
+echo "Deploying to Amazon S3 (www.learningspaces.io) ..."
 aws s3 sync build/ s3://www.learningspaces.io/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
 aws s3 sync build/ s3://www.learningspaces.io/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
+
+#######################################################
+# Building locale: NL
+
+bundle exec middleman build -e nl
+
+if [ $? -ne 0 ]; then
+  echo "Build failed for locale 'nl' (skipping deployment)."
+  exit 1
+fi
+
+# www.learningspaces.nl.s3-website.eu-central-1.amazonaws.com
+echo "Deploying to Amazon S3 (www.learningspaces.nl) ..."
+aws s3 sync build/ s3://www.learningspaces.nl/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+aws s3 sync build/ s3://www.learningspaces.nl/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"

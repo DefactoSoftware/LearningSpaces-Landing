@@ -35,7 +35,7 @@ activate :autoprefixer
 # end
 
 # Just fyi
-puts "Running Middleman using '#{config[:environment]}' environment in '#{config[:mode]}' mode."
+puts "Running '#{config[:environment]}' environment in '#{config[:mode]}' mode."
 
 # middleman (-e development)
 configure :development do

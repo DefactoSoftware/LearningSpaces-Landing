@@ -1,4 +1,4 @@
-# LearningSpaces Landingpage
+# LearningSpaces Landingpage v1
 
 [LearningSpaces](https://learningspaces.io) is a fun and simple-to-use platform to enable learning and knowledge sharing among peers.
   

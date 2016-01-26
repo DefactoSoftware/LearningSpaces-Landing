@@ -23,7 +23,12 @@ Note that serving or building single locales using environments doesn't have i18
 #### Deploy
 Build and deploy to Amazon S3:
 ```bash
+# Deploy all locales
 ./deploy
+
+# Deploy single locale
+./deploy en
+./deploy nl
 ```
 
 #### Useful links for debugging

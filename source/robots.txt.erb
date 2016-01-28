@@ -1,0 +1,9 @@
+Sitemap: <%= full_url("sitemap.xml") %>
+
+User-agent: *
+
+<% sitemap.resources.select { |page|
+  page.path =~ /\.html/ &&
+  page.data.noindex == true }.each do |page| -%>
+Disallow: <%= page.url %>
+<% end -%>

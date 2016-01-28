@@ -8,11 +8,10 @@ source "https://rubygems.org"
 # Windows does not come with time zone data
 # gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
-# Middleman Gems
 gem "middleman", "~> 4.1.0.rc.2"
 # gem "middleman-livereload"
 gem "middleman-autoprefixer"
 gem "middleman-sprockets", "~> 4.0.0.rc"
-
+gem "builder"
 gem "bourbon"
 gem "neat"

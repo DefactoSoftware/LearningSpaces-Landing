@@ -80,7 +80,7 @@
     display: block;
     padding: 0.3em 0.5em 0.4em;
 
-    @include media (max-height 600px $medium-down ) {
+    @include media (max-height 600px max-width $md-screen - 1) {
       font-size: 24px;
       line-height: 1.2;
     }

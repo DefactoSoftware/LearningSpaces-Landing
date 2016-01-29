@@ -14,12 +14,12 @@ $xl-screen: 1200px;
 // Mobile first media queries
 $medium-up: new-breakpoint(min-width $md-screen);
 $large-up:  new-breakpoint(min-width $lg-screen);
-$xlarge-up: new-breakpoint(min-width $lg-screen);
+$xlarge-up: new-breakpoint(min-width $xl-screen);
 
 // Desktop first media queries
 $medium-down: new-breakpoint(max-width $md-screen - 1);
 $large-down:  new-breakpoint(max-width $lg-screen - 1);
-$xlarge-down: new-breakpoint(max-width $lg-screen - 1);
+$xlarge-down: new-breakpoint(max-width $xl-screen - 1);
 
 // Isolated media queries
 $small:     new-breakpoint(max-width $md-screen);

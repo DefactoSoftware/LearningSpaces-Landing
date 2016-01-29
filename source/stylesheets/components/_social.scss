@@ -4,7 +4,7 @@
   text-align: center;
 
   a {
-    @include transition(all $base-duration ease);
+    transition: all $base-duration ease;
     border-radius: 50%;
     background: $light-gray;
     color: $action-color;

@@ -10,6 +10,14 @@ nl:
     login: Inloggen
     signup: Registreer
 
+  # 404
+  not_found:
+    hero:
+      title: Sorry, deze pagina bestaat niet.
+      text: |
+        Dit betekent niet dat je iets verkeerd hebt gedaan,
+        het kan zijn dat we de pagina hernoemd of verplaatst hebben.
+
   # Home
   home:
     hero:

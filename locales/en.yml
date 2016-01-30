@@ -11,6 +11,12 @@ en:
     login: Login
     signup: Sign up
 
+  # 404
+  not_found:
+    hero:
+      title: "Sorry, this page does not exist :("
+      text: We may have moved or renamed the page you're looking for.
+
   # Home
   home:
     hero:

@@ -1,6 +1,9 @@
----
 en:
   tld: io
+
+  head:
+    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_description: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
 
   # Menu
   menu:

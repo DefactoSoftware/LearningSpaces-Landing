@@ -69,12 +69,19 @@ end
 ###
 
 helpers do
-  # Use frontmatter for i18n titles
-  def page_title(page=current_page)
+  # Page title
+  def page_title(page=current_page, locale=I18n.locale)
     titleAppend =  defined?(page.data.title_affix) && !page.data.title_affix ? "" : " | LearningSpaces"
-    return page.data.title.send(I18n.locale) + titleAppend if page.data.title.is_a?(Hash) && page.data.title[I18n.locale]
-    return page.data.title + titleAppend if page.data.title
-    return "Welcome to LearningSpaces"
+    return page.data.title.send(locale) + titleAppend if page.data.title.is_a?(Hash) && page.data.title[locale]
+    return page.data.title + titleAppend if page.data.title.is_a?(String)
+    return t("head.default_title") || "LearningSpaces"
+  end
+
+  # Page description
+  def page_description(page=current_page, locale=I18n.locale)
+    return page.data.description.send(locale) if page.data.description.is_a?(Hash) && page.data.description[locale]
+    return page.data.description if page.data.description.is_a?(String)
+    return t("head.default_description") || ""
   end
 
   # Body classes

@@ -254,14 +254,14 @@ nl:
             a: |
               Met je team heb je in LearningSpaces een besloten leeromgeving.
               Alleen geregistreerde en ingelogde gebruikers hebben toegang tot die omgeving.
-              En **jij** bepaalt wie zich kan registreren.
+              En **jij bepaalt** wie zich kan registreren.
 
               Als je dat wilt, kan **iedereen** zich registreren voor jouw omgeving.
 
-              Maar je kunt je omgeving ook afschermen op basis van e-mailadressen.
-              Zo kunnen bijvoorbeeld alleen mensen met een email die eindigt met `@jouwbedrijf.nl` zich registreren.
+              Maar je kunt je omgeving ook afschermen op basis van e-mail adressen.
+              Zo kunnen bijvoorbeeld alleen mensen met een e-mail adres dat eindigt op `@mijnbedrijf.nl` zich registreren.
 
-              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren als jij ze via de applicatie hebt uitgenodigd.
+              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren wanneer jij ze vanuit LearningSpaces hebt uitgenodigd.
 
               Met andere woorden, jij hebt altijd de volledige controle over wie de content kan zien.
 

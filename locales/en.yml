@@ -243,19 +243,18 @@ en:
 
           - q: Who can access my content?
             a: |
+              With LearningSpaces it's up to you who can access your content.
+              Only people who register and log in have access,
+              and **you are in control** of who is allowed to.
 
-              Met je team heb je in LearningSpaces een besloten leeromgeving. Alleen geregistreerde en ingelogde gebruikers hebben toegang tot die omgeving.
-              En **jij** bepaalt wie zich kan registreren.
+              This means you could keep registrations **open for everyone**,
+              which basically makes it a public community.
 
-              Als je dat wilt, kan **iedereen** zich registreren voor jouw omgeving.
+              Or grant people access based on email rules.
+              For example only allow users with an email address ending with `@mycompany.com` to register or log in.
 
-              Maar je kunt je omgeving ook afschermen op basis van e-mailadressen.
-              Zo kunnen bijvoorbeeld alleen mensen met een email die eindigt met `@jouwbedrijf.nl` zich registreren.
-
-              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren als jij ze via de applicatie hebt uitgenodigd.
-
-              Met andere woorden, jij hebt altijd de volledige controle over wie de content kan zien.
-              Don’t worry, your content is safe with us. No-one else can access it, unless you want them to!
+              It’s also possible to completely restrict access,
+              and only grant access to people by sending them an invite from LearningSpaces.
 
           - q: But what if I do want to share content with the outside world?
             a: |

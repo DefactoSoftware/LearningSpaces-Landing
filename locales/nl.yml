@@ -46,7 +46,7 @@ nl:
       text: |
         Heb je een vraag? Wij staan klaar om je te helpen.<br>
         Klik op het chat icoontje rechtsonder.<br>
-        We reageren zo snel mogelijk (en dat is meestal binnen een minuut.
+        We reageren zo snel mogelijk (en dat is meestal binnen een minuut!).
     contact:
       title: Liever mailen of bellen?
       text: |
@@ -63,14 +63,14 @@ nl:
         title: Je eigen Learning Community
         text_md: |
           Spaces zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of sluit bestaand materiaal in.
+          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
           Deel kennis en werk samen met je team. Op je werk, thuis of onderweg.
       - screenshot: screenshots/paths.jpg
         screenshot_alt: Paden
         title: Van Spaces naar Leerpaden
         text_md: |
           Paden brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie, en houd bij wat je nog moet doen.
+          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
       - screenshot: screenshots/editor.jpg
         screenshot_alt: Editor
         title: Schrijf sneller en beter
@@ -115,7 +115,7 @@ nl:
       avatar: avatars/esther_douma.jpg
       text: |
         Learning Spaces helpt ons de communicatie met en tussen onze trainees duidelijk en soepel te laten verlopen.
-        We gebruiken de spaces voor het traineeprogramma bancair met verschillende trainingen, workshops en coaching.
+        We gebruiken de spaces voor het traineeprogramma Bancair met verschillende trainingen, workshops en coaching.
         Voorbereidigsopdrachten, evaluaties, onderlinge discussie en praktische informatie is zo heel gemakkelijk te beheren!
 
   # Tour page
@@ -127,7 +127,7 @@ nl:
       - title: Je eigen Learning Community
         text_md: |
           **Spaces** zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of sluit bestaand materiaal in.
+          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
           Deel, werk samen en communiceer met je team. Op je werk, thuis of onderweg.
         image: tour/spaces.jpg
 
@@ -155,7 +155,7 @@ nl:
       - title: Meer focus met Paden
         text_md: |
           **Paden** brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie, en houd bij wat je nog moet doen.
+          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
           Als je een Pad hebt voltooid, verschijnt deze als **achievement** op je profiel.
           Zo kan iedereen zien wat jouw expertisegebied is.
         image: tour/path.jpg
@@ -223,7 +223,7 @@ nl:
           - q: Wat is er dan zo makkelijk aan LearningSpaces?
             a:  |
               Met LearningSpaces is het delen van kennis supersimpel. We beloven je dat je binnen een paar minuten op gang bent.
-              Nodig gewoon je hele team uit, en begin met het maken van Spaces.
+              Nodig gewoon je hele team uit en begin met het maken van Spaces.
               Je schrijft links in [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}.
               Rechts zie je in een live preview direct hoe je leermateriaal eruit komt te zien.
               Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
@@ -246,8 +246,8 @@ nl:
             a: |
               Gebruik Paden om je Spaces per onderwerp te bundelen. Je kunt zelfs bepalen welke Paden op
               de voorpagina uitgelicht worden. En je kunt natuurlijk gebruik maken van de zoekfunctie.
-              Ten slotte: als er Spaces niet meer relevant zijn, kun je deze archiveren of verwijderen. En de meldingen en e-mails houden je
-              op de hoogte van wat er gebeurd is.
+              Als Spaces niet meer relevant zijn, kun je deze archiveren of verwijderen.
+              En de meldingen en e-mails houden je op de hoogte van wat er gebeurd is.
 
           - q: Werkt LearningSpaces ook op mijn iPad?
             a: |
@@ -258,14 +258,14 @@ nl:
             a: |
               Met je team heb je in LearningSpaces een besloten leeromgeving.
               Alleen geregistreerde en ingelogde gebruikers hebben toegang tot die omgeving.
-              En **jij** bepaalt wie zich kan registreren.
+              En **jij bepaalt** wie zich kan registreren.
 
               Als je dat wilt, kan **iedereen** zich registreren voor jouw omgeving.
 
-              Maar je kunt je omgeving ook afschermen op basis van e-mailadressen.
-              Zo kunnen bijvoorbeeld alleen mensen met een email die eindigt met `@jouwbedrijf.nl` zich registreren.
+              Maar je kunt je omgeving ook afschermen op basis van e-mail adressen.
+              Zo kunnen bijvoorbeeld alleen mensen met een e-mail adres dat eindigt op `@mijnbedrijf.nl` zich registreren.
 
-              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren als jij ze via de applicatie hebt uitgenodigd.
+              Je kunt je omgeving ook zo instellen dat mensen zich pas kunnen registreren wanneer jij ze vanuit LearningSpaces hebt uitgenodigd.
 
               Met andere woorden, jij hebt altijd de volledige controle over wie de content kan zien.
 
@@ -300,11 +300,11 @@ nl:
         questions:
           - q: Is LearningSpaces geschikt voor mijn team?
             a: |
-              LearningSpaces is geschikt voor iedereen ;) We werken zelf in een klein team en houden van start-ups, daarom is LearningSpaces **gratis**
-              beschikbaar voor teams van 10 gebruikers.
+              LearningSpaces is geschikt voor iedereen ;) We werken zelf in een klein team en houden van start-ups,
+              daarom is LearningSpaces **gratis** beschikbaar voor teams van 10 gebruikers.
               Maar we werken ook veel samen met grotere organisaties, zoals ziekenhuizen en hogescholen.
-              LearningSpaces kan je helpen, of je nou je nieuwe medewerkers sneller en beter wilt inwerken, of een volledige
-              *corporate academy* begint.
+              LearningSpaces kan je helpen, of je nu nieuwe medewerkers sneller en beter wilt inwerken,
+              of een volledige *corporate academy* begint.
               Maar probeer het vooral zelf! Je kunt LearningSpaces [60 dagen gratis proberen](https://public.learningspaces.io/accounts/new).
               Klik [hier](/pricing) om meer te lezen over de kosten.
           - q: Moet ik iets installeren?
@@ -345,7 +345,7 @@ nl:
             a: |
               Alles wat je in LearningSpaces maakt blijft altijd jouw eigendom.
               Mocht je toch besluiten te stoppen met LearningSpaces, kunnen we al je data op verzoek verwijderen.
-              Of exporteren en naar je opsturennatuurlijk.
+              Of exporteren en naar je opsturen natuurlijk.
           - q: Kan ik mensen toevoegen of verwijderen?
             a: |
               Als eigenaar van een team bepaal jij wie toegang heeft tot je omgeving.

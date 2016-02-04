@@ -2,6 +2,11 @@
 title:
   en: Pricing
   nl: Prijzen
+  de: Preis
+description:
+  en: LearningSpaces is available for everybody, from small teams to large enterprises.
+  nl: LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties.
+  de: LearningSpaces ist für jedermann, von kleinen Teams bis hin zu großen Unternehmen.
 header_class: header-hero
 ---
 
@@ -20,12 +25,11 @@ header_class: header-hero
       <div class="plan-price">
         <span class="currency">&euro;</span>0
       </div>
-      <% features = t("pricing.plans.free.features")
-      if features.is_a?(Array)
-        features.each do |feature| %>
-          <p><%= feature %></p>
-        <% end
-      end %>
+      <% pricing_features = t("pricing.plans.free.features")
+      pricing_features = Array.new unless pricing_features.is_a?(Array)
+      pricing_features.each do |feature| %>
+        <p><%= feature %></p>
+      <% end %>
     </div>
 
     <div id="plan-value" class="plan">
@@ -34,12 +38,11 @@ header_class: header-hero
         <span class="currency">&euro;</span>2
         <!-- <span class="cents">99</span> -->
       </div>
-      <% features = t("pricing.plans.value.features")
-      if features.is_a?(Array)
-        features.each do |feature| %>
-          <p><%= feature %></p>
-        <% end
-      end %>
+      <% pricing_features = t("pricing.plans.value.features")
+      pricing_features = Array.new unless pricing_features.is_a?(Array)
+      pricing_features.each do |feature| %>
+        <p><%= feature %></p>
+      <% end %>
     </div>
 
     <div id="plan-enterprise" class="plan">
@@ -47,22 +50,20 @@ header_class: header-hero
       <div class="plan-price text">
         <%= t("pricing.plans.enterprise.call_us") %>
       </div>
-      <% features = t("pricing.plans.enterprise.features")
-      if features.is_a?(Array)
-        features.each do |feature| %>
-          <p><%= feature %></p>
-        <% end
-      end %>
+      <% pricing_features = t("pricing.plans.enterprise.features")
+      pricing_features = Array.new unless pricing_features.is_a?(Array)
+      pricing_features.each do |feature| %>
+        <p><%= feature %></p>
+      <% end %>
     </div>
 
   </div>
 
   <div class="row">
-    <% features = t("pricing.plans.enterprise.features")
-    if features.is_a?(Array)
-      features.each do |feature| %>
-        <p><%= feature %></p>
-      <% end
-    end %>
+    <% pricing_features = t("pricing.features")
+    pricing_features = Array.new unless pricing_features.is_a?(Array)
+    pricing_features.each do |feature| %>
+      <p><%= feature %></p>
+    <% end %>
   </div>
 </section>

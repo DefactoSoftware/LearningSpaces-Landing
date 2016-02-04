@@ -1,3 +1,4 @@
+---
 nl:
   tld: nl
 
@@ -27,22 +28,18 @@ nl:
     hero:
       title: <span class="focus">Focus</span> your team’s learning efforts
       # title: <span class="focus">Focus</span> op leren en het delen van kennis
-      or: of
       try_now: Probeer gratis
+      or: of
       take_tour: Neem de tour
       quote:
         text: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
         author: Joep Lenglet,
         company: Learning Consultant bij Defacto
 
-  # Clients
-  clients:
-    text: Wij helpen teams met het delen van kennis
-
   # Contact
   contact:
     support:
-      title: Echte support
+      title: Persoonlijke support
       text: |
         Heb je een vraag? Wij staan klaar om je te helpen.<br>
         Klik op het chat icoontje rechtsonder.<br>
@@ -55,7 +52,7 @@ nl:
     team:
       title: Ons team
 
-  # Slideshow with screenshots
+  # Slideshow
   slideshow:
     features:
       - screenshot: screenshots/spaces.jpg
@@ -88,9 +85,9 @@ nl:
       Maak en deel kennis binnen je team of zelfs met een breder publiek.
       Hoe LearningSpaces wordt ingericht en ingezet bepaal je helemaal zelf.
       Denk bijvoorbeeld aan een kennisbibliotheek of een intern leerplatform.
-    small_teams: Kleine teams &amp; Startups
-    trainers: Opleiders &amp; Docenten
-    large_teams: Grote teams &amp; Organisaties
+    small_teams: Kleine teams en Startups
+    trainers: Opleiders en Docenten
+    large_teams: Grote teams en Organisaties
 
   # CTA
   cta:
@@ -117,6 +114,10 @@ nl:
         Learning Spaces helpt ons de communicatie met en tussen onze trainees duidelijk en soepel te laten verlopen.
         We gebruiken de spaces voor het traineeprogramma Bancair met verschillende trainingen, workshops en coaching.
         Voorbereidigsopdrachten, evaluaties, onderlinge discussie en praktische informatie is zo heel gemakkelijk te beheren!
+
+  # Clients
+  clients:
+    text: Wij helpen teams met het delen van kennis
 
   # Tour page
   tour:
@@ -172,7 +173,7 @@ nl:
   pricing:
     hero:
       title: Prijzen
-      text: LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties.
+      text: "LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties."
     features:
       - Alle abonnementen omvatten onbeperkte Spaces, Paden en data.
       - Abonnementen worden jaarlijks gefactureerd en kunnen op elk moment worden geannuleerd.
@@ -223,10 +224,10 @@ nl:
           - q: Wat is er dan zo makkelijk aan LearningSpaces?
             a:  |
               Met LearningSpaces is het delen van kennis supersimpel. We beloven je dat je binnen een paar minuten op gang bent.
-              Nodig gewoon je hele team uit en begin met het maken van Spaces.
-              Je schrijft links in [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}.
-              Rechts zie je in een live preview direct hoe je leermateriaal eruit komt te zien.
-              Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
+              Nodig gewoon je hele team uit, en begin met het maken van Spaces.
+              Met onze [split-screen editor](/tour/#schrijf-sneller-en-beter) schrijf je [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} aan de linker kant.
+              En rechts zie je een live preview hoe je leermateriaal eruit komt te zien.
+              Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de content of plak een link naar bestaand materiaal.
               Begin met een concept en publiceer je content wanneer het af is.
 
           - q: Hoe voeg ik video's en afbeeldingen toe aan mijn Spaces?
@@ -239,7 +240,7 @@ nl:
               Heel simpel. Door de link naar zo'n bestand in de editor te plakken.
               **Let op:** als je het bestand op Dropbox of Drive niet met je team deelt,
               is het ook binnen LearningSpaces niet zichtbaar voor je team.
-              Lees [hier](https://www.dropbox.com/help/274?path=sharing_files_and_folders){:target="_blank"} meer over het linken naar bestanden in je Dropbox.
+              Lees [hier](https://www.dropbox.com/help/274){:target="_blank"} meer over het linken naar bestanden in je Dropbox.
               En [hier](https://support.google.com/drive/answer/2494822?hl=nl){:target="_blank"} vind je meer over het linken naar bestanden op Google Drive.
 
           - q: Hoe vindt iedereen de juiste content?
@@ -249,7 +250,7 @@ nl:
               Als Spaces niet meer relevant zijn, kun je deze archiveren of verwijderen.
               En de meldingen en e-mails houden je op de hoogte van wat er gebeurd is.
 
-          - q: Werkt LearningSpaces ook op mijn iPad?
+          - q: Werkt LearningSpaces ook op mijn telefoon of teblet?
             a: |
               LearningSpaces is ontworpen om feilloos op elk device te werken. En daarmee bedoelen we desktop, laptop, tablet en telefoon.
               Het enige wat je nodig hebt is een internetverbinding.

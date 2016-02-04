@@ -1,6 +1,10 @@
 nl:
   tld: nl
 
+  head:
+    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
+
   # Menu
   menu:
     tour: Tour

@@ -4,9 +4,10 @@
     <ul class="faq-list">
 
       <% category[:questions].each do |question| %>
-        <li>
+        <% faq_slug = slug(question[:q]) %>
+        <li id="<%= faq_slug %>">
           <h4>
-            <a href="#" class="faq-question">
+            <a href="#<%= faq_slug %>" class="faq-question">
               <%= question[:q] %>
               <span class="faq-icon"></span>
             </a>
@@ -20,3 +21,5 @@
     </ul>
   </div>
 <% end %>
+
+<%= javascript_include_tag "faq" %>

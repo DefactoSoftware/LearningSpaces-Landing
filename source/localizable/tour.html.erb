@@ -2,6 +2,11 @@
 title: Tour
 ---
 
+<%
+tour_features = t("tour.features")
+tour_features = Array.new unless tour_features.is_a?(Array)
+%>
+
 <div class="hero small">
   <div class="row">
     <h1><%= t("tour.hero.title") %></h1>
@@ -11,7 +16,7 @@ title: Tour
 
 <section class="features">
 
-  <% t("tour.features").each_with_index do |feature, index| %>
+  <% tour_features.each_with_index do |feature, index| %>
     <div class="feature" id="<%= feature[:title].downcase.parameterize %>">
       <div class="row">
 

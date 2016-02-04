@@ -40,3 +40,19 @@ if [ -z "$LOCALE" ] || [ "$LOCALE" = "nl" ]; then
   aws s3 sync build/ s3://www.learningspaces.nl/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
   aws s3 sync build/ s3://www.learningspaces.nl/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
 fi
+
+#######################################################
+
+if [ -z "$LOCALE" ] || [ "$LOCALE" = "de" ]; then
+  bundle exec middleman build -e de
+
+  if [ $? -ne 0 ]; then
+    echo "Build failed for locale 'de' (skipping deployment)."
+    exit 1
+  fi
+
+  # www.learningspaces.de.s3-website.eu-central-1.amazonaws.com
+  echo "Deploying to Amazon S3 (www.learningspaces.de) ..."
+  aws s3 sync build/ s3://www.learningspaces.de/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=1576800000" --exclude "*.html"
+  aws s3 sync build/ s3://www.learningspaces.de/ --region=eu-central-1 --acl=public-read --delete --cache-control="max-age=0, no-cache" --exclude "*" --include "*.html"
+fi

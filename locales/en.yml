@@ -24,17 +24,13 @@ en:
   home:
     hero:
       title: <span class="focus">Focus</span> your team’s learning efforts
-      or: or
       try_now: Try now, it’s free!
+      or: or
       take_tour: Take Tour
       quote:
         text: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
         author: Joep Lenglet,
         company: Learning Consultant at Defacto
-
-  # Clients
-  clients:
-    text: We help teams facilitate collaborative knowledge sharing
 
   # Contact
   contact:
@@ -52,7 +48,7 @@ en:
     team:
       title: Meet the Team
 
-  # Slideshow with screenshots
+  # Slideshow
   slideshow:
     features:
       - screenshot: screenshots/spaces.jpg
@@ -77,13 +73,13 @@ en:
       LearningSpaces lets you quickly set up a learning community.
       Create and share knowledge with your team and beyond.
       Depending on your needs, LearningSpaces can be anything from an interactive knowledge base to your internal training platform.
-    small_teams: Small Teams &amp; Startups
-    trainers: Trainers &amp; Educators
-    large_teams: Large Teams &amp; Organizations
+    small_teams: Small Teams and Startups
+    trainers: Trainers and Educators
+    large_teams: Large Teams and Organizations
 
   # CTA
   cta:
-    tagline: Ready to give LearningSpaces a try? Sign up for free
+    tagline: Ready to give LearningSpaces a try? Sign up for free!
     sign_up: Try LearningSpaces
 
   # Quotes
@@ -104,11 +100,15 @@ en:
       avatar: avatars/esther_douma.jpg
       text: We use LearningSpaces in our trainee program for trainings, workshops and coaching. Managing assignments, evaluations, discussions and practical information is easy - and it helps us stay in touch with our trainees.
 
+  # Clients
+  clients:
+    text: We help teams facilitate collaborative knowledge sharing
+
   # Tour page
   tour:
     hero:
       title: Tour
-      text: Focus your team’s learning efforts
+      text: Focus your team’s learning efforts with LearningSpaces
     features:
       - title: Your own Learning Community
         text_md: |
@@ -156,7 +156,7 @@ en:
   pricing:
     hero:
       title: Pricing
-      text: LearningSpaces is available for everybody, from small teams to large enterprises.
+      text: "LearningSpaces is available for everybody, from small teams to large enterprises."
     features:
       - All plans include unlimited Spaces, Paths and storage.
       - Paid plans are billed annually and can be canceled at any time.
@@ -235,7 +235,7 @@ en:
               Finally, if you think some Spaces are outdated, you'll be able to archive or delete them. And we almost forgot,
               our notification feed and emails will help you keep track of what's happening.
 
-          - q: Does LearningSpaces work on my iPad?
+          - q: Does LearningSpaces work on my phone or tablet?
             a: |
               LearningSpaces is designed to work flawlessly on every device, whether it’s a desktop, laptop,
               tablet or a phone. You and your team can access LearningSpaces everywhere,
@@ -244,17 +244,14 @@ en:
           - q: Who can access my content?
             a: |
               With LearningSpaces it's up to you who can access your content.
-              Only people who register and log in have access,
-              and **you are in control** of who is allowed to.
+              Only people who register and log in have access, and **you are in control** of who is allowed to.
 
-              This means you could keep registrations **open for everyone**,
-              which basically makes it a public community.
+              This means you could keep registrations **open for everyone**, which basically makes it a public community.
 
               Or grant people access based on email rules.
               For example only allow users with an email address ending with `@mycompany.com` to register or log in.
 
-              It’s also possible to completely restrict access,
-              and only grant access to people by sending them an invite from LearningSpaces.
+              It’s also possible to completely restrict access, and only grant access to people by sending them an invite from LearningSpaces.
 
           - q: But what if I do want to share content with the outside world?
             a: |
@@ -291,47 +288,79 @@ en:
       - title: Getting Started
         questions:
           - q: Is LearningSpaces right for me and my team?
-            a: LearningSpaces is right for everyone. We love small teams and start-ups, that’s why we offer LearningSpaces (with all its features) for Free for teams up to 10 users. LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going, so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing).
+            a: |
+              LearningSpaces is right for everyone. We love small teams and start-ups,
+              that’s why we offer LearningSpaces (with all its features) for Free for teams up to 10 users.
+              LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a
+              corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going,
+              so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing).
+
           - q: Do I need to install something to get started?
             a: No, LearningSpaces runs in any (modern) browser.
+
           - q: How do I create a new Team?
-            a: You can create a new team by [signing up](https://public.learningspaces.io/accounts/new){:target="_blank"} to LearningSpaces. You will be guided through a few steps to setup your team and invite other team members. Don’t worry, you can always change these settings later.
+            a: |
+              You can create a new team by [signing up](https://public.learningspaces.io/accounts/new){:target="_blank"} to LearningSpaces.
+              You will be guided through a few steps to setup your team and invite other team members.
+              Don’t worry, you can always change these settings later.
+
           - q: How do I join a Team?
             a: To join a team you’ll have to get invited. Or if you know your team’s domain you can sign up at `teamdomain.learningspaces.io/register`.
+
           - q: Where can I log in?
-            a: You can log in [here](/login). You will need your team’s domain which looks something like `teamdomain.learningspaces.io`.
-               Your login details can also be found in the registration email we’ve sent you.
-               Please note that you need to confirm your account before you can log in (sent to you by email).
+            a: |
+              You can log in [here](/login). You will need your team’s domain which looks something like `teamdomain.learningspaces.io`.
+              Your login details can also be found in the registration email we’ve sent you.
+              Please note that you need to confirm your account before you can log in (sent to you by email).
+
           - q: Where do I change my team’s settings?
-            a: As a team owner you can change you team’s settings and preferences by clicking the *Settings* in the sidebar, and then click *Team* in the menu.
+            a: |
+              As a team owner you can change you team’s settings and preferences by clicking the *Settings* in the sidebar,
+              and then click *Team* in the menu.
 
       - title: Security &amp; Privacy
         questions:
           - q: What about privacy & security?
-            a: Your data are safe with us. We will never share your data with anyone. LearningSpaces uses the latest security protocols. Sometimes we even let hackers try to break into LearningSpaces to see whether we are vulnerable to data leaks. You have full control over who can access your community by using the invite-only option or by whitelisting only certain email addresses. We also monitor for conspicuous activity to intercept attempts at stealing data.
+            a: |
+              Your data are safe with us. We will never share your data with anyone. LearningSpaces uses the latest security protocols.
+              Sometimes we even let hackers try to break into LearningSpaces to see whether we are vulnerable to data leaks.
+              You have full control over who can access your community by using the invite-only option or by whitelisting only certain email addresses.
+              We also monitor for conspicuous activity to intercept attempts at stealing data.
+
           - q: Who owns the data?
-            a: You and your team always remain the owner of all data entered in your LearningSpace. And if you decide to stop using LearningSpaces (although why would you?), your data will be deleted after one year.
+            a: |
+              You and your team always remain the owner of all data entered in your LearningSpace.
+              And if you decide to stop using LearningSpaces (although why would you?), your data will be deleted after one year.
+
           - q: How do I include or exclude users from my team?
             a: |
               As a team owner you can define which users can join your team by allowing email domains.
               For example when you whitelist `mycompany.com` everyone with an email address ending with that domain can sign up or log in.
               LearningSpaces also has an invite option, so it’s up to you who choose to invite.
               And of course you are able to deactivate users, so they can't access your community anymore.
+
       - title: Pricing &amp; Billing
         questions:
           - q: What plan is right for me and my team?
-            a: LearningSpaces fits any team. First of all, we offer you a **60-day Free Trial** to get you and your team going.
-               Then LearningSpaces (with all its features) will be **Free for small teams** up to 10 users.
-               For larger teams we have the Value plan. And for really large teams (academies, large companies, large learning communities) we have the Enterprise plan.
-               **For all available plans check our [Plans page](/pricing)**.
+            a: |
+              LearningSpaces fits any team. First of all, we offer you a **60-day Free Trial** to get you and your team going.
+              Then LearningSpaces (with all its features) will be **Free for small teams** up to 10 users.
+              For larger teams we have the Value plan. And for really large teams (academies, large companies,
+              large learning communities) we have the Enterprise plan. **For all available plans check our [Plans page](/pricing)**.
+
           # - q: What are the payment methods?
+          #   a:
+
           - q: Do I only pay for active users?
             a: |
               The pricing is based on the number of **active users** registered to your LearningSpace.
-              As a team owner, you decide who can register. If someone no longer needs to access your LearningSpace, you can deactivate their account.
-              This way, you have full control over the number of active users.
+              As a team owner, you decide who can register. If someone no longer needs to access your LearningSpace,
+              you can deactivate their account. This way, you have full control over the number of active users.
 
       - title: Help &amp; Support
         questions:
           - q: I have a question, where can I ask it?
-            a: If you can’t find an answer to your question in this FAQ, we are here to answer your question personally. By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team. We'll respond as soon as possible (average response time of about one minute).
+            a: |
+              If you can’t find an answer to your question in this FAQ, we are here to answer your question personally.
+              By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team.
+              We'll respond as soon as possible (average response time of about one minute).

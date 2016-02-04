@@ -39,7 +39,7 @@ puts "Running '#{config[:environment]}' environment in '#{config[:mode]}' mode."
 
 # middleman (-e development)
 configure :development do
-  activate :i18n, mount_at_root: :en, langs: [:en, :nl]
+  activate :i18n, mount_at_root: :en, langs: [:en, :nl, :de]
 end
 
 # middleman -e en
@@ -50,6 +50,11 @@ end
 # middleman -e nl
 configure :nl do
   activate :i18n, langs: [:nl]
+end
+
+# middleman -e de
+configure :de do
+  activate :i18n, langs: [:de]
 end
 
 # Build configuration
@@ -71,17 +76,17 @@ end
 helpers do
   # Page title
   def page_title(page=current_page, locale=I18n.locale)
-    titleAppend =  defined?(page.data.title_affix) && !page.data.title_affix ? "" : " | LearningSpaces"
-    return page.data.title.send(locale) + titleAppend if page.data.title.is_a?(Hash) && page.data.title[locale]
-    return page.data.title + titleAppend if page.data.title.is_a?(String)
-    return t("head.default_title") || "LearningSpaces"
+    affix = defined?(page.data.has_title_affix) && !page.data.has_title_affix ? "" : " | LearningSpaces"
+    return page.data.title.send(locale) + affix if page.data.title.is_a?(Hash) && page.data.title[locale]
+    return page.data.title + affix if page.data.title.is_a?(String)
+    t("head.default_title") || "LearningSpaces"
   end
 
   # Page description
   def page_description(page=current_page, locale=I18n.locale)
     return page.data.description.send(locale) if page.data.description.is_a?(Hash) && page.data.description[locale]
     return page.data.description if page.data.description.is_a?(String)
-    return t("head.default_description") || ""
+    t("head.default_description") || ""
   end
 
   # Body classes

@@ -1,2 +1,373 @@
-  de:
-    tld: de
+---
+de:
+  tld: de
+
+  head:
+    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_description: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
+
+  # Menu
+  menu:
+    tour: Tour
+    pricing: Preis
+    faq: FAQ
+    blog: Blog
+    login: Login
+    signup: Registrieren
+
+  # 404
+  not_found:
+    hero:
+      title: "Sorry, diese Seite existiert nicht :("
+      text: "Dies bedeutet nicht, dass Sie einen Fehler gemacht haben. Es kann sein, dass wir die Seite umbenannt oder bewegt haben."
+
+  # Home
+  home:
+    hero:
+      title: <span class="focus">Focus</span> your team’s learning efforts
+      try_now: Kostenlos testen
+      or: oder
+      take_tour: Mach eine Tour
+      quote:
+        text: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
+        author: Joep Lenglet,
+        company: Learning Consultant bei Defacto
+
+  # Contact
+  contact:
+    support:
+      title: Persönlicher Support
+      text: |
+        Hast du eine Frage? Wir helfen gerne!<br>
+        Klicke einfach auf den Chat Button unten rechts.<br>
+        Wir antworten so schnell wie möglich (unsere Durchschnittszeit liegt bei ca. 1 Minute).
+    contact:
+      title: Lieber emailen oder anrufen?
+      text: |
+        Schreibe eine Email an <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        oder ruf an unter <a href="tel:+4940306988472" class="border">+49 (0)40 306 988 472</a>
+    team:
+      title: Unser Team
+
+  # Slideshow
+  slideshow:
+    features:
+      - screenshot: screenshots/spaces.jpg
+        screenshot_alt: Spaces
+        title: Deine eigene Learning Community
+        text_md: |
+          Spaces sind der Grundbaustein der Wissensbank deines Teams.
+          Erstelle deine eigenen Kurse, Guides und Ratgeber oder integriere bestehendes Material.
+          Teile oder arbeite zusammen mit deinem Team, von der Arbeit, zu Hause oder unterwegs.
+      - screenshot: screenshots/paths.jpg
+        screenshot_alt: Paths
+        title: Organisiere/Ordne dein Wissen
+        text_md: |
+          Paths helfen deinem Team dabei fokussiert und zielgerichtet zu lernen.
+          Bündel mehrere Spaces zu einem Thema oder für eine bestimmte Funktion und halte bei, was noch gemacht werden muss.
+          Paths heben das Wesentliche in deinem Lernprozess hervor.
+      - screenshot: screenshots/editor.jpg
+        screenshot_alt: Editor
+        title: Besser und schneller schreiben
+        text_md: |
+          Unser Splitscreen Editor vereinfacht dir das Schreiben.
+          Mit Markdown auf der linken und einer Live Preview auf der rechten Seite,
+          kannst du Inhalte bequem eintippen und formatieren. Integriere und teile Fotos,
+          Videos und Dokumente mit spielerischer Leichtigkeit.
+
+  # For who?
+  for_who:
+    title: Was bedeutet LearningSpaces für dich?
+    text: |
+      LearningSpaces ist eine spielerische und einfach zu bedienende Plattform,
+      die das Lernen und den Wissensaustausch in deinem Team stimuliert.
+      Je nach deinen Bedürfnissen/Anforderungen kann LearningSpaces individuell eingesetzt werden,
+      von interaktiver Wissensdatenbank bis hin zur internen Lernplattform.
+    small_teams: Kleine Teams und Startups
+    trainers: Trainer und Lehrer
+    large_teams: Große Teams und Unternehmen
+
+  # CTA
+  cta:
+    tagline: Bereit um LearningSpaces zu testen? Melde dich kostenlos an.
+    sign_up: LearningSpaces testen
+
+  # Quotes
+  quotes:
+    - name: Michael Hebben
+      company: Corporate Learning Consultant
+      avatar: avatars/michael_hebben.jpg
+      text: Mit LearningSpaces kann ich meine persönliche/eigene Entwicklung in die Hand nehmen und zur gleichen Zeit zum Lernprozess von anderen beitragen.
+      #featured: true
+
+    - name: Ronald van Rheenen
+      company: Nuklearmedizin, Universitätsklinik Groningen
+      avatar: avatars/ronald_van_rheenen.jpg
+      text: LearningSpaces hilft meiner Abteilung indem es informelles Lernen und den Wissenaustausch ermöglicht.
+
+    - name: Esther Douma
+      company: Training Coordinator, DPA Benkis
+      avatar: avatars/esther_douma.jpg
+      text: "Wir nutzen LearningSpaces in unserem Banken-Traineeprogramm für Schulungen, Workshops und Coaching. Aufgaben, Evaluationen, Diskussionen und praktische Informationen sind so leicht zu überschauen."
+
+  # Clients
+  clients:
+    text: Diesen Teams helfen wir jetzt schon beim Teilen von Wissen
+
+  # Tour page
+  tour:
+    hero:
+      title: Tour
+      text: Focus your team’s learning efforts with LearningSpaces
+    features:
+      - title: Deine eigene Learning Community
+        text_md: |
+          **Spaces** sind der Grundbaustein der Wissensbank deines Teams.
+          Erstelle deine eigenen Kurse, Guides und Ratgeber oder integriere bestehendes Material.
+          Teile oder arbeite zusammen mit deinem Team, von der Arbeit, zu Hause oder unterwegs.
+        image: tour/spaces.jpg
+
+      - title: Organisiere/Ordne dein Wissen
+        text_md: |
+          Verwandle dein Wissen in eine spannende und lohnende Lernerfahrung.
+          Unterteile deine Inhalte in verschiedene **Kapitel** und erstelle **Quizzes** und **Aufgaben**,
+          mit denen du die Fähigkeiten und Kompetenzen deines Teams testen kannst.
+        image: tour/chapters.jpg
+
+      - title: Besser und schneller schreiben
+        text_md: |
+          Unser Splitscreen Editor vereinfacht dir das Schreiben.
+          Mit [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} auf der linken und einer Live Preview auf der rechten Seite,
+          kannst du Inhalte bequem eintippen und formatieren.
+
+          Integriere und teile Fotos, Videos und Dokumente mit spielerischer Leichtigkeit.
+          Ziehe Fotos in den Editor oder füge einfach einen Link hinzu.
+          Starte im Entwurf-Modus und veröffentlich diesen, wenn du fertig bist.
+        image: tour/editor.jpg
+
+      - title: Arbeite zusammen im Team
+        text_md: "Füge mehrere **Autoren** zu. Autoren können Kapitel in deinem Space hinzufügen, ohne deine Inhalte zu verändern."
+        image: tour/collaborate.jpg
+
+      - title: Mehr Fokus mit Paths
+        text_md: |
+          Mehrere Spaces könnnen zu einem **Path** gebündelt werden, das ein bestimmtes Thema behandelt.
+          Hat man einen Path durchlaufen, erscheint dies als Achievement in deinem Profil.
+          So helfen Paths deinem Team dabei fokussiert und zielgerichtet zu lernen.
+        image: tour/path.jpg
+
+      - title: Lerne dein Team besser kennen
+        text_md: "Jeder erhält ein persönliches Profil, auf dem man sehen kann was andere gelernt und erreicht haben, und welche Fachkenntnisse sie besitzen."
+        image: tour/profile.jpg
+
+      - title: Erstklassiger Live-Support
+        text_md: "Hast du eine Frage? Wir sind für dich da. Meistens innerhalb einer Minute."
+        image: tour/support.jpg
+
+  # Pricing
+  pricing:
+    hero:
+      title: Preise
+      text: "LearningSpaces ist für jedermann, von kleinen Teams bis hin zu großen Unternehmen."
+    features:
+      - Alle Abos beinhalten unbegrenzte Spaces, Paths und Speicherplatz.
+      - Bezahlte Abos werden jährlich berechnet und sind jederzeit kündbar.
+    plans:
+      free:
+        title: Free
+        features:
+          - Gratis für bis zu 10 Nutzer
+          - Für kleine Teams und Startups
+      value:
+        title: Value
+        features:
+          - Pro Nutzer pro Monat<br>auf jährlicher Basis
+          - Direkter in-App Support
+          - Jederzeit kündbar
+      enterprise:
+        title: Enterprise
+        call_us: Ruf uns an
+        features:
+          - Direkter in-App Support
+          - Einmaliger User Import
+          - Onboarding Beratung
+
+  # Login
+  login:
+    title: Login
+    text: "Please enter your team’s LearningSpaces domain:"
+    placeholder: domain
+    error: Could not find that domain.
+    submit: Continue
+    signup_link: Trying to set up LearningSpaces for your team?
+    signup_url: https://public.learningspaces.io/accounts/new
+
+  # FAQ
+  faq:
+    hero:
+      title: Häufig gestellte Fragen
+    categories:
+      - title: Produkt
+        questions:
+          - q: Was ist LearningSpaces eigentlich?
+            a: |
+              LearningSpaces ist eine Plattform, auf der man Wissen so leicht wie möglich mit seinem Team teilen kann.
+              Die richtigen Einstellungen für den Netzwerkdrucker? Die neueste Verkaufsstrategie?
+              Wir finden, dass Wissen das wichtigste Element in jedem Team ist,
+              darum sollte das Teilen von Wissen und Erfahrungen auch schnell, einfach und zugänglich sein.
+
+          - q: Warum ist LearningSpaces so einfach zu bedienen?
+            a: |
+              Mit LearningSpaces ist das Teilen von Wissen super einfach. Wir versprechen dir,
+              dass du innerhalb ein paar Minuten los legen kannst. Lade dein Team ein und erstelle deine ersten Spaces.
+              Schreiben in [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} ist der schnellste Weg im Web,
+              um deine Inhalte zu formulieren und formatieren.
+              Mit dem [Splitscreen Editor](/tour/#besser-und-schneller-schreiben), schreibst du links in Markdown und siehst rechts eine Preview.
+              Hochladen und integrieren von Bildern, Videos (Youtube, Vimeo, etc.) und Dokumenten (Dropbox, Google Drive, etc.) kann bequem durch
+              drag-and-drop oder Einfügen eines Links erfolgen. Starte im Entwurf-Modus und veröffentliche diesen wenn du fertig bist.
+
+          - q: Wie füge ich Fotos und Videos hinzu?
+            a: |
+              Das Integrieren und Teilen von Fotos, Videos und Audios ist super einfach.
+              Ziehe deine Datei einfach in den Editor oder füge den Link von einem Video oder Foto hinzu.
+              Wir kümmern uns um den Rest. Probiere doch einfach mal einen Youtube Link und lass dich überraschen :)
+
+          - q: Wie füge ich Inhalte von Dropbox oder Google Drive hinzu?
+            a: |
+              Du kannst den Freigabelink von Dropbox oder Google Drive einfach eintippen oder einfügen,
+              LearningSpaces integriert dann automatisch den Inhalt. **Tipp:** Wenn du die Datei von Dropbox oder Google Drive
+              nicht mit deinem Team teilst, können sie diesen auch nicht bei LearningSpaces einsehen.
+              [Lese hier](https://www.dropbox.com/help/274){:target="_blank"} mehr über das Verlinken von Dokumenten in Dropbox.
+              Und [hier](https://support.google.com/drive/answer/2494822?hl=de){:target="_blank"} mehr über Google Drive.
+
+          - q: Wie finden Leute die Inhalte, die sie brauchen?
+            a: |
+              Wir haben viel darüber nachgedacht und haben mehrere Wege kreiert.
+              Erstens, nutze Paths um Spaces zu einem bestimmten Thema zu bündeln.
+              Diese können dann auch auf der ersten Seite als ‘empfohlen’ angezeigt werden.
+              Zweitens, unsere Suchfunktion ist da um zu helfen und sucht in Titel und Beschreibung der Spaces.
+              Letztens, archiviere oder lösche veraltete Spaces. Ach und fast hätten wir vergessen,
+              unser Notification Feed oben rechts und Emails helfen dir dabei auf dem neuesten Stand zu bleiben.
+
+          - q: Funktioniert LearningSpaces auf meinem Tablet oder Smartphone?
+            a: |
+              LearningSpaces wurde für alle Geräte designt, ob Computer, Laptop, Tablet oder Smartphone.
+              Du und dein Team können LearningSpaces überall nutzen, egal wo und wann du online bist.
+
+          - q: Wer kann auf meine Inhalte zugreifen?
+            a: |
+              LearningSpaces bietet deinem Team eine geschlossene Lernumgebung.
+              Nur registrierte und angemeldete Nutzer haben Zugang zu den Inhalten.
+              Und Du kannst bestimmen, wer sich registrieren kann.
+
+              Wenn du möchtest, kann sich jeder in deiner Umgebung registrieren.
+
+              Du kannst deine Umgebung jedoch auch auf Basis von Email Adressen einschränken.
+              So können sich zum Beispiel nur Leute mit der Email `@beispiel.de` registrieren.
+
+              Du kannst deine Umgebung auch so einstellen, dass man sich erst registrieren kann,
+              nachdem man via LearningSpaces eingeladen wird.
+
+              Mit anderen Worten, du hast immer die Kontrolle darüber, wer deine Inhalte sehen kann.
+
+          - q: Aber was, wenn ich Inhalte mit der Außenwelt teilen möchte?
+            a: |
+              Der Eigentümer eines Spaces kann einen Link generieren, der anderen erlaubt, diesen Space einzusehen ohne sich anzumelden.
+              So wie bei Dropbox und Google Drive. Diejenigen, die diesen Link erhalten, haben nur Leserechte.
+              Sie können keine Kommentare posten oder Aufgaben einreichen.
+
+          - q: Kann ich auch zusammen mit meinem Team arbeiten?
+            a: |
+              Natürlich! LearningSpaces ist gemacht um dir und deinem Team dabei zu helfen Wissen zu teilen.
+              Zusammenarbeit ist da natürlich entscheidend. Füge andere als Autoren hinzu,
+              so dass sie eigene Kapitel in deinem Space erstellen können. Teste das Wissen deiner Kollegen in einem Quiz oder einer Aufgabe.
+              Poste Kommentare in Spaces und diskutiere über die Inhalte. Oder folge einen Space und werde per Email benachrichtigt,
+              sobald es etwas Neues gibt. Alles was du tust, wird mit Statuspunkten belohnt,
+              damit jeder weiß wer die beste Fachkenntnis und Erfahrung hat. Das Ziel ist es, gemeinsam Wissen aufzubauen und zu teilen.
+
+          - q: Kann ich LearningSpaces mit anderer Software kombinieren?
+            a: |
+              Um Daten aus LearningSpaces zu erhalten, haben wir [xAPI](http://adlnet.gov/adl-research/performance-tracking-analysis/experience-api){:target="_blank"}
+              und [Tin Can API](https://tincanapi.com){:target="_blank"} integriert. Dadurch ist es möglich,
+              Resultate aus LearningSpaces in deine HR Software oder Business Intelligence Software zu übertragen.
+              Möchtest du eine Schnittstelle von LearningSpaces zu deinem LMS, HR Software oder BI Software, melde dich bei uns.
+              Zusammen finden wir bestimmt eine Lösung.
+
+      - title: Starten mit LearningSpaces
+        questions:
+          - q: Ist LearningSpaces das richtige für mich und mein Team?
+            a: |
+              LearningSpaces eignet sich für jederman ;) Wir lieben kleine Teams und Startups,
+              deshalb bieten wir LearningSpaces (mit allen Features) gratis an für Teams bis zu 10 Nutzern.
+              LearningSpaces ist genauso gut geeignet für größere Teams. Ob für neue Mitarbeiter oder Trainees,
+              deine Corporate Academy oder eine bestimmte Abteilung, LearningSpaces passt zu jedem Team.
+              Wir bieten eine 60-Tage Demo, in der du LearningSpaces testen und kennen lernen kannst. Erfahre [hier](/pricing) mehr über die Preise.
+
+          - q: Muss ich etwas installieren?
+            a: Nein. LearningSpaces funktioniert in allen modernen Browsern.
+
+          - q: Wie starte ich mit einem neuem Team?
+            a: |
+              Starte mit deinem Team und [melde dich hier an](https://public.learningspaces.io/accounts/new){:target="_blank"}.
+              Wir führen dich in ein paar Schritten zu deiner eigenen Umgebung. Keine Sorge, alle Einstellungen können später wieder bearbeitet werden.
+
+          - q: Wie trete ich einem Team bei?
+            a: |
+              Du musst eingeladen werden um einem Team beizutreten. Wenn du die Domain deines Teams kennst,
+              kannst du dich auch einschreiben unter `teamdomain.learningspaces.de/register`.
+
+          - q: Wie kann ich mich anmelden?
+            a: |
+              Du kannst dich [hier](/login) anmelden. Du benötigst jedoch die Domain deines Teams,
+              die ungefähr so aussieht `teamdomain.learningspaces.de`. Du findest deine Anmeldedaten übrigens auch in der Email,
+              die du erhalten hast. Vergesse nicht deinen Account zu verifizieren bevor du dich anmeldest (siehe die Email die du erhalten hast).
+
+          - q: Wo bearbeite ich die Einstellungen meines Teams?
+            a: |
+              Als Eigentümer der Umgebung kannst du die Einstellungen deines Teams bearbeiten,
+              indem du rechts im Menü auf ‘Einstellungen’ klickst und anschließend auf ‘Team’.
+
+      - title: Sicherheit und Datenschutz
+        questions:
+          - q: Wie sieht es mit Datenschutz aus?
+            a: |
+              Deine Daten sind bei uns sicher. Wir teilen deine Daten nicht mit Dritten.
+              LearningSpaces wendet die neuesten Sicherheitsprotokolle an und wird regelmäßig geupdatet.
+              Außerdem arbeiten wir mit Sicherheitsexperten zusammen.
+
+              Als Eigentümer der Umgebung, hast du zusätzlich die Option bestimmte Email Adressen einzuschränken
+              (z.B. nur Emails die mit `@beispiel.de` enden, können sich anmelden) oder nur Leute zuzulassen die du selbst einlädst (Invite-Only).
+
+          - q: Wem gehören die Daten?
+            a: |
+              Alles was du in LearningSpaces eingibst, bleibt dein Eigentum.
+              Solltest du dich dafür entscheiden mit LearningSpaces zu stoppen (aber warum solltest du schon?),
+              werden deine Daten nach einem Jahr gelöscht oder exportiert und dir zugeschickt.
+
+          - q: Kann ich Leute hinzufügen oder löschen?
+            a: |
+              Als Eigentümer entscheidest du, wer Zugang zu deiner Umgebung hat.
+              Natürlich kannst du Nutzer, die bereits angemeldet sind, auch wieder deaktivieren.
+
+      - title: Preise
+        questions:
+          - q: Welcher Plan passt zu mir?
+            a: |
+              Wir bieten eine **60-Tage gratis Demo** an. Ohne Einschränkungen. Genügend Zeit um mit LearningSpaces zu beginnen.
+              Für Teams bis zu 10 Nutzern ist und bleibt es immer kostenlos. Für größere Teams gibt es den Value Plan.
+              Und für noch größere Teams (wie eine Corporate Academy oder ein Unternehmen) bieten wir den individuellen Enterprise Plan.
+              [Hier](/pricing) gibt es mehr Informationen zu unseren Plänen.
+
+          - q: Für wen bezahle ich?
+            a: |
+              Der Preis basiert auf der Anzahl der aktiven Nutzer, die registriert sind auf deiner Umgebung.
+              Als Eigentümer kannst du bestimmen, wer Zugang hat. Sollte jemand deine Umgebung nicht mehr nutzen,
+              kannst du den Nutzer in den Einstellungen deaktivieren.
+
+      - title: Hilfe und Support
+        questions:
+          - q: Ich habe noch eine andere Frage...
+            a: |
+              Ist deine Frage nicht unter den häufig gestellten Fragen?
+              Dann klicke auf den Chat Button unten rechts und frage unser LearningSpaces Team direkt.
+              Wir antworten so schnell wie möglich (oft innerhalb einer Minute).

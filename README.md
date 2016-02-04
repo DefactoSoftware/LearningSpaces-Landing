@@ -9,10 +9,12 @@ We serve and build our localized websites using different `-e` environment flags
 # Serve using a single locale
 bundle exec middleman -e en
 bundle exec middleman -e nl
+bundle exec middleman -e de
 
 # Build using a single locale
 bundle exec middleman build -e en
 bundle exec middleman build -e nl
+bundle exec middleman build -e de
 ```
 
 Builds can be found in the `build` directory and the server runs at http://localhost:4567.
@@ -29,6 +31,7 @@ Build and deploy to Amazon S3:
 # Deploy single locale
 ./deploy en
 ./deploy nl
+./deploy de
 ```
 
 #### Useful links for debugging

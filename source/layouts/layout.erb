@@ -15,10 +15,11 @@
   <body class="<%= page_classes %>">
     <%= partial :header %>
 
-    <%= yield %>
+    <div class="main">
+      <%= yield %>
+    </div>
 
     <%= partial :footer %>
-
     <%= partial "intercom" %>
   </body>
 </html>

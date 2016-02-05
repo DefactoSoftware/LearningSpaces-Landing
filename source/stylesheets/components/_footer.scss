@@ -4,6 +4,7 @@
   @include clearfix;
   background: lighten($light-gray, 8%);
   color: $color;
+  flex: none;
   padding: 2em $side-padding;
   text-align: center;
   width: 100%;

@@ -195,11 +195,11 @@ de:
   # Login
   login:
     title: Login
-    text: "Please enter your team’s LearningSpaces domain:"
+    text: "Bitte gebe die Domain von deinem Team an:"
     placeholder: domain
-    error: Could not find that domain.
-    submit: Continue
-    signup_link: Trying to set up LearningSpaces for your team?
+    error: Die Domain konnte nicht gefunden werden.
+    submit: Weiter
+    signup_link: Willst du LearningSpaces für dein Team einrichten?
     signup_url: https://public.learningspaces.io/accounts/new
 
   # FAQ

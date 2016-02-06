@@ -1,6 +1,12 @@
 <% t("faq.categories").each do |category| %>
   <div class="faq-category">
-    <h3><%= category[:title] %></h3>
+    <% faq_slug = slug(category[:title]) %>
+    <h3 id="<%= faq_slug %>">
+      <a href="#<%= faq_slug %>" class="anchor" aria-hidden="true">
+        <span class="icon-link"></span>
+      </a>
+      <%= category[:title] %>
+    </h3>
     <ul class="faq-list">
 
       <% category[:questions].each do |question| %>

@@ -318,7 +318,7 @@ en:
               As a team owner you can change you team’s settings and preferences by clicking the *Settings* in the sidebar,
               and then click *Team* in the menu.
 
-      - title: Security &amp; Privacy
+      - title: Security & Privacy
         questions:
           - q: What about privacy & security?
             a: |
@@ -339,7 +339,7 @@ en:
               LearningSpaces also has an invite option, so it’s up to you who choose to invite.
               And of course you are able to deactivate users, so they can't access your community anymore.
 
-      - title: Pricing &amp; Billing
+      - title: Pricing & Billing
         questions:
           - q: What plan is right for me and my team?
             a: |
@@ -357,7 +357,7 @@ en:
               As a team owner, you decide who can register. If someone no longer needs to access your LearningSpace,
               you can deactivate their account. This way, you have full control over the number of active users.
 
-      - title: Help &amp; Support
+      - title: Help & Support
         questions:
           - q: I have a question, where can I ask it?
             a: |

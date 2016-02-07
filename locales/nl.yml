@@ -330,7 +330,7 @@ nl:
               Als eigenaar van een team kun je de voorkeuren en instellingen van je team wijzigen door in het linkermenu op *Settings* te klikken,
               en vervolgens *Team* te selecteren.
 
-      - title: Security &amp; Privacy
+      - title: Security & Privacy
         questions:
           - q: Hoe zit het met privacy & security?
             a: |
@@ -373,7 +373,7 @@ nl:
               Als eigenaar van een team kun je bepalen wie toegang heeft tot jouw LearningSpace.
               Maakt iemand geen gebruik meer van LearnignSpaces? Dan maak je hem inactief, en hoef je ook niet meer voor die persoon te betalen.
 
-      - title: Help &amp; Support
+      - title: Help & Support
         questions:
           - q: Ik heb een andere vraag...
             a: |

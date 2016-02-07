@@ -17,7 +17,7 @@ tour_features = Array.new unless tour_features.is_a?(Array)
 <section class="features">
 
   <% tour_features.each_with_index do |feature, index| %>
-    <div class="feature" id="<%= feature[:title].downcase.parameterize %>">
+    <div class="feature" id="<%= slug(feature[:title]) %>">
       <div class="row">
 
         <div class="feature-image">

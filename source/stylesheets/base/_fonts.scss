@@ -27,15 +27,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-link:before {
+    content: "\e901";
+}
 .icon-twitter:before {
-  content: "\e600";
+    content: "\e600";
 }
 .icon-google-plus:before {
-  content: "\e601";
+    content: "\e601";
 }
 .icon-linkedin:before {
-  content: "\e602";
+    content: "\e602";
 }
 .icon-facebook:before {
-  content: "\e603";
+    content: "\e603";
 }

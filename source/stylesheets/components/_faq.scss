@@ -14,7 +14,26 @@ $faq-icon-color: $green;
   text-align: left;
 
   // Category title
-  h3 {}
+  h3 {
+    .anchor {
+      color: inherit;
+      opacity: 0;
+      margin-left: -24px;
+      text-decoration: none;
+      transition: opacity 0.3ms ease;
+      width: 24px;
+
+      .icon-link {
+        position: relative;
+        top: -2px;
+        font-size: 19px;
+      }
+    }
+
+    &:hover .anchor {
+      opacity: 1;
+    }
+  }
 
   // Question title
   h4 {

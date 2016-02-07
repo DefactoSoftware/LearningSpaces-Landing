@@ -99,6 +99,7 @@ helpers do
     Tilt['markdown'].new { string }.render(scope=self)
   end
 
+  # Locale in xx_XX format
   def full_locale(lang=I18n.locale.to_s)
     if lang == "en"
       "en_US"
@@ -110,5 +111,10 @@ helpers do
   # Get full url
   def full_url(url)
     URI.join("http://www.learningspaces.#{t("tld")}", url)
+  end
+
+  # String to slug
+  def slug(string)
+    string.strip.downcase.parameterize
   end
 end

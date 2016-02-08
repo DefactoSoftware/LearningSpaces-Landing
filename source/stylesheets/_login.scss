@@ -1,12 +1,14 @@
 body.login {
   background: $green url(image-path("pattern.jpg")) no-repeat center;
   background-size: cover;
-  min-height: 100%;
 
-  @include media($medium-up) {
-    min-height: 100%;
-    display: flex;
-    align-items: center;
+  .main {
+    @include media($medium-up) {
+      align-items: center;
+      display: flex;
+      min-height: 100%;
+      min-height: 100vh;
+    }
   }
 
   .panel-wrapper {

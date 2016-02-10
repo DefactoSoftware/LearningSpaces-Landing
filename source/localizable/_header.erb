@@ -1,5 +1,5 @@
 <nav class="header <%= current_page.data.header_class %>" aria-hidden="true">
-  <% link_to "index.html", class: "logo" do %>
+  <% link_to "/index.html", class: "logo" do %>
     <%= image_tag "logo-cube.svg", class: "logo-cube" %>
     <%= image_tag "logo-text.svg", class: "logo-text", alt: "LearningSpaces" %>
     <%= image_tag "logo-cube-white.svg", class: "logo-cube white" %>
@@ -11,11 +11,11 @@
   </button>
 
   <ul class="header-menu">
-    <li><%= link_to t("menu.tour"), "tour.html", class: "nav-link" %></li>
-    <li><%= link_to t("menu.pricing"), "pricing.html", class: "nav-link" %></li>
-    <li><%= link_to t("menu.faq"), "faq.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.tour"), "/tour.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.pricing"), "/pricing.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.faq"), "/faq.html", class: "nav-link" %></li>
     <li><%= link_to t("menu.blog"), "http://blog.learningspaces.io", class: "nav-link" %></li>
-    <li><%= link_to t("menu.login"), "login.html", class: "nav-link" %></li>
+    <li><%= link_to t("menu.login"), "/login.html", class: "nav-link" %></li>
     <li><%= link_to t("menu.signup"), "https://public.learningspaces.io/accounts/new",
         class: "button button-outline button-rounded nav-button" %></li>
   </ul>

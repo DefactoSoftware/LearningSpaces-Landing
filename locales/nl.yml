@@ -2,6 +2,7 @@
 nl:
   tld: nl
 
+  # Title & descripiton fallback
   head:
     default_title: "LearningSpaces: Focus your team’s learning efforts"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
@@ -225,7 +226,7 @@ nl:
             a:  |
               Met LearningSpaces is het delen van kennis supersimpel. We beloven je dat je binnen een paar minuten op gang bent.
               Nodig gewoon je hele team uit, en begin met het maken van Spaces.
-              Met onze [split-screen editor](/tour/#schrijf-sneller-en-beter) schrijf je [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} aan de linker kant.
+              Met onze [split-screen editor](/tour.html#schrijf-sneller-en-beter) schrijf je [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} aan de linker kant.
               En rechts zie je een live preview hoe je leermateriaal eruit komt te zien.
               Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de content of plak een link naar bestaand materiaal.
               Begin met een concept en publiceer je content wanneer het af is.
@@ -307,7 +308,7 @@ nl:
               LearningSpaces kan je helpen, of je nu nieuwe medewerkers sneller en beter wilt inwerken,
               of een volledige *corporate academy* begint.
               Maar probeer het vooral zelf! Je kunt LearningSpaces [60 dagen gratis proberen](https://public.learningspaces.io/accounts/new).
-              Klik [hier](/pricing) om meer te lezen over de kosten.
+              Klik [hier](/pricing.html) om meer te lezen over de kosten.
           - q: Moet ik iets installeren?
             a: Nee, LearningSpaces werkt in alle moderne browsers.
           - q: Hoe maak ik een nieuw team aan?
@@ -322,7 +323,7 @@ nl:
               Maar dan moet je dus wel het domein van het team weten.
           - q: Waar kan ik inloggen?
             a: |
-              Inloggen kan [hier](/login). Je moet hiervoor wel het domein van je team kennen, dat ziet er zo uit: `teamdomein.learningspaces.nl`.
+              Inloggen kan [hier](/login.html). Je moet hiervoor wel het domein van je team kennen, dat ziet er zo uit: `teamdomein.learningspaces.nl`.
               Deze gegevens staan ook in de welkom e-mail die je hebt ontvangen.
               In sommige gevallen is het nodig om je e-mailadres te bevestigen. Hiervoor ontvang je dan een speciale e-mail.
           - q: Waar kan ik de instellingen van mijn team aanpassen?
@@ -365,7 +366,7 @@ nl:
               En voor nog grotere teams (bijvoorbeeld een grote organisatie, een corporate academy, of een grote community)
               hebben we het *Enterprise* abonnement.
 
-              Kijk anders even naar [het overzicht van alle abonnementen](/pricing).
+              Kijk anders even naar [het overzicht van alle abonnementen](/pricing.html).
           # - q: What are the payment methods?
           - q: Hoe wordt het aantal actieve gebruikers bepaald?
             a: |

@@ -2,6 +2,7 @@
 de:
   tld: de
 
+  # Title & descripiton fallback
   head:
     default_title: "LearningSpaces: Focus your team’s learning efforts"
     default_description: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
@@ -222,7 +223,7 @@ de:
               dass du innerhalb ein paar Minuten los legen kannst. Lade dein Team ein und erstelle deine ersten Spaces.
               Schreiben in [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} ist der schnellste Weg im Web,
               um deine Inhalte zu formulieren und formatieren.
-              Mit dem [Splitscreen Editor](/tour/#besser-und-schneller-schreiben), schreibst du links in Markdown und siehst rechts eine Preview.
+              Mit dem [Splitscreen Editor](/tour.html/#besser-und-schneller-schreiben), schreibst du links in Markdown und siehst rechts eine Preview.
               Hochladen und integrieren von Bildern, Videos (Youtube, Vimeo, etc.) und Dokumenten (Dropbox, Google Drive, etc.) kann bequem durch
               drag-and-drop oder Einfügen eines Links erfolgen. Starte im Entwurf-Modus und veröffentliche diesen wenn du fertig bist.
 
@@ -301,7 +302,7 @@ de:
               deshalb bieten wir LearningSpaces (mit allen Features) gratis an für Teams bis zu 10 Nutzern.
               LearningSpaces ist genauso gut geeignet für größere Teams. Ob für neue Mitarbeiter oder Trainees,
               deine Corporate Academy oder eine bestimmte Abteilung, LearningSpaces passt zu jedem Team.
-              Wir bieten eine 60-Tage Demo, in der du LearningSpaces testen und kennen lernen kannst. Erfahre [hier](/pricing) mehr über die Preise.
+              Wir bieten eine 60-Tage Demo, in der du LearningSpaces testen und kennen lernen kannst. Erfahre [hier](/pricing.html) mehr über die Preise.
 
           - q: Muss ich etwas installieren?
             a: Nein. LearningSpaces funktioniert in allen modernen Browsern.
@@ -318,7 +319,7 @@ de:
 
           - q: Wie kann ich mich anmelden?
             a: |
-              Du kannst dich [hier](/login) anmelden. Du benötigst jedoch die Domain deines Teams,
+              Du kannst dich [hier](/login.html) anmelden. Du benötigst jedoch die Domain deines Teams,
               die ungefähr so aussieht `teamdomain.learningspaces.de`. Du findest deine Anmeldedaten übrigens auch in der Email,
               die du erhalten hast. Vergesse nicht deinen Account zu verifizieren bevor du dich anmeldest (siehe die Email die du erhalten hast).
 
@@ -356,7 +357,7 @@ de:
               Wir bieten eine **60-Tage gratis Demo** an. Ohne Einschränkungen. Genügend Zeit um mit LearningSpaces zu beginnen.
               Für Teams bis zu 10 Nutzern ist und bleibt es immer kostenlos. Für größere Teams gibt es den Value Plan.
               Und für noch größere Teams (wie eine Corporate Academy oder ein Unternehmen) bieten wir den individuellen Enterprise Plan.
-              [Hier](/pricing) gibt es mehr Informationen zu unseren Plänen.
+              [Hier](/pricing.html) gibt es mehr Informationen zu unseren Plänen.
 
           - q: Für wen bezahle ich?
             a: |

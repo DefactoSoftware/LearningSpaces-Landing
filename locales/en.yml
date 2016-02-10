@@ -1,6 +1,8 @@
+---
 en:
   tld: io
 
+  # Title & descripiton fallback
   head:
     default_title: "LearningSpaces: Focus your team’s learning efforts"
     default_description: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
@@ -209,7 +211,7 @@ en:
               With LearningSpaces, sharing your knowledge is easy. We promise you'll be set up within minutes.
               Just invite your team and start creating your first Spaces.
               Write using [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"},
-              the fastest way to format content on the web. With our [split-screen](/tour/#write-better-and-faster)
+              the fastest way to format content on the web. With our [split-screen](/tour.html/#write-better-and-faster)
               editor you type Markdown on the left and see the preview on the right.
               Upload or embed images, videos (Youtube, Vimeo, etc.), and share documents (Dropbox, Google Drive, etc.)
               by pasting the link or dragging them into your content.
@@ -293,7 +295,7 @@ en:
               that’s why we offer LearningSpaces (with all its features) for Free for teams up to 10 users.
               LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a
               corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going,
-              so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing).
+              so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing.html).
 
           - q: Do I need to install something to get started?
             a: No, LearningSpaces runs in any (modern) browser.
@@ -309,7 +311,7 @@ en:
 
           - q: Where can I log in?
             a: |
-              You can log in [here](/login). You will need your team’s domain which looks something like `teamdomain.learningspaces.io`.
+              You can log in [here](/login.html). You will need your team’s domain which looks something like `teamdomain.learningspaces.io`.
               Your login details can also be found in the registration email we’ve sent you.
               Please note that you need to confirm your account before you can log in (sent to you by email).
 
@@ -346,7 +348,7 @@ en:
               LearningSpaces fits any team. First of all, we offer you a **60-day Free Trial** to get you and your team going.
               Then LearningSpaces (with all its features) will be **Free for small teams** up to 10 users.
               For larger teams we have the Value plan. And for really large teams (academies, large companies,
-              large learning communities) we have the Enterprise plan. **For all available plans check our [Plans page](/pricing)**.
+              large learning communities) we have the Enterprise plan. **For all available plans check our [Plans page](/pricing.html)**.
 
           # - q: What are the payment methods?
           #   a:

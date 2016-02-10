@@ -17,7 +17,7 @@
   box-shadow: 0 1px 4px rgba(0,0,0, .15);
 
   .mobile-nav-open & {
-    @include media ($medium-down) {
+    @include media ($large-down) {
       background: $green url(image-path("pattern.jpg")) no-repeat center;
       background-size: cover;
       height: 100%;
@@ -63,7 +63,7 @@
       }
 
       .mobile-nav-open & {
-        @include media ($medium-down) {
+        @include media ($large-down) {
           display: none;
 
           &.white {
@@ -81,12 +81,13 @@
     display: block;
     padding: 0.3em 0.5em 0.4em;
 
-    @include media (max-height 600px max-width $md-screen - 1) {
+    @include media (max-height 600px max-width $lg-screen - 1) {
       font-size: 24px;
       line-height: 1.2;
+      background: blue;
     }
 
-    @include media ($medium-up) {
+    @include media ($large-up) {
       font-size: 17px;
       padding: 8px 10px 9px;
     }
@@ -106,11 +107,11 @@
       opacity: 1;
     }
 
-    @include media ($medium-down) {
+    @include media ($large-down) {
       color: #fff;
     }
 
-    @include media ($medium-up) {
+    @include media ($large-up) {
       display: inline-block;
       line-height: 1em;
       margin-left: 9px;
@@ -119,7 +120,7 @@
 
   .nav-button {
     .mobile-nav-open & {
-      @include media ($medium-down) {
+      @include media ($large-down) {
         background-color: transparent;
         border-color: #fff;
         color: #fff;
@@ -134,7 +135,7 @@
       }
     }
 
-    @include media ($medium-up) {
+    @include media ($large-up) {
       display: inline-block;
       line-height: 1;
       margin-left: 1em;
@@ -159,11 +160,11 @@
       display: block;
     }
 
-    @include media ($medium-down) {
+    @include media ($large-down) {
       color: #fff;
     }
 
-    @include media ($medium-up) {
+    @include media ($large-up) {
       display: block;
       float: right;
       padding: 0;
@@ -200,7 +201,7 @@
       }
     }
 
-    @include media ($medium-up) {
+    @include media ($large-up) {
       display: none;
     }
   }
@@ -224,7 +225,7 @@
   }
 
   .nav-link {
-    @include media ($medium-up) {
+    @include media ($large-up) {
       color: #fff;
     }
   }

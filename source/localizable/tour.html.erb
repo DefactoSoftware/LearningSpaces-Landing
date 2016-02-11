@@ -4,7 +4,6 @@ title: Tour
 
 <%
 tour_features = t("tour.features")
-tour_features = Array.new unless tour_features.is_a?(Array)
 %>
 
 <div class="hero small">
@@ -17,7 +16,8 @@ tour_features = Array.new unless tour_features.is_a?(Array)
 <section class="features">
 
   <% tour_features.each_with_index do |feature, index| %>
-    <div class="feature" id="<%= slug(feature[:title]) %>">
+    <% tour_slug = slug(feature[:title]) %>
+    <div class="feature" id="<%= tour_slug %>">
       <div class="row">
 
         <div class="feature-image">
@@ -25,7 +25,12 @@ tour_features = Array.new unless tour_features.is_a?(Array)
         </div>
 
         <div class="feature-text">
-          <h3><%= feature[:title] %></h3>
+          <h3>
+            <a href="#<%= tour_slug %>" class="anchor" aria-hidden="true">
+              <span class="icon-link"></span>
+            </a>
+            <%= feature[:title] %>
+          </h3>
           <p><%= markdown feature[:text_md] %></p>
         </div>
 

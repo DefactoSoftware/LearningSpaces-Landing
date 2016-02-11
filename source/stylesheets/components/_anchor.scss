@@ -1,0 +1,27 @@
+h1, h2, h3 {
+  .anchor {
+    color: inherit;
+    display: none;
+    opacity: 0;
+    text-decoration: none;
+    transition: opacity 0.3ms ease;
+    width: 24px;
+
+    .icon-link {
+      font-size: 19px;
+      position: relative;
+      top: -0.1em;
+      vertical-align: middle;
+    }
+
+    @include media($large-up) {
+      display: inline-block;
+      float: left;
+      margin-left: -24px;
+    }
+  }
+
+  &:hover .anchor {
+    opacity: 1;
+  }
+}

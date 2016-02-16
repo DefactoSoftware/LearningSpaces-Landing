@@ -170,33 +170,36 @@ nl:
         text_md: "Heb je een vraag? Wij staan voor je klaar. Meestal binnen 1 minuut."
         image: tour/support.jpg
 
-# Pricing
+  # Pricing
   pricing:
     hero:
       title: Prijzen
-      text: "LearningSpaces is beschikbaar voor iedereen, van kleine teams tot grote organisaties."
+      text: "LearningSpaces is beschikbaar voor iedereen,<br>van kleine teams tot grote organisaties."
     features:
       - Alle abonnementen omvatten onbeperkte Spaces, Paden en data.
-      - Abonnementen worden jaarlijks gefactureerd en kunnen op elk moment worden geannuleerd.
+      - Alle abonnementen kunnen op elk moment worden geannuleerd.
     plans:
       free:
         title: Free
+        trial: Probeer 60 dagen Gratis
         features:
-          - Gratis tot 10 gebruikers
+          - "**Gratis tot 10 gebruikers**"
           - Voor kleine teams en startups
       value:
         title: Value
         features:
-          - Per gebruiker per maand<br>jaarlijks gefactureerd.
+          - "**Per gebruiker per maand**"
           - Directe in-app support
           - Annuleren wanneer je wilt
       enterprise:
         title: Enterprise
-        call_us: Bel ons
+        custom_pricing: Custom Pricing
+        contact_us: "[Contact](javascript:Intercom('show');) of bel met <span>+31 (0)50 3144832</span>"
         features:
-          - Directe in-app support
           - Initiële gebruikers import
           - Onboarding en implementatie consultancy
+          - Directe in-app support
+          - Annuleren wanneer je wilt
 
   # Login
   login:

@@ -6,6 +6,10 @@ section.features {
   border-bottom: $base-border;
   padding: 5em $side-padding;
   text-align: center;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .feature-image {

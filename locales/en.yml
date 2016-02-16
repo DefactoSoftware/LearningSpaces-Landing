@@ -158,29 +158,32 @@ en:
   pricing:
     hero:
       title: Pricing
-      text: "LearningSpaces is available for everybody, from small teams to large enterprises."
+      text: "Plans built for teams of all sizes. Start with 60 days for free."
     features:
       - All plans include unlimited Spaces, Paths and storage.
-      - Paid plans are billed annually and can be canceled at any time.
+      - All plans can be canceled at any time.
     plans:
       free:
         title: Free
+        trial: Try 60 days for Free
         features:
-          - Free for up to 10 users
+          - "**Free for up to 10 users**"
           - For small teams or startups
       value:
         title: Value
         features:
-          - Per user per month<br>billed annually
+          - "**Per user per month**"
           - Direct in-app support
-          - Cancel any time
+          - Cancel at any time
       enterprise:
         title: Enterprise
-        call_us: Call us
+        custom_pricing: Custom Pricing
+        contact_us: "[Contact](javascript:Intercom('show');) us or call +31 (0)50 3144832"
         features:
-          - Direct in-app support
           - Initial user import
           - Onboarding consultancy
+          - Direct in-app support
+          - Cancel at any time
 
   # Login
   login:

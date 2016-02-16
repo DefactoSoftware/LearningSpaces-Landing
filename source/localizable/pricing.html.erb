@@ -17,53 +17,66 @@ header_class: header-hero
   </div>
 </div>
 
-<section class="princing-plans">
+<section class="princing-plans border-bottom">
   <div class="row plans">
 
     <div id="plan-free" class="plan">
-      <h3><%= t("pricing.plans.free.title") %></h3>
-      <div class="plan-price">
-        <span class="currency">&euro;</span>0
+      <div class="plan-content">
+        <h3><%= t("pricing.plans.free.title") %></h3>
+        <div class="plan-price">
+          <span class="currency">&euro;</span>0
+        </div>
+        <% pricing_features = t("pricing.plans.free.features")
+        pricing_features = Array.new unless pricing_features.is_a?(Array)
+        pricing_features.each do |feature| %>
+          <%= markdown feature %>
+        <% end %>
+        <a class="button button-rounded" href="https://public.learningspaces.io/accounts/new"><%= t("pricing.plans.free.trial") %></a>
       </div>
-      <% pricing_features = t("pricing.plans.free.features")
-      pricing_features = Array.new unless pricing_features.is_a?(Array)
-      pricing_features.each do |feature| %>
-        <p><%= feature %></p>
-      <% end %>
     </div>
 
     <div id="plan-value" class="plan">
-      <h3><%= t("pricing.plans.value.title") %></h3>
-      <div class="plan-price">
-        <span class="currency">&euro;</span>2
-        <!-- <span class="cents">99</span> -->
+      <div class="plan-content">
+        <h3><%= t("pricing.plans.value.title") %></h3>
+        <div class="plan-price">
+          <span class="currency">&euro;</span>2
+          <!-- <span class="cents">00</span> -->
+        </div>
+        <% pricing_features = t("pricing.plans.value.features")
+        pricing_features = Array.new unless pricing_features.is_a?(Array)
+        pricing_features.each do |feature| %>
+          <%= markdown feature %>
+        <% end %>
       </div>
-      <% pricing_features = t("pricing.plans.value.features")
-      pricing_features = Array.new unless pricing_features.is_a?(Array)
-      pricing_features.each do |feature| %>
-        <p><%= feature %></p>
-      <% end %>
     </div>
 
     <div id="plan-enterprise" class="plan">
-      <h3><%= t("pricing.plans.enterprise.title") %></h3>
-      <div class="plan-price text">
-        <%= t("pricing.plans.enterprise.call_us") %>
+      <div class="plan-content">
+        <h3><%= t("pricing.plans.enterprise.title") %></h3>
+        <div class="plan-price">
+          <%= t("pricing.plans.enterprise.custom_pricing") %>
+          <%= markdown t("pricing.plans.enterprise.contact_us") %>
+        </div>
+        <% pricing_features = t("pricing.plans.enterprise.features")
+        pricing_features = Array.new unless pricing_features.is_a?(Array)
+        pricing_features.each do |feature| %>
+          <%= markdown feature %>
+        <% end %>
       </div>
-      <% pricing_features = t("pricing.plans.enterprise.features")
-      pricing_features = Array.new unless pricing_features.is_a?(Array)
-      pricing_features.each do |feature| %>
-        <p><%= feature %></p>
-      <% end %>
     </div>
 
   </div>
 
-  <div class="row">
+  <ul class="row pricing-features">
     <% pricing_features = t("pricing.features")
     pricing_features = Array.new unless pricing_features.is_a?(Array)
     pricing_features.each do |feature| %>
-      <p><%= feature %></p>
+      <li><%= markdown feature %></li>
     <% end %>
-  </div>
+  </ul>
 </section>
+
+<%= partial :for_who %>
+
+<%= partial :clients %>
+

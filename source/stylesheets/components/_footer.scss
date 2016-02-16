@@ -2,7 +2,7 @@
   $color: #9e9ea6;
 
   @include clearfix;
-  background: lighten($light-gray, 8%);
+  background: $lighter-gray;
   color: $color;
   flex: none;
   padding: 2em $side-padding;

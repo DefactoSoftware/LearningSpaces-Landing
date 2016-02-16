@@ -169,29 +169,32 @@ de:
   pricing:
     hero:
       title: Preise
-      text: "LearningSpaces ist für jedermann, von kleinen Teams bis hin zu großen Unternehmen."
+      text: "LearningSpaces ist für jedermann,<br>von kleinen Teams bis hin zu großen Unternehmen."
     features:
       - Alle Abos beinhalten unbegrenzte Spaces, Paths und Speicherplatz.
-      - Bezahlte Abos werden jährlich berechnet und sind jederzeit kündbar.
+      - Bezahlte Abos sind jederzeit kündbar.
     plans:
       free:
         title: Free
+        trial: 60 Tage kostenlos testen
         features:
-          - Gratis für bis zu 10 Nutzer
+          - "**Gratis für bis zu 10 Nutzer**"
           - Für kleine Teams und Startups
       value:
         title: Value
         features:
-          - Pro Nutzer pro Monat<br>auf jährlicher Basis
+          - "**Pro Nutzer pro Monat**"
           - Direkter in-App Support
           - Jederzeit kündbar
       enterprise:
         title: Enterprise
-        call_us: Ruf uns an
+        custom_pricing: Custom Pricing
+        contact_us: "[Kontaktiere](javascript:Intercom('show');) uns oder ruf an unter <span>+49 (0)40 306 988 472</span>"
         features:
-          - Direkter in-App Support
           - Einmaliger User Import
           - Onboarding Beratung
+          - Direkter in-App Support
+          - Jederzeit kündbar
 
   # Login
   login:

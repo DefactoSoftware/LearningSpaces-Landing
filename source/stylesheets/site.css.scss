@@ -28,22 +28,68 @@ body {
 }
 
 section {
-  // border-bottom: $base-border;
-  // border-bottom: 1px solid #E5E5E5;
   padding: 6em $side-padding;
+}
+
+.border-top {
+  border-top: $base-border;
+}
+
+.border-bottom {
+  border-bottom: $base-border;
 }
 
 .row {
   @include outer-container;
 }
 
+
 // Misc styling
 
-.clients {
-  background: #f6f7fa;
+section.for-who {
+  text-align: center;
+
+  .button {
+    margin: 1.5em 0.5em 0;
+  }
+}
+
+section.quotes {
+  background: $lighter-gray;
+
+  .row {
+    max-width: 1200px;
+  }
+
+  .quote-balloon {
+    @include media($medium-up) {
+      @include span-columns(4);
+    }
+  }
+}
+
+section.cta-signup {
+  background: darken($lighter-gray, 3%);
+  padding: 3em $side-padding;
+  text-align: center;
+
+  h3,
+  .button {
+    display: inline-block;
+    margin: 15px 1em;
+    vertical-align: middle;
+  }
+}
+
+section.clients {
+  background: $lighter-gray;
   border: none;
   padding: 3em $side-padding 2em;
   text-align: center;
+
+  body.index & {
+    border-top: $base-border;
+  }
 
   p {
     font-size: 0.8rem;
@@ -72,72 +118,36 @@ section {
   }
 }
 
-.for-who {
+section.contact {
   text-align: center;
 
-  // p {
-  //   margin: 0 auto;
-  //   max-width: 820px;
-  // }
+  .team {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 
-  .button {
-    margin: 1.5em 0.5em 0;
-  }
-}
+    li {
+      display: inline-block;
+      margin: 10px;
+    }
 
-// .slideshow {}
+    .avatar {
+      @include avatar-size(80px);
+      margin-bottom: 10px;
+    }
 
-.quotes {
-  background: #f6f7fa;
-
-  .row {
-    max-width: 1200px;
-  }
-
-  .quote-balloon {
-    @include media($medium-up) {
-      @include span-columns(4);
+    span {
+      color: #4a4a4a;
+      display: block;
+      font-size: 0.9em;
+      font-weight: 700;
     }
   }
 }
 
-.cta-signup {
-  background: #eceef3;
-  padding: 3em $side-padding;
-  text-align: center;
-
-  h3,
-  .button {
-    display: inline-block;
-    margin: 15px 1em;
-    vertical-align: middle;
-  }
-}
-
-.contact {
-  text-align: center;
-}
-
-.team {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-
-  li {
-    display: inline-block;
-    margin: 10px;
-  }
-
-  .avatar {
-    @include avatar-size(80px);
-    margin-bottom: 10px;
-  }
-
-  span {
-    color: #4a4a4a;
-    display: block;
-    font-size: 0.9em;
-    font-weight: 700;
+body.pricing {
+  .footer {
+    border-top: $base-border;
   }
 }

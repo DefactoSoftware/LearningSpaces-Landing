@@ -285,11 +285,6 @@ en:
               If you want LearningSpaces integrated into your current Learning Management Software,
               HRD software or BI software, feel free to contact us. We can always help you get connected.
 
-          #- q: Can I use dropbox / google drive?
-          #- q: What is a Chapter, Quiz and Assignment?
-          #- q: What is a Path?
-          #- q: What does draft and publish mean exactly?
-
       - title: Getting Started
         questions:
           - q: Is LearningSpaces right for me and my team?
@@ -353,8 +348,10 @@ en:
               For larger teams we have the Value plan. And for really large teams (academies, large companies,
               large learning communities) we have the Enterprise plan. **For all available plans check our [Plans page](/pricing.html)**.
 
-          # - q: What are the payment methods?
-          #   a:
+          - q: What are the payment methods?
+            a: |
+              We accept payments from almost any kind of credit card (**Visa**, **MasterCard** and **American Express**).
+              We also accept payments by invoice if you have a large team. Please [contact us](javascript:Intercom('show');) and we'll be happy to help.
 
           - q: Do I only pay for active users?
             a: |

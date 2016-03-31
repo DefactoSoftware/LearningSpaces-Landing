@@ -297,10 +297,6 @@ nl:
               Wil je LearningSpaces integreren met je huidige Learning Management System, HRD Software of BI oplossing? Neem contact met ons op.
               We kunnen altijd naar een oplossing voor je zoeken.
 
-          #- q: What is a Chapter, Quiz and Assignment?
-          #- q: What is a Path?
-          #- q: What does draft and publish mean exactly?
-
       - title: Beginnen met LearningSpaces
         questions:
           - q: Is LearningSpaces geschikt voor mijn team?
@@ -312,23 +308,28 @@ nl:
               of een volledige *corporate academy* begint.
               Maar probeer het vooral zelf! Je kunt LearningSpaces [60 dagen gratis proberen](https://public.learningspaces.io/accounts/new).
               Klik [hier](/pricing.html) om meer te lezen over de kosten.
+
           - q: Moet ik iets installeren?
             a: Nee, LearningSpaces werkt in alle moderne browsers.
+
           - q: Hoe maak ik een nieuw team aan?
             a: |
               Je kunt [hier](https://public.learningspaces.io/accounts/new){:target="_blank"} een nieuw team aanmaken.
               We helpen je in een aantal stappen je team in te stellen en andere gebruikers uit te nodigen.
               Geen zorgen, je kunt de instellingen van je team later altijd nog aanpassen.
+
           - q: Hoe word ik lid van een bestaand team?
             a: |
               Om lid te worden van een  bestaand team moet je worden uitgenodigd.
               Of je gaat naar `teamdomein.learningspaces.nl/register` om je te registreren.
               Maar dan moet je dus wel het domein van het team weten.
+
           - q: Waar kan ik inloggen?
             a: |
               Inloggen kan [hier](/login.html). Je moet hiervoor wel het domein van je team kennen, dat ziet er zo uit: `teamdomein.learningspaces.nl`.
               Deze gegevens staan ook in de welkom e-mail die je hebt ontvangen.
               In sommige gevallen is het nodig om je e-mailadres te bevestigen. Hiervoor ontvang je dan een speciale e-mail.
+
           - q: Waar kan ik de instellingen van mijn team aanpassen?
             a: |
               Als eigenaar van een team kun je de voorkeuren en instellingen van je team wijzigen door in het linkermenu op *Settings* te klikken,
@@ -346,11 +347,13 @@ nl:
               Security nemen we serieus, onze eerste leaddeveloper is zelfs voor een security start-up gaan werken ;)
               We houden ons aan de laatste protocollen en updaten de software voortdurend waar nodig.
               Daarnaast werken we regelmatig samen met experts op het gebied van security.
+
           - q: Van wie is de data?
             a: |
               Alles wat je in LearningSpaces maakt blijft altijd jouw eigendom.
               Mocht je toch besluiten te stoppen met LearningSpaces, kunnen we al je data op verzoek verwijderen.
               Of exporteren en naar je opsturen natuurlijk.
+
           - q: Kan ik mensen toevoegen of verwijderen?
             a: |
               Als eigenaar van een team bepaal jij wie toegang heeft tot je omgeving.
@@ -370,7 +373,13 @@ nl:
               hebben we het *Enterprise* abonnement.
 
               Kijk anders even naar [het overzicht van alle abonnementen](/pricing.html).
-          # - q: What are the payment methods?
+
+          - q: Wat zijn de betaalmethoden?
+            a: |
+              We accepteren betalingen met de meeste credit cards (**Visa**, **MasterCard** and **American Express**).
+              Als het om grote teams gaat accepteren we ook betalingen per factuur.
+              Neem dan [contact](javascript:Intercom('show');) met ons op zodat we dit kunnen regelen.
+
           - q: Hoe wordt het aantal actieve gebruikers bepaald?
             a: |
               Je betaalt voor alle gebruikers die geregistreerd zijn bij jouw LearningSpace.

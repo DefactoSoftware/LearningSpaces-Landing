@@ -4,7 +4,7 @@ nl:
 
   # Title & descripiton fallback
   head:
-    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_title: "LearningSpaces: Een centrale plek voor kennis binnen je team"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
 
   # Menu
@@ -27,13 +27,12 @@ nl:
   # Home
   home:
     hero:
-      title: <span class="focus">Focus</span> your team’s learning efforts
-      # title: <span class="focus">Focus</span> op leren en het delen van kennis
+      title: Dé plek voor kennis binnen je team
       try_now: Probeer gratis
       or: of
       take_tour: Neem de tour
       quote:
-        text: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
+        text: Maak kennis met LearningSpaces. <br> De beste plek om kennis te delen met je team.
         author: Joep Lenglet,
         company: Learning Consultant bij Defacto
 
@@ -58,25 +57,24 @@ nl:
     features:
       - screenshot: screenshots/spaces.jpg
         screenshot_alt: Spaces
-        title: Je eigen Learning Community
+        title: Gemaakt voor kennis
         text_md: |
-          Spaces zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
-          Deel kennis en werk samen met je team. Op je werk, thuis of onderweg.
+          Dit zijn Spaces. Plekken waarin je teamleden kennis kunnen delen met het hele team.
+          Iedereen kan Spaces volgen, eraan meewerken en erop reageren.
       - screenshot: screenshots/paths.jpg
         screenshot_alt: Paden
-        title: Van Spaces naar Leerpaden
+        title: Essentieel voor nieuwelingen
         text_md: |
-          Paden brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
+          Bundel Spaces in paden die niemand mag missen. Werkwijzen. Methodes.
+          Geweldige tips en trucs. Handig voor iedereen, essentieel voor nieuwe krachten.
       - screenshot: screenshots/editor.jpg
         screenshot_alt: Editor
-        title: Schrijf sneller en beter
+        title: Altijd up-to-date
         text_md: |
-          Met onze intuïtieve editor schrijf je in Markdown.
-          Voeg eenvoudig plaatjes, videos en bestanden toe.
-          Rechts zie je direct het eindresultaat.
-          Zo kun je volledig focussen op het schrijven.
+          Vergeet oude mailbijlages en statische PDF-documenten.
+          Update Spaces op elk apparaat, waar je ook bent.
+          Zo is je kennis altijd actueel.
+          Ontmoet de eerste echt centrale plek voor kennis in je team.
 
   # For who?
   for_who:
@@ -92,7 +90,7 @@ nl:
 
   # CTA
   cta:
-    tagline: Klaar om LearningSpaces te proberen? Maak gratis een account aan.
+    tagline: Probeer LearningSpaces nu. Het is gratis.
     sign_up: LearningSpaces proberen
 
   # Quotes
@@ -123,51 +121,58 @@ nl:
   # Tour page
   tour:
     hero:
-      title: Tour
-      text: Ontdek wat LearningSpaces voor jouw team of organisatie kan betekenen
+      title: Dit is LearningSpaces
+      text: Deel kennis binnen je team op één centrale plek
     features:
-      - title: Je eigen Learning Community
+      - title: Kennis delen doe je in Spaces
         text_md: |
-          **Spaces** zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
-          Deel, werk samen en communiceer met je team. Op je werk, thuis of onderweg.
+          Start een **Space** over een onderwerp,
+          voeg hoofdstukken toe en update inhoud wanneer je maar wil.
+          Alleen of samen. Iedereen in het team kan Spaces volgen en erop reageren.
         image: tour/spaces.jpg
 
-      - title: Bundel je kennis
-      # - title: Create Meaningful Content
+      - title: Bundel de beste kennis
         text_md: |
-          Organiseer je kennis in boeiende en lonende leerervaringen.
-          Deel je content op in **Hoofdstukken**, **Quizzes** en **Opdrachten** om te testen wat je team geleerd heeft.
+          Verzamel de Spaces met essentiële kennis die niemand mag missen.
+          Bundel ze in **Paden** en raad ze aan bij iedereen in het team.
+          Praktisch voor iedereen, onmisbaar voor nieuwe krachten.
         image: tour/chapters.jpg
 
-      - title: Schrijf sneller en beter
+      - title: Test en quiz
         text_md: |
-          Richt je volledig op de inhoud met onze intuïtieve editor.
-          Met links [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} en rechts een live preview zie je direct hoe je leermateriaal eruit komt te zien.
-
-          Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
-          Begin met een concept en publiceer je content wanneer het af is.
-
+          Je ziet altijd wie welk hoofdstuk heeft gelezen.
+          Maar hoe goed snappen anderen je uitleg?
+          Test teamleden met een opdracht. Daag ze uit met een quiz.
+          Je ziet direct hun scores.
         image: tour/editor.jpg
 
-      - title: Werk samen met je team
-        text_md: "Voeg **auteurs** toe aan je Spaces. Auteurs kunnen eigen hoofdstukken aan jouw Space toevoegen. Zonder jouw materiaal te wijzigen."
+      - title: Geen gedoe met toegang
+        text_md: |
+          Geen geklooi meer met beperkte toegang, gebruikers uitnodigen,
+          toestemming verlenen en gedeelde mappen die niemand kan vinden.
+          De kennis binnen Spaces en Paden is toegankelijk voor iedereen in je team.
+          Zó maak je elkaar pas echt slimmer.
         image: tour/collaborate.jpg
 
-      - title: Meer focus met Paden
+      - title: Publiceer wat je maar wil
         text_md: |
-          **Paden** brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
-          Als je een Pad hebt voltooid, verschijnt deze als **achievement** op je profiel.
-          Zo kan iedereen zien wat jouw expertisegebied is.
+          Een handleiding die ook handig is voor je klanten?
+          Algemene voorwaarden?
+          Met één knop publiceer je een Space - maar alleen voor de mensen die je wil bereiken.
         image: tour/path.jpg
 
-      - title: Leer je team beter kennen
-        text_md: "Op de profielpagina's van je collega's kun je zien wat ze hebben geleerd en waar ze goed in zijn."
+      - title: Vraag alles
+        text_md: |
+          Een speciale plek voor al je vragen.
+          Waarom deel je ze niet met het hele team, zodat iedereen ervan kan leren?
         image: tour/profile.jpg
 
-      - title: Eersteklas live-support
-        text_md: "Heb je een vraag? Wij staan voor je klaar. Meestal binnen 1 minuut."
+      - title: Sublieme eenvoud
+        text_md: |
+          Of je nou een Space schrijft of een Pad volgt: het kan niet eenvoudiger.
+          Op desktop, telefoon en tablet.
+          We doen er alles aan om kennis delen zo leuk mogelijk te maken.
+          Dat merk je aan alles.
         image: tour/support.jpg
 
   # Pricing

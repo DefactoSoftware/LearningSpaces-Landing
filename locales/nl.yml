@@ -1,10 +1,12 @@
 ---
 nl:
   tld: nl
+  urls:
+    signup: https://public.learningspaces.nl/accounts/new
 
   # Title & descripiton fallback
   head:
-    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_title: "LearningSpaces: Een centrale plek voor kennis binnen je team"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
 
   # Menu
@@ -27,15 +29,12 @@ nl:
   # Home
   home:
     hero:
-      title: <span class="focus">Focus</span> your team’s learning efforts
-      # title: <span class="focus">Focus</span> op leren en het delen van kennis
+      title: Dé plek voor kennis binnen je team
       try_now: Probeer gratis
       or: of
       take_tour: Neem de tour
       quote:
-        text: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
-        author: Joep Lenglet,
-        company: Learning Consultant bij Defacto
+        text: Houd kennis centraal en up-to-date in LearningSpaces.
 
   # Contact
   contact:
@@ -57,26 +56,27 @@ nl:
   slideshow:
     features:
       - screenshot: screenshots/spaces.jpg
-        screenshot_alt: Spaces
-        title: Je eigen Learning Community
+        screenshot_alt: Maak kennis centraal
+        title: Maak kennis centraal
         text_md: |
-          Spaces zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
-          Deel kennis en werk samen met je team. Op je werk, thuis of onderweg.
+          De beste werkwijzen. Tips en trucs. Handleidingen. Huisregels.
+          Methodes.
+          In LearningSpaces kan je hele team specialismen met elkaar delen.
+
       - screenshot: screenshots/paths.jpg
-        screenshot_alt: Paden
-        title: Van Spaces naar Leerpaden
+        screenshot_alt: De kracht van Spaces
+        title: De kracht van Spaces
         text_md: |
-          Paden brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
+          Iedereen in je team kan Spaces aanmaken.
+          Voor elk onderwerp.
+          Werk samen aan Spaces, voeg nieuwe hoofdstukken toe en reageer.
+
       - screenshot: screenshots/editor.jpg
         screenshot_alt: Editor
-        title: Schrijf sneller en beter
+        title: Altijd actueel
         text_md: |
-          Met onze intuïtieve editor schrijf je in Markdown.
-          Voeg eenvoudig plaatjes, videos en bestanden toe.
-          Rechts zie je direct het eindresultaat.
-          Zo kun je volledig focussen op het schrijven.
+          Abonneer je op Spaces en volg nieuwe hoofdstukken en reacties.
+          Zo is kennis van iedereen en altijd actueel.
 
   # For who?
   for_who:
@@ -92,7 +92,7 @@ nl:
 
   # CTA
   cta:
-    tagline: Klaar om LearningSpaces te proberen? Maak gratis een account aan.
+    tagline: Probeer LearningSpaces nu. Gratis tot 10 personen.
     sign_up: LearningSpaces proberen
 
   # Quotes
@@ -123,52 +123,63 @@ nl:
   # Tour page
   tour:
     hero:
-      title: Tour
-      text: Ontdek wat LearningSpaces voor jouw team of organisatie kan betekenen
+      title: Dit is LearningSpaces
+      text: Deel kennis binnen je team op één centrale plek
     features:
-      - title: Je eigen Learning Community
+      - title: Deel kennis met elkaar
         text_md: |
-          **Spaces** zijn de bouwstenen van je team's kenniscentrum.
-          Maak je eigen lessen en handleidingen of voeg bestaand materiaal toe.
-          Deel, werk samen en communiceer met je team. Op je werk, thuis of onderweg.
+          Huisregels. De beste werkwijzen. Tips van talenten. Methodes die je gebruikt.
+          Of gewoon hoe de printer werkt. In LearningSpaces deelt iedereen in je team zijn specialismen met elkaar.
         image: tour/spaces.jpg
 
-      - title: Bundel je kennis
-      # - title: Create Meaningful Content
+      - title: Volg en reageer
         text_md: |
-          Organiseer je kennis in boeiende en lonende leerervaringen.
-          Deel je content op in **Hoofdstukken**, **Quizzes** en **Opdrachten** om te testen wat je team geleerd heeft.
+          Start een Space over een onderwerp, voeg hoofdstukken toe en update inhoud wanneer je maar wil.
+          Iedereen in het team kan Spaces volgen en erop reageren.
         image: tour/chapters.jpg
 
-      - title: Schrijf sneller en beter
+      - title: Bundel de beste kennis
         text_md: |
-          Richt je volledig op de inhoud met onze intuïtieve editor.
-          Met links [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} en rechts een live preview zie je direct hoe je leermateriaal eruit komt te zien.
-
-          Voeg eenvoudig plaatjes, videos en bestanden toe. Sleep bestanden of afbeeldingen in de editor of plak een link naar bestaand materiaal.
-          Begin met een concept en publiceer je content wanneer het af is.
-
-        image: tour/editor.jpg
-
-      - title: Werk samen met je team
-        text_md: "Voeg **auteurs** toe aan je Spaces. Auteurs kunnen eigen hoofdstukken aan jouw Space toevoegen. Zonder jouw materiaal te wijzigen."
-        image: tour/collaborate.jpg
-
-      - title: Meer focus met Paden
-        text_md: |
-          **Paden** brengen focus en helpen je team met het behalen van leerdoelen.
-          Bundel Spaces per onderwerp of per functie en houd bij wat je nog moet doen.
-          Als je een Pad hebt voltooid, verschijnt deze als **achievement** op je profiel.
-          Zo kan iedereen zien wat jouw expertisegebied is.
+          Verzamel de Spaces met kennis die niemand mag missen.
+          Bundel ze in Paden en raad ze aan bij je team.
+          Praktisch voor iedereen, onmisbaar voor nieuwelingen.
         image: tour/path.jpg
 
-      - title: Leer je team beter kennen
-        text_md: "Op de profielpagina's van je collega's kun je zien wat ze hebben geleerd en waar ze goed in zijn."
-        image: tour/profile.jpg
+      - title: Toets en quiz
+        text_md: |
+          Je ziet altijd wie welk hoofdstuk heeft gelezen.
+          Hoe goed snappen anderen je uitleg? Toets ze met een opdracht.
+          Daag ze uit met een quiz. Je ziet direct hun scores.
+        image: tour/quiz.jpg
 
-      - title: Eersteklas live-support
-        text_md: "Heb je een vraag? Wij staan voor je klaar. Meestal binnen 1 minuut."
-        image: tour/support.jpg
+      - title: Voor iedereen
+        text_md: |
+          Geen gedoe met beperkte toegang,
+          toestemming verlenen en gedeelde mappen die niemand kan vinden.
+          De kennis binnen Spaces en Paden is toegankelijk
+          voor iedereen in je team.
+        image: tour/collaborate.jpg
+
+      - title: Publiceer wat je maar wil
+        text_md: |
+          Een handleiding die ook handig is voor je klanten?
+          Algemene voorwaarden?
+          Met één knop publiceer je een Space -
+          maar alleen voor de externe mensen die je wil bereiken.
+        image: tour/editor.jpg
+
+      - title: Vraag het je team
+        text_md: |
+          Een speciale plek voor al je vragen.
+          Waarom deel je ze niet met het hele team, zodat iedereen ervan kan leren?
+        image: tour/questions-answers.jpg
+
+      - title: Overal en altijd
+        text_md: |
+          Doe mee op desktop, telefoon of tablet.
+          We doen er alles aan om kennis delen zo eenvoudig en
+          leuk mogelijk te maken. Dat merk je aan alles.
+        image: tour/mobile.jpg
 
   # Pricing
   pricing:
@@ -176,20 +187,20 @@ nl:
       title: Prijzen
       text: "LearningSpaces is beschikbaar voor iedereen,<br>van kleine teams tot grote organisaties."
     features:
-      - Alle abonnementen omvatten onbeperkte Spaces, Paden en data.
+      - Alle abonnementen bevatten onbeperkte Spaces, Paden en data.
       - Alle abonnementen kunnen op elk moment worden geannuleerd.
     plans:
       free:
         title: Free
-        trial: Probeer 60 dagen Gratis
+        trial: Start nu
         features:
           - "**Gratis tot 10 gebruikers**"
-          - Voor kleine teams en startups
+          - Op elk moment op te waarderen
       value:
         title: Value
         features:
           - "**Per gebruiker per maand**"
-          - Directe in-app support
+          - In-app ondersteuning
           - Annuleren wanneer je wilt
       enterprise:
         title: Enterprise
@@ -198,7 +209,7 @@ nl:
         features:
           - Initiële gebruikers import
           - Onboarding en implementatie consultancy
-          - Directe in-app support
+          - In-app ondersteuning
           - Annuleren wanneer je wilt
 
   # Login

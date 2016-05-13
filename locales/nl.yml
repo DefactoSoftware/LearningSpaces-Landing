@@ -137,29 +137,28 @@ nl:
           Spaces kunnen overal over gaan.
           Huisregels. De beste werkwijzen. Tips van talenten binnen je team.
           Methodes die je gebruikt. Of gewoon hoe de printer werkt.
-        image:
+        image: tour/chapters.jpg
 
       - title: Bundel de beste kennis
         text_md: |
           Verzamel de Spaces met kennis die niemand mag missen.
           Bundel ze in Paden en raad ze aan bij je team.
           Praktisch voor iedereen, onmisbaar voor nieuwelingen.
-        image: tour/chapters.jpg
+        image: tour/path.jpg
 
-      - title: Test en quiz
+      - title: Toets en quiz
         text_md: |
           Je ziet altijd wie welk hoofdstuk heeft gelezen.
-          Hoe goed snappen anderen je uitleg? Test ze met een opdracht.
+          Hoe goed snappen anderen je uitleg? Toets ze met een opdracht.
           Daag ze uit met een quiz. Je ziet direct hun scores.
-        image: tour/editor.jpg
+        image: tour/quiz.jpg
 
-      - title: Geen gedoe met toegang
+      - title: Voor iedereen
         text_md: |
-          Geen geklooi met beperkte toegang,
+          Geen gedoe met beperkte toegang,
           toestemming verlenen en gedeelde mappen die niemand kan vinden.
           De kennis binnen Spaces en Paden is toegankelijk
           voor iedereen in je team.
-
         image: tour/collaborate.jpg
 
       - title: Publiceer wat je maar wil
@@ -168,20 +167,20 @@ nl:
           Algemene voorwaarden?
           Met één knop publiceer je een Space -
           maar alleen voor de externe mensen die je wil bereiken.
-        image: tour/path.jpg
+        image: tour/editor.jpg
 
-      - title: Vraag alles
+      - title: Vraag het je team
         text_md: |
           Een speciale plek voor al je vragen.
           Waarom deel je ze niet met het hele team, zodat iedereen ervan kan leren?
-        image: tour/profile.jpg
+        image: tour/questions-answers.jpg
 
-      - title: Sublieme eenvoud
+      - title: Overal en altijd
         text_md: |
           Doe mee op desktop, telefoon of tablet.
           We doen er alles aan om kennis delen zo eenvoudig en
           leuk mogelijk te maken. Dat merk je aan alles.
-        image: tour/support.jpg
+        image: tour/mobile.jpg
 
   # Pricing
   pricing:

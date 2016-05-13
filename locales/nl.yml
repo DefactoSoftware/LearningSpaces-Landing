@@ -32,9 +32,7 @@ nl:
       or: of
       take_tour: Neem de tour
       quote:
-        text: Maak kennis met LearningSpaces. <br> De beste plek om kennis te delen met je team.
-        author: Joep Lenglet,
-        company: Learning Consultant bij Defacto
+        text: Houd kennis centraal en up-to-date in LearningSpaces.
 
   # Contact
   contact:
@@ -56,25 +54,27 @@ nl:
   slideshow:
     features:
       - screenshot: screenshots/spaces.jpg
-        screenshot_alt: Spaces
-        title: Gemaakt voor kennis
+        screenshot_alt: Maak kennis centraal
+        title: Maak kennis centraal
         text_md: |
-          Dit zijn Spaces. Plekken waarin je teamleden kennis kunnen delen met het hele team.
-          Iedereen kan Spaces volgen, eraan meewerken en erop reageren.
+          De beste werkwijzen. Tips en trucs. Handleidingen. Huisregels.
+          Methodes.
+          In LearningSpaces kan je hele team specialismen met elkaar delen.
+
       - screenshot: screenshots/paths.jpg
-        screenshot_alt: Paden
-        title: Essentieel voor nieuwelingen
+        screenshot_alt: De kracht van Spaces
+        title: De kracht van Spaces
         text_md: |
-          Bundel Spaces in paden die niemand mag missen. Werkwijzen. Methodes.
-          Geweldige tips en trucs. Handig voor iedereen, essentieel voor nieuwe krachten.
+          Iedereen in je team kan Spaces aanmaken.
+          Voor elk onderwerp.
+          Werk samen aan Spaces, voeg nieuwe hoofdstukken toe en reageer.
+
       - screenshot: screenshots/editor.jpg
         screenshot_alt: Editor
-        title: Altijd up-to-date
+        title: Altijd actueel
         text_md: |
-          Vergeet oude mailbijlages en statische PDF-documenten.
-          Update Spaces op elk apparaat, waar je ook bent.
-          Zo is je kennis altijd actueel.
-          Ontmoet de eerste echt centrale plek voor kennis in je team.
+          Abonneer je op Spaces en volg nieuwe hoofdstukken en reacties.
+          Zo is kennis van iedereen en altijd actueel.
 
   # For who?
   for_who:
@@ -90,7 +90,7 @@ nl:
 
   # CTA
   cta:
-    tagline: Probeer LearningSpaces nu. Het is gratis.
+    tagline: Probeer LearningSpaces nu. Gratis tot 10 personen.
     sign_up: LearningSpaces proberen
 
   # Quotes
@@ -126,39 +126,48 @@ nl:
     features:
       - title: Kennis delen doe je in Spaces
         text_md: |
-          Start een **Space** over een onderwerp,
+          Iedereen in je team kan kennis delen in Spaces.
+          Start een Space over een onderwerp,
           voeg hoofdstukken toe en update inhoud wanneer je maar wil.
-          Alleen of samen. Iedereen in het team kan Spaces volgen en erop reageren.
+          Iedereen in het team kan Spaces volgen en erop reageren.
         image: tour/spaces.jpg
+
+      - title: Superveelzijdig
+        text_md: |
+          Spaces kunnen overal over gaan.
+          Huisregels. De beste werkwijzen. Tips van talenten binnen je team.
+          Methodes die je gebruikt. Of gewoon hoe de printer werkt.
+        image:
 
       - title: Bundel de beste kennis
         text_md: |
-          Verzamel de Spaces met essentiële kennis die niemand mag missen.
-          Bundel ze in **Paden** en raad ze aan bij iedereen in het team.
-          Praktisch voor iedereen, onmisbaar voor nieuwe krachten.
+          Verzamel de Spaces met kennis die niemand mag missen.
+          Bundel ze in Paden en raad ze aan bij je team.
+          Praktisch voor iedereen, onmisbaar voor nieuwelingen.
         image: tour/chapters.jpg
 
       - title: Test en quiz
         text_md: |
           Je ziet altijd wie welk hoofdstuk heeft gelezen.
-          Maar hoe goed snappen anderen je uitleg?
-          Test teamleden met een opdracht. Daag ze uit met een quiz.
-          Je ziet direct hun scores.
+          Hoe goed snappen anderen je uitleg? Test ze met een opdracht.
+          Daag ze uit met een quiz. Je ziet direct hun scores.
         image: tour/editor.jpg
 
       - title: Geen gedoe met toegang
         text_md: |
-          Geen geklooi meer met beperkte toegang, gebruikers uitnodigen,
+          Geen geklooi met beperkte toegang,
           toestemming verlenen en gedeelde mappen die niemand kan vinden.
-          De kennis binnen Spaces en Paden is toegankelijk voor iedereen in je team.
-          Zó maak je elkaar pas echt slimmer.
+          De kennis binnen Spaces en Paden is toegankelijk
+          voor iedereen in je team.
+
         image: tour/collaborate.jpg
 
       - title: Publiceer wat je maar wil
         text_md: |
           Een handleiding die ook handig is voor je klanten?
           Algemene voorwaarden?
-          Met één knop publiceer je een Space - maar alleen voor de mensen die je wil bereiken.
+          Met één knop publiceer je een Space -
+          maar alleen voor de externe mensen die je wil bereiken.
         image: tour/path.jpg
 
       - title: Vraag alles
@@ -169,10 +178,9 @@ nl:
 
       - title: Sublieme eenvoud
         text_md: |
-          Of je nou een Space schrijft of een Pad volgt: het kan niet eenvoudiger.
-          Op desktop, telefoon en tablet.
-          We doen er alles aan om kennis delen zo leuk mogelijk te maken.
-          Dat merk je aan alles.
+          Doe mee op desktop, telefoon of tablet.
+          We doen er alles aan om kennis delen zo eenvoudig en
+          leuk mogelijk te maken. Dat merk je aan alles.
         image: tour/support.jpg
 
   # Pricing
@@ -181,20 +189,20 @@ nl:
       title: Prijzen
       text: "LearningSpaces is beschikbaar voor iedereen,<br>van kleine teams tot grote organisaties."
     features:
-      - Alle abonnementen omvatten onbeperkte Spaces, Paden en data.
+      - Alle abonnementen bevatten onbeperkte Spaces, Paden en data.
       - Alle abonnementen kunnen op elk moment worden geannuleerd.
     plans:
       free:
         title: Free
-        trial: Probeer 60 dagen Gratis
+        trial: Start nu
         features:
           - "**Gratis tot 10 gebruikers**"
-          - Voor kleine teams en startups
+          - Op elk moment op te waarderen
       value:
         title: Value
         features:
           - "**Per gebruiker per maand**"
-          - Directe in-app support
+          - In-app ondersteuning
           - Annuleren wanneer je wilt
       enterprise:
         title: Enterprise
@@ -203,7 +211,7 @@ nl:
         features:
           - Initiële gebruikers import
           - Onboarding en implementatie consultancy
-          - Directe in-app support
+          - In-app ondersteuning
           - Annuleren wanneer je wilt
 
   # Login

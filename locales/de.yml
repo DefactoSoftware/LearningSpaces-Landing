@@ -1,6 +1,8 @@
 ---
 de:
   tld: de
+  urls:
+    signup: https://public.learningspaces.de/accounts/new
 
   # Title & descripiton fallback
   head:

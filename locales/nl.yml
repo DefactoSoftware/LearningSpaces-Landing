@@ -1,6 +1,8 @@
 ---
 nl:
   tld: nl
+  urls:
+    signup: https://public.learningspaces.nl/accounts/new
 
   # Title & descripiton fallback
   head:
@@ -124,19 +126,16 @@ nl:
       title: Dit is LearningSpaces
       text: Deel kennis binnen je team op één centrale plek
     features:
-      - title: Kennis delen doe je in Spaces
+      - title: Deel kennis met elkaar
         text_md: |
-          Iedereen in je team kan kennis delen in Spaces.
-          Start een Space over een onderwerp,
-          voeg hoofdstukken toe en update inhoud wanneer je maar wil.
-          Iedereen in het team kan Spaces volgen en erop reageren.
+          Huisregels. De beste werkwijzen. Tips van talenten. Methodes die je gebruikt.
+          Of gewoon hoe de printer werkt. In LearningSpaces deelt iedereen in je team zijn specialismen met elkaar.
         image: tour/spaces.jpg
 
-      - title: Superveelzijdig
+      - title: Volg en reageer
         text_md: |
-          Spaces kunnen overal over gaan.
-          Huisregels. De beste werkwijzen. Tips van talenten binnen je team.
-          Methodes die je gebruikt. Of gewoon hoe de printer werkt.
+          Start een Space over een onderwerp, voeg hoofdstukken toe en update inhoud wanneer je maar wil.
+          Iedereen in het team kan Spaces volgen en erop reageren.
         image: tour/chapters.jpg
 
       - title: Bundel de beste kennis

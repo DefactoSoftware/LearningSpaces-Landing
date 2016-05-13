@@ -31,7 +31,7 @@ header_class: header-hero
         pricing_features.each do |feature| %>
           <%= markdown feature %>
         <% end %>
-        <a class="button button-rounded" href="https://public.learningspaces.io/accounts/new"><%= t("pricing.plans.free.trial") %></a>
+        <a class="button button-rounded" href="<%= t("urls.signup") %>"><%= t("pricing.plans.free.trial") %></a>
       </div>
     </div>
 

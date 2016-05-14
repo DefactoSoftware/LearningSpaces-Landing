@@ -55,17 +55,17 @@ en:
   # Slideshow
   slideshow:
     features:
-      - screenshot: screenshots/spaces.jpg
+      - screenshot: screenshots/spaces.png
         screenshot_alt: Spaces
         title: Your own Learning Community
         text_md: Spaces are the key to your team’s knowledge library. Create your own courses and guides or embed existing material. Share and collaborate with your team, whether you’re at work, at home or on the road.
 
-      - screenshot: screenshots/paths.jpg
+      - screenshot: screenshots/paths.png
         screenshot_alt: Paths
         title: Organize Your Knowledge
         text_md: Paths keep your team focused and ensure everyone meets their learning goals. Whether someone is learning a new skill or training for a specific role, Paths help you highlight and track the important stuff.
 
-      - screenshot: screenshots/editor.jpg
+      - screenshot: screenshots/editor.png
         screenshot_alt: Editor
         title: Write Better and Faster
         text_md: Our split-screen editor lets you focus on writing. With Markdown on the left and a live preview on the right, you can type and format content on-the-fly. Embed and share images, videos and documents with ease.

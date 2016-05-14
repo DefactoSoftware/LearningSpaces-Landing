@@ -55,21 +55,21 @@ de:
   # Slideshow
   slideshow:
     features:
-      - screenshot: screenshots/spaces.jpg
+      - screenshot: screenshots/spaces.png
         screenshot_alt: Spaces
         title: Deine eigene Learning Community
         text_md: |
           Spaces sind der Grundbaustein der Wissensbank deines Teams.
           Erstelle deine eigenen Kurse, Guides und Ratgeber oder integriere bestehendes Material.
           Teile oder arbeite zusammen mit deinem Team, von der Arbeit, zu Hause oder unterwegs.
-      - screenshot: screenshots/paths.jpg
+      - screenshot: screenshots/paths.png
         screenshot_alt: Paths
         title: Organisiere/Ordne dein Wissen
         text_md: |
           Paths helfen deinem Team dabei fokussiert und zielgerichtet zu lernen.
           Bündel mehrere Spaces zu einem Thema oder für eine bestimmte Funktion und halte bei, was noch gemacht werden muss.
           Paths heben das Wesentliche in deinem Lernprozess hervor.
-      - screenshot: screenshots/editor.jpg
+      - screenshot: screenshots/editor.png
         screenshot_alt: Editor
         title: Besser und schneller schreiben
         text_md: |

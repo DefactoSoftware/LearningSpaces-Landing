@@ -55,7 +55,7 @@ nl:
   # Slideshow
   slideshow:
     features:
-      - screenshot: screenshots/spaces.jpg
+      - screenshot: screenshots/spaces.png
         screenshot_alt: Maak kennis centraal
         title: Maak kennis centraal
         text_md: |
@@ -63,7 +63,7 @@ nl:
           Methodes.
           In LearningSpaces kan je hele team specialismen met elkaar delen.
 
-      - screenshot: screenshots/paths.jpg
+      - screenshot: screenshots/paths.png
         screenshot_alt: De kracht van Spaces
         title: De kracht van Spaces
         text_md: |
@@ -71,7 +71,7 @@ nl:
           Voor elk onderwerp.
           Werk samen aan Spaces, voeg nieuwe hoofdstukken toe en reageer.
 
-      - screenshot: screenshots/editor.jpg
+      - screenshot: screenshots/editor.png
         screenshot_alt: Editor
         title: Altijd actueel
         text_md: |

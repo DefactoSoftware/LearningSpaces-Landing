@@ -29,7 +29,7 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
     color: #fff;
     font-weight: 900;
     margin: 0 auto 0.5em;
-    max-width: 700px;
+    max-width: 600px;
 
     @include media($medium-up) {
       font-size: 4rem;

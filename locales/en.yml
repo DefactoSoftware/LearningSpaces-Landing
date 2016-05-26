@@ -27,14 +27,12 @@ en:
   # Home
   home:
     hero:
-      title: <span class="focus">Focus</span> your team’s learning efforts
+      title: The easiest way to train employees
       try_now: Try now, it’s free!
       or: or
       take_tour: Take Tour
       quote:
-        text: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
-        author: Joep Lenglet,
-        company: Learning Consultant at Defacto
+        text: Best practices. Instructions. Unique methods. Train and test employees with LearningSpaces.
 
   # Contact
   contact:
@@ -56,19 +54,19 @@ en:
   slideshow:
     features:
       - screenshot: screenshots/spaces.png
-        screenshot_alt: Spaces
-        title: Your own Learning Community
-        text_md: Spaces are the key to your team’s knowledge library. Create your own courses and guides or embed existing material. Share and collaborate with your team, whether you’re at work, at home or on the road.
+        screenshot_alt: Speed up onboarding
+        title: Speed up onboarding
+        text_md: Stop extensive training programs! Introduce employees to Spaces and bring them up to speed in a heartbeat. What do they need to know before working for you?
 
       - screenshot: screenshots/paths.png
-        screenshot_alt: Paths
-        title: Organize Your Knowledge
-        text_md: Paths keep your team focused and ensure everyone meets their learning goals. Whether someone is learning a new skill or training for a specific role, Paths help you highlight and track the important stuff.
+        screenshot_alt: Train and test
+        title: Train and test
+        text_md: See how your employees advance. Track what they've read. Test them with Quizzes and check how they score.
 
       - screenshot: screenshots/editor.png
-        screenshot_alt: Editor
-        title: Write Better and Faster
-        text_md: Our split-screen editor lets you focus on writing. With Markdown on the left and a live preview on the right, you can type and format content on-the-fly. Embed and share images, videos and documents with ease.
+        screenshot_alt: ALWAYS up to date
+        title: ALWAYS up to date
+        text_md: Everyone in your organisation can create Spaces, add new chapters and keep them up to date. On desktop, tablet and smartphone. Train anytime, everywhere.
 
   # For who?
   for_who:
@@ -83,7 +81,7 @@ en:
 
   # CTA
   cta:
-    tagline: Ready to give LearningSpaces a try? Sign up for free!
+    tagline: Start using LearningSpaces now. Free for up to 10 employees.
     sign_up: Try LearningSpaces
 
   # Quotes
@@ -111,56 +109,58 @@ en:
   # Tour page
   tour:
     hero:
-      title: Tour
-      text: Focus your team’s learning efforts with LearningSpaces
+      title: Meet LearningSpaces
+      text: House rules. Workarounds. Best practices. What should every employee know?
     features:
-      - title: Your own Learning Community
+      - title: Train everywhere, anytime
         text_md: |
-          **Spaces** are the key to your team’s knowledge library.
-          Create your own courses and guides or embed existing material.
-          Share, collaborate and discuss with your team, whether you’re at work, at home or on the road.
+          Stop extensive and boring training programs!
+          LearningSpaces is your centralized place for everything (new) employees need to know.
+          Always online on desktop, tablet and smartphone.
         image: tour/spaces.jpg
 
-      - title: Organize your Knowledge
-      # - title: Create Meaningful Content
+      - title: Chapters, quizzes and assignments
         text_md: |
-          Organize your knowledge into engaging and rewarding learning experiences.
-          Divide your content into **Chapters**, and create **Quizes** or **Assignments** to test your team’s skill.
+          Create a new Space for each subject, like Communication standards or Tips and tricks.
+          Add chapters, assignments and even quizzes.
         image: tour/chapters.jpg
 
-      - title: Write Better and Faster
+      - title: Track progress
         text_md: |
-          Our split-screen editor lets you focus on writing content.
-          With [Markdown](https://daringfireball.net/projects/markdown){:target="_blank"} syntax on the left and a live preview on the right, you can type and format your writing on-the-fly.
+          Track progress of employees.
+          See which chapters they've read, what questions they have and how they score on quizzes.
+        image: tour/quiz.jpg
 
-          Embed and share images, videos and documents with ease. Drag and drop them into your content or simply paste a link.
-          Work in draft mode as you write and publish when you’re finished.
-        image: tour/editor.jpg
-
-      - title: Collaborate with your Team
-        text_md: "**Contributors** can add chapters to your Space."
+      - title: Always up to date
+        text_md: |
+          Outdated learning material? Out of the question!
+          Collaborate on Spaces with other authors and edit Spaces with a single touch.
+          Your training program will always be up to date.
         image: tour/collaborate.jpg
 
-      - title: Better Focus with Paths
+      - title: Everyone can do it
         text_md: |
-          Spaces can be bundled into **Paths** that focus on a certain area of expertise.
-          Whether someone is interested in learning a new skill or training for a specific role,
-          Paths are there to keep them focused and ensure they meet their learning goals.
+          Everyone in your organisation can create a Space.
+          Write or paste text, drag and drop images, insert YouTube videos and files. No technical know-how needed. It's super easy.
+        image: tour/editor-youtube.jpg
+
+      - title: Bundle the essentials
+        text_md: |
+          Bundle essential Spaces into Paths no employee should miss.
+          Instantly recommend those Paths to your employees and of course follow everyone's progress.
         image: tour/path.jpg
 
-      - title: See how your Team is doing
-        text_md: "Every team member has their own profile. Check it out to see what they're doing and what they've achieved."
-        image: tour/profile.jpg
-
-      - title: Excellent and Instant Support
-        text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
-        image: tour/support.jpg
+      - title: Questions for everyone
+        text_md: |
+          How does the printer work? When does the new company clothing arive?
+          Ask company wide questions in Question and Answers. There really is no better place.
+        image: tour/questions-answers.jpg
 
   # Pricing
   pricing:
     hero:
       title: Pricing
-      text: "Plans built for teams of all sizes. Start with 60 days for free."
+      text: "Welcome to the easiest and most affordable way to train employees."
     features:
       - All plans include unlimited Spaces, Paths and storage.
       - All plans can be canceled at any time.
@@ -170,7 +170,7 @@ en:
         trial: Try 60 days for Free
         features:
           - "**Free for up to 10 users**"
-          - For small teams or startups
+          - Upgrade whenever you want
       value:
         title: Value
         features:

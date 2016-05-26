@@ -27,7 +27,7 @@ en:
   # Home
   home:
     hero:
-      title: The easiest way to train new employees (and each other)
+      title: The easiest way to train employees
       try_now: Try now, it’s free!
       or: or
       take_tour: Take Tour
@@ -129,12 +129,12 @@ en:
         text_md: |
           Track progress of employees.
           See which chapters they've read, what questions they have and how they score on quizzes.
-        image: tour/editor.jpg
+        image: tour/quiz.jpg
 
       - title: Always up to date
         text_md: |
           Outdated learning material? Out of the question!
-          Edit Spaces with a single touch.
+          Collaborate on Spaces with other authors and edit Spaces with a single touch.
           Your training program will always be up to date.
         image: tour/collaborate.jpg
 
@@ -142,19 +142,19 @@ en:
         text_md: |
           Everyone in your organisation can create a Space.
           Write or paste text, drag and drop images, insert YouTube videos and files. No technical know-how needed. It's super easy.
-        image: tour/path.jpg
+        image: tour/editor-youtube.jpg
 
       - title: Bundle the essentials
         text_md: |
           Bundle essential Spaces into Paths no employee should miss.
           Instantly recommend those Paths to your employees and of course follow everyone's progress.
-        image: tour/profile.jpg
+        image: tour/path.jpg
 
       - title: Questions for everyone
         text_md: |
           How does the printer work? When does the new company clothing arive?
           Ask company wide questions in Question and Answers. There really is no better place.
-        image: tour/support.jpg
+        image: tour/questions-answers.jpg
 
   # Pricing
   pricing:

@@ -92,7 +92,7 @@ nl:
 
   # CTA
   cta:
-    tagline: Probeer LearningSpaces nu. Gratis tot 10 personen.
+    tagline: Probeer LearningSpaces nu. Gratis tot 10 gebruikers.
     sign_up: LearningSpaces proberen
 
   # Quotes
@@ -201,16 +201,16 @@ nl:
         features:
           - "**Per gebruiker per maand**"
           - In-app ondersteuning
-          - Annuleren wanneer je wilt
+          - Annuleren wanneer je maar wilt
       enterprise:
         title: Enterprise
         custom_pricing: Custom Pricing
         contact_us: "[Contact](javascript:Intercom('show');) of bel met <span>+31 (0)50 3144832</span>"
         features:
           - Initiële gebruikers import
-          - Onboarding en implementatie consultancy
+          - On-boarding en implementatie consultancy
           - In-app ondersteuning
-          - Annuleren wanneer je wilt
+          - Annuleren wanneer je maar wilt
 
   # Login
   login:

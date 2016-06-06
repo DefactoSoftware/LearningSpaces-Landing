@@ -32,13 +32,8 @@ $faq-icon-color: $green;
       background: #fbfcfd;
     }
 
-    &.expanded {
-      .faq-question {}
-
-      .faq-answer {
-        display: block;
-        padding-bottom: $faq-question-padding;
-      }
+    &.expanded .faq-answer {
+      display: block;
     }
   }
 }
@@ -52,9 +47,8 @@ $faq-icon-color: $green;
 }
 
 .faq-answer {
-  display: none;
   font-size: 1.2rem;
-  padding: 0 3px;
+  padding: 0 3px $faq-question-padding;
 
   @include media($medium-up) {
     padding-right: 4%;
@@ -84,13 +78,13 @@ $faq-icon-color: $green;
     background: $faq-icon-color;
     border-radius: 1px;
     content: "";
+    height: $dash-height;
+    left: 50%;
+    margin: (-$dash-height / 2) 0 0 (-$dash-width / 2);
     position: absolute;
     top: 50%;
-    left: 50%;
-    width: $dash-width;
-    height: $dash-height;
-    margin: (-$dash-height / 2) 0 0 (-$dash-width / 2);
     transition: all $base-duration $base-timing;
+    width: $dash-width;
   }
 
   // Plus

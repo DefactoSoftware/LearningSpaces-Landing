@@ -11,7 +11,7 @@
 
       <% category[:questions].each do |question| %>
         <% faq_slug = slug(question[:q]) %>
-        <li id="<%= faq_slug %>">
+        <li id="<%= faq_slug %>" class="expanded">
           <h4>
             <a href="#<%= faq_slug %>" class="faq-question">
               <%= question[:q] %>

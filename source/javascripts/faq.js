@@ -27,6 +27,10 @@ $(function () {
       .end().toggleClass('expanded');
   }
 
+  // Collapse answers by default (when js is enabled)
+  $ul.children('li').removeClass('expanded')
+    .find('.faq-answer').css('display', 'none');
+
   // Open question if linked to
   toggleQuestion(window.location.hash.replace(/^#/, ''));
 

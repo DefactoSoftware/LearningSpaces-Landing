@@ -382,3 +382,21 @@ de:
               Ist deine Frage nicht unter den häufig gestellten Fragen?
               Dann klicke auf den Chat Button unten rechts und frage unser LearningSpaces Team direkt.
               Wir antworten so schnell wie möglich (oft innerhalb einer Minute).
+          - q: Ich erhalte eine Fehlermeldung die besagt, dass JavaScript ausgeschaltet ist. Was soll ich tun?
+            a: |
+              LearningSpaces hat die Voraussetzung, dass JavaScript in deinem Webbrowser eingeschaltet ist.
+              Wenn du diese Fehlermeldung erhältst ist JavaScript höchstwahrscheinlich ausgeschaltet.
+              Um JavaScript in deinem Webbrowser einzuschalten folge bitte <a href="http://enable-javascript.com/de" target="_blank">diesen Anweisungen</a>.
+              Nachdem du JavaScript eingeschaltet musst du die Seite erneut laden sodass die Änderungen in Kraft treten.
+              Falls dies das Problem niche löst, kontaktiere bitte deinen Systemverwalter.
+
+              In deinem Webbrowser ist JavaScript momentan <noscript class="js-disabled">ausgeschaltet</noscript>
+              <script type="text/javascript">document.write('<span class="js-enabled">eingeschaltet</span>');</script>.
+            id: error-javascript-disabled
+          - q: Ich bekomme eine Fehlermeldung die besagt, dass mein Browser nicht unterstützt wird. Was soll ich tun?
+            a: |
+              Diese Fehlermeldung besagt, dass dein Browser veraltet ist und daher nicht kompatibel mit LearningSpaces.
+              Wir empfehlen deinen Browser auf die neuste Version zu aktualisieren oder einen anderen Browser zu probieren.
+              Wir unterstützen die neueste Version von allen führenden Browsern, zum Beispiel Chrome, Firefox, Safari, Opera, Internet Explorer (9+).
+              Falls dies das Problem niche lösen sollte, kontaktiere bitte deinen Systemverwalter.
+            id: error-browser-incompatible

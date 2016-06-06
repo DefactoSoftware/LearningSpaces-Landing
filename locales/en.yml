@@ -298,7 +298,7 @@ en:
               so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing.html).
 
           - q: Do I need to install something to get started?
-            a: No, LearningSpaces runs in any (modern) browser.
+            a: No, LearningSpaces runs in any (modern) browser. If you get an error saying your browser isn't supported, please [read this](#i-get-an-error-saying-my-browser-isn-t-supported-what-do-i-do).
 
           - q: How do I create a new Team?
             a: |
@@ -368,3 +368,21 @@ en:
               If you can’t find an answer to your question in this FAQ, we are here to answer your question personally.
               By clicking the chat icon in the bottom-right corner you can ask your question directly to the LearningSpaces team.
               We'll respond as soon as possible (average response time of about one minute).
+          - q: I get an error saying JavaScript is turned off. What should I do?
+            a: |
+              LearningSpaces requires JavaScript to be enabled in your web browser.
+              If you get this error JavaScript is most likely disabled.
+              To enable JavaScript in your web browser please follow <a href="http://enable-javascript.com/" target="_blank">these instructions</a>.
+              After you enable JavaScript you'll need to refresh the page for the changes to take effect.
+              If this doesn't solve the problem please contact your system administrator.
+
+              Your web browser currently has JavaScript <noscript class="js-disabled">disabled</noscript>
+              <script type="text/javascript">document.write('<span class="js-enabled">enabled</span>');</script>.
+            id: error-javascript-disabled
+          - q: I get an error saying my browser isn't supported. What should I do?
+            a: |
+              This error means your browser is outdated and therefore incompatible with LearningSpaces.
+              We recommend updating your browser to the latest version or try a different brower.
+              We support the latest versions of all major browsers, for example Chrome, Firefox, Safari, Opera, Internet Explorer (9+).
+              If this doesn't solve the problem please contact your system administrator.
+            id: error-browser-incompatible

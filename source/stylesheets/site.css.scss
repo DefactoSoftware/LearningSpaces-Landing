@@ -151,3 +151,23 @@ body.pricing {
     border-top: $base-border;
   }
 }
+
+.js-enabled,
+.js-disabled {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 0.9em;
+  padding: 2px 4px;
+}
+
+.js-enabled {
+  background-color: lighten($green, 35%);
+  border-color: rgba($green, 0.1);
+  color: darken($green, 5%);
+}
+
+.js-disabled {
+  background-color: lighten($red, 30%);
+  border-color: rgba($red, 0.1);
+  color: $red;
+}

@@ -397,9 +397,29 @@ nl:
               Als eigenaar van een team kun je bepalen wie toegang heeft tot jouw LearningSpace.
               Maakt iemand geen gebruik meer van LearningSpaces? Dan maak je hem inactief, en hoef je ook niet meer voor die persoon te betalen.
 
-      - title: Help & Support
+      - title: Hulp & Ondersteuning
         questions:
-          - q: Ik heb een andere vraag...
+          - q: Ik heb een andere vraag, waar kan ik deze stellen?
             a: |
-              Klik op het chat icoontje rechtsonder om je vraag direct aan het LearningSpaces team te stellen.
+              Heb je een vraag die niet in deze FAQ wordt beantwoord?
+              Klik dan op het chat icoontje rechtsonder om je vraag direct aan het LearningSpaces team te stellen.
               We reageren zo snel mogelijk (en vaak is dat binnen een minuut).
+          - q: Wat te doen bij een foutmelding dat JavaScript is uitgeschakeld?
+            a: |
+              LearningSpaces heeft als vereiste dat JavaScript in ingeschakeld in je webbrowser.
+              Als je deze melding krijgt is JavaScript waarschijnlijk uitgeschakeld.
+              Om JavaScript in te schakelen kun je de <a href="http://enable-javascript.com/nl" target="_blank">deze instructies</a> volgen.
+              Nadat JavaScript is ingeschakeld is het nodig om de pagina te herladen.
+              Als dit het probleem niet oplost neem dan contact op met je systeembeheerder.
+
+              JavaScript is op dit moment <noscript class="js-disabled">uitgeschakeld</noscript>
+              <script type="text/javascript">document.write('<span class="js-enabled">ingeschakeld</span>');</script>
+              in je webbrowser.
+            id: error-javascript-disabled
+          - q: Wat te doen bij de foutmelding dat de browser niet wordt ondersteund?
+            a: |
+              Deze melding betekend dat je webbrowser verouderd is en niet wordt ondersteund door LearningSpaces.
+              We raden aan om je browser te updaten of een andere browser te proberen.
+              We ondersteunen de nieuwste versies van alle meest gebruikte browsers, bijvoorbeeld Chrome, Firefox, Safari, Opera, Internet Explorer (9+).
+              Als dit het probleem niet oplost neem dan contact op met je systeembeheerder.
+            id: error-browser-incompatible

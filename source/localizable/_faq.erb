@@ -10,10 +10,10 @@
     <ul class="faq-list">
 
       <% category[:questions].each do |question| %>
-        <% faq_slug = slug(question[:q]) %>
-        <li id="<%= faq_slug %>" class="expanded">
+        <% faq_id = question[:id] || slug(question[:q]) %>
+        <li id="<%= faq_id %>" class="expanded">
           <h4>
-            <a href="#<%= faq_slug %>" class="faq-question">
+            <a href="#<%= faq_id %>" class="faq-question">
               <%= question[:q] %>
               <span class="faq-icon"></span>
             </a>

@@ -118,11 +118,10 @@ en:
         text_md: |
           **Spaces** are the key to your team’s knowledge library.
           Create your own courses and guides or embed existing material.
-          Share, collaborate and discuss with your team, whether you’re at work, at home or on the road.
+          Share, collaborate and discuss with your team. Together you can create and continuously evolve your knowledge.
         image: tour/spaces.jpg
 
       - title: Organize your Knowledge
-      # - title: Create Meaningful Content
         text_md: |
           Organize your knowledge into engaging and rewarding learning experiences.
           Divide your content into **Chapters**, and create **Quizes** or **Assignments** to test your team’s skill.
@@ -138,7 +137,9 @@ en:
         image: tour/editor.jpg
 
       - title: Collaborate with your Team
-        text_md: "**Contributors** can add chapters to your Space."
+        text_md: |
+          Work together with others and allow them to comment and make suggestions.
+          Add **Contributors** that can add chapters to your Space.
         image: tour/collaborate.jpg
 
       - title: Better Focus with Paths
@@ -148,12 +149,40 @@ en:
           Paths are there to keep them focused and ensure they meet their learning goals.
         image: tour/path.jpg
 
+      - title: Challenge your team
+        text_md: |
+          Challenge and get challenged with **Quizes** and **Assignments**.
+          Engage your team by testing what they have learned.
+        image: tour/quiz.jpg
+
       - title: See how your Team is doing
-        text_md: "Every team member has their own profile. Check it out to see what they're doing and what they've achieved."
+        text_md: |
+          Every team member has their own profile.
+          Check it out to see what they're doing and what they've achieved.
         image: tour/profile.jpg
 
+      - title: Ask your Team
+        text_md: |
+          LearningSpaces is about sharing what you know,
+          but learning often starts with what you don't know.
+          Ask your question and see where you can help others.
+        image: tour/questions-answers.jpg
+
+      - title: Everywhere and Anytime
+        text_md: |
+          LearningSpaces works seamlessly across all of your devices.
+          Learn and share everywhere and at any time.
+          At work, at home or on the go.
+        image: tour/mobile.jpg
+
       - title: Excellent and Instant Support
-        text_md: "Have a question? Our team is here to help. Our average responsetime is around 1 min."
+        text_md: |
+          Have a question? We are here to help.<br>
+          Our average response time is 1 minute.
+
+          Answers to some common asked questions can be found in our [FAQ](/faq.html).
+
+          Have a question right now or want more information? Please [let us know](javascript:Intercom('show');).
         image: tour/support.jpg
 
   # Pricing

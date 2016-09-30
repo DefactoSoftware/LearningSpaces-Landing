@@ -1,0 +1,19 @@
+.video-fluid {
+  margin: 0 auto;
+  max-width: 640px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 56.25%; // 16x9 aspect ratio
+  }
+
+  iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}

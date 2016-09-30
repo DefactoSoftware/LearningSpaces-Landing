@@ -25,6 +25,10 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
   text-shadow: $hero-text-shadow;
 
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
   h1 {
     color: #fff;
     font-weight: 900;
@@ -73,6 +77,12 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
     }
   }
 
+  .video-fluid {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+  }
+
   // Small hero
   &.small {
     padding: 1.5em $side-padding;
@@ -85,8 +95,13 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
     p {
       font-size: 1.8rem;
       line-height: 1.3;
-      margin: 0 auto;
+      margin: 0 auto 1.5em;
       max-width: 800px;
+    }
+
+    .video-fluid {
+      margin-bottom: 1em;
+      max-width: 500px;
     }
   }
 

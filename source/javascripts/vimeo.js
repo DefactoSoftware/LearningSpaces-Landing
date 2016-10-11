@@ -2,9 +2,9 @@ var vimeoGAJS = (window.vimeoGAJS) ? window.vimeoGAJS : {};
 
 (function($) {
   vimeoGAJS = {
-    iframes : [],
-    gaTracker : undefined,
-    eventMarker : {},
+    iframes: [],
+    gaTracker: undefined,
+    eventMarker: {},
 
     init: function () {
       vimeoGAJS.iframes = $('iframe');
@@ -13,15 +13,15 @@ var vimeoGAJS = (window.vimeoGAJS) ? window.vimeoGAJS : {};
         var iframeId = $(iframe).attr('id');
 
         vimeoGAJS.eventMarker[iframeId] = {
-          'progress25' : false,
-          'progress50' : false,
-          'progress75' : false,
-          'videoPlayed' : false,
-          'videoPaused' : false,
-          'videoResumed' : false,
-          'videoSeeking' : false,
-          'videoCompleted' : false,
-          'timePercentComplete' : 0
+          progress25: false,
+          progress50: false,
+          progress75: false,
+          videoPlayed: false,
+          videoPaused: false,
+          videoResumed: false,
+          videoSeeking: false,
+          videoCompleted: false,
+          timePercentComplete: 0,
         };
       });
 
@@ -80,7 +80,7 @@ var vimeoGAJS = (window.vimeoGAJS) ? window.vimeoGAJS : {};
       case 'finish':
         if (!vimeoGAJS.eventMarker[iframeId].videoCompleted) {
           vimeoGAJS.sendEvent(iframeEl, 'Completed video');
-          vimeoGAJS.eventMarker[iframeId].videoCompleted = true; // Avoid subsequent finish trackings
+          vimeoGAJS.eventMarker[iframeId].videoCompleted = true;
         }
         break;
       }
@@ -166,12 +166,13 @@ var vimeoGAJS = (window.vimeoGAJS) ? window.vimeoGAJS : {};
     sendEvent: function (iframeEl, action) {
       var bounce = iframeEl.data('bounce');
       var label = vimeoGAJS.getLabel(iframeEl);
+      var ga = ga || function () {};
 
       switch (vimeoGAJS.gaTracker) {
 
       case 'ua':
         ga('send', 'event', 'Vimeo', action, label, undefined,
-          {'nonInteraction': (bounce) ? 0 : 1});
+          { 'nonInteraction': (bounce) ? 0 : 1 });
         break;
       }
     }

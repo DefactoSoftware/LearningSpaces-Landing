@@ -121,6 +121,10 @@ section.clients {
 section.contact {
   text-align: center;
 
+  .row {
+    max-width: 1080px;
+  }
+
   .team {
     list-style: none;
     margin: 0;

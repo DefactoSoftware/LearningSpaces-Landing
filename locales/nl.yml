@@ -6,7 +6,7 @@ nl:
 
   # Title & descripiton fallback
   head:
-    default_title: "LearningSpaces: Een centrale plek voor kennis binnen je team"
+    default_title: "LearningSpaces: Al je leeractiviteiten op één centrale plek"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
 
   # Menu
@@ -29,12 +29,12 @@ nl:
   # Home
   home:
     hero:
-      title: Dé plek voor kennis binnen je team
+      title: Al je leeractiviteiten op één centrale plek
       try_now: Probeer gratis
       or: of
       take_tour: Neem de tour
       quote:
-        text: Houd kennis centraal en up-to-date in LearningSpaces.
+        text: LearningSpaces is een online leeromgeving waar je kennis creëert en deelt. Het maakt de onboarding van nieuwe collega's makkelijk, versnelt het leerproces en houdt expertise binnen de muren van jouw organisatie.
 
   # Contact
   contact:

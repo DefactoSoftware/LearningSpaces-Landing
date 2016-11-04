@@ -12,15 +12,16 @@
 
 // Layout
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
   display: flex;
+  flex-direction: column;
   min-height: 100%;
   min-height: 100vh;
-  flex-direction: column;
 }
 
 .main {
@@ -48,6 +49,26 @@ section {
 
 section.for-who {
   text-align: center;
+
+  .row {
+    max-width: 1200px;
+  }
+
+  h2 {
+    margin-bottom: 2em;
+  }
+
+  .col {
+    margin-bottom: 3em;
+
+    @include media($large-up) {
+      @include span-columns(4);
+    }
+
+    @include-media($large-down) {
+      margin-bottom: 20em;
+    }
+  }
 
   .button {
     margin: 1.5em 0.5em 0;
@@ -83,7 +104,7 @@ section.cta-signup {
 
 section.clients {
   background: $lighter-gray;
-  border: none;
+  border: 0;
   padding: 3em $side-padding 2em;
   text-align: center;
 
@@ -142,7 +163,7 @@ section.contact {
     }
 
     span {
-      color: #4a4a4a;
+      color: $dark-gray;
       display: block;
       font-size: 0.9em;
       font-weight: 700;

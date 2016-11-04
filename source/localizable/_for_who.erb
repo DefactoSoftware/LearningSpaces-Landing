@@ -1,14 +1,28 @@
 <section class="for-who">
   <div class="row">
+
     <h2><%= t("for_who.title") %></h2>
 
-    <p><%= t("for_who.text") %></p>
+    <div class="col">
+      <h3><%= t("for_who.small_teams") %></h3>
+      <p><%= t("for_who.small_teams_text") %></p>
+      <%= link_to t("for_who.small_teams"), "/small-teams.html",
+        class: "button button-outline button-rounded" %>
+    </div>
 
-    <%= link_to t("for_who.small_teams"), "/small-teams.html",
-      class: "button button-outline button-rounded" %>
-    <%= link_to t("for_who.trainers"), "/trainers-and-educators.html",
-      class: "button button-outline button-rounded" %>
-    <%= link_to t("for_who.large_teams"), "/large-teams-and-organizations.html",
-      class: "button button-outline button-rounded" %>
+    <div class="col">
+      <h3><%= t("for_who.large_teams") %></h3>
+      <p><%= t("for_who.large_teams_text") %></p>
+      <%= link_to t("for_who.large_teams"), "/large-teams-and-organizations.html",
+        class: "button button-outline button-rounded" %>
+    </div>
+
+    <div class="col">
+      <h3><%= t("for_who.trainers") %></h3>
+      <p><%= t("for_who.trainers_text") %></p>
+      <%= link_to t("for_who.trainers"), "/trainers-and-educators.html",
+        class: "button button-outline button-rounded" %>
+    </div>
+
   </div>
 </section>

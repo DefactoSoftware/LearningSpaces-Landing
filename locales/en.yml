@@ -77,9 +77,15 @@ en:
       LearningSpaces lets you quickly set up a learning community.
       Create and share knowledge with your team and beyond.
       Depending on your needs, LearningSpaces can be anything from an interactive knowledge base to your internal training platform.
-    small_teams: Small Teams and Startups
-    trainers: Trainers and Educators
-    large_teams: Large Teams and Organizations
+    small_teams: Small Teams & Startups
+    small_teams_text: |
+      We love small teams! For small teams, information is vital. LearningSpaces helps you keep your team's knowledge and experience in one place, so you can focus on growth and performance.
+    trainers: Trainers & Educators
+    trainers_text: |
+      LearningSpaces is a solution that fits right into every educator’s needs. LearningSpaces' flexibility helps educators and students create content. Whether it's instructions, quizzes or assignments.
+    large_teams: Large Teams & Organizations
+    large_teams_text: |
+      Talking to key users, HR and management actually made us realize the time is right for 21st century corporate learning. With LearningSpaces setting up a corporate academy is easy and affordable.
 
   # CTA
   cta:

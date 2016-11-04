@@ -86,9 +86,15 @@ nl:
       Maak en deel kennis binnen je team of zelfs met een breder publiek.
       Hoe LearningSpaces wordt ingericht en ingezet bepaal je helemaal zelf.
       Denk bijvoorbeeld aan een kennisbibliotheek of een intern leerplatform.
-    small_teams: Kleine teams en Startups
-    trainers: Opleiders en Docenten
-    large_teams: Grote teams en Organisaties
+    small_teams: Kleine teams & Startups
+    small_teams_text: |
+      We houden van kleine teams! Juist in kleine teams kan iedereen heel effectief van elkaar leren. LearningSpaces helpt je om de kennis en expertise van je team op één plek te verzamelen en te delen. Zodat jij je kan focussen op belangrijke zaken: groeien met je team.
+    trainers: Opleiders & Docenten
+    trainers_text: |
+      LearningSpaces zorgt ervoor dat zowel opleiders als studenten gemakkelijk les- en leermateriaal kunnen ontwikkelen, of het nu stukken achtergrondinformatie, multiple-choice vragen of essays zijn: het ontwikkelen van "tailor-made" cursusmateriaal is makkelijker dan ooit.
+    large_teams: Grote teams & Organisaties
+    large_teams_text: |
+      We werken met ziekenhuizen, overheidsorganisaties en HR-afdelingen binnen grote bedrijven. Uit gesprekken met deze organisaties leerden we dat leren niet meer top-down moet worden opgelegd, met alle kosten die daarbij komen kijken.
 
   # CTA
   cta:

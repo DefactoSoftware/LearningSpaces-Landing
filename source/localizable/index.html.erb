@@ -28,6 +28,8 @@ header_class: header-hero
   </div>
 </div>
 
+<%= partial :for_who unless I18n.locale == :de %>
+
 <%= partial :slideshow %>
 
 <%= partial :cta_signup %>

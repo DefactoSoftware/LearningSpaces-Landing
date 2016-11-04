@@ -84,7 +84,7 @@ section.quotes {
 
   .quote-balloon {
     @include media($medium-up) {
-      @include span-columns(6);
+      @include span-columns(4);
     }
   }
 }

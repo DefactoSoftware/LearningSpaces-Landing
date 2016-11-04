@@ -6,7 +6,7 @@ en:
 
   # Title & descripiton fallback
   head:
-    default_title: "LearningSpaces: Focus your team’s learning efforts"
+    default_title: "LearningSpaces: All your learning activities in one place"
     default_description: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
 
   # Menu
@@ -27,12 +27,12 @@ en:
   # Home
   home:
     hero:
-      title: <span class="focus">Focus</span> your team’s learning efforts
+      title: All your learning activities in one place
       try_now: Try now, it’s free!
       or: or
       take_tour: Take Tour
       quote:
-        text: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
+        text: LearningSpaces is your online learning community where you create and share knowledge. It makes the onboarding process easy and keeps expertise within your organization.
         author: Joep Lenglet,
         company: Learning Consultant at Defacto
 

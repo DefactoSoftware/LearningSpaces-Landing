@@ -88,10 +88,10 @@ en:
 
   # Quotes
   quotes:
-    - name: Michael Hebben
-      company: Corporate Learning Consultant
-      avatar: avatars/michael_hebben.jpg
-      text: With LearningSpaces I can take my personal development into my own hands, while contributing to the learning process of others.
+    - name: Peter van Eijl
+      company: Founder, Doppio Espresso
+      avatar: avatars/peter_van_eijl.jpg
+      text: LearningSpaces is an open platform for all participants, it opens a world of shared knowledge between all our different disciplines. On top of that it delivers (rich) content in a user friendly, clean way.
       #featured: true
 
     - name: Ronald van Rheenen

@@ -3,6 +3,7 @@ nl:
   tld: nl
   urls:
     signup: https://public.learningspaces.nl/accounts/new
+    ls_vimeo: https://player.vimeo.com/video/184984381
 
   # Title & descripiton fallback
   head:

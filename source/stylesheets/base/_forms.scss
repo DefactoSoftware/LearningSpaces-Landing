@@ -5,16 +5,10 @@ fieldset {
   padding: $base-spacing;
 }
 
-input,
-label,
-select {
-  display: block;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-}
-
 label {
+  font-size: $base-font-size;
   font-weight: 600;
+  display: block;
   margin-bottom: $small-spacing / 2;
 
   &.required::after {
@@ -24,17 +18,25 @@ label {
   abbr {
     display: none;
   }
+
+  .form-large & {
+    font-size: $base-font-size * 1.25;
+  }
 }
 
-#{$all-text-inputs},
+input,
+textarea,
 select[multiple=multiple] {
   background-color: $base-background-color;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
+  color: $base-font-color;
+  display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  line-height: 1.4;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
   transition: border-color $base-duration $base-timing;
@@ -58,10 +60,11 @@ select[multiple=multiple] {
       border: $base-border;
     }
   }
-}
 
-textarea {
-  resize: vertical;
+  .form-large & {
+    font-size: $base-font-size * 1.25;
+    margin-bottom: $small-spacing * 1.25;
+  }
 }
 
 input[type="search"] {
@@ -87,4 +90,12 @@ select {
   margin-bottom: $base-spacing;
   max-width: 100%;
   width: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  margin-top: $small-spacing;
 }

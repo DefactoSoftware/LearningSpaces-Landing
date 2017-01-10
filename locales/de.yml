@@ -31,7 +31,7 @@ de:
       title: <span class="focus">Focus</span> your team’s learning efforts
       try_now: Kostenlos testen
       or: oder
-      take_tour: Mach eine Tour
+      request_demo: Request a demo
       quote:
         text: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
         author: Joep Lenglet,
@@ -93,8 +93,9 @@ de:
 
   # CTA
   cta:
-    tagline: Bereit um LearningSpaces zu testen? Melde dich kostenlos an.
-    sign_up: LearningSpaces testen
+    tagline: Bereit um LearningSpaces zu kostenlos testen?
+    sign_up: Kostenlos registrieren
+    request_demo: Demo anfordern
 
   # Quotes
   quotes:

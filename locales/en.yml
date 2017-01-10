@@ -31,7 +31,7 @@ en:
       title: All your learning activities in one place
       try_now: Try now, it’s free!
       or: or
-      take_tour: Take Tour
+      request_demo: Request a demo
       quote:
         text: LearningSpaces is your online learning community where you create and share knowledge. It makes the onboarding process easy and keeps expertise within your organization.
         author: Joep Lenglet,
@@ -90,8 +90,9 @@ en:
 
   # CTA
   cta:
-    tagline: Ready to give LearningSpaces a try? Sign up for free!
-    sign_up: Try LearningSpaces
+    tagline: Ready to give LearningSpaces a try?
+    sign_up: Sign up for free!
+    request_demo: Request a demo
 
   # Quotes
   quotes:
@@ -222,6 +223,12 @@ en:
           - Onboarding consultancy
           - Direct in-app support
           - Cancel at any time
+
+  demo:
+    title: Request a live demo
+    text: |
+      Like to see how LearningSpaces works? We are happy to give you a live demo.
+      Please fill in the form below and we will contact you shortly.
 
   # Login
   login:

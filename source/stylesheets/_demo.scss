@@ -1,0 +1,23 @@
+body.demo {
+  .hero {
+    line-height: 1.4;
+
+    .row {
+      max-width: 980px;
+    }
+  }
+
+  form {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .demo-footer {
+    font-size: 0.7em;
+  }
+
+  .footer {
+    display: none;
+  }
+}

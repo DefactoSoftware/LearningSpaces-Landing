@@ -17,7 +17,7 @@ nl:
     faq: FAQ
     blog: Blog
     login: Inloggen
-    signup: Registreer
+    signup: Registreren
 
   # 404
   not_found:
@@ -33,7 +33,7 @@ nl:
       title: Al je leeractiviteiten op één centrale plek
       try_now: Probeer gratis
       or: of
-      take_tour: Neem de tour
+      request_demo: Demo aanvragen
       quote:
         text: LearningSpaces is een online leeromgeving waar je kennis creëert en deelt. Het maakt de onboarding van nieuwe collega's makkelijk, versnelt het leerproces en houdt expertise binnen de muren van jouw organisatie.
 
@@ -99,8 +99,9 @@ nl:
 
   # CTA
   cta:
-    tagline: Probeer LearningSpaces nu. Gratis tot 10 gebruikers.
-    sign_up: LearningSpaces proberen
+    tagline: Probeer LearningSpaces nu, het is gratis!
+    sign_up: Gratis registreren
+    request_demo: Demo aanvragen
 
   # Quotes
   quotes:

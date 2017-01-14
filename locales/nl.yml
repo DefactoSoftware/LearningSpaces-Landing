@@ -220,6 +220,32 @@ nl:
           - In-app ondersteuning
           - Annuleren wanneer je maar wilt
 
+  demo:
+    title: Live demo aanvragen
+    text: |
+      Benieuwd hoe LearningSpaces werkt? We laten het je graag zien!<br>
+      Vul het ontderstaande formulier in, dan nemen we zo spoedig mogelijk contact me je op.
+    form:
+      formkeep: https://formkeep.com/f/f42e8b57e4ca
+      name: Naam
+      email: E-mail
+      phone: Telefoon
+      company: Bedrijf of organisatie
+      notes: Aanvullende informatie
+      submit: Aanvragen
+    contact: |
+      Liever mailen of bellen?<br>
+      Stuur een mail naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+      of bel <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    thanks:
+      title: Live demo aanvraag
+      text: |
+        Hartelijk dank, we hebben uw aanvraag ontvangen.<br>
+        We nemen zo spoedig mogelijk contact me u op.
+      contact: |
+        Voor overige vragen kun je ons mailen naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        of bellen met <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+
   # Login
   login:
     title: Inloggen

@@ -31,7 +31,7 @@ de:
       title: <span class="focus">Focus</span> your team’s learning efforts
       try_now: Kostenlos testen
       or: oder
-      request_demo: Request a demo
+      request_demo: Demo anfordern
       quote:
         text: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
         author: Joep Lenglet,
@@ -199,6 +199,32 @@ de:
           - Onboarding Beratung
           - Direkter in-App Support
           - Jederzeit kündbar
+
+  demo:
+    title: Request a live demo
+    text: |
+      Like to see how LearningSpaces works? We are happy to give you a live demo.
+      Please fill in the form below and we will contact you shortly.
+    form:
+      formkeep: https://formkeep.com/f/055d73a4f98d
+      name: Name
+      email: Email
+      phone: Phone
+      company: Company
+      notes: Additional notes
+      submit: Request demo
+    contact: |
+      Prefer the conventional way of contact?<br>
+      Send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+      or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    thanks:
+      title: Thank you!
+      text: |
+        We have received your live demo request.<br>
+        We will contact you shortly.
+      contact: |
+        If you have other questions, please send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

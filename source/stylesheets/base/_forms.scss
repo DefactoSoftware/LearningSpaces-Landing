@@ -6,9 +6,9 @@ fieldset {
 }
 
 label {
+  display: block;
   font-size: $base-font-size;
   font-weight: 600;
-  display: block;
   margin-bottom: $small-spacing / 2;
 
   &.required::after {

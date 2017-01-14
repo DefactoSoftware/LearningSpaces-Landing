@@ -1,0 +1,40 @@
+---
+title:
+  en: Demo request
+  nl: Demo aanvragen
+  de: Demo anfordern
+header_class: header-hero
+---
+
+<div class="hero">
+  <div class="row">
+    <h1><%= t("demo.title") %></h1>
+    <p><%= t("demo.text") %></p>
+
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/42606848530c" method="POST" class="form-large">
+      <input type="hidden" name="utf8" value="✓">
+
+      <label for="input-name" class="required"><%= t("demo.form.name") %></label>
+      <input type="text" name="Name" id="input-name" required>
+
+      <label for="input-email" class="required"><%= t("demo.form.email") %></label>
+      <input type="email" name="Email" id="input-email" required>
+
+      <label for="input-phone"><%= t("demo.form.phone") %></label>
+      <input type="tel" name="Phone" id="input-phone">
+
+      <label for="input-company"><%= t("demo.form.company") %></label>
+      <input type="text" name="Company" id="input-company">
+
+      <label for="input-notes"><%= t("demo.form.notes") %></label>
+      <textarea name="Notes" rows="3" id="input-notes"></textarea>
+
+      <button type="submit" class="button button-hover button-navy"><%= t("demo.form.submit") %></button>
+      <hr>
+    </form>
+
+    <p class="demo-footer">
+      <%= t("demo.contact") %>
+    </p>
+  </div>
+</div>

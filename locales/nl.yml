@@ -224,7 +224,7 @@ nl:
     title: Live demo aanvragen
     text: |
       Benieuwd hoe LearningSpaces werkt? We laten het je graag zien!<br>
-      Vul het ontderstaande formulier in, dan nemen we zo spoedig mogelijk contact me je op.
+      Vul het formulier in, dan nemen we zo spoedig mogelijk contact met je op.
     form:
       formkeep: https://formkeep.com/f/f42e8b57e4ca
       name: Naam
@@ -238,13 +238,12 @@ nl:
       Stuur een mail naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
       of bel <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
     thanks:
-      title: Live demo aanvraag
+      title: Bedankt!
       text: |
-        Hartelijk dank, we hebben uw aanvraag ontvangen.<br>
-        We nemen zo spoedig mogelijk contact me u op.
+        Hartelijk dank, we hebben je aanvraag ontvangen.<br>
+        We nemen zo spoedig mogelijk contact op.
       contact: |
-        Voor overige vragen kun je ons mailen naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
-        of bellen met <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+        Voor overige vragen kun je ons mailen via <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> of bellen met <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

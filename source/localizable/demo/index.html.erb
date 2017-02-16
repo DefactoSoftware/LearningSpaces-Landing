@@ -11,7 +11,7 @@ header_class: header-hero
     <h1><%= t("demo.title") %></h1>
     <p><%= t("demo.text") %></p>
 
-    <form accept-charset="UTF-8" action="https://formkeep.com/f/42606848530c" method="POST" class="form-large">
+    <form accept-charset="UTF-8" action="<%= t("demo.form.formkeep") %>" method="POST" class="form-large">
       <input type="hidden" name="utf8" value="✓">
 
       <label for="input-name" class="required"><%= t("demo.form.name") %></label>

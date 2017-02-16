@@ -8,6 +8,12 @@ body.demo {
     }
   }
 
+  h1 {
+    @include media($medium-up) {
+      font-size: 3.75rem;
+    }
+  }
+
   form {
     display: block;
     margin: 0 auto;

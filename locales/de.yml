@@ -201,30 +201,28 @@ de:
           - Jederzeit kündbar
 
   demo:
-    title: Request a live demo
+    title: Frage eine Live Demo an
     text: |
-      Like to see how LearningSpaces works? We are happy to give you a live demo.
-      Please fill in the form below and we will contact you shortly.
+      Möchtest du sehen, wie LearningSpaces funktioniert? Wir geben dir gerne eine Live Demo.
+      Bitte fülle untenstehendes Formular aus, wir melden uns kurzfristig.
     form:
       formkeep: https://formkeep.com/f/055d73a4f98d
       name: Name
-      email: Email
-      phone: Phone
-      company: Company
-      notes: Additional notes
-      submit: Request demo
+      email: E-Mail
+      phone: Telefon
+      company: Firma
+      notes: Anmerkungen
+      submit: Frage Live Demo an
     contact: |
-      Prefer the conventional way of contact?<br>
-      Send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
-      or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+      Bevorzugst du eher die konventionelle Kontaktaufnahme?<br>
+      Sende eine E-Mail an <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> oder rufe an <a href="tel:+4940306988472" class="border">+49 (0)40 306988472</a>
     thanks:
-      title: Thank you!
+      title: Danke!
       text: |
-        We have received your live demo request.<br>
-        We will contact you shortly.
+        Wir haben deine Anfrage auf eine Live Demo empfangen.<br>
+        Wir werden uns in Kürze melden.
       contact: |
-        If you have other questions, please send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
-        or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+        Wenn du noch andere Fragen hast, schreibe uns gerne eine E-Mail an <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> oder rufe an <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

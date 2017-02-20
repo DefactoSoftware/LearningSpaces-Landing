@@ -91,7 +91,7 @@ helpers do
 
   # Body classes
   def page_classes(path=current_path.dup, options={})
-    super(path.sub(/^[a-z]{2}\//, ''), options)
+    super(path.sub(%r{/^[a-z]{2}\//}, ""), options)
   end
 
   # Parse Markdown

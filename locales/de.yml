@@ -5,7 +5,11 @@ de:
     signup: https://public.learningspaces.de/accounts/new
     ls_vimeo: https://player.vimeo.com/video/194343376
 
-  # Title & descripiton fallback
+  # Path translations
+  paths:
+    thanks: danke
+
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: Focus your team’s learning efforts"
     default_description: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."

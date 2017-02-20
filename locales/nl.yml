@@ -5,7 +5,11 @@ nl:
     signup: https://public.learningspaces.nl/accounts/new
     ls_vimeo: https://player.vimeo.com/video/196425704
 
-  # Title & descripiton fallback
+  # Path translations
+  paths:
+    thanks: bedankt
+
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: Al je leeractiviteiten op één centrale plek"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.

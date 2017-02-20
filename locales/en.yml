@@ -5,7 +5,7 @@ en:
     signup: https://public.learningspaces.io/accounts/new
     ls_vimeo: https://player.vimeo.com/video/184984381
 
-  # Title & descripiton fallback
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: All your learning activities in one place"
     default_description: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.

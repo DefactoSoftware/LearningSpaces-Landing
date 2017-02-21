@@ -89,11 +89,6 @@ helpers do
     t("head.default_description") || ""
   end
 
-  # Body classes
-  def page_classes(path=current_path.dup, options={})
-    super(path.sub(%r{/^[a-z]{2}\//}, ""), options)
-  end
-
   # Parse Markdown
   def markdown(string)
     Tilt['markdown'].new { string }.render(scope=self)

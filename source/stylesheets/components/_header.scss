@@ -1,6 +1,9 @@
 .mobile-nav-open {
   // Disable scrolling
-  overflow: hidden;
+  @include media($large-down) {
+    overflow: hidden;
+    position: fixed;
+  }
 }
 
 .header {

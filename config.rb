@@ -117,4 +117,13 @@ helpers do
   def slug(string)
     string.strip.downcase.parameterize
   end
+
+  # Link_to with active class if current_page
+  def nav_link_to(text, url, options = {})
+    is_active = url_for(url.split("#")[0], relative: false) ==
+                url_for(current_page.url, relative: false)
+    options[:class] ||= ""
+    options[:class] << " active" if is_active
+    link_to(text, url, options)
+  end
 end

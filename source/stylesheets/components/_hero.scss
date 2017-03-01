@@ -48,6 +48,22 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
     margin-bottom: 1.5em;
   }
 
+  a {
+    border-bottom-color: $white;
+    color: $white;
+
+    &:active,
+    &:hover {
+      border-bottom-color: $white;
+    }
+  }
+
+  hr {
+    border-bottom-color: rgba($white, 0.75);
+    box-shadow: $hero-text-shadow;
+    opacity: 0.75;
+  }
+
   .button {
     font-size: 1.1rem;
     font-weight: 900;
@@ -81,6 +97,10 @@ $hero-text-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 2em;
     margin-top: 1.5em;
+  }
+
+  form {
+    text-align: left;
   }
 
   // Small hero

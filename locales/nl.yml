@@ -5,7 +5,11 @@ nl:
     signup: https://public.learningspaces.nl/accounts/new
     ls_vimeo: https://player.vimeo.com/video/196425704
 
-  # Title & descripiton fallback
+  # Path translations
+  paths:
+    thanks: bedankt
+
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: Al je leeractiviteiten op één centrale plek"
     default_description: Met LearningSpaces creëer je in zeer korte tijd een leercommunity om kennis te delen met je team.
@@ -17,7 +21,7 @@ nl:
     faq: FAQ
     blog: Blog
     login: Inloggen
-    signup: Registreer
+    signup: Registreren
 
   # 404
   not_found:
@@ -33,7 +37,7 @@ nl:
       title: Al je leeractiviteiten op één centrale plek
       try_now: Probeer gratis
       or: of
-      take_tour: Neem de tour
+      request_demo: Demo aanvragen
       quote:
         text: LearningSpaces is een online leeromgeving waar je kennis creëert en deelt. Het maakt de onboarding van nieuwe collega's makkelijk, versnelt het leerproces en houdt expertise binnen de muren van jouw organisatie.
 
@@ -99,8 +103,9 @@ nl:
 
   # CTA
   cta:
-    tagline: Probeer LearningSpaces nu. Gratis tot 10 gebruikers.
-    sign_up: LearningSpaces proberen
+    tagline: Probeer LearningSpaces nu, het is gratis!
+    sign_up: Gratis registreren
+    request_demo: Demo aanvragen
 
   # Quotes
   quotes:
@@ -218,6 +223,31 @@ nl:
           - On-boarding en implementatie consultancy
           - In-app ondersteuning
           - Annuleren wanneer je maar wilt
+
+  demo:
+    title: Live demo aanvragen
+    text: |
+      Benieuwd hoe LearningSpaces werkt? We laten het je graag zien!<br>
+      Vul het formulier in, dan nemen we zo spoedig mogelijk contact met je op.
+    form:
+      formkeep: https://formkeep.com/f/f42e8b57e4ca
+      name: Naam
+      email: E-mail
+      phone: Telefoon
+      company: Bedrijf of organisatie
+      notes: Aanvullende informatie
+      submit: Aanvragen
+    contact: |
+      Liever mailen of bellen?<br>
+      Stuur een mail naar <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+      of bel <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    thanks:
+      title: Bedankt!
+      text: |
+        Hartelijk dank, we hebben je aanvraag ontvangen.<br>
+        We nemen zo spoedig mogelijk contact op.
+      contact: |
+        Voor overige vragen kun je ons mailen via <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> of bellen met <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

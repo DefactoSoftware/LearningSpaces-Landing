@@ -1,0 +1,30 @@
+body.demo {
+  .hero {
+    line-height: 1.4;
+    min-height: 100vh;
+
+    .row {
+      max-width: 980px;
+    }
+  }
+
+  h1 {
+    @include media($medium-up) {
+      font-size: 3.75rem;
+    }
+  }
+
+  form {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .demo-footer {
+    font-size: 0.7em;
+  }
+
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+---
+title:
+  en: Thank you - Demo request
+  nl: Bedankt - Demo aanvragen
+  de: Danke - Demo anfordern
+header_class: header-hero
+noindex: true
+---
+
+<div class="hero">
+  <div class="row">
+    <h1><%= t("demo.thanks.title") %></h1>
+    <%= markdown t("demo.thanks.text") %>
+
+    <%= partial :video %>
+
+    <p class="demo-footer">
+      <%= t("demo.thanks.contact") %>
+    </p>
+  </div>
+</div>

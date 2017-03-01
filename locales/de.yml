@@ -5,7 +5,11 @@ de:
     signup: https://public.learningspaces.de/accounts/new
     ls_vimeo: https://player.vimeo.com/video/194343376
 
-  # Title & descripiton fallback
+  # Path translations
+  paths:
+    thanks: danke
+
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: Focus your team’s learning efforts"
     default_description: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
@@ -31,7 +35,7 @@ de:
       title: <span class="focus">Focus</span> your team’s learning efforts
       try_now: Kostenlos testen
       or: oder
-      take_tour: Mach eine Tour
+      request_demo: Demo anfordern
       quote:
         text: "Mit LearningSpaces kann man schnell und einfach eine Learning Community aufbauen, in der dein Team Wissen gestalten und miteinander Teilen kann."
         author: Joep Lenglet,
@@ -93,8 +97,9 @@ de:
 
   # CTA
   cta:
-    tagline: Bereit um LearningSpaces zu testen? Melde dich kostenlos an.
-    sign_up: LearningSpaces testen
+    tagline: Bereit um LearningSpaces zu kostenlos testen?
+    sign_up: Kostenlos registrieren
+    request_demo: Demo anfordern
 
   # Quotes
   quotes:
@@ -198,6 +203,30 @@ de:
           - Onboarding Beratung
           - Direkter in-App Support
           - Jederzeit kündbar
+
+  demo:
+    title: Frage eine Live Demo an
+    text: |
+      Möchtest du sehen, wie LearningSpaces funktioniert? Wir geben dir gerne eine Live Demo.
+      Bitte fülle untenstehendes Formular aus, wir melden uns kurzfristig.
+    form:
+      formkeep: https://formkeep.com/f/055d73a4f98d
+      name: Name
+      email: E-Mail
+      phone: Telefon
+      company: Firma
+      notes: Anmerkungen
+      submit: Frage Live Demo an
+    contact: |
+      Bevorzugst du eher die konventionelle Kontaktaufnahme?<br>
+      Sende eine E-Mail an <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> oder rufe an <a href="tel:+4940306988472" class="border">+49 (0)40 306988472</a>
+    thanks:
+      title: Danke!
+      text: |
+        Wir haben deine Anfrage auf eine Live Demo empfangen.<br>
+        Wir werden uns in Kürze melden.
+      contact: |
+        Wenn du noch andere Fragen hast, schreibe uns gerne eine E-Mail an <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a> oder rufe an <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

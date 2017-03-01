@@ -17,11 +17,13 @@ header_class: header-hero
 
     <%= partial :video %>
 
-    <a href="<%= t("urls.signup") %>" class="button button-rounded button-hover button-navy">
-      <%= t("home.hero.try_now") %>
-    </a>
+    <%= link_to t("home.hero.try_now"), t("urls.signup"),
+      class: "button button-rounded button-hover button-navy" %>
+
     <span class="or"><%= t("home.hero.or") %></span>
-    <%= link_to t("home.hero.take_tour"), "/tour.html", class: "button button-rounded button-outline button-white" %>
+
+    <%= link_to t("home.hero.request_demo"), "/demo/index.html",
+      class: "button button-rounded button-outline button-white" %>
 
     <blockquote class="quote">
       <div class="text"><%= t("home.hero.quote.text") %></div>
@@ -30,16 +32,11 @@ header_class: header-hero
 </div>
 
 <%= partial :for_who unless I18n.locale == :de %>
-
 <%= partial :slideshow %>
-
-<%= partial :cta_signup %>
-
 <%= partial :quotes, locals: {
   count: 3,
   featured: true
 } %>
-
 <%= partial :clients %>
-
+<%= partial :cta_signup %>
 <%= partial :contact %>

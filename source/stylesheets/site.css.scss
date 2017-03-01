@@ -8,6 +8,7 @@
 @import "base/base";
 @import "components/base";
 @import "tour";
+@import "demo";
 @import "login";
 
 // Layout
@@ -99,6 +100,12 @@ section.cta-signup {
     display: inline-block;
     margin: 15px 1em;
     vertical-align: middle;
+  }
+
+  .actions {
+    @include media($medium-up) {
+      white-space: nowrap;
+    }
   }
 }
 

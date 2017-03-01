@@ -5,7 +5,7 @@ en:
     signup: https://public.learningspaces.io/accounts/new
     ls_vimeo: https://player.vimeo.com/video/184984381
 
-  # Title & descripiton fallback
+  # Title & description fallback
   head:
     default_title: "LearningSpaces: All your learning activities in one place"
     default_description: LearningSpaces lets you quickly set up a learning community where you create and share knowledge with your team.
@@ -31,7 +31,7 @@ en:
       title: All your learning activities in one place
       try_now: Try now, it’s free!
       or: or
-      take_tour: Take Tour
+      request_demo: Request a demo
       quote:
         text: LearningSpaces is your online learning community where you create and share knowledge. It makes the onboarding process easy and keeps expertise within your organization.
         author: Joep Lenglet,
@@ -90,8 +90,9 @@ en:
 
   # CTA
   cta:
-    tagline: Ready to give LearningSpaces a try? Sign up for free!
-    sign_up: Try LearningSpaces
+    tagline: Ready to give LearningSpaces a try?
+    sign_up: Sign up for free!
+    request_demo: Request a demo
 
   # Quotes
   quotes:
@@ -222,6 +223,32 @@ en:
           - Onboarding consultancy
           - Direct in-app support
           - Cancel at any time
+
+  demo:
+    title: Request a live demo
+    text: |
+      Like to see how LearningSpaces works? We are happy to give you a live demo.
+      Please fill in the form below and we will contact you shortly.
+    form:
+      formkeep: https://formkeep.com/f/42606848530c
+      name: Name
+      email: Email
+      phone: Phone
+      company: Company
+      notes: Additional notes
+      submit: Request demo
+    contact: |
+      Prefer the conventional way of contact?<br>
+      Send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+      or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
+    thanks:
+      title: Thank you!
+      text: |
+        We have received your live demo request.<br>
+        We will contact you shortly.
+      contact: |
+        If you have other questions, please send an email to <a href="mailto:isabela@learningspaces.io" class="border">isabela@learningspaces.io</a>
+        or call <a href="tel:+31503144832" class="border">+31 (0)50 3144832</a>
 
   # Login
   login:

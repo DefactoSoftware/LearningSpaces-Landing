@@ -197,14 +197,14 @@ en:
   pricing:
     hero:
       title: Pricing
-      text: "Plans built for teams of all sizes. Start with 60 days for free."
+      text: "Plans built for teams of all sizes. Start with 14 days for free."
     features:
       - All plans include unlimited Spaces, Paths and storage.
       - All plans can be canceled at any time.
     plans:
       free:
         title: Free
-        trial: Try 60 days for Free
+        trial: Try 14 days for Free
         features:
           - "**Free for up to 10 users**"
           - For small teams or startups
@@ -357,7 +357,7 @@ en:
               LearningSpaces is right for everyone. We love small teams and start-ups,
               that’s why we offer LearningSpaces (with all its features) for Free for teams up to 10 users.
               LearningSpaces works perfectly for larger teams as well. Whether it’s getting your new hires or trainees up to speed or starting a
-              corporate academy, LearningSpaces fits any team. We offer a free 60-day trial to get you going,
+              corporate academy, LearningSpaces fits any team. We offer a free 14-day trial to get you going,
               so you have some time to get to know LearningSpaces. For all available plans click [here](/pricing.html).
 
           - q: Do I need to install something to get started?
@@ -408,7 +408,7 @@ en:
         questions:
           - q: What plan is right for me and my team?
             a: |
-              LearningSpaces fits any team. First of all, we offer you a **60-day Free Trial** to get you and your team going.
+              LearningSpaces fits any team. First of all, we offer you a **14-day Free Trial** to get you and your team going.
               Then LearningSpaces (with all its features) will be **Free for small teams** up to 10 users.
               For larger teams we have the Value plan. And for really large teams (academies, large companies,
               large learning communities) we have the Enterprise plan. **For all available plans check our [Plans page](/pricing.html)**.

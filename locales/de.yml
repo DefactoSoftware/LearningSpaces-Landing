@@ -184,10 +184,9 @@ de:
     plans:
       free:
         title: Free
-        trial: 14 Tage kostenlos testen
+        trial: Kostenlos registrieren
         features:
-          - "**Gratis für bis zu 10 Nutzer**"
-          - Für kleine Teams und Startups
+          - "**14 Tage kostenlos testen**"
       value:
         title: Value
         features:

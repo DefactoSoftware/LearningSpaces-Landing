@@ -204,10 +204,9 @@ en:
     plans:
       free:
         title: Free
-        trial: Try 14 days for Free
+        trial: Start now
         features:
-          - "**Free for up to 10 users**"
-          - For small teams or startups
+          - "**Try 14 days for Free**"
       value:
         title: Value
         features:

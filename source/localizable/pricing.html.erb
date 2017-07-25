@@ -40,7 +40,6 @@ header_class: header-hero
         <h3><%= t("pricing.plans.value.title") %></h3>
         <div class="plan-price">
           <span class="currency">&euro;</span>2
-          <!-- <span class="cents">00</span> -->
         </div>
         <% pricing_features = t("pricing.plans.value.features")
         pricing_features = Array.new unless pricing_features.is_a?(Array)
@@ -79,4 +78,3 @@ header_class: header-hero
 <%= partial :cta_signup %>
 
 <%= partial :clients %>
-

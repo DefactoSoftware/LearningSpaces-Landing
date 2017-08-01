@@ -206,8 +206,7 @@ nl:
         title: Free
         trial: Start nu
         features:
-          - "**Gratis tot 10 gebruikers**"
-          - Op elk moment op te waarderen
+          - "**14 dagen gratis trial**"
       value:
         title: Value
         features:
@@ -349,8 +348,7 @@ nl:
         questions:
           - q: Is LearningSpaces geschikt voor mijn team?
             a: |
-              LearningSpaces is geschikt voor iedereen ;) We werken zelf in een klein team en houden van start-ups,
-              daarom is LearningSpaces **gratis** beschikbaar voor teams van 10 gebruikers.
+              LearningSpaces is geschikt voor iedereen ;) We werken zelf in een klein team en houden van start-ups.
               Maar we werken ook veel samen met grotere organisaties, zoals ziekenhuizen en hogescholen.
               LearningSpaces kan je helpen, of je nu nieuwe medewerkers sneller en beter wilt inwerken,
               of een volledige *corporate academy* begint.
@@ -415,8 +413,7 @@ nl:
             a: |
               Om te beginnen bieden we je een **gratis proefperiode van 14 dagen** aan.
               Zonder beperkingen, zodat je de tijd hebt om met LearningSpaces te beginnen.
-              Voor teams tot 10 gebruikers is LearningSpaces altijd **gratis** te gebruiken.
-              Voor grotere teams is er het *Value* abonnement.
+              Voor kleine en grotere teams is er het *Value* abonnement.
               En voor nog grotere teams (bijvoorbeeld een grote organisatie, een corporate academy, of een grote community)
               hebben we het *Enterprise* abonnement.
 

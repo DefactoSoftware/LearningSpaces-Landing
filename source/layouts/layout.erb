@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html lang="<%= I18n.locale %>">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><%= page_title %></title>
-    <meta name="description" content="<%= page_description %>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <%= favicon_tag "favicon.ico" %>
-    <%= stylesheet_link_tag "site" %>
-    <%= partial "og_tags" %>
-    <%= partial "google_analytics" unless config[:mode] == :server -%>
-    <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js", :all %>
+    <link rel="canonical" href="<%= t("urls.redirect") %>">
+    <meta http-equiv=refresh content="0; url=<%= t("urls.redirect") %>">
+    <meta name="robots" content="noindex,follow">
+    <meta http-equiv="cache-control" content="no-cache">
   </head>
-  <body class="<%= page_classes %>">
-    <%= partial :header %>
-
-    <div class="main">
-      <%= yield %>
-    </div>
-
-    <%= partial :footer %>
-    <%= partial "intercom" %>
-
-    <%= javascript_include_tag "vimeo" %>
+  <body>
   </body>
 </html>

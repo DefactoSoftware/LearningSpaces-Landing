@@ -1,7 +1,17 @@
+**We recently moved LearningSpaces to CAPP Agile Learning:**
+
+**[English](https://en.defacto.nl/capp-agile-learning/)**    
+**[Nederlands](https://www.defacto.nl/capp-agile-learning/)**  
+**[Deutsch](https://www.defactolearning.de/capp-agile-learning/)**  
+
+**The original branch of the LearningSpaces website [can be found here](https://github.com/DefactoSoftware/LearningSpaces-Landing/tree/original)**
+
+---
+
 ## LearningSpaces Landingpage
 
 [LearningSpaces](https://learningspaces.io) lets you quickly set up a learning community where you create and share knowledge with your team.
-  
+
 #### Serve and Build
 We serve and build our localized websites using different `-e` environment flags:
 
